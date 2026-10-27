@@ -1,0 +1,26 @@
+{
+  "name": "stonehenge",
+  "sources": [
+    "https://www.english-heritage.org.uk/visit/places/stonehenge/history-and-stories/history/description/",
+    "https://historicengland.org.uk/research/results/reports/6075/StonehengeLaserScan_ArchaeologicalAnalysis",
+    "https://centaur.reading.ac.uk/80442/1/Katy_Whitaker_Building_Stones_at_Stonehenge%20.pdf",
+    "https://www.english-heritage.org.uk/visit/places/stonehenge/things-to-do/stone-circle/stones-of-stonehenge/"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "outer_circle_diameter_m": 30,
+    "outer_lintels_remaining": 6,
+    "complete_trilithons_remaining": 3
+  },
+  "geometry_notes": "Present-day surviving sarsen numbers follow the English Heritage laser-scan report and the archaeological inventory in the Reading research paper. Individual boulder outlines, lean and small chips are authored approximations. Outer uprights 1–7, 10, 11, 16, 21–23, 27–30. Lintels join 29–30, 30–1, 1–2, 4–5, 6–7 and 21–22. Taller inner uprights and three surviving trilithons retain the incomplete horseshoe; smaller blue-grey stones and fallen ochre-grey blocks remain distinct.",
+  "placement_notes": "Reference centre 51.17885,-1.82618. Local +z axis rotated 49 degrees clockwise from true north for the northeast solstitial entrance. Heel Stone is at local z=77m, slightly west of the axis. Coordinate and relative placements approximate the mapped archaeological site, not a fresh survey.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/stonehenge.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "49 groups: lintel-connected outer clusters, complete trilithons and independent remaining stones",
+    "roads_suppressed": false,
+    "source_ownership": "Convex hull of each rigid component’s ground-support vertices only. Open areas between stones retain source vegetation and terrain; no site-wide clearance."
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

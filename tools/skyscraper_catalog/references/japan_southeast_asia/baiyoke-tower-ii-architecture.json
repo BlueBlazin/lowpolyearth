@@ -1,0 +1,18 @@
+{
+  "name": "baiyoke-tower-ii",
+  "city": "Bangkok",
+  "architectural_height_m": 304,
+  "references": [
+    "https://www.skyscrapercenter.com/building/baiyoke-tower-ii/487",
+    "https://baiyokesky.baiyokehotel.com/"
+  ],
+  "primary_evidence": "CTBUH gives304m architectural height and328.4m tip. The owner identifies upper observation facilities, including the84th-floor revolving deck.",
+  "estimates": "Complete mapped shaft, buttress, observation-tier and podium plans retain shape/orientation; OSM intermediate60/120/180/284/295m levels are approximate. Foundation datum6.4m uses the clean north approach, rejecting the54.1m central DSM sample. Mast taper and muted color bands are exterior estimates.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 197.6,
+    "target_height": 8
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "name": "khan-shatyr",
+  "city": "Astana",
+  "lat": 51.1325089,
+  "lon": 71.4038726,
+  "heading": 0,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://www.fosterandpartners.com/projects/khan-shatyr-entertainment-center/",
+    "https://www.khanshatyr.com/index.php/en/about",
+    "https://www.openstreetmap.org/way/460703779"
+  ],
+  "description": "An asymmetrically tilted translucent tent, radial cable lattice, inclined tripod mast and glazed entrance ring.",
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0,
+        0
+      ],
+      "half_extent": [
+        105,
+        104
+      ],
+      "feather_m": 6,
+      "sample_clearance_m": 12,
+      "fixed_base_geo": null
+    }
+  ],
+  "capture": {
+    "distance": 415,
+    "azimuth": 190,
+    "elevation": 19,
+    "target_height": 49,
+    "time_utc": "2026-03-20T10:00:00Z"
+  },
+  "audit": {
+    "source_dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+    "ground_center_m": 344.0,
+    "perimeter_m": [
+      341.1318,
+      344.0,
+      343.0,
+      340.3163,
+      345.9787,
+      345.0,
+      345.0,
+      344.9655
+    ],
+    "source_file": "output/city-catalog-expansion/modern/khan-shatyr-final.json",
+    "placement_note": "Perimeter-derived terrain base; measured samples span 340.32\u2013345.98 m, with median 344.48 m. The mast and membrane share this datum."
+  },
+  "bbox_min": [
+    -111.0,
+    -1.2,
+    -110.0
+  ],
+  "bbox_max": [
+    111.0,
+    150.4,
+    110.0
+  ],
+  "levels": [
+    {
+      "vertices": 139703,
+      "triangles": 51816
+    },
+    {
+      "vertices": 65597,
+      "triangles": 24368
+    },
+    {
+      "vertices": 22931,
+      "triangles": 8756
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_modern.py",
+  "source_sha256": "d67541172251567213bcbe5de36427df424d1e2d182247fc8aa63fac3b117c3d",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "b99c889a2a22cc3cf21786320a5762487d5c352e7669e76ed472e37fdf35c9a2"
+}

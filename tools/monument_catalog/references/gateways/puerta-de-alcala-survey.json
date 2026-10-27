@@ -1,0 +1,15 @@
+{
+  "name": "puerta-de-alcala",
+  "references": [
+    "https://www.esmadrid.com/informacion-turistica/puerta-de-alcala",
+    "https://www.openstreetmap.org/way/174805987"
+  ],
+  "retrieved_utc": "2026-09-15",
+  "dimensions_and_limits": "41.4 m cornice width and 19.4 m summit are approximate modeled dimensions; mapped footprint is approximately 43 m wide including projections.",
+  "orientation": "Mapped monument center, 80.4-degree long-axis bearing plus 180 degrees to put the more ornate outer facade toward the east.",
+  "placement_evidence": "tools/monument_catalog/references/gateways/alcala-placement.json",
+  "appearance": "Three semicircular arches and two rectangular passages, granite body, pale pilasters, central pediment and differing sculpture on inner and outer facades.",
+  "authorship": "Original procedural geometry; ornaments are schematic sculptural interpretations. Reference photographs and plans are not distributed or used as textures.",
+  "grounding": "The connected gateway stays rigid above surveyed unmodified terrain. Separate masonry footings extend downward to local support elevations. No slab spans the passage and no terrain flattening, cutting or grading is applied.",
+  "materials": "Surface classes use existing physical stone, limestone, marble, timber, plaster, tile and metal materials with authored per-part colors. Relief silhouettes, molding shadows and coursing are geometry, not painted opaque doorway panels."
+}

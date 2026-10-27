@@ -1,0 +1,152 @@
+{
+  "name": "temple-of-heaven",
+  "city": "Beijing",
+  "lat": 39.8822513364,
+  "lon": 116.4066224804,
+  "heading": 0,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://english.beijing.gov.cn/specials/parktours/guidevisitors/templeofheaven/mustsee/202301/t20230112_2897330.html",
+    "https://english.visitbeijing.com.cn/article/47OMoxqKJUk"
+  ],
+  "description": "Three blue glazed circular roofs above a red timber hall and three white-marble balustraded terraces.",
+  "capture": {
+    "distance": 175,
+    "azimuth": 210,
+    "elevation": 24,
+    "target_height": 15,
+    "time_utc": "2026-03-20T07:00:00Z"
+  },
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0,
+        0
+      ],
+      "half_extent": [
+        46,
+        46
+      ],
+      "feather_m": 6,
+      "sample_clearance_m": 18,
+      "fixed_base_geo": null
+    }
+  ],
+  "audit": {
+    "source_anchor_latlon": [
+      39.8822,
+      116.40655
+    ],
+    "source_offset_east_north_m": [
+      6.2,
+      5.7
+    ],
+    "ground_center_m": 56.90886306762695,
+    "grid_min_m": 48.868221282958984,
+    "grid_max_m": 56.90886306762695,
+    "perimeter_m": [
+      54.525062561035156,
+      55.74445343017578,
+      55.94640350341797,
+      54.86394500732422,
+      50.8133544921875,
+      51.100975036621094,
+      48.88277816772461,
+      52.21222686767578
+    ],
+    "perimeter_median_m": 53.36864471435547,
+    "source_file": "output/city-catalog-expansion/heritage/temple-of-heaven-source.json",
+    "perimeter_samples": [
+      {
+        "x": -70,
+        "z": -70,
+        "lat": 39.88162088962488,
+        "lon": 116.40580415316028,
+        "ground_m": 54.525062561035156
+      },
+      {
+        "x": 0,
+        "z": -70,
+        "lat": 39.88162088962488,
+        "lon": 116.4066224804,
+        "ground_m": 55.74445343017578
+      },
+      {
+        "x": 70,
+        "z": -70,
+        "lat": 39.88162088962488,
+        "lon": 116.40744080763973,
+        "ground_m": 55.94640350341797
+      },
+      {
+        "x": 70,
+        "z": 0,
+        "lat": 39.8822513364,
+        "lon": 116.40744080763973,
+        "ground_m": 54.86394500732422
+      },
+      {
+        "x": 70,
+        "z": 70,
+        "lat": 39.88288178317513,
+        "lon": 116.40744080763973,
+        "ground_m": 50.8133544921875
+      },
+      {
+        "x": 0,
+        "z": 70,
+        "lat": 39.88288178317513,
+        "lon": 116.4066224804,
+        "ground_m": 51.100975036621094
+      },
+      {
+        "x": -70,
+        "z": 70,
+        "lat": 39.88288178317513,
+        "lon": 116.40580415316028,
+        "ground_m": 48.88277816772461
+      },
+      {
+        "x": -70,
+        "z": 0,
+        "lat": 39.8822513364,
+        "lon": 116.40580415316028,
+        "ground_m": 52.21222686767578
+      }
+    ]
+  },
+  "bbox_min": [
+    -52.0,
+    -0.2,
+    -52.0
+  ],
+  "bbox_max": [
+    52.0,
+    38.3,
+    52.0
+  ],
+  "levels": [
+    {
+      "vertices": 120261,
+      "triangles": 57424
+    },
+    {
+      "vertices": 71631,
+      "triangles": 34688
+    },
+    {
+      "vertices": 22940,
+      "triangles": 11024
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_heritage.py",
+  "source_sha256": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "76cbe78a26c029700fdf9583e8ce646ddf7a93c995c9c874f9272df1912b3385"
+}

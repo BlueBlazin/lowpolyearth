@@ -1,0 +1,8 @@
+{
+  "sites": [
+    "osaka-castle",
+    "matsumoto-castle"
+  ],
+  "geometry": "Only the bottom edge of the existing stonebatter lowestcourse extends from0 to\u22120.45m; all uppercourse vertices,footprint,platform and roofs retain their established metricdimensions.",
+  "contact": "Runtimecuts put plaza datum\u22120.05m; extendedtoe therefore embeds0.40m. AtMatsumoto60toe samples andOsaka12toe samples all gave datum\u22120.05m in frozen e34b6d33d05a2e4aa6760469f04dc3ed58383586c66480d0fe59b71bf364a898 helper."
+}

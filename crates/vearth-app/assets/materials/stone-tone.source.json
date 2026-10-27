@@ -1,0 +1,37 @@
+{
+  "asset": "stone-tone.png",
+  "generator": {
+    "mode": "builtin",
+    "tool": "image_gen.imagegen",
+    "skill": "imagegen",
+    "date": "2026-09-09"
+  },
+  "prompt": "Use case: stylized-concept.\nAsset type: ONE production grayscale stone surface texture tile for a real-time stylized adventure game, 1024 by 1024 pixels, square, opaque.\nPrimary request: a flat, orthographic, seamless tile of continuous natural stone surface. Fill the entire image edge to edge with broad angular interlocking rock planes, organic irregular fissures and long irregular edge strokes. Give the stone a polished hand-authored game-material vocabulary with a clear hierarchy of large shapes, medium fractures, and very restrained micrograin.\nComposition: a straight-on 2D material map only. No scene, object, sphere, ground plane, presentation board, border, or perspective. Features must continue seamlessly across BOTH opposing image edges so the image repeats horizontally and vertically. Avoid a recognizable central motif.\nColor and values: strictly neutral grayscale, predominantly mid-gray. Restrained value variation among adjacent rock planes; narrower dark-gray fissures. No pure white or black areas. The grayscale should be usable as an albedo-tone source or an artist-authored relief guide, not a photograph of illuminated stone.\nLighting: completely unlit, no directional light, no cast shadows, no ambient-occlusion shading, no highlights, no shiny facets, no bevel lighting. All differences are painted material values. Do not illustrate three-dimensional depth by putting bright and dark rims around cracks.\nAvoid: cubes, voxel blocks, regular stripes, parallel layers, a brick or paving layout, uniform polygon grids, repetitive chips, excessive speckle, moss, plants, dirt patches, colored pixels, text, labels, symbols, watermarks.",
+  "source_output": "exec-d08ada80-afad-4120-aada-2faf6d3c4391.png",
+  "source_sha256": "776e240ad6de862f7f7b56050f2ec212916034fd01fea43a062f7740977f9a46",
+  "asset_sha256": "776e240ad6de862f7f7b56050f2ec212916034fd01fea43a062f7740977f9a46",
+  "processing": "Original generated PNG copied byte-for-byte; embedded provenance retained.",
+  "requested_dimensions": [
+    1024,
+    1024
+  ],
+  "actual_dimensions": [
+    1254,
+    1254
+  ],
+  "intended_consumer": "tools/bake-terrain-materials.py: offline area-integrated stone tone; runtime consumes terrain-tiles.rgba8.",
+  "provenance": "Generated, unmeasured art. This is an authored stone-tone vocabulary, not a scanned surface, calibrated albedo, measured height map or measured roughness.",
+  "inspection": {
+    "mean_rgb_luminance_8bit": 116.82854673656739,
+    "maximum_rgb_channel_spread_8bit": 5,
+    "edge_wrap_mean_absolute_difference_8bit": {
+      "horizontal": 4.726475279106858,
+      "vertical": 4.7347155768208395
+    },
+    "interior_neighbor_mean_absolute_difference_8bit": {
+      "horizontal": 2.4221131379320147,
+      "vertical": 2.6892506363250264
+    },
+    "suitability": "Broad irregular interlocking rock planes and restrained fissures; no text, objects, moss or regular block grid. Slight channel differences require luminance decoding. Direct wrap is not numerically seamless; normalize tile boundaries in the consumer before repeating."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "dataset_identity": "vearth-surface-fixtures-v2",
+  "fixtures": [
+    {"id": "terrain-l11"},
+    {"id": "terrain-l15"},
+    {"id": "terrain-l19"},
+    {"id": "city-l15"},
+    {"id": "city-l18"},
+    {"id": "city-l19"},
+    {"id": "crossing-l15"},
+    {"id": "crossing-l19"},
+    {"id": "forest-l15"},
+    {"id": "forest-l19"},
+    {"id": "landmark-opera-l16"},
+    {"id": "landmark-merlion-l20"}
+  ]
+}

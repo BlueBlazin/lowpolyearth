@@ -1,0 +1,23 @@
+{
+  "name": "tokyo-tower",
+  "kind": "tokyo-tower",
+  "source": "tokyo-tower/tokyotower.glb",
+  "sha256": "58c66172ada205080dac1b2a64933ea758fe5f83e1c0af8b9bcfd2c9a2a7e0dd",
+  "license": "existing landmark SOURCES.md",
+  "output": "tokyo-tower.lms",
+  "output_sha256": "eb47c6be28992d6159c6f99ec5259d46b7cd541453509958146cd8958ecdeebb",
+  "levels": [
+    [
+      14530,
+      7428
+    ],
+    [
+      2598,
+      3668
+    ],
+    [
+      2594,
+      3660
+    ]
+  ]
+}

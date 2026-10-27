@@ -1,0 +1,19 @@
+{
+  "name": "abeno-harukas",
+  "city": "Osaka",
+  "architectural_height_m": 300,
+  "references": [
+    "https://www.takenaka.co.jp/takenaka_e/abeno/design/de-04.html",
+    "https://www.jisf.or.jp/en/activity/sctt/documents/SCTT38.pdf",
+    "https://www.abenoharukas-300.jp/en/"
+  ],
+  "primary_evidence": "Takenaka gives 300m above ground, 60 floors, five basement levels and 212000m2 tower area. Its structural article identifies low/middle/high sections separated by transfer trusses. The owner identifies the three-storey observatory on floors58\u201360.",
+  "estimates": "Mapped lower retail/tower plans are exact retained OSM ways. Intermediate 75\u00d761m and upper 61\u00d741m plates, 83/187/287m transitions, terrace vegetation and entrance datum26.8m are estimates fitted to the three-section form, not construction dimensions.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 195.0,
+    "target_height": 8
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "brooklyn-bridge",
+  "kind": "brooklyn-bridge-authored",
+  "source": "brooklyn-bridge/brooklyn.glb",
+  "sha256": "e291a7e31a876d002892461b2f82ca519563d270b0cf378fb36db50860873ab4",
+  "license": "existing landmark SOURCES.md",
+  "output": "brooklyn-bridge.lms",
+  "output_sha256": "836cfc5f73cf0ae8e5f93076558a1f3fcd4450aca25591b2127149ab1e3a20d4",
+  "levels": [
+    [
+      177740,
+      102300
+    ],
+    [
+      36203,
+      71910
+    ],
+    [
+      32632,
+      66572
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "buckingham-palace",
+  "kind": "buckingham-palace",
+  "source": "buckingham-palace/buckingham.glb",
+  "sha256": "933df8d3c598c41f5c3cc96f474c93d2eaa1393cf8d5325f997a90db573b04e9",
+  "license": "existing landmark SOURCES.md",
+  "output": "buckingham-palace.lms",
+  "output_sha256": "24ac1adf288d11f7aec1d5be0fef5e47841a4a12c03a1b00cc4f72edb14ece9e",
+  "levels": [
+    [
+      127264,
+      66696
+    ],
+    [
+      49990,
+      34396
+    ],
+    [
+      33465,
+      22480
+    ]
+  ]
+}

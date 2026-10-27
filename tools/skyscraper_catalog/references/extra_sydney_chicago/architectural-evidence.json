@@ -1,0 +1,32 @@
+{
+  "crown-sydney": {
+    "sources": [
+      "https://wilkinsoneyre.com/projects/one-barangaroo",
+      "https://www.crownresorts.com.au/getmedia/0007fd93-9026-4e63-8819-09df6014a79a/52546ff2-2d67-4871-8764-989873ca2d70.pdf"
+    ],
+    "verified": "Architect describes three twisting petals, a 60-degree outer-skin rotation and four podium storeys. Crown project report states 275m.",
+    "estimates": "Podium24m, broad110m shoulder, three convex curved facade arcs, rounded unequal glazing rims and recessed roof are original modeling estimates informed by the user-supplied harbour-level photograph and architectural reference. Sixty-degree skin rotation and275m total height remain authoritative. Mapped tower/wing sections have upstream shape warnings and constrain placement rather than facade geometry. Ground datum4.3m and all92 sampled buried supports are unchanged."
+  },
+  "st-regis-chicago": {
+    "sources": [
+      "https://studiogang.com/projects/vista-tower/",
+      "https://www.skyscrapercenter.com/building/st-regis-chicago/17137"
+    ],
+    "verified": "CTBUH gives362.9m architectural height and101storeys. Studio Gang describes three connected volumes, alternating twelve-storey truncated pyramids, gradient glazing, and raised central volume allowing public passage.",
+    "estimates": "Mapped middle259m/east179m/low59m heights retained. Minimum frustum floor scale0.79 and12m central passage rise are exterior-layout estimates. Datum177.0m follows locally flat production terrain."
+  },
+  "trump-international-hotel-tower-chicago": {
+    "sources": [
+      "https://www.trump.com/hotels/trump-international-hotel-tower-chicago",
+      "https://global.ctbuh.org/resources/papers/download/29-case-study-trump-international-hotel-tower.pdf",
+      "https://www.skyscrapercenter.com/building/trump-international-hotel-tower/203"
+    ],
+    "verified": "Owner describes92storeys; CTBUH current architectural height423.2m. SOM-authored CTBUH case study documents the rounded stepped tower.",
+    "estimates": "Individual60/120/200/345/357m tier elevations follow mapped height tags. Overall423.2m measured from architectural entrance reference is used once, without subtracting a separate street/riverwalk offset. Local estimated entrance datum177.5m and variable buried supports fit production riverfront terrain."
+  },
+  "common": {
+    "attribution": "Original procedural Low Poly Earth geometry. Plan data \u00a9 OpenStreetMap contributors, ODbL, https://www.openstreetmap.org/copyright ; production vectors via Protomaps. Primary references used for architectural facts, not redistributed photography.",
+    "material_basis": "Existing native highrise103/104 skin with muted glass/wall tint; non-overlapping strip facades and87 piers. No new textures or shader families.",
+    "grounding": "Complete mapped parent footprint owns the support/plaza; source ownership is convex triangulation of that same polygon. Lower-only terrain cuts are bounded to the footprint. Every 6m-subdivided perimeter vertex is sampled by production city-survey; toe is min(floor\u22120.5m, source_ground\u2212base\u22120.5m)."
+  }
+}

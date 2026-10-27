@@ -1,0 +1,1217 @@
+{
+  "name": "bahrain-world-trade-center",
+  "city": "Manama",
+  "lat": 26.239485220228044,
+  "lon": 50.58111432247638,
+  "heading": 0,
+  "base": 3.6,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "source_exclusion_polygons": [
+    [
+      [
+        -28.41916,
+        2.57055
+      ],
+      [
+        -16.38095,
+        -18.29564
+      ],
+      [
+        -31.09432,
+        -11.34024
+      ]
+    ],
+    [
+      [
+        -16.38095,
+        -18.29564
+      ],
+      [
+        -28.41916,
+        2.57055
+      ],
+      [
+        -23.87139,
+        8.99091
+      ]
+    ],
+    [
+      [
+        -23.06884,
+        9.793455263151682
+      ],
+      [
+        -23.06884,
+        10.06097
+      ],
+      [
+        -18.78858,
+        14.07369
+      ]
+    ],
+    [
+      [
+        5.55536,
+        -19.90073
+      ],
+      [
+        -9.96056,
+        19.42399
+      ],
+      [
+        -0.86502,
+        21.83162
+      ]
+    ],
+    [
+      [
+        7.69549,
+        21.83162
+      ],
+      [
+        14.38339,
+        23.97174
+      ],
+      [
+        29.36428,
+        -1.44217
+      ]
+    ],
+    [
+      [
+        29.36428,
+        -1.44217
+      ],
+      [
+        30.70186,
+        -6.79248
+      ],
+      [
+        24.81651,
+        -14.28291
+      ]
+    ],
+    [
+      [
+        11.1732,
+        -18.26219782986478
+      ],
+      [
+        11.1732,
+        -18.29564
+      ],
+      [
+        5.55536,
+        -19.90073
+      ]
+    ],
+    [
+      [
+        -23.06884,
+        9.793455263151682
+      ],
+      [
+        -16.38095,
+        -18.29564
+      ],
+      [
+        -23.87139,
+        8.99091
+      ]
+    ],
+    [
+      [
+        5.55536,
+        -19.90073
+      ],
+      [
+        -18.78858,
+        14.07369
+      ],
+      [
+        -9.96056,
+        19.42399
+      ]
+    ],
+    [
+      [
+        11.1732,
+        -18.26219782986478
+      ],
+      [
+        -0.86502,
+        21.83162
+      ],
+      [
+        7.69549,
+        21.83162
+      ]
+    ],
+    [
+      [
+        11.1732,
+        -18.26219782986478
+      ],
+      [
+        29.36428,
+        -1.44217
+      ],
+      [
+        24.81651,
+        -14.28291
+      ]
+    ],
+    [
+      [
+        -18.78858,
+        14.07369
+      ],
+      [
+        -16.38095,
+        -18.29564
+      ],
+      [
+        -23.06884,
+        9.793455263151682
+      ]
+    ],
+    [
+      [
+        -16.38095,
+        -18.29564
+      ],
+      [
+        -18.78858,
+        14.07369
+      ],
+      [
+        5.55536,
+        -19.90073
+      ]
+    ],
+    [
+      [
+        29.36428,
+        -1.44217
+      ],
+      [
+        11.1732,
+        -18.26219782986478
+      ],
+      [
+        7.69549,
+        21.83162
+      ]
+    ],
+    [
+      [
+        -0.86502,
+        21.83162
+      ],
+      [
+        11.1732,
+        -18.26219782986478
+      ],
+      [
+        5.55536,
+        -19.90073
+      ]
+    ],
+    [
+      [
+        79.92479,
+        36.00989
+      ],
+      [
+        49.42797,
+        59.01611
+      ],
+      [
+        56.91842,
+        63.29633
+      ]
+    ],
+    [
+      [
+        83.4025,
+        48.31554
+      ],
+      [
+        56.91842,
+        63.29633
+      ],
+      [
+        66.01396,
+        65.97147
+      ]
+    ],
+    [
+      [
+        83.4025,
+        48.31554
+      ],
+      [
+        73.50441,
+        65.70395
+      ],
+      [
+        85.00759,
+        63.29633
+      ]
+    ],
+    [
+      [
+        56.91842,
+        63.29633
+      ],
+      [
+        83.4025,
+        48.31554
+      ],
+      [
+        79.92479,
+        36.00989
+      ]
+    ],
+    [
+      [
+        36.58721,
+        37.07995
+      ],
+      [
+        63.3388,
+        13.53867
+      ],
+      [
+        48.89294,
+        12.73612
+      ]
+    ],
+    [
+      [
+        63.3388,
+        13.53867
+      ],
+      [
+        52.90568,
+        7.1183
+      ],
+      [
+        48.89294,
+        12.73612
+      ]
+    ],
+    [
+      [
+        48.89294,
+        12.73612
+      ],
+      [
+        45.95027,
+        9.52594
+      ],
+      [
+        31.50441,
+        32.5322
+      ]
+    ],
+    [
+      [
+        49.42797,
+        59.01611
+      ],
+      [
+        79.92479,
+        36.00989
+      ],
+      [
+        42.47256,
+        51.2582
+      ]
+    ],
+    [
+      [
+        83.4025,
+        48.31554
+      ],
+      [
+        66.01396,
+        65.97147
+      ],
+      [
+        73.50441,
+        65.70395
+      ]
+    ],
+    [
+      [
+        63.3388,
+        13.53867
+      ],
+      [
+        36.58721,
+        37.07995
+      ],
+      [
+        74.30695,
+        25.04179
+      ]
+    ],
+    [
+      [
+        48.89294,
+        12.73612
+      ],
+      [
+        31.50441,
+        32.5322
+      ],
+      [
+        36.58721,
+        37.07995
+      ]
+    ],
+    [
+      [
+        74.30695,
+        25.04179
+      ],
+      [
+        42.47256,
+        51.2582
+      ],
+      [
+        79.92479,
+        36.00989
+      ]
+    ],
+    [
+      [
+        42.47256,
+        51.2582
+      ],
+      [
+        74.30695,
+        25.04179
+      ],
+      [
+        36.58721,
+        37.07995
+      ]
+    ],
+    [
+      [
+        22.40886,
+        10.32849
+      ],
+      [
+        37.92479,
+        22.63417
+      ],
+      [
+        39.52988,
+        19.6915
+      ]
+    ],
+    [
+      [
+        37.92479,
+        22.63417
+      ],
+      [
+        22.40886,
+        10.32849
+      ],
+      [
+        20.80377,
+        13.00363
+      ]
+    ],
+    [
+      [
+        22.40886,
+        10.06097
+      ],
+      [
+        37.65727,
+        22.36665
+      ],
+      [
+        39.52988,
+        19.6915
+      ]
+    ],
+    [
+      [
+        37.65727,
+        22.36665
+      ],
+      [
+        22.40886,
+        10.06097
+      ],
+      [
+        20.53625,
+        13.00363
+      ]
+    ],
+    [
+      [
+        22.40886,
+        10.06097
+      ],
+      [
+        37.65727,
+        22.63417
+      ],
+      [
+        39.52988,
+        19.6915
+      ]
+    ],
+    [
+      [
+        37.65727,
+        22.63417
+      ],
+      [
+        22.40886,
+        10.06097
+      ],
+      [
+        20.53625,
+        13.00363
+      ]
+    ]
+  ],
+  "max_source_building_span_m": 230,
+  "terrain_flatten": [],
+  "terrain_cuts": [
+    {
+      "polygon_xz": [
+        [
+          -28.41916,
+          2.57055
+        ],
+        [
+          -16.38095,
+          -18.29564
+        ],
+        [
+          -31.09432,
+          -11.34024
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -16.38095,
+          -18.29564
+        ],
+        [
+          -28.41916,
+          2.57055
+        ],
+        [
+          -23.87139,
+          8.99091
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -23.06884,
+          9.793455263151682
+        ],
+        [
+          -23.06884,
+          10.06097
+        ],
+        [
+          -18.78858,
+          14.07369
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          5.55536,
+          -19.90073
+        ],
+        [
+          -9.96056,
+          19.42399
+        ],
+        [
+          -0.86502,
+          21.83162
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          7.69549,
+          21.83162
+        ],
+        [
+          14.38339,
+          23.97174
+        ],
+        [
+          29.36428,
+          -1.44217
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          29.36428,
+          -1.44217
+        ],
+        [
+          30.70186,
+          -6.79248
+        ],
+        [
+          24.81651,
+          -14.28291
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          11.1732,
+          -18.26219782986478
+        ],
+        [
+          11.1732,
+          -18.29564
+        ],
+        [
+          5.55536,
+          -19.90073
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -23.06884,
+          9.793455263151682
+        ],
+        [
+          -16.38095,
+          -18.29564
+        ],
+        [
+          -23.87139,
+          8.99091
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          5.55536,
+          -19.90073
+        ],
+        [
+          -18.78858,
+          14.07369
+        ],
+        [
+          -9.96056,
+          19.42399
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          11.1732,
+          -18.26219782986478
+        ],
+        [
+          -0.86502,
+          21.83162
+        ],
+        [
+          7.69549,
+          21.83162
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          11.1732,
+          -18.26219782986478
+        ],
+        [
+          29.36428,
+          -1.44217
+        ],
+        [
+          24.81651,
+          -14.28291
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -18.78858,
+          14.07369
+        ],
+        [
+          -16.38095,
+          -18.29564
+        ],
+        [
+          -23.06884,
+          9.793455263151682
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -16.38095,
+          -18.29564
+        ],
+        [
+          -18.78858,
+          14.07369
+        ],
+        [
+          5.55536,
+          -19.90073
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          29.36428,
+          -1.44217
+        ],
+        [
+          11.1732,
+          -18.26219782986478
+        ],
+        [
+          7.69549,
+          21.83162
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -0.86502,
+          21.83162
+        ],
+        [
+          11.1732,
+          -18.26219782986478
+        ],
+        [
+          5.55536,
+          -19.90073
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          79.92479,
+          36.00989
+        ],
+        [
+          49.42797,
+          59.01611
+        ],
+        [
+          56.91842,
+          63.29633
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          83.4025,
+          48.31554
+        ],
+        [
+          56.91842,
+          63.29633
+        ],
+        [
+          66.01396,
+          65.97147
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          83.4025,
+          48.31554
+        ],
+        [
+          73.50441,
+          65.70395
+        ],
+        [
+          85.00759,
+          63.29633
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          56.91842,
+          63.29633
+        ],
+        [
+          83.4025,
+          48.31554
+        ],
+        [
+          79.92479,
+          36.00989
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          36.58721,
+          37.07995
+        ],
+        [
+          63.3388,
+          13.53867
+        ],
+        [
+          48.89294,
+          12.73612
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          63.3388,
+          13.53867
+        ],
+        [
+          52.90568,
+          7.1183
+        ],
+        [
+          48.89294,
+          12.73612
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          48.89294,
+          12.73612
+        ],
+        [
+          45.95027,
+          9.52594
+        ],
+        [
+          31.50441,
+          32.5322
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          49.42797,
+          59.01611
+        ],
+        [
+          79.92479,
+          36.00989
+        ],
+        [
+          42.47256,
+          51.2582
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          83.4025,
+          48.31554
+        ],
+        [
+          66.01396,
+          65.97147
+        ],
+        [
+          73.50441,
+          65.70395
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          63.3388,
+          13.53867
+        ],
+        [
+          36.58721,
+          37.07995
+        ],
+        [
+          74.30695,
+          25.04179
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          48.89294,
+          12.73612
+        ],
+        [
+          31.50441,
+          32.5322
+        ],
+        [
+          36.58721,
+          37.07995
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          74.30695,
+          25.04179
+        ],
+        [
+          42.47256,
+          51.2582
+        ],
+        [
+          79.92479,
+          36.00989
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          42.47256,
+          51.2582
+        ],
+        [
+          74.30695,
+          25.04179
+        ],
+        [
+          36.58721,
+          37.07995
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    }
+  ],
+  "description": "Two asymmetric sail towers on mapped plans with three29m wind turbines carried on connecting bridges.",
+  "attribution": "Original Low Poly Earth architectural mesh. Mapped plans \u00a9 OpenStreetMap contributors, ODbL 1.0, via Protomaps; primary dimensions cited separately.",
+  "references": [
+    "https://www.otis.com/en/au/our-company/global-projects/project-showcase/bahrain-world-trade-center",
+    "https://www.skyscrapercenter.com/building/bahrain-world-trade-center-1/998"
+  ],
+  "audit": {
+    "architectural_height_m": 240,
+    "tip_height_m": 240,
+    "ground_datum_m": 3.6,
+    "placement_file": "tools/skyscraper_catalog/references/middle_east/bahrain-world-trade-center-placement.json",
+    "ground_file": "tools/skyscraper_catalog/references/middle_east/bahrain-world-trade-center-ground.json",
+    "estimates": "Primary240m tower/29m rotor diameter. Mapped twin-axis determines turbine orientation;70/100/130m bridge levels are source estimates. Sail taper and blade chord estimated.",
+    "ground_method": "Selected perimeter/street elevation control, fixed metric datum; footprint-only lower cuts and buried support. Provider elevations are not a surveyed building datum. Actual-engine ground-contact acceptance is recorded separately under output/skyscrapers."
+  },
+  "capture": {
+    "distance": 504.0,
+    "azimuth": 150,
+    "elevation": 21,
+    "target_height": 115.19999999999999
+  },
+  "activation_bounds_xz": [
+    [
+      -31.09432,
+      -19.90073
+    ],
+    [
+      85.00759,
+      65.97147
+    ]
+  ],
+  "night_eligible": true,
+  "bbox_min": [
+    -32.29432,
+    -1.5,
+    -21.10073
+  ],
+  "bbox_max": [
+    86.20759,
+    240.4,
+    67.17147
+  ],
+  "levels": [
+    {
+      "vertices": 10357,
+      "triangles": 5787
+    },
+    {
+      "vertices": 6287,
+      "triangles": 3491
+    },
+    {
+      "vertices": 3871,
+      "triangles": 2129
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/skyscraper_catalog/middle_east_oceania.py",
+  "dependencies": {
+    "crates/vearth-gen/src/building_surface.rs": "d4c5ca0b699c5cda62866b62ee1d26f17ce4b03f913c85e7045d7aadfe609bfb",
+    "crates/vearth-gen/src/highrise.rs": "476ec0574809c680b62cb60691a48a7e07f0b785b90568f14c4745f7562f2eb7",
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_skyscraper_catalog.py": "b7cae016f2d115ecccc277dff44f8490423b4a05f79c41a70d8a552dc58f7fb2",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/skyscraper_catalog/appearance.py": "ed485b103e0e6e9da95b4abf7faefc4b9f0f6c5741359458fc25c4616d6262e0",
+    "tools/skyscraper_catalog/geometry.py": "36ff1db56d17b9a5cea29ec0588398bf2a8492dad7ee906531ba983006f3dcbd",
+    "tools/skyscraper_catalog/inventory.py": "c2baa65db2fec4ad9daf239556addbad9ff866472c6bf025b5553e2fd3a9a645",
+    "tools/skyscraper_catalog/middle_east.py": "cdbecd38117ef9c05d557a2e110455dfc26cdced6f08d0a63949338eceaaa4bc",
+    "tools/skyscraper_catalog/middle_east_oceania.py": "cb48c91678ca88f24877ac2789ed95362fb3cfe91096fbcb45f83f31c3df512c",
+    "tools/skyscraper_catalog/oceania.py": "b2a6c57105a4d688d38275770875509743fb3273edd8fb860c2390ce580df5e9",
+    "tools/skyscraper_catalog/pacific_geometry.py": "339ce22cbf974867dc76f606868508a82d6cdfb8879732782bb6dadf18e74188",
+    "tools/skyscraper_catalog/references/middle_east/al-faisaliah-centre-ground.json": "45617583a7aefa85d1c874f3fd0bbdfaa6b2027e1c64f6e79f7b393f70f48fd5",
+    "tools/skyscraper_catalog/references/middle_east/al-faisaliah-centre-placement.json": "faaf2aa0fde42270a11aecad29f313b3a685b0dd6652a4fb8bed05c691a4d7fc",
+    "tools/skyscraper_catalog/references/middle_east/al-faisaliah-centre-plans.json": "07a5e063a7023960f2f0f6e6308b8fd26c8bf8056e532254414bb71cd1758013",
+    "tools/skyscraper_catalog/references/middle_east/al-faisaliah-centre-research.json": "b96f6f94ff02c0d6156b1d9f8e5f0b9bcdf501d08fc1b3c90dca7d9251a72518",
+    "tools/skyscraper_catalog/references/middle_east/al-hamra-firdous-tower-ground.json": "4ad41a31f7a249e62e71b90ce45e955fc7f555e0d62b2821bc096717027e4ba6",
+    "tools/skyscraper_catalog/references/middle_east/al-hamra-firdous-tower-placement.json": "8e911aa2abe0ed8deaf5c939390fe3cb573c51835e8ea6dad359682e6897ddd4",
+    "tools/skyscraper_catalog/references/middle_east/al-hamra-firdous-tower-plans.json": "90bcec06e615891d7d54cb6b428a5707df48b089366222e0ae394083a4533e6d",
+    "tools/skyscraper_catalog/references/middle_east/al-hamra-firdous-tower-research.json": "c182e1865ddeb306dac12a5f0f9b85a777d3040ae0461178c1a36a1b689fb0e3",
+    "tools/skyscraper_catalog/references/middle_east/bahrain-world-trade-center-ground.json": "debcb4febb32bfa24df99365a5593195b124bc6f62ea208b55148701e17058c6",
+    "tools/skyscraper_catalog/references/middle_east/bahrain-world-trade-center-placement.json": "60ac17ec35828553cbd75e7e10cbae61b192c91706f7ed88645e2f67c6e25fa4",
+    "tools/skyscraper_catalog/references/middle_east/bahrain-world-trade-center-plans.json": "d05a38d3b20ce629499adaabf6dc16ed86837cd67f6fb6b96cb0b8748039d8fc",
+    "tools/skyscraper_catalog/references/middle_east/bahrain-world-trade-center-research.json": "90e5949f20216bbf61e1f02666a7e4c7e1d37b82e9eeda98232559b13c07b22e",
+    "tools/skyscraper_catalog/references/middle_east/cayan-tower-ground.json": "8839da082c275b36382869f1d8a088f38c9d1126a0a2f3c35f9f672074970067",
+    "tools/skyscraper_catalog/references/middle_east/cayan-tower-placement.json": "39489816311ec1cec881db2b58c7beb9287116197432c1b2887bcea1abbf7cd4",
+    "tools/skyscraper_catalog/references/middle_east/cayan-tower-plans.json": "ce2e3ab1b8097376f8707a24de879cb77eae50cd8f646ec8935e15c380acbe03",
+    "tools/skyscraper_catalog/references/middle_east/cayan-tower-research.json": "af6ebb50d7a9de200d4f77e6ec5dd42a50b92938bef8fcc9641066fe1f447f33",
+    "tools/skyscraper_catalog/references/middle_east/emirates-towers-contact-calibration.json": "55e9e77c0578e234121b7663bedfd76bc8bfa07c11f2fb1f05814a28e4e5f638",
+    "tools/skyscraper_catalog/references/middle_east/emirates-towers-ground.json": "b16bc631d210dd6c1303610d3afe42bdbd4caf28068b491bafac2cbc489b4be5",
+    "tools/skyscraper_catalog/references/middle_east/emirates-towers-placement.json": "70fc59caf9e468c732988e721d0aea59d88bb58ed009ada112aa54ff29b9c53c",
+    "tools/skyscraper_catalog/references/middle_east/emirates-towers-plans.json": "9c62b58dde10200998990fa700934082e64136339ba22c88c1dffadd35ac077b",
+    "tools/skyscraper_catalog/references/middle_east/emirates-towers-research.json": "0034bc6f4ae0189c4f0b1e559430b948faaae80fbc0acbcf92d6284fe9edc2dc",
+    "tools/skyscraper_catalog/references/middle_east/kingdom-centre-ground.json": "d30729e2c4e92daf85d124a62e41119f5bca3500a2672daa82065044dee4be5d",
+    "tools/skyscraper_catalog/references/middle_east/kingdom-centre-placement.json": "782c4c0feae581b2fb43b11ceace3063c7e409a012633afaca0a7f76470045e5",
+    "tools/skyscraper_catalog/references/middle_east/kingdom-centre-plans.json": "8c8e189553264e60a23f47d0affd417870899a1be85062a10c21bb3754091366",
+    "tools/skyscraper_catalog/references/middle_east/kingdom-centre-research.json": "a4aa5c5d1895f47e462c2bbfab245cb96da49e83a6ba4838734529cb04d351e9",
+    "tools/skyscraper_catalog/references/oceania/eureka-tower-architecture.json": "2ab51489229a3eeb08c170a10b4ced5e87f59f536a46ec1c25052f78d18ab239",
+    "tools/skyscraper_catalog/references/oceania/eureka-tower-site.json": "762ba6b1af58c9ffb8671bea5eeec0d356079478eeca34718a072de4b2ab4beb",
+    "tools/skyscraper_catalog/references/oceania/one-central-park-architecture.json": "39977ad2d2cce369c7d8364ab5743c09107ffa902d091305aa16b02af4e1c7fa",
+    "tools/skyscraper_catalog/references/oceania/one-central-park-site.json": "c7832d38f059e6e0e9d124ec22d1b6193076e9dc28dd530f837d719b551327ab",
+    "tools/skyscraper_catalog/regional.py": "25eae598b754622d93fb76d0a1f56ca3f8151a1b77deaed6c835b063e81daa25"
+  },
+  "output_sha256": "88e27275810c27dfbf18b3e0043898b51aad522b3a740bffd2c0ea926da8df56"
+}

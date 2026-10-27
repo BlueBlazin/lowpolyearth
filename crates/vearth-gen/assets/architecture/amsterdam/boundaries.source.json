@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "attribution": "Gemeente Amsterdam; Datateam Stedelijke Ontwikkeling en Beheer",
+  "license": "Creative Commons, Naamsvermelding",
+  "license_documentation": "https://api.data.amsterdam.nl/v1/docs/datasets/beschermdestadsdorpsgezichten@v1.html",
+  "conversion": "Request municipal WFS in CRS84, select the exact feature identity, preserve all properties and coordinate values. No local reprojection, resampling or simplification. Verify using python3 tools/convert-amsterdam-architecture-boundaries.py --check.",
+  "boundaries": [
+    {
+      "label": "Amsterdam-Binnen de Singelgracht",
+      "source_snapshot": "beschermde-stadsgezichten-crs84.geojson",
+      "source_sha256": "723386f089d5b949a239e1e75fa5ea5f392201ddce926feec60719ca6cf6b339",
+      "source_url": "https://api.data.amsterdam.nl/v1/wfs/beschermdestadsdorpsgezichten?service=WFS&version=2.0.0&request=GetFeature&typeNames=app:beschermdestadsdorpsgezichten&outputFormat=geojson&srsName=urn:ogc:def:crs:OGC:1.3:CRS84",
+      "source_timestamp": "2026-09-15T19:55:08.910610+00:00",
+      "feature_id": "beschermdestadsdorpsgezichten.4",
+      "file": "binnen-singelgracht.geojson",
+      "sha256": "712dd29f5f50a556d199c548ab11437b093773b9389de0ee95f5f59943760aa3",
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 166,
+      "attribution": "Gemeente Amsterdam; Datateam Stedelijke Ontwikkeling en Beheer",
+      "license": "Creative Commons, Naamsvermelding",
+      "license_documentation": "https://api.data.amsterdam.nl/v1/docs/datasets/beschermdestadsdorpsgezichten@v1.html",
+      "designation_date": "1999-01-29",
+      "designation_reference": "https://kennis.cultureelerfgoed.nl/index.php/Gezicht/1477",
+      "revision_note": "API dataset v1 and response timestamp; no feature revision number supplied. Raw response checksum pins the exact observation."
+    }
+  ]
+}

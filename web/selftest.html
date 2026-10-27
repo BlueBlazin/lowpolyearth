@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Low Poly Earth platform self-test</title>
+<style>
+body { font: 14px/1.5 ui-monospace, monospace; margin: 24px; background: #111; color: #ddd; }
+.fail { color: #f77; } .pass { color: #7d7; }
+</style>
+</head>
+<body>
+<pre id="out">running…</pre>
+<script type="module">
+import { ThreadFactory } from "./threads.js?v=__BUILD__";
+
+const out = document.getElementById("out");
+const show = (text) => {
+    out.innerHTML = text
+        .split("\n")
+        .map((line) => `<span class="${line.startsWith("PASS") ? "pass" : line.startsWith("FAIL") ? "fail" : ""}">${line}</span>`)
+        .join("\n");
+    document.title = text.includes("FAIL") ? "selftest: FAIL" : "selftest: PASS";
+};
+
+if (!crossOriginIsolated) {
+    show("FAIL page is not cross-origin isolated (COOP/COEP headers missing)");
+} else {
+    const module = await WebAssembly.compileStreaming(fetch("./pkg/vearth_web_bg.wasm?v=__BUILD__"));
+    const threads = new ThreadFactory(module);
+    threads.onError = (message) => show(`FAIL worker error: ${message}`);
+    const root = new Worker(new URL("./app-worker.js?v=__BUILD__", import.meta.url), { type: "module", name: "vearth-main" });
+    root.onmessage = ({ data }) => {
+        if (data.type === "memory") threads.setMemory(data.memory);
+        if (data.type === "selftest") show(data.report);
+        if (data.type === "fatal") show(`FAIL ${data.value}`);
+    };
+    root.onerror = (event) => show(`FAIL root worker: ${event.message}`);
+    const port = threads.port();
+    root.postMessage({ type: "start", mode: "selftest", module, port }, [port]);
+}
+</script>
+</body>
+</html>

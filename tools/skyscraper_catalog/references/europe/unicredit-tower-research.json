@@ -1,0 +1,116 @@
+{
+  "name": "unicredit-tower",
+  "sources": [
+    {
+      "url": "https://pcparch.com/work/porta-nuova-garibaldi-and-unicredit-headquarters",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.unicreditgroup.eu/it/press-media/press-releases/2013/unicredit-tower--nuova-direzione-generale.html",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.holcim.it/torre-unicredit",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.skyscrapercenter.com/milan/unicredit-tower/5292",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Owner231m and supplier146m body+85m spire used. CTBUH currently lists217.7m, an unresolved published datum discrepancy; not silently merged. B/C100/50m are mapped estimates. Piazza remains unowned and unfilled.",
+  "authored_form": "Three mapped curved glazed office wings with horizontal sunshades and Tower A spiral metal spire.",
+  "dimensions_m": {
+    "architectural_height": 231,
+    "tip_height": 231,
+    "mapped_parts": [
+      {
+        "seed": "17570322856599552898",
+        "bounds_xz": [
+          [
+            -29.47454,
+            -31.98417
+          ],
+          [
+            29.2842,
+            32.00197
+          ]
+        ]
+      },
+      {
+        "seed": "6169608027539282720",
+        "bounds_xz": [
+          [
+            -102.03425,
+            -14.83749
+          ],
+          [
+            -35.12039,
+            34.30211
+          ]
+        ]
+      },
+      {
+        "seed": "13215637281267543106",
+        "bounds_xz": [
+          [
+            -113.32597,
+            -108.93568
+          ],
+          [
+            -49.96691,
+            -38.88467
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      45.483856482080505,
+      9.189910470258068
+    ],
+    "heading_deg": 0,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "644aa3dffec1e1065436724207e58206c923adc7b5a95f8f04e9ffa53a0821a4"
+  },
+  "ground": {
+    "datum_m": 123.1,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "84f5fcf6f2a6a62229ccde8db8048c925ce837f4d9eed36efcda8ace6f8c8334",
+    "quantiles_m": {
+      "toe": [
+        122.61852264404297,
+        123.06038665771484,
+        123.41650009155273,
+        124.0005874633789,
+        125.19129180908203
+      ],
+      "near": [
+        122.63458251953125,
+        123.00729179382324,
+        123.48027420043945,
+        124.08035850524902,
+        125.46673583984375
+      ],
+      "street": [
+        122.68269348144531,
+        123.2840461730957,
+        123.91632080078125,
+        124.82015609741211,
+        125.85948944091797
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

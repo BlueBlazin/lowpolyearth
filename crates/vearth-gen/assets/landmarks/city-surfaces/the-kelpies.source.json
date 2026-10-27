@@ -1,0 +1,73 @@
+{
+  "name": "the-kelpies",
+  "city": "Falkirk",
+  "lat": 56.0192179,
+  "lon": -3.7556864,
+  "heading": 0,
+  "base": 5.82931757,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -15,
+      -23
+    ],
+    [
+      19,
+      23
+    ]
+  ],
+  "references": [
+    "https://www.thehelix.co.uk/venues/the-helix",
+    "https://www.openstreetmap.org/way/277313677",
+    "https://www.openstreetmap.org/way/277313678"
+  ],
+  "description": "Two plated silver horse heads, one raised and one bowed, with pointed ears, ridged manes and steady low base lights.",
+  "source_audit": {
+    "center_ground_m": 5.82931757,
+    "perimeter_ground_range_m": [
+      5.46787,
+      5.9669
+    ],
+    "placement": "The two mapped sculpture footprints are 30.4m apart north-south and 12.4m east-west. Existing canal and moats retain their terrain."
+  },
+  "capture": {
+    "distance": 106,
+    "azimuth": 137,
+    "elevation": 19,
+    "target_height": 12,
+    "time_utc": "2026-03-20T15:00:00Z"
+  },
+  "bbox_min": [
+    -13.6,
+    -1.9,
+    -21.7
+  ],
+  "bbox_max": [
+    18.6,
+    30.2,
+    21.7
+  ],
+  "levels": [
+    {
+      "vertices": 50615,
+      "triangles": 17952
+    },
+    {
+      "vertices": 17338,
+      "triangles": 6488
+    },
+    {
+      "vertices": 8286,
+      "triangles": 3184
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "44cda75d336fa1c66d2c03feac1d55bf8dcce5588404534ad558edddba5ff631"
+}

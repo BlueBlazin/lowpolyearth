@@ -1,0 +1,90 @@
+{
+  "name": "osaka-castle",
+  "reference_urls": [
+    "https://www.osakacastle.net/toyotomi_stone_wall/column/2401.html",
+    "https://www.osakacastle.net/90/history/",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=135.52493035032407,34.68657557713926,135.52678964967592,34.68810442286074"
+  ],
+  "documented_evidence": "Museum technical column89 gives present honmaru ground31.2\u201331.5m and keep summit85.9m. Its90-year restoration history describes approximately55,000 copper-sheet roof tiles; the patinated roof uses the engine metal construction material.",
+  "modeling_qualifications": "Lower-only plaza cuts remove a spatially blurred DSM keep mound extending beyond the footprint. Osaka surveyed honmaru31.2\u201331.5m contrasts with production50\u201356m near the keep and39.8m65m west; Matsumoto surrounding ground590.5m contrasts with598\u2013599m mound. Mapped retaining walls bound the core plaza; feathering transitions outside it and lower moat terrain is retained. Stone batter and architecture are unchanged. Terrain-cut polygons do not expand building/tree suppression; the surrounding park buildings remain native.",
+  "metric_targets": {
+    "honmaru_ground_geo_m": [
+      31.2,
+      31.5
+    ],
+    "summit_geo_m": 85.9,
+    "authored_height_m": 54.6
+  },
+  "placement": {
+    "lat": 34.68738496605063,
+    "lon": 135.52586,
+    "heading_deg": 6,
+    "base": 31.3,
+    "source_file": "tools/heritage_catalog/references/castles/osaka-source.json",
+    "source_offset_east_north_m": [
+      0,
+      5
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/osaka-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/osaka-terrain.json",
+    "production_ground_at_anchor_m": 50.75571823120117
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 34619038,
+      "name": "\u5927\u962a\u57ce",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -0.185,
+          -1.387
+        ],
+        "size_m": [
+          41.778,
+          37.376
+        ],
+        "heading_deg": -90.718
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed.",
+  "terrain_cuts": [
+    {
+      "polygon_xz": [
+        [
+          -58,
+          -85
+        ],
+        [
+          68,
+          -85
+        ],
+        [
+          75,
+          38
+        ],
+        [
+          10,
+          53
+        ],
+        [
+          -30,
+          43
+        ],
+        [
+          -58,
+          12
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.05
+      ],
+      "feather_m": 25
+    }
+  ],
+  "source_exclusion_piece_count": 6
+}

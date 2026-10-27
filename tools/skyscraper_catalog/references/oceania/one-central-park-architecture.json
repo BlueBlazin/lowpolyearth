@@ -1,0 +1,20 @@
+{
+  "name": "one-central-park",
+  "city": "Sydney",
+  "architectural_height_m": 116,
+  "references": [
+    "https://www.jeannouvel.com/en/projects/one-central-park/",
+    "https://www.skyscrapercenter.com/sydney/one-central-park/10710/",
+    "https://architizer.com/projects/one-central-park-1/",
+    "https://www.aspect-studios.com/projects/one-central-park"
+  ],
+  "primary_evidence": "Jean Nouvel specifies116m and64.5m towers with shared retail podium and planted facades. CTBUH and the heliostat designer document42 tracking mirrors and320 suspended reflectors; the designer gives6.25m2 tracking panels and1.5m2 reflectors.",
+  "estimates": "Mapped east/west tower and podium plans are retained. The42m westward console,89.5\u201396m truss interval,17m podium and facade planting distribution are dimensional/exterior estimates.23.1m entrance datum fits nearby22\u201324m street samples. Mirror counts are exact only atLOD0, simplified at distance.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 135,
+    "target_height": 8
+  }
+}

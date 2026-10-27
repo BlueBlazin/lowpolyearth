@@ -1,0 +1,24 @@
+{
+  "name": "singapore-merlion",
+  "source_archive": "merlion.vxl",
+  "source_archive_sha256": "291ed2c3916ff7660063146129c5917fb2dc2ffb16d816506af0f1e7d7d27bb0",
+  "method": "offline exact exposed-boundary bake with coplanar same-material merging",
+  "license": "unchanged existing landmark SOURCES.md; no replacement source imported",
+  "original_status": "recorded original unavailable; archived shipped geometry preserved",
+  "output": "singapore-merlion.lms",
+  "output_sha256": "580e58ff76e0b10b102028ead41ba7cfbb3ef8124c1fdeb40b3f02b5f871d51a",
+  "levels": [
+    [
+      4009,
+      2206
+    ],
+    [
+      869,
+      476
+    ],
+    [
+      201,
+      108
+    ]
+  ]
+}

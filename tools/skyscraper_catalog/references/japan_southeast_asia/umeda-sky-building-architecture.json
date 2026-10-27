@@ -1,0 +1,19 @@
+{
+  "name": "umeda-sky-building",
+  "city": "Osaka",
+  "architectural_height_m": 173,
+  "references": [
+    "https://www.skybldg.co.jp/ticketplan/",
+    "https://www.skybldg.co.jp/asset/pdf/shoot/photo_area.pdf",
+    "https://www.skybldg.co.jp/lang/asset/pdf/umedaskybldg.pdf"
+  ],
+  "primary_evidence": "The operator specifies a173m observation roof and45m escalators between floors35 and39. Its site guide documents twin towers and a central open rooftop crater.",
+  "estimates": "Mapped bridge pieces have building:min_level39: they are elevated decks, not ground towers. Lower tower tops155.5/160/164.2m, elevator cylinders, inner west strip and escalator endpoints are estimated. Ground4m fits adjacent courtyard samples3.8\u20134.2m.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 135,
+    "target_height": 8
+  }
+}

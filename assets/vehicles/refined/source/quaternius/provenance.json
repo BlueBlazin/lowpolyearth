@@ -1,0 +1,18 @@
+{
+  "author": "Quaternius",
+  "license": "CC0-1.0",
+  "source_page": "https://quaternius.com/packs/ultimatespaceships.html",
+  "author_upload_page": "https://opengameart.org/content/lowpoly-spaceships-pack",
+  "archive_url": "https://opengameart.org/sites/default/files/ultimate_spaceships_-_may_2021.zip",
+  "archive_sha256": "ab7a725a2a1066d1f4c01fe27b2135f6138ca0b8a0a709eb9469957d26777670",
+  "license_download_url": "https://drive.google.com/uc?export=download&id=16iPJQOxZQgJB6UBiutO-PU35YROyGEL8",
+  "license_sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c",
+  "additional_textures": [
+    {
+      "path": "Bob/Bob_Blue.png",
+      "source_folder_url": "https://drive.google.com/drive/folders/1faQJgI67X-li9cF_PEXm12441iZ7vGbi",
+      "download_url": "https://drive.google.com/uc?export=download&id=18ZzSSZzIfW05hWFaVkgpiSY1qW_GcX37",
+      "sha256": "b570a1b436d13efcdff31dd14c970f1857bcf1ecf58491e48faf43c63fd4f4c2"
+    }
+  ]
+}

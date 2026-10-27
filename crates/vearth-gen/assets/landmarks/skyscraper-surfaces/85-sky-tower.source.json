@@ -1,0 +1,514 @@
+{
+  "name": "85-sky-tower",
+  "city": "Kaohsiung",
+  "lat": 22.611617811130376,
+  "lon": 120.30016020146469,
+  "heading": -18.3,
+  "base": 16.0,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "source_exclusion_polygons": [
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        9.223150885991318,
+        -71.63304319319856
+      ],
+      [
+        9.245772380821691,
+        -71.56464211181547
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        34.2969235170211,
+        -71.22570149629071
+      ],
+      [
+        33.1763586375792,
+        71.81928520238124
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        33.1763586375792,
+        71.81928520238124
+      ],
+      [
+        19.507438967335613,
+        71.70004879807368
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        19.507438967335613,
+        71.70004879807368
+      ],
+      [
+        19.50706583188555,
+        71.69892054070263
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        19.50706583188555,
+        71.69892054070263
+      ],
+      [
+        -34.29759460659727,
+        71.22514476879779
+      ]
+    ],
+    [
+      [
+        -34.29759460659727,
+        71.22514476879779
+      ],
+      [
+        -33.26354028551425,
+        -72.08142417426514
+      ],
+      [
+        -28.025454796426366,
+        -72.02614432436987
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        -34.29759460659727,
+        71.22514476879779
+      ],
+      [
+        -28.025454796426366,
+        -72.02614432436987
+      ]
+    ],
+    [
+      [
+        -28.025454796426366,
+        -72.02614432436987
+      ],
+      [
+        -28.03966496576998,
+        -72.06911190706182
+      ],
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ]
+    ]
+  ],
+  "road_exclusion_polygons": [
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        9.223150885991318,
+        -71.63304319319856
+      ],
+      [
+        9.245772380821691,
+        -71.56464211181547
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        34.2969235170211,
+        -71.22570149629071
+      ],
+      [
+        33.1763586375792,
+        71.81928520238124
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        33.1763586375792,
+        71.81928520238124
+      ],
+      [
+        19.507438967335613,
+        71.70004879807368
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        19.507438967335613,
+        71.70004879807368
+      ],
+      [
+        19.50706583188555,
+        71.69892054070263
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        19.50706583188555,
+        71.69892054070263
+      ],
+      [
+        -34.29759460659727,
+        71.22514476879779
+      ]
+    ],
+    [
+      [
+        -34.29759460659727,
+        71.22514476879779
+      ],
+      [
+        -33.26354028551425,
+        -72.08142417426514
+      ],
+      [
+        -28.025454796426366,
+        -72.02614432436987
+      ]
+    ],
+    [
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ],
+      [
+        -34.29759460659727,
+        71.22514476879779
+      ],
+      [
+        -28.025454796426366,
+        -72.02614432436987
+      ]
+    ],
+    [
+      [
+        -28.025454796426366,
+        -72.02614432436987
+      ],
+      [
+        -28.03966496576998,
+        -72.06911190706182
+      ],
+      [
+        -13.654423608145981,
+        -71.8744804295015
+      ]
+    ]
+  ],
+  "max_source_building_span_m": 260,
+  "terrain_flatten": [],
+  "terrain_grades": [
+    {
+      "polygon_xz": [
+        [
+          -13.654423608145981,
+          -71.8744804295015
+        ],
+        [
+          9.223150885991318,
+          -71.63304319319856
+        ],
+        [
+          9.245772380821691,
+          -71.56464211181547
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -13.654423608145981,
+          -71.8744804295015
+        ],
+        [
+          34.2969235170211,
+          -71.22570149629071
+        ],
+        [
+          33.1763586375792,
+          71.81928520238124
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -13.654423608145981,
+          -71.8744804295015
+        ],
+        [
+          33.1763586375792,
+          71.81928520238124
+        ],
+        [
+          19.507438967335613,
+          71.70004879807368
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -13.654423608145981,
+          -71.8744804295015
+        ],
+        [
+          19.507438967335613,
+          71.70004879807368
+        ],
+        [
+          19.50706583188555,
+          71.69892054070263
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -13.654423608145981,
+          -71.8744804295015
+        ],
+        [
+          19.50706583188555,
+          71.69892054070263
+        ],
+        [
+          -34.29759460659727,
+          71.22514476879779
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -34.29759460659727,
+          71.22514476879779
+        ],
+        [
+          -33.26354028551425,
+          -72.08142417426514
+        ],
+        [
+          -28.025454796426366,
+          -72.02614432436987
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -13.654423608145981,
+          -71.8744804295015
+        ],
+        [
+          -34.29759460659727,
+          71.22514476879779
+        ],
+        [
+          -28.025454796426366,
+          -72.02614432436987
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -28.025454796426366,
+          -72.02614432436987
+        ],
+        [
+          -28.03966496576998,
+          -72.06911190706182
+        ],
+        [
+          -13.654423608145981,
+          -71.8744804295015
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    }
+  ],
+  "description": "Two separate lower wings and crossbar support an elevated central shaft over a large genuine aperture,with a stepped pagoda crown and antenna.",
+  "attribution": "Original Low Poly Earth geometry; mapped placement and source rings \u00a9 OpenStreetMap contributors (ODbL), via Protomaps.",
+  "references": [
+    "https://www.skyscrapercenter.com/building/t-c-tower/338",
+    "https://www.turnerconstruction.com/projects/85-sky-tower",
+    "https://www.cylee.com"
+  ],
+  "audit": {
+    "architectural_height_m": 347.5,
+    "tip_height_m": 378,
+    "published_controls": "CTBUH347.5m architecture,378m tip and85floors. Turner describes the multiple cores and structural-steel building;its87storey count differs from CTBUH.",
+    "estimates": "Mapped50/70/145/190/330m part levels establish the H-shaped arrangement but are approximate. Complete union rings join source tile fragments. Crown steps,upper taper and secondary facade bands are estimated.",
+    "ground_datum_m": 16.0,
+    "ground_method": "Fixed entrance level estimated from retained non-bridge mapped street controls and footprint samples. Street samples are not independent survey benchmarks; DSM roof/tunnel contamination is explicitly excluded. In-engine approach review remains required.",
+    "foundation_bottom_m": -6.49,
+    "terrain_ownership": "Grades are confined to modeled ground footprints with7.5m transition;fixed architecture datum is independent of those grades. Below-ground foundation depth includes0.6m burial beneath the lowest retained perimeter sample.",
+    "placement_file": "tools/skyscraper_catalog/references/east_asia/85-sky-tower-placement.json",
+    "engine_review": "Pending actual engine overview and low-angle entrance/support inspection.",
+    "contact_capture": {
+      "target_xz": [
+        -39,
+        0
+      ],
+      "target_height": 1.7,
+      "distance": 130,
+      "azimuth": 251.7,
+      "elevation": 7
+    }
+  },
+  "capture": {
+    "distance": 774.9,
+    "azimuth": 251.7,
+    "elevation": 22,
+    "target_height": 166.79999999999998
+  },
+  "night_eligible": true,
+  "bbox_min": [
+    -41.79759460659727,
+    -6.7,
+    -79.58142417426514
+  ],
+  "bbox_max": [
+    41.7969235170211,
+    378.2,
+    79.31928520238124
+  ],
+  "levels": [
+    {
+      "vertices": 3461,
+      "triangles": 1867
+    },
+    {
+      "vertices": 2472,
+      "triangles": 1299
+    },
+    {
+      "vertices": 1063,
+      "triangles": 563
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/skyscraper_catalog/east_asia.py",
+  "dependencies": {
+    "crates/vearth-gen/src/building_surface.rs": "d4c5ca0b699c5cda62866b62ee1d26f17ce4b03f913c85e7045d7aadfe609bfb",
+    "crates/vearth-gen/src/highrise.rs": "476ec0574809c680b62cb60691a48a7e07f0b785b90568f14c4745f7562f2eb7",
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_skyscraper_catalog.py": "b7cae016f2d115ecccc277dff44f8490423b4a05f79c41a70d8a552dc58f7fb2",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/skyscraper_catalog/appearance.py": "ed485b103e0e6e9da95b4abf7faefc4b9f0f6c5741359458fc25c4616d6262e0",
+    "tools/skyscraper_catalog/east_asia.py": "df4cab8260da3c7dc0bd6135686467c2e2463e98d860a0b35eb2859d62800e02",
+    "tools/skyscraper_catalog/east_asia_geometry.py": "4ae3955b47e40c3441f800f089437f83fb4ad895f6e348faf67c4aa353df2fb0",
+    "tools/skyscraper_catalog/geometry.py": "36ff1db56d17b9a5cea29ec0588398bf2a8492dad7ee906531ba983006f3dcbd",
+    "tools/skyscraper_catalog/inventory.py": "c2baa65db2fec4ad9daf239556addbad9ff866472c6bf025b5553e2fd3a9a645",
+    "tools/skyscraper_catalog/references/east_asia/85-sky-tower-placement.json": "bbd34da8056c3d0818c71549a2409332c73227bec236b57b3a6489882c93a403",
+    "tools/skyscraper_catalog/references/east_asia/architecture.json": "ce12041c416ebfbf40e6c68abe5bd1880c87df62f009c77e5587c2ce475b8ba7",
+    "tools/skyscraper_catalog/references/east_asia/bank-of-china-tower-placement.json": "1ef3049ed707edfc4d52f7aa03c3dd47ce86f11fe51387c1bf4bb139805c4b19",
+    "tools/skyscraper_catalog/references/east_asia/cctv-headquarters-placement.json": "4d2682452d1d9f97ff1fde5b5eb8f6ed362a7c450bea7f883f0675e10388b682",
+    "tools/skyscraper_catalog/references/east_asia/citic-tower-placement.json": "37718447952f3ce8b9b2ca932847569c3491be24d68ade6061b0697d79896999",
+    "tools/skyscraper_catalog/references/east_asia/guangzhou-ctf-finance-centre-placement.json": "bddbaa31685ea7880ad2366c22a9103d4872f6f07957097588ff2c041a6c02ea",
+    "tools/skyscraper_catalog/references/east_asia/guangzhou-international-finance-center-placement.json": "76f0cc6e5636257deba6e471b2ae4617c70aefd5f3494b2a3049e8eb47ee7778",
+    "tools/skyscraper_catalog/references/east_asia/hsbc-main-building-placement.json": "7b94897802a42d153f297d627ebd477da38e59f5dbcc91f4043302612f604433",
+    "tools/skyscraper_catalog/references/east_asia/international-commerce-centre-placement.json": "e81b0a0538bf5cd58ab3e00cc12e8dd4d3f3489242f88efb74c899ce0ee6efcd",
+    "tools/skyscraper_catalog/references/east_asia/jin-mao-tower-placement.json": "e910f95937059326dd4f4e90d096acefd1d181f6ee13fbd9a238958f6e18bffa",
+    "tools/skyscraper_catalog/references/east_asia/lotte-world-tower-placement.json": "363f9a3a02a540f4ba30af9b0852b0189e1d696f0dfa6735d17aa97fb1958409",
+    "tools/skyscraper_catalog/references/east_asia/ping-an-finance-centre-placement.json": "8d40516101a84488c34b140ca499a454f2686298ba3591c0249895a381c51069",
+    "tools/skyscraper_catalog/references/east_asia/shanghai-tower-placement.json": "f30e19d1120240ae0e25af6ae530f3d343fd34723673fe113d0c228054a20142",
+    "tools/skyscraper_catalog/references/east_asia/shanghai-world-financial-center-placement.json": "c922abd865a6e5fada5b2f2ea80d048aed41eb6336a6b30f54ff898311c57ae5",
+    "tools/skyscraper_catalog/references/east_asia/two-international-finance-centre-placement.json": "c88ccb70ca6b02aae66518c0cb372e77dd7f218f28d94a46ec3f99de37fc3eb1"
+  },
+  "output_sha256": "1f3957beaaa97e0da996de293e0d067a2dd157a6d19fc59112ea62b0d8376e02"
+}

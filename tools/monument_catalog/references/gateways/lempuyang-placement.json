@@ -1,0 +1,58 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "node",
+      "id": 6080306159,
+      "lat": -8.3913779,
+      "lon": 115.6306841,
+      "timestamp": "2018-11-21T16:52:40Z",
+      "version": 1,
+      "tags": {
+        "alt_name": "Gateway to Heaven",
+        "historic": "monument",
+        "name": "Candi Bentar",
+        "name:en": "Lempuyang's temple gate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 647449208,
+      "timestamp": "2018-11-21T16:52:42Z",
+      "version": 1,
+      "nodes": [
+        6080306182,
+        6080306159
+      ],
+      "tags": {
+        "highway": "steps"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6080306159,
+      "lat": -8.3913779,
+      "lon": 115.6306841,
+      "timestamp": "2018-11-21T16:52:40Z",
+      "version": 1,
+      "tags": {
+        "alt_name": "Gateway to Heaven",
+        "historic": "monument",
+        "name": "Candi Bentar",
+        "name:en": "Lempuyang's temple gate"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6080306182,
+      "lat": -8.3913399,
+      "lon": 115.6305839,
+      "timestamp": "2018-11-25T10:34:51Z",
+      "version": 2
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "london-eye",
+  "kind": "london-eye",
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-108/7fc09e8da98d4f77a92dcb9f1aba0628.glb?download=true",
+  "sha256": "472b2e3158d3480e4df8f77daf994b8632cf700bbf588d2bed3b9d2edaffa308",
+  "license": "existing landmark SOURCES.md",
+  "output": "london-eye.lms",
+  "output_sha256": "32a621681a48bde01e6a0652eb1cb73cbcf4e48be30fd9ba9069366a6d244363",
+  "levels": [
+    [
+      221828,
+      81903
+    ],
+    [
+      23814,
+      34723
+    ],
+    [
+      19623,
+      29107
+    ]
+  ]
+}

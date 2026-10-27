@@ -1,0 +1,1136 @@
+{
+  "source_sha256": "1e2d7d7a6994b0458fc5d6ff985fb872f27841162b1808a3d52e32ae1a4953a0",
+  "reference": "GDAL/rasterio native GeoTIFF sampling and PROJ/pyproj EPSG:4326 to ESRI:54009; no resampling",
+  "samples": [
+    {
+      "name": "Pune",
+      "lat_deg": 18.5207,
+      "lon_deg": 73.8524,
+      "x_m": 7162473.695138465,
+      "y_m": 2274662.1353777545,
+      "row": 6725,
+      "column": 25203,
+      "raw_code": 30
+    },
+    {
+      "name": "Tokyo",
+      "lat_deg": 35.6762,
+      "lon_deg": 139.6503,
+      "x_m": 12302895.697028344,
+      "y_m": 4300609.785058155,
+      "row": 4699,
+      "column": 30343,
+      "raw_code": 30
+    },
+    {
+      "name": "Lagos",
+      "lat_deg": 6.5244,
+      "lon_deg": 3.3792,
+      "x_m": 337317.80348370934,
+      "y_m": 806040.3260582204,
+      "row": 8193,
+      "column": 18378,
+      "raw_code": 30
+    },
+    {
+      "name": "New York",
+      "lat_deg": 40.7128,
+      "lon_deg": -74.006,
+      "x_m": -6243708.301484751,
+      "y_m": 4868916.118288842,
+      "row": 4131,
+      "column": 11797,
+      "raw_code": 30
+    },
+    {
+      "name": "Sao Paulo",
+      "lat_deg": -23.5505,
+      "lon_deg": -46.6333,
+      "x_m": -4429027.271181212,
+      "y_m": -2880322.271416015,
+      "row": 11880,
+      "column": 13611,
+      "raw_code": 30
+    },
+    {
+      "name": "Cairo",
+      "lat_deg": 30.0444,
+      "lon_deg": 31.2357,
+      "x_m": 2862918.9831737024,
+      "y_m": 3649050.4181752875,
+      "row": 5350,
+      "column": 20903,
+      "raw_code": 30
+    },
+    {
+      "name": "Jakarta",
+      "lat_deg": -6.2088,
+      "lon_deg": 106.8456,
+      "x_m": 10669565.031398457,
+      "y_m": -767110.384586728,
+      "row": 9767,
+      "column": 28710,
+      "raw_code": 30
+    },
+    {
+      "name": "Sydney",
+      "lat_deg": -33.8688,
+      "lon_deg": 151.2093,
+      "x_m": 13504389.90617773,
+      "y_m": -4093226.7097231084,
+      "row": 13093,
+      "column": 31545,
+      "raw_code": 30
+    },
+    {
+      "name": "Cape Town",
+      "lat_deg": -33.9249,
+      "lon_deg": 18.4241,
+      "x_m": 1644768.268161155,
+      "y_m": -4099689.17674977,
+      "row": 13099,
+      "column": 19685,
+      "raw_code": 30
+    },
+    {
+      "name": "London",
+      "lat_deg": 51.5072,
+      "lon_deg": -0.1276,
+      "x_m": -9510.293029056536,
+      "y_m": 6030382.747337068,
+      "row": 2969,
+      "column": 18031,
+      "raw_code": 30
+    },
+    {
+      "name": "Manila",
+      "lat_deg": 14.5995,
+      "lon_deg": 120.9842,
+      "x_m": 11882128.11540879,
+      "y_m": 1797654.4408239913,
+      "row": 7202,
+      "column": 29923,
+      "raw_code": 30
+    },
+    {
+      "name": "Delhi",
+      "lat_deg": 28.6139,
+      "lon_deg": 77.209,
+      "x_m": 7138586.82854613,
+      "y_m": 3481180.4068189426,
+      "row": 5518,
+      "column": 25179,
+      "raw_code": 30
+    },
+    {
+      "name": "Singapore",
+      "lat_deg": 1.3521,
+      "lon_deg": 103.8198,
+      "x_m": 10403319.054147832,
+      "y_m": 167174.2786998897,
+      "row": 8832,
+      "column": 28444,
+      "raw_code": 30
+    },
+    {
+      "name": "Fiji Suva",
+      "lat_deg": -18.1248,
+      "lon_deg": 178.4501,
+      "x_m": 17331254.784383472,
+      "y_m": -2226675.1153384224,
+      "row": 11226,
+      "column": 35372,
+      "raw_code": 30
+    },
+    {
+      "name": "Samoa Apia",
+      "lat_deg": -13.8333,
+      "lon_deg": -171.7667,
+      "x_m": -16904944.02274984,
+      "y_m": -1704038.7655093193,
+      "row": 10704,
+      "column": 1136,
+      "raw_code": 23
+    },
+    {
+      "name": "Maldives Male",
+      "lat_deg": 4.1755,
+      "lon_deg": 73.5093,
+      "x_m": 7355234.924394043,
+      "y_m": 516104.01852186356,
+      "row": 8483,
+      "column": 25396,
+      "raw_code": 30
+    },
+    {
+      "name": "Iceland inland",
+      "lat_deg": 64.7,
+      "lon_deg": -18.0,
+      "x_m": -1055860.8737415143,
+      "y_m": 7313700.059756563,
+      "row": 1686,
+      "column": 16985,
+      "raw_code": 11
+    },
+    {
+      "name": "Sahara",
+      "lat_deg": 23.0,
+      "lon_deg": 13.0,
+      "x_m": 1237849.869845213,
+      "y_m": 2814425.9038600908,
+      "row": 6185,
+      "column": 19278,
+      "raw_code": 11
+    },
+    {
+      "name": "Amazon interior",
+      "lat_deg": -4,
+      "lon_deg": -63,
+      "x_m": -6304540.842197884,
+      "y_m": -494425.51287370897,
+      "row": 9494,
+      "column": 11736,
+      "raw_code": 11
+    },
+    {
+      "name": "Australian interior",
+      "lat_deg": -24,
+      "lon_deg": 133,
+      "x_m": 12604726.12791669,
+      "y_m": -2934051.030657752,
+      "row": 11934,
+      "column": 30645,
+      "raw_code": 11
+    },
+    {
+      "name": "Swiss village Lauterbrunnen",
+      "lat_deg": 46.5935,
+      "lon_deg": 7.9099,
+      "x_m": 627501.4247622883,
+      "y_m": 5512211.483440049,
+      "row": 3487,
+      "column": 18668,
+      "raw_code": 12
+    },
+    {
+      "name": "Bavaria countryside",
+      "lat_deg": 48.5,
+      "lon_deg": 11.0,
+      "x_m": 852883.008267981,
+      "y_m": 5715497.632795169,
+      "row": 3284,
+      "column": 18893,
+      "raw_code": 12
+    },
+    {
+      "name": "Maharashtra countryside",
+      "lat_deg": 18.5,
+      "lon_deg": 74.5,
+      "x_m": 7225821.000195059,
+      "y_m": 2272154.130298404,
+      "row": 6727,
+      "column": 25266,
+      "raw_code": 11
+    },
+    {
+      "name": "Ghana rural",
+      "lat_deg": 8.1,
+      "lon_deg": -1.7,
+      "x_m": -169327.8788220903,
+      "y_m": 1000244.4630078475,
+      "row": 7999,
+      "column": 17871,
+      "raw_code": 11
+    },
+    {
+      "name": "Iowa rural",
+      "lat_deg": 42.0,
+      "lon_deg": -93.0,
+      "x_m": -7749594.412225231,
+      "y_m": 5011701.366996126,
+      "row": 3988,
+      "column": 10291,
+      "raw_code": 11
+    },
+    {
+      "name": "Lake Victoria",
+      "lat_deg": -1,
+      "lon_deg": 33,
+      "x_m": 3307040.143981919,
+      "y_m": -123642.46137843542,
+      "row": 9123,
+      "column": 21348,
+      "raw_code": 10
+    },
+    {
+      "name": "Pacific Ocean",
+      "lat_deg": 0,
+      "lon_deg": -140,
+      "x_m": -14031185.541447893,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 4009,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -85,
+      "lon_deg": -180,
+      "x_m": -3731493.7699308805,
+      "y_m": -8824978.852256801,
+      "row": 17824,
+      "column": 14309,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -85,
+      "lon_deg": -150,
+      "x_m": -3109578.141609067,
+      "y_m": -8824978.852256801,
+      "row": 17824,
+      "column": 14931,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -85,
+      "lon_deg": -100,
+      "x_m": -2073052.0944060448,
+      "y_m": -8824978.852256801,
+      "row": 17824,
+      "column": 15967,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -85,
+      "lon_deg": -50,
+      "x_m": -1036526.0472030224,
+      "y_m": -8824978.852256801,
+      "row": 17824,
+      "column": 17004,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -85,
+      "lon_deg": 0,
+      "x_m": 0.0,
+      "y_m": -8824978.852256801,
+      "row": 17824,
+      "column": 18041,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -85,
+      "lon_deg": 50,
+      "x_m": 1036526.0472030224,
+      "y_m": -8824978.852256801,
+      "row": 17824,
+      "column": 19077,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -85,
+      "lon_deg": 100,
+      "x_m": 2073052.0944060448,
+      "y_m": -8824978.852256801,
+      "row": 17824,
+      "column": 20114,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -85,
+      "lon_deg": 150,
+      "x_m": 3109578.141609067,
+      "y_m": -8824978.852256801,
+      "row": 17824,
+      "column": 21150,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -85,
+      "lon_deg": 179.999,
+      "x_m": 3731473.0394099364,
+      "y_m": -8824978.852256801,
+      "row": 17824,
+      "column": 21772,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -70,
+      "lon_deg": -180,
+      "x_m": -9147433.628621653,
+      "y_m": -7774469.607891488,
+      "row": 16774,
+      "column": 8893,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -70,
+      "lon_deg": -150,
+      "x_m": -7622861.35718471,
+      "y_m": -7774469.607891488,
+      "row": 16774,
+      "column": 10418,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -70,
+      "lon_deg": -100,
+      "x_m": -5081907.571456473,
+      "y_m": -7774469.607891488,
+      "row": 16774,
+      "column": 12959,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -70,
+      "lon_deg": -50,
+      "x_m": -2540953.7857282367,
+      "y_m": -7774469.607891488,
+      "row": 16774,
+      "column": 15500,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -70,
+      "lon_deg": 0,
+      "x_m": 0.0,
+      "y_m": -7774469.607891488,
+      "row": 16774,
+      "column": 18041,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -70,
+      "lon_deg": 50,
+      "x_m": 2540953.7857282367,
+      "y_m": -7774469.607891488,
+      "row": 16774,
+      "column": 20581,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -70,
+      "lon_deg": 100,
+      "x_m": 5081907.571456473,
+      "y_m": -7774469.607891488,
+      "row": 16774,
+      "column": 23122,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -70,
+      "lon_deg": 150,
+      "x_m": 7622861.35718471,
+      "y_m": -7774469.607891488,
+      "row": 16774,
+      "column": 25663,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -70,
+      "lon_deg": 179.999,
+      "x_m": 9147382.809545936,
+      "y_m": -7774469.607891488,
+      "row": 16774,
+      "column": 27188,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -45,
+      "lon_deg": -180,
+      "x_m": -14538644.70523493,
+      "y_m": -5340244.911544235,
+      "row": 14340,
+      "column": 3502,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -45,
+      "lon_deg": -150,
+      "x_m": -12115537.25436244,
+      "y_m": -5340244.911544235,
+      "row": 14340,
+      "column": 5925,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -45,
+      "lon_deg": -100,
+      "x_m": -8077024.836241628,
+      "y_m": -5340244.911544235,
+      "row": 14340,
+      "column": 9963,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -45,
+      "lon_deg": -50,
+      "x_m": -4038512.418120814,
+      "y_m": -5340244.911544235,
+      "row": 14340,
+      "column": 14002,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -45,
+      "lon_deg": 0,
+      "x_m": 0.0,
+      "y_m": -5340244.911544235,
+      "row": 14340,
+      "column": 18041,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -45,
+      "lon_deg": 50,
+      "x_m": 4038512.418120814,
+      "y_m": -5340244.911544235,
+      "row": 14340,
+      "column": 22079,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -45,
+      "lon_deg": 100,
+      "x_m": 8077024.836241628,
+      "y_m": -5340244.911544235,
+      "row": 14340,
+      "column": 26118,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -45,
+      "lon_deg": 150,
+      "x_m": 12115537.25436244,
+      "y_m": -5340244.911544235,
+      "row": 14340,
+      "column": 30156,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -45,
+      "lon_deg": 179.999,
+      "x_m": 14538563.934986565,
+      "y_m": -5340244.911544235,
+      "row": 14340,
+      "column": 32579,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -15,
+      "lon_deg": -180,
+      "x_m": -17658035.730786588,
+      "y_m": -1846539.1179457991,
+      "row": 10846,
+      "column": 382,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -15,
+      "lon_deg": -150,
+      "x_m": -14715029.775655491,
+      "y_m": -1846539.1179457991,
+      "row": 10846,
+      "column": 3325,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -15,
+      "lon_deg": -100,
+      "x_m": -9810019.850436993,
+      "y_m": -1846539.1179457991,
+      "row": 10846,
+      "column": 8230,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -15,
+      "lon_deg": -50,
+      "x_m": -4905009.9252184965,
+      "y_m": -1846539.1179457991,
+      "row": 10846,
+      "column": 13135,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -15,
+      "lon_deg": 0,
+      "x_m": 0.0,
+      "y_m": -1846539.1179457991,
+      "row": 10846,
+      "column": 18041,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -15,
+      "lon_deg": 50,
+      "x_m": 4905009.9252184965,
+      "y_m": -1846539.1179457991,
+      "row": 10846,
+      "column": 22946,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -15,
+      "lon_deg": 100,
+      "x_m": 9810019.850436993,
+      "y_m": -1846539.1179457991,
+      "row": 10846,
+      "column": 27851,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -15,
+      "lon_deg": 150,
+      "x_m": 14715029.775655491,
+      "y_m": -1846539.1179457991,
+      "row": 10846,
+      "column": 32756,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": -15,
+      "lon_deg": 179.999,
+      "x_m": 17657937.630588084,
+      "y_m": -1846539.1179457991,
+      "row": 10846,
+      "column": 35698,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 0,
+      "lon_deg": -180,
+      "x_m": -18040095.696147293,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 0,
+      "raw_code": -200
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 0,
+      "lon_deg": -150,
+      "x_m": -15033413.080122743,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 3007,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 0,
+      "lon_deg": -100,
+      "x_m": -10022275.386748495,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 8018,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 0,
+      "lon_deg": -50,
+      "x_m": -5011137.693374247,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 13029,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 0,
+      "lon_deg": 0,
+      "x_m": 0.0,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 18041,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 0,
+      "lon_deg": 50,
+      "x_m": 5011137.693374247,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 23052,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 0,
+      "lon_deg": 100,
+      "x_m": 10022275.386748495,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 28063,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 0,
+      "lon_deg": 150,
+      "x_m": 15033413.080122743,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 33074,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 0,
+      "lon_deg": 179.999,
+      "x_m": 18039995.473393425,
+      "y_m": 0.0,
+      "row": 9000,
+      "column": 36080,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 15,
+      "lon_deg": -180,
+      "x_m": -17658035.730786588,
+      "y_m": 1846539.1179457991,
+      "row": 7153,
+      "column": 382,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 15,
+      "lon_deg": -150,
+      "x_m": -14715029.775655491,
+      "y_m": 1846539.1179457991,
+      "row": 7153,
+      "column": 3325,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 15,
+      "lon_deg": -100,
+      "x_m": -9810019.850436993,
+      "y_m": 1846539.1179457991,
+      "row": 7153,
+      "column": 8230,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 15,
+      "lon_deg": -50,
+      "x_m": -4905009.9252184965,
+      "y_m": 1846539.1179457991,
+      "row": 7153,
+      "column": 13135,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 15,
+      "lon_deg": 0,
+      "x_m": 0.0,
+      "y_m": 1846539.1179457991,
+      "row": 7153,
+      "column": 18041,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 15,
+      "lon_deg": 50,
+      "x_m": 4905009.9252184965,
+      "y_m": 1846539.1179457991,
+      "row": 7153,
+      "column": 22946,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 15,
+      "lon_deg": 100,
+      "x_m": 9810019.850436993,
+      "y_m": 1846539.1179457991,
+      "row": 7153,
+      "column": 27851,
+      "raw_code": 12
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 15,
+      "lon_deg": 150,
+      "x_m": 14715029.775655491,
+      "y_m": 1846539.1179457991,
+      "row": 7153,
+      "column": 32756,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 15,
+      "lon_deg": 179.999,
+      "x_m": 17657937.630588084,
+      "y_m": 1846539.1179457991,
+      "row": 7153,
+      "column": 35698,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 45,
+      "lon_deg": -180,
+      "x_m": -14538644.70523493,
+      "y_m": 5340244.911544235,
+      "row": 3659,
+      "column": 3502,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 45,
+      "lon_deg": -150,
+      "x_m": -12115537.25436244,
+      "y_m": 5340244.911544235,
+      "row": 3659,
+      "column": 5925,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 45,
+      "lon_deg": -100,
+      "x_m": -8077024.836241628,
+      "y_m": 5340244.911544235,
+      "row": 3659,
+      "column": 9963,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 45,
+      "lon_deg": -50,
+      "x_m": -4038512.418120814,
+      "y_m": 5340244.911544235,
+      "row": 3659,
+      "column": 14002,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 45,
+      "lon_deg": 0,
+      "x_m": 0.0,
+      "y_m": 5340244.911544235,
+      "row": 3659,
+      "column": 18041,
+      "raw_code": 12
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 45,
+      "lon_deg": 50,
+      "x_m": 4038512.418120814,
+      "y_m": 5340244.911544235,
+      "row": 3659,
+      "column": 22079,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 45,
+      "lon_deg": 100,
+      "x_m": 8077024.836241628,
+      "y_m": 5340244.911544235,
+      "row": 3659,
+      "column": 26118,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 45,
+      "lon_deg": 150,
+      "x_m": 12115537.25436244,
+      "y_m": 5340244.911544235,
+      "row": 3659,
+      "column": 30156,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 45,
+      "lon_deg": 179.999,
+      "x_m": 14538563.934986565,
+      "y_m": 5340244.911544235,
+      "row": 3659,
+      "column": 32579,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 70,
+      "lon_deg": -180,
+      "x_m": -9147433.628621653,
+      "y_m": 7774469.607891488,
+      "row": 1225,
+      "column": 8893,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 70,
+      "lon_deg": -150,
+      "x_m": -7622861.35718471,
+      "y_m": 7774469.607891488,
+      "row": 1225,
+      "column": 10418,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 70,
+      "lon_deg": -100,
+      "x_m": -5081907.571456473,
+      "y_m": 7774469.607891488,
+      "row": 1225,
+      "column": 12959,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 70,
+      "lon_deg": -50,
+      "x_m": -2540953.7857282367,
+      "y_m": 7774469.607891488,
+      "row": 1225,
+      "column": 15500,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 70,
+      "lon_deg": 0,
+      "x_m": 0.0,
+      "y_m": 7774469.607891488,
+      "row": 1225,
+      "column": 18041,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 70,
+      "lon_deg": 50,
+      "x_m": 2540953.7857282367,
+      "y_m": 7774469.607891488,
+      "row": 1225,
+      "column": 20581,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 70,
+      "lon_deg": 100,
+      "x_m": 5081907.571456473,
+      "y_m": 7774469.607891488,
+      "row": 1225,
+      "column": 23122,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 70,
+      "lon_deg": 150,
+      "x_m": 7622861.35718471,
+      "y_m": 7774469.607891488,
+      "row": 1225,
+      "column": 25663,
+      "raw_code": 11
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 70,
+      "lon_deg": 179.999,
+      "x_m": 9147382.809545936,
+      "y_m": 7774469.607891488,
+      "row": 1225,
+      "column": 27188,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 85,
+      "lon_deg": -180,
+      "x_m": -3731493.7699308805,
+      "y_m": 8824978.852256801,
+      "row": 175,
+      "column": 14309,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 85,
+      "lon_deg": -150,
+      "x_m": -3109578.141609067,
+      "y_m": 8824978.852256801,
+      "row": 175,
+      "column": 14931,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 85,
+      "lon_deg": -100,
+      "x_m": -2073052.0944060448,
+      "y_m": 8824978.852256801,
+      "row": 175,
+      "column": 15967,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 85,
+      "lon_deg": -50,
+      "x_m": -1036526.0472030224,
+      "y_m": 8824978.852256801,
+      "row": 175,
+      "column": 17004,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 85,
+      "lon_deg": 0,
+      "x_m": 0.0,
+      "y_m": 8824978.852256801,
+      "row": 175,
+      "column": 18041,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 85,
+      "lon_deg": 50,
+      "x_m": 1036526.0472030224,
+      "y_m": 8824978.852256801,
+      "row": 175,
+      "column": 19077,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 85,
+      "lon_deg": 100,
+      "x_m": 2073052.0944060448,
+      "y_m": 8824978.852256801,
+      "row": 175,
+      "column": 20114,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 85,
+      "lon_deg": 150,
+      "x_m": 3109578.141609067,
+      "y_m": 8824978.852256801,
+      "row": 175,
+      "column": 21150,
+      "raw_code": 10
+    },
+    {
+      "name": "global grid",
+      "lat_deg": 85,
+      "lon_deg": 179.999,
+      "x_m": 3731473.0394099364,
+      "y_m": 8824978.852256801,
+      "row": 175,
+      "column": 21772,
+      "raw_code": 10
+    },
+    {
+      "name": "India village",
+      "lat_deg": 18.56063236295962,
+      "lon_deg": 74.44085275591715,
+      "x_m": 7218500.0,
+      "y_m": 2279500.0,
+      "row": 6720,
+      "column": 25259,
+      "raw_code": 13
+    },
+    {
+      "name": "US suburb",
+      "lat_deg": 40.8887885431979,
+      "lon_deg": -74.43516035900491,
+      "x_m": -6269500.0,
+      "y_m": 4888500.0,
+      "row": 4111,
+      "column": 11771,
+      "raw_code": 21
+    },
+    {
+      "name": "France town",
+      "lat_deg": 47.58711027159898,
+      "lon_deg": 0.8991752326185242,
+      "x_m": 70500.0,
+      "y_m": 5618500.0,
+      "row": 3381,
+      "column": 18111,
+      "raw_code": 22
+    },
+    {
+      "name": "Kenya town",
+      "lat_deg": -0.33563941706325506,
+      "lon_deg": 35.95528960118727,
+      "x_m": 3603500.0,
+      "y_m": -41500.0,
+      "row": 9041,
+      "column": 21644,
+      "raw_code": 23
+    },
+    {
+      "name": "Rural farm",
+      "lat_deg": 41.81730418998104,
+      "lon_deg": -92.4489168768704,
+      "x_m": -7717500.0,
+      "y_m": 4991500.0,
+      "row": 4008,
+      "column": 10323,
+      "raw_code": 12
+    }
+  ]
+}

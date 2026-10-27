@@ -1,0 +1,47 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Canary Wharf older office core",
+    "interpretation": "Authored office-material influence joining verified dock and street nodes; excludes Wood Wharf, North Quay, Canary Riverside and Marsh Wall. Not a legal estate or use boundary.",
+    "attribution": "© OpenStreetMap contributors, ODbL 1.0"
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -0.0259631,
+          51.5055924
+        ],
+        [
+          -0.0243623,
+          51.5063492
+        ],
+        [
+          -0.0153389,
+          51.5055905
+        ],
+        [
+          -0.0155404,
+          51.5039496
+        ],
+        [
+          -0.016162,
+          51.50195
+        ],
+        [
+          -0.0227919,
+          51.5026517
+        ],
+        [
+          -0.0250803,
+          51.5029678
+        ],
+        [
+          -0.0259631,
+          51.5055924
+        ]
+      ]
+    ]
+  }
+}

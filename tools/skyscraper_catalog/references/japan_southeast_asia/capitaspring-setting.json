@@ -1,0 +1,371 @@
+{
+  "name": "capitaspring",
+  "grade_polygon_xz": [
+    [
+      -59,
+      10
+    ],
+    [
+      -15,
+      -82
+    ],
+    [
+      43,
+      -75
+    ],
+    [
+      49,
+      40
+    ],
+    [
+      19,
+      57
+    ],
+    [
+      -37,
+      48
+    ]
+  ],
+  "plane_relative_to_floor": [
+    0,
+    0,
+    -0.1
+  ],
+  "feather_m": 22,
+  "evidence": "After removing duplicate low same-site source envelopes, the V2 north entrance view exposes a serrated DSM moat around the open city room. The camera approach at model(0,40) samples32.889m, while the retained clean western Church/Phillip Street control near(-46.67,0) is18.066m. The fixed18.1m architectural floor remains unchanged; a bounded18.0m public approach plane connects its actual forecourt to Church Street, pedestrian Market Street, the Market Street driveway and the short northern service alley. Absolute height is still an estimated local street datum, not a survey benchmark.",
+  "scope": "Immediate city-room block and street-width apron only. Exact tower ownership, all neighboring footprint geometry and native streets remain unchanged.22m feather blends to existing terrain; the long northern covered-walkway corridor beyond the local approach and distant city remain outside the full-weight grade.",
+  "outside_controls_xz": [
+    [
+      -100,
+      0
+    ],
+    [
+      110,
+      90
+    ],
+    [
+      0,
+      150
+    ]
+  ],
+  "ground_controls": [
+    {
+      "east_m": -46.66666666666667,
+      "ground_m": 18.07090187072754,
+      "lat": 1.2839299999653964,
+      "lon": 103.84961068162833,
+      "north_m": 0.0
+    },
+    {
+      "east_m": 46.66666666666666,
+      "ground_m": 21.356643676757812,
+      "lat": 1.2843520369262276,
+      "lon": 103.85044931844043,
+      "north_m": 46.66666666666666
+    }
+  ],
+  "ways": [
+    {
+      "id": "22921313",
+      "tags": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "pedestrian",
+        "lanes": "2",
+        "lit": "yes",
+        "name": "Market Street",
+        "surface": "asphalt"
+      },
+      "polyline_xz": [
+        [
+          -2.693267639987158,
+          -76.28759599999998
+        ],
+        [
+          -1.4913134867220956,
+          -76.29872800000648
+        ],
+        [
+          7.156078894108046,
+          -76.4768400000116
+        ],
+        [
+          23.304555531148704,
+          -76.82193199999062
+        ],
+        [
+          28.84689968310616,
+          -74.35062800000607
+        ],
+        [
+          32.64195862985757,
+          -68.29482000000496
+        ],
+        [
+          34.74537839846682,
+          -20.282504000002362
+        ],
+        [
+          34.93457488542304,
+          -16.007816000003032
+        ],
+        [
+          37.61671332094635,
+          -12.668216000005872
+        ]
+      ]
+    },
+    {
+      "id": "255893701",
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "lanes:backward": "1",
+        "lanes:forward": "1",
+        "lit": "yes",
+        "service": "alley",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left",
+        "turn:lanes:forward": "through"
+      },
+      "polyline_xz": [
+        [
+          -37.88381424389414,
+          39.36275199999487
+        ],
+        [
+          -28.913674914633884,
+          31.414504000001138
+        ]
+      ]
+    },
+    {
+      "id": "465983943",
+      "tags": {
+        "highway": "service",
+        "lanes": "2",
+        "lit": "yes",
+        "oneway": "yes",
+        "service": "alley",
+        "surface": "asphalt"
+      },
+      "polyline_xz": [
+        [
+          -28.913674914633884,
+          31.414504000001138
+        ],
+        [
+          -24.128116710501324,
+          30.71318799998715
+        ],
+        [
+          -16.994296225320962,
+          31.870915999995724
+        ],
+        [
+          -3.8507049738152914,
+          36.646543999990925
+        ],
+        [
+          1.502442691185939,
+          44.37215200000297
+        ],
+        [
+          5.386535279974316,
+          60.19072399999438
+        ],
+        [
+          8.369162253418507,
+          81.2413360000003
+        ],
+        [
+          14.935393276148643,
+          121.38332800000522
+        ],
+        [
+          16.727195302373172,
+          131.95872800000035
+        ]
+      ]
+    },
+    {
+      "id": "633419647",
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Market Street",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "polyline_xz": [
+        [
+          35.747006860311814,
+          -9.261823999994432
+        ],
+        [
+          36.48153439762746,
+          1.814515999996562
+        ],
+        [
+          39.01899316563148,
+          39.80803200000768
+        ],
+        [
+          39.48641978158089,
+          46.698740000001905
+        ],
+        [
+          40.13191367844113,
+          56.43924000000392
+        ]
+      ]
+    },
+    {
+      "id": "663073352",
+      "tags": {
+        "highway": "primary",
+        "lanes": "5",
+        "lit": "yes",
+        "loc_name:zh": "\u4e94\u4ee3\u5929\u5bab",
+        "maxspeed": "50",
+        "name": "Church Street",
+        "name:en": "Church Street",
+        "name:zh": "\u6f06\u8857",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "polyline_xz": [
+        [
+          -38.23994880887891,
+          -14.438204000001154
+        ],
+        [
+          -14.913134867220956,
+          -55.025475999994164
+        ]
+      ]
+    },
+    {
+      "id": "666811292",
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Phillip Street",
+        "oneway": "yes",
+        "parking:condition:right:vehicles": "motorcar",
+        "parking:lane:right": "parallel",
+        "surface": "asphalt"
+      },
+      "polyline_xz": [
+        [
+          -37.88381424389414,
+          39.36275199999487
+        ],
+        [
+          -40.577081883881306,
+          30.85790399999749
+        ]
+      ]
+    },
+    {
+      "id": "666811293",
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Phillip Street",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "polyline_xz": [
+        [
+          -40.577081883881306,
+          30.85790399999749
+        ],
+        [
+          -48.91285652232673,
+          14.9836719999983
+        ],
+        [
+          -54.366167033828766,
+          4.619780000003075
+        ]
+      ]
+    },
+    {
+      "id": "747369958",
+      "tags": {
+        "highway": "primary",
+        "lanes": "5",
+        "lit": "yes",
+        "loc_name:zh": "\u4e94\u4ee3\u5929\u5bab",
+        "maxspeed": "50",
+        "name": "Church Street",
+        "name:en": "Church Street",
+        "name:zh": "\u6f06\u8857",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "polyline_xz": [
+        [
+          -14.913134867220956,
+          -55.025475999994164
+        ],
+        [
+          -2.693267639987158,
+          -76.28759599999998
+        ]
+      ]
+    },
+    {
+      "id": "1258955146",
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "oneway": "yes",
+        "service": "driveway"
+      },
+      "polyline_xz": [
+        [
+          36.48153439762746,
+          1.814515999996562
+        ],
+        [
+          31.99646473299733,
+          4.976003999988601
+        ],
+        [
+          30.76112296317763,
+          7.1133480000006255
+        ],
+        [
+          30.160145887335876,
+          9.506727999989115
+        ],
+        [
+          31.30645401511861,
+          33.785620000001344
+        ],
+        [
+          32.09662757949814,
+          36.023151999997715
+        ],
+        [
+          33.94407562962344,
+          37.41465199999447
+        ],
+        [
+          39.01899316563148,
+          39.80803200000768
+        ]
+      ]
+    }
+  ],
+  "attribution": "\u00a9 OpenStreetMap contributors (ODbL1.0), production vectors via Protomaps. Complete relevant road ways retained. Raw response and measured foundation provenance remain in capitaspring-site.json."
+}

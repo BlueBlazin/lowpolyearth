@@ -1,0 +1,23 @@
+{
+  "name": "christ-the-redeemer",
+  "kind": "christ",
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-105/90d53b3cb4b042ce845a24baa679109e.glb?download=true",
+  "sha256": "f15404edb246a5cfadf80602fefc95132298b6f1c095f6a885e91cfdc6486d31",
+  "license": "existing landmark SOURCES.md",
+  "output": "christ-the-redeemer.lms",
+  "output_sha256": "1f907f250572cb028adaae4ae25fa53d36768ead767731f07a98abb622b195b1",
+  "levels": [
+    [
+      6091,
+      2308
+    ],
+    [
+      457,
+      811
+    ],
+    [
+      197,
+      332
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "himeji-castle",
+  "kind": "himeji-castle",
+  "source": "himeji-castle/himeji.glb",
+  "sha256": "e337c2a9b04b1198b80b0f04bf5cc442b3d696798a9c87392cc677a5ff73b04b",
+  "license": "existing landmark SOURCES.md",
+  "output": "himeji-castle.lms",
+  "output_sha256": "36182c0ee8e0f89603325948aa6b10a16a5c29f5ef0ca29571017846144c31ed",
+  "levels": [
+    [
+      78768,
+      40008
+    ],
+    [
+      76716,
+      39072
+    ],
+    [
+      76716,
+      39072
+    ]
+  ]
+}

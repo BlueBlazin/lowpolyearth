@@ -1,0 +1,23 @@
+{
+  "name": "moscow-kremlin",
+  "kind": "kremlin",
+  "source": "kremlin/kremlin.glb",
+  "sha256": "e8ec7cf269015e5800422b7b546bca7a5f457d5a0d47fadd2c0331ce5cfb7d54",
+  "license": "existing landmark SOURCES.md",
+  "output": "moscow-kremlin.lms",
+  "output_sha256": "dfe3cfd99dd4b055572e85844217931eed73b30862fdb01e3278f631778a168e",
+  "levels": [
+    [
+      202374,
+      108472
+    ],
+    [
+      34607,
+      39920
+    ],
+    [
+      27418,
+      14924
+    ]
+  ]
+}

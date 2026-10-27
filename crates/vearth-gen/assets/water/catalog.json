@@ -1,0 +1,341 @@
+{
+  "attribution": "© OpenStreetMap contributors. Geometry under ODbL 1.0: https://www.openstreetmap.org/copyright",
+  "entries": [
+    {
+      "id": "hutt",
+      "name": "Hutt Lagoon",
+      "source": {
+        "path": "sources/hutt.json.gz",
+        "sha256": "e434a384c34138ace3f8220178361b3e23e6587d0ac492bed765ba406852cdc6",
+        "osm_type": "way",
+        "osm_id": 237785811,
+        "version": 12,
+        "url": "https://www.openstreetmap.org/way/237785811"
+      },
+      "anchor_degrees": [
+        -28.17,
+        114.25
+      ],
+      "simplify_m": 15,
+      "margin_m": 60,
+      "fade_m": 40,
+      "bottom_srgb": [
+        235,
+        172,
+        166
+      ],
+      "body_srgb": [
+        192,
+        71,
+        104
+      ],
+      "alternate_srgb": [
+        223,
+        110,
+        131
+      ],
+      "extinction_per_m": [
+        0.28,
+        0.42,
+        0.32
+      ],
+      "variation_scale_m": 1600,
+      "temporal": "Variable salinity and bloom; representative pink phase.",
+      "reference": "https://www.australia.com/en/things-to-do/nature-and-national-parks/australias-pink-lakes.html"
+    },
+    {
+      "id": "colorada",
+      "name": "Laguna Colorada",
+      "source": {
+        "path": "sources/colorada.json.gz",
+        "sha256": "6e6d50da4723e50395b776226423f9aa2c3b4b2f37dd3747ba4045c84aac861e",
+        "osm_type": "way",
+        "osm_id": 23690483,
+        "version": 34,
+        "url": "https://www.openstreetmap.org/way/23690483"
+      },
+      "anchor_degrees": [
+        -22.195,
+        -67.78
+      ],
+      "simplify_m": 15,
+      "margin_m": 60,
+      "fade_m": 40,
+      "bottom_srgb": [
+        191,
+        116,
+        69
+      ],
+      "body_srgb": [
+        105,
+        31,
+        20
+      ],
+      "alternate_srgb": [
+        157,
+        62,
+        31
+      ],
+      "extinction_per_m": [
+        0.25,
+        0.45,
+        0.55
+      ],
+      "variation_scale_m": 1900,
+      "temporal": "Variable algae; representative red-brown phase, occasional green phases occur.",
+      "reference": "https://science.nasa.gov/earth/earth-observatory/laguna-colorada-86135/"
+    },
+    {
+      "id": "natron",
+      "name": "Lake Natron",
+      "source": {
+        "path": "sources/natron.json.gz",
+        "sha256": "e576f403e1dd4ab2e20d944f4b9654497bf83cc5f20455cf87df99356d08b490",
+        "osm_type": "way",
+        "osm_id": 23786069,
+        "version": 18,
+        "url": "https://www.openstreetmap.org/way/23786069"
+      },
+      "anchor_degrees": [
+        -2.27,
+        36.0
+      ],
+      "simplify_m": 15,
+      "margin_m": 60,
+      "fade_m": 40,
+      "bottom_srgb": [
+        218,
+        135,
+        80
+      ],
+      "body_srgb": [
+        141,
+        39,
+        57
+      ],
+      "alternate_srgb": [
+        192,
+        73,
+        77
+      ],
+      "extinction_per_m": [
+        0.25,
+        0.5,
+        0.38
+      ],
+      "variation_scale_m": 3500,
+      "temporal": "Variable water level and microbial blooms; representative red phase on mapped water only.",
+      "reference": "https://science.nasa.gov/earth/earth-observatory/lake-natron-tanzania-6446/"
+    },
+    {
+      "id": "pukaki",
+      "name": "Lake Pūkaki",
+      "source": {
+        "path": "sources/pukaki.json.gz",
+        "sha256": "55a316434e6f322f52f45d5efa3631339462befaf9205a5d04d6d65872d22dbe",
+        "osm_type": "relation",
+        "osm_id": 5232345,
+        "version": 15,
+        "url": "https://www.openstreetmap.org/relation/5232345"
+      },
+      "anchor_degrees": [
+        -44.075,
+        170.155
+      ],
+      "simplify_m": 15,
+      "margin_m": 60,
+      "fade_m": 40,
+      "bottom_srgb": [
+        163,
+        218,
+        209
+      ],
+      "body_srgb": [
+        58,
+        162,
+        180
+      ],
+      "alternate_srgb": [
+        82,
+        183,
+        191
+      ],
+      "extinction_per_m": [
+        0.28,
+        0.11,
+        0.09
+      ],
+      "variation_scale_m": 2400,
+      "temporal": "Persistent glacial flour character; intensity varies.",
+      "reference": "https://teara.govt.nz/en/photograph/10732/glacial-lakes"
+    },
+    {
+      "id": "tekapo",
+      "name": "Lake Tekapo / Takapō",
+      "source": {
+        "path": "sources/tekapo.json.gz",
+        "sha256": "7520a87d8ea59deaae3020ba9e36e9921bb4d3556ca9a7128cb7421e8070368b",
+        "osm_type": "relation",
+        "osm_id": 5232747,
+        "version": 18,
+        "url": "https://www.openstreetmap.org/relation/5232747"
+      },
+      "anchor_degrees": [
+        -43.89,
+        170.515
+      ],
+      "simplify_m": 15,
+      "margin_m": 60,
+      "fade_m": 40,
+      "bottom_srgb": [
+        149,
+        205,
+        208
+      ],
+      "body_srgb": [
+        38,
+        133,
+        171
+      ],
+      "alternate_srgb": [
+        64,
+        161,
+        185
+      ],
+      "extinction_per_m": [
+        0.3,
+        0.12,
+        0.075
+      ],
+      "variation_scale_m": 2200,
+      "temporal": "Persistent glacial flour character; intensity varies.",
+      "reference": "https://teara.govt.nz/en/lakes/page-1"
+    },
+    {
+      "id": "moraine",
+      "name": "Moraine Lake",
+      "source": {
+        "path": "sources/moraine.json.gz",
+        "sha256": "55beeebb0bcf7c50197d5fd50d971081e6a9e54cc3cc150697c0ac52c10541e9",
+        "osm_type": "way",
+        "osm_id": 356877446,
+        "version": 24,
+        "url": "https://www.openstreetmap.org/way/356877446"
+      },
+      "anchor_degrees": [
+        51.32,
+        -116.185
+      ],
+      "simplify_m": 5,
+      "margin_m": 20,
+      "fade_m": 20,
+      "bottom_srgb": [
+        97,
+        176,
+        173
+      ],
+      "body_srgb": [
+        8,
+        65,
+        99
+      ],
+      "alternate_srgb": [
+        15,
+        95,
+        124
+      ],
+      "extinction_per_m": [
+        0.34,
+        0.13,
+        0.085
+      ],
+      "variation_scale_m": 450,
+      "temporal": "Representative open-water appearance; winter ice is outside this color catalog.",
+      "reference": "https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/louise"
+    },
+    {
+      "id": "louise",
+      "name": "Lake Louise",
+      "source": {
+        "path": "sources/louise.json.gz",
+        "sha256": "c393d7199def1ce3312850bfd0dbf777952c6f6c668f5524525d7810c88b5724",
+        "osm_type": "relation",
+        "osm_id": 18238904,
+        "version": 2,
+        "url": "https://www.openstreetmap.org/relation/18238904"
+      },
+      "anchor_degrees": [
+        51.413,
+        -116.227
+      ],
+      "simplify_m": 5,
+      "margin_m": 20,
+      "fade_m": 20,
+      "bottom_srgb": [
+        155,
+        208,
+        180
+      ],
+      "body_srgb": [
+        61,
+        150,
+        140
+      ],
+      "alternate_srgb": [
+        90,
+        177,
+        159
+      ],
+      "extinction_per_m": [
+        0.29,
+        0.12,
+        0.14
+      ],
+      "variation_scale_m": 600,
+      "temporal": "Representative open-water appearance; winter ice is outside this color catalog.",
+      "reference": "https://parks.canada.ca/pn-np/ab/banff/visit/les10-top10/louise"
+    },
+    {
+      "id": "blue-lake",
+      "name": "Blue Lake / Warwar",
+      "source": {
+        "path": "sources/blue-lake.json.gz",
+        "sha256": "e2e3780a3cf95f35c4deb0296456257f3060d19498bd7e5d68f64b0907992b91",
+        "osm_type": "way",
+        "osm_id": 41711837,
+        "version": 10,
+        "url": "https://www.openstreetmap.org/way/41711837"
+      },
+      "anchor_degrees": [
+        -37.848,
+        140.78
+      ],
+      "simplify_m": 5,
+      "margin_m": 20,
+      "fade_m": 20,
+      "bottom_srgb": [
+        84,
+        150,
+        170
+      ],
+      "body_srgb": [
+        13,
+        70,
+        136
+      ],
+      "alternate_srgb": [
+        18,
+        92,
+        159
+      ],
+      "extinction_per_m": [
+        0.4,
+        0.19,
+        0.08
+      ],
+      "variation_scale_m": 450,
+      "temporal": "Seasonal: representative November–February blue phase; winter is darker.",
+      "reference": "https://southaustralia.com/guides/limestone-coast-natural-wonders-bucket-list"
+    }
+  ]
+}

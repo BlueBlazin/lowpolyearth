@@ -1,0 +1,17 @@
+{
+  "source_url": "https://www.openstreetmap.org/way/806857587",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "source_version": "2",
+  "source_timestamp": "2025-09-02T02:34:23Z",
+  "coordinates_lat_lon": [
+    [
+      35.9232617,
+      138.9322827
+    ],
+    [
+      35.9232617,
+      138.9324722
+    ]
+  ],
+  "selection_note": "Official shrine map places triple torii south of Zuishinmon, southeast of museum; do not use eastern mountain-trail node1516511836. Mapped gate line establishes center/orientation, not survey dimensions."
+}

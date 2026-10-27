@@ -1,0 +1,115 @@
+{
+  "name": "gate-of-the-orient",
+  "max_source_building_span_m": 300,
+  "city": "Suzhou",
+  "lat": 31.3189418,
+  "lon": 120.6747334,
+  "heading": 78,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://rmjm.com/portfolio/gate-to-the-east-china/",
+    "https://rmjm.com/the-10-tallest-rmjm-buildings/",
+    "https://www.skyscrapercenter.com/suzhou/gate-to-the-east/499/",
+    "https://www.openstreetmap.org/way/933819303"
+  ],
+  "description": "Two rounded glazed towers join into a monumental open arch below twin slender architectural spires.",
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        8,
+        0
+      ],
+      "half_extent": [
+        97,
+        54
+      ],
+      "feather_m": 6,
+      "sample_clearance_m": 12,
+      "fixed_base_geo": 4.0
+    }
+  ],
+  "capture": {
+    "distance": 620,
+    "azimuth": 92,
+    "elevation": 14,
+    "target_height": 135,
+    "time_utc": "2026-03-20T07:15:00Z"
+  },
+  "audit": {
+    "source_dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+    "ground_center_m": -0.9823,
+    "perimeter_m": [
+      -2.6111,
+      2.7985,
+      4.6132,
+      5.7696,
+      -4.5935,
+      3.4493,
+      7.5553,
+      5.9794
+    ],
+    "source_file": "output/city-catalog-expansion/modern/gate-of-the-orient-final.json",
+    "placement_note": "Source DEM is depressed under the building (center \u22120.98 m); landward perimeter samples are mainly 2.80\u20137.56 m. A 4 m datum avoids subgrade placement. Preserve the adjacent large Suzhou Center mall footprint.",
+    "preserve_source_seed": "8991428007006568193",
+    "preserve_source_bounds_xz": [
+      [
+        -251,
+        -216
+      ],
+      [
+        214,
+        -18
+      ]
+    ],
+    "target_source_seeds": [
+      "16645017429774736005",
+      "5244302600832414237",
+      "10234328233259004770",
+      "17280357480106158784"
+    ],
+    "target_source_bounds_xz": [
+      [
+        -88,
+        -52
+      ],
+      [
+        104,
+        50
+      ]
+    ]
+  },
+  "bbox_min": [
+    -95.0,
+    -1.2,
+    -60.0
+  ],
+  "bbox_max": [
+    111.0,
+    302.1,
+    60.0
+  ],
+  "levels": [
+    {
+      "vertices": 51624,
+      "triangles": 29868
+    },
+    {
+      "vertices": 21886,
+      "triangles": 12708
+    },
+    {
+      "vertices": 7821,
+      "triangles": 4432
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_modern.py",
+  "source_sha256": "d67541172251567213bcbe5de36427df424d1e2d182247fc8aa63fac3b117c3d",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "c0bf888af32d25840ea42d28bf4dcfb060b0d46b640acfe9af329c070d6e9ea8"
+}

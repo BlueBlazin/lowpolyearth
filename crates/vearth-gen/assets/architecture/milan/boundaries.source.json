@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "attribution": "Comune di Milano",
+  "license": "CC BY 4.0; Comune di Milano",
+  "license_url": "https://gisportal.comune.milano.it/federated/rest/services/PGT/Milano_2030_PGT_Vigente_Tavola_R04/MapServer?f=pjson",
+  "retrieved": "2026-09-16",
+  "conversion": "Select exactly one complete Feature; preserve every coordinate and all properties; serialize with UTF-8 JSON indent=2 and terminal newline. No reprojection or simplification: service requested outSR=4326.",
+  "boundaries": [
+    {
+      "label": "Central Nucleo di Antica Formazione",
+      "source_snapshot": "districts-crs84.geojson",
+      "source_sha256": "2cd3e8fc60fd47e31823d316d5d6982682ce3fed9077eb7512fd5f77f5616e40",
+      "file": "central-naf.geojson",
+      "sha256": "ecb1662d89efa3afeefb59d13928820712ce035c5b3419a9bab86dcd84db3522",
+      "source_url": "https://gisportal.comune.milano.it/federated/rest/services/PGT/Milano_2030_PGT_Vigente_Tavola_R04/MapServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "selector": {
+        "objectid": 11
+      },
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 599
+    }
+  ],
+  "license_metadata": {
+    "file": "service-metadata.json",
+    "sha256": "bbdfc72daf01d130cc41171deb2d0144906432883cc8ae8b696f1da04d24a464"
+  }
+}

@@ -1,0 +1,12 @@
+# The packaged application uses its default features on Apple silicon.
+# Keep build dependencies for conservative notice coverage; exclude tests.
+targets = ["aarch64-apple-darwin"]
+ignore-dev-dependencies = true
+ignore-build-dependencies = false
+private = { ignore = true }
+accepted = [
+    "MIT", "Apache-2.0", "BSD-2-Clause", "BSD-3-Clause", "ISC", "Zlib",
+    "Unicode-3.0", "OFL-1.1", "Ubuntu-font-1.0", "CDLA-Permissive-2.0",
+    "MPL-2.0", "WTFPL", "OpenSSL",
+]
+workarounds = ["ring", "unicode-ident"]

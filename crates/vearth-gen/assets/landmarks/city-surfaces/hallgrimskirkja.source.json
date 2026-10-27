@@ -1,0 +1,152 @@
+{
+  "name": "hallgrimskirkja",
+  "city": "Reykjavik",
+  "lat": 64.1419406683,
+  "lon": -21.9269111376,
+  "heading": 148.7,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://www.hallgrimskirkja.is/en-gb/husi%C3%B0-og-sagan",
+    "https://www.skyscrapercenter.com/building/hallgrimskirkja/30284"
+  ],
+  "description": "A stepped sweep of concrete basalt flutes, clock-and-bell tower, pointed entrance and long nave terminating in a rounded sanctuary.",
+  "capture": {
+    "distance": 185,
+    "azimuth": 312,
+    "elevation": 18,
+    "target_height": 33,
+    "time_utc": "2026-03-20T16:00:00Z"
+  },
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0,
+        24
+      ],
+      "half_extent": [
+        34,
+        41
+      ],
+      "feather_m": 6,
+      "sample_clearance_m": 18,
+      "fixed_base_geo": null
+    }
+  ],
+  "audit": {
+    "source_anchor_latlon": [
+      64.14172,
+      -21.92664
+    ],
+    "source_offset_east_north_m": [
+      -13.2,
+      24.6
+    ],
+    "ground_center_m": 105.5347900390625,
+    "grid_min_m": 101.06343841552734,
+    "grid_max_m": 111.83184814453125,
+    "perimeter_m": [
+      102.64380645751953,
+      103.6494140625,
+      102.76441192626953,
+      102.76760864257812,
+      101.56416320800781,
+      101.40845489501953,
+      106.19183349609375,
+      102.74072265625
+    ],
+    "perimeter_median_m": 102.75256729125977,
+    "source_file": "output/city-catalog-expansion/heritage/hallgrimskirkja-source.json",
+    "perimeter_samples": [
+      {
+        "x": -58,
+        "z": -41,
+        "lat": 64.14252521432832,
+        "lon": -21.926330686270532,
+        "ground_m": 102.64380645751953
+      },
+      {
+        "x": 0,
+        "z": -41,
+        "lat": 64.14225492159719,
+        "lon": -21.92734866446574,
+        "ground_m": 103.6494140625
+      },
+      {
+        "x": 58,
+        "z": -41,
+        "lat": 64.14198462886607,
+        "lon": -21.928366642660947,
+        "ground_m": 102.76441192626953
+      },
+      {
+        "x": 58,
+        "z": 24,
+        "lat": 64.14148642241929,
+        "lon": -21.927673002507948,
+        "ground_m": 102.76760864257812
+      },
+      {
+        "x": 58,
+        "z": 89,
+        "lat": 64.14098821597251,
+        "lon": -21.926979362354945,
+        "ground_m": 101.56416320800781
+      },
+      {
+        "x": 0,
+        "z": 89,
+        "lat": 64.14125850870364,
+        "lon": -21.925961384159738,
+        "ground_m": 101.40845489501953
+      },
+      {
+        "x": -58,
+        "z": 89,
+        "lat": 64.14152880143477,
+        "lon": -21.92494340596453,
+        "ground_m": 106.19183349609375
+      },
+      {
+        "x": -58,
+        "z": 24,
+        "lat": 64.14202700788154,
+        "lon": -21.925637046117533,
+        "ground_m": 102.74072265625
+      }
+    ]
+  },
+  "bbox_min": [
+    -40.0,
+    -0.9,
+    -23.0
+  ],
+  "bbox_max": [
+    40.0,
+    74.7,
+    71.0
+  ],
+  "levels": [
+    {
+      "vertices": 19299,
+      "triangles": 9831
+    },
+    {
+      "vertices": 10430,
+      "triangles": 5405
+    },
+    {
+      "vertices": 3711,
+      "triangles": 1973
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_heritage.py",
+  "source_sha256": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "9e989d82924ed6a117bf34bbd01bd19cbe1fafd8fe424812daabd0263b893391"
+}

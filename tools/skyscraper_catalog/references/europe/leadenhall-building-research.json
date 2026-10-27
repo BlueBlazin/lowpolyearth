@@ -1,0 +1,82 @@
+{
+  "name": "leadenhall-building",
+  "sources": [
+    {
+      "url": "https://rshp.com/projects/office/the-leadenhall-building/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://rshp.com/assets/uploads/3510_TheLeadenhallBuilding_JS_en_1.pdf",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Architect224.5m. Mapped28.5m office underside and service-core footprints; slope and structural bay sizes proportionally reconstructed. Groundcroft remains open except actual cores and external columns.",
+  "authored_form": "South-tapering glass wedge carried over an open groundcroft by steel megaframes, with yellow north service core.",
+  "dimensions_m": {
+    "architectural_height": 224.5,
+    "tip_height": 224.5,
+    "mapped_parts": [
+      {
+        "seed": "12617598466923058984",
+        "bounds_xz": [
+          [
+            -30.07923,
+            -24.24188
+          ],
+          [
+            27.65638,
+            24.20193
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      51.51386966170435,
+      -0.0822955447600279
+    ],
+    "heading_deg": 89.76518469962242,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "4deeffe52151e7659e62efed3ff7709aa31cfd840bc6e0805c9bccef1986f9df"
+  },
+  "ground": {
+    "datum_m": 13.2,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "c83b140250d60c0a1504d6196c13293beb5c189e2ff173dcda31e3236bed0539",
+    "quantiles_m": {
+      "toe": [
+        11.999786376953125,
+        13.076262474060059,
+        14.306242942810059,
+        15.083017349243164,
+        16.290790557861328
+      ],
+      "near": [
+        11.933189392089844,
+        13.371350288391113,
+        14.648231506347656,
+        15.839922904968262,
+        16.41950798034668
+      ],
+      "street": [
+        11.620573043823242,
+        14.433883666992188,
+        15.187519073486328,
+        16.079190254211426,
+        16.601890563964844
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

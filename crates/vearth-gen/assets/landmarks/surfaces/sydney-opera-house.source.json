@@ -1,0 +1,23 @@
+{
+  "name": "sydney-opera-house",
+  "kind": "opera",
+  "source": "sydney-opera-house/sydney_opera_house.glb",
+  "sha256": "b1c31271f0d1b91c5044f0ff3fc7cc3703ba295a3481c2177bdb99a223b0f534",
+  "license": "existing landmark SOURCES.md",
+  "output": "sydney-opera-house.lms",
+  "output_sha256": "8353e95c47155eb54097f79e487a5cbc4527210cea64267e04a3666f7eab44b0",
+  "levels": [
+    [
+      240071,
+      449406
+    ],
+    [
+      84522,
+      165002
+    ],
+    [
+      33947,
+      61886
+    ]
+  ]
+}

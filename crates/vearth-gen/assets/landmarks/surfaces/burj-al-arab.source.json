@@ -1,0 +1,23 @@
+{
+  "name": "burj-al-arab",
+  "kind": "burj-al-arab",
+  "source": "burj-al-arab/burjalarab.glb",
+  "sha256": "b4c45e1c0f11e82a5d5c9692c758a1a4cc56a9091d285d4b0ce145b1402ec8c1",
+  "license": "existing landmark SOURCES.md",
+  "output": "burj-al-arab.lms",
+  "output_sha256": "85f8ce234b9b44a208c787725deb02328ed3fcb6cd4f3ff98a8e1843daa179f1",
+  "levels": [
+    [
+      24532,
+      13868
+    ],
+    [
+      3433,
+      5302
+    ],
+    [
+      1988,
+      2412
+    ]
+  ]
+}

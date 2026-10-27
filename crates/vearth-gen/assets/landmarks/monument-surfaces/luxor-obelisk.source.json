@@ -1,0 +1,125 @@
+{
+  "name": "luxor-obelisk",
+  "city": "Paris",
+  "lat": 48.86563,
+  "lon": 2.32124,
+  "heading": 32,
+  "base": 34.26772689819336,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://beauxartsparis.fr/sites/default/files/inline-files/Cahier-des-charges-appel-projet-Obelisque2.pdf",
+    "https://www.paris.fr/pages/parhistoire-repond-a-vos-questions-sur-le-patrimoine-et-l-histoire-de-paris-3568"
+  ],
+  "attribution": "Geometry and sculpture originally authored for Low Poly Earth; dimensions and reference notes credited in the local evidence file.",
+  "description": "Tapering pink Aswan-granite obelisk with three incised inscription bands per face, Breton granite pedestal and golden pyramidion.",
+  "source_exclusion_polygons": [
+    [
+      [
+        -3.4,
+        -3.4
+      ],
+      [
+        3.4,
+        -3.4
+      ],
+      [
+        3.4,
+        3.4
+      ],
+      [
+        -3.4,
+        3.4
+      ]
+    ]
+  ],
+  "suppress_bbox": [
+    [
+      -3.4,
+      -3.4
+    ],
+    [
+      3.4,
+      3.4
+    ]
+  ],
+  "ground_samples_file": "tools/monument_catalog/references/ground/luxor-obelisk.json",
+  "max_source_building_span_m": 11.8,
+  "audit": {
+    "survey_file": "tools/monument_catalog/references/ancient/luxor-obelisk.json",
+    "architectural_dimensions_m": [
+      6.8,
+      31.4,
+      6.8
+    ],
+    "grounding_note": "Raw terrain is unchanged. Stable rigid components are positioned against surveyed elevation, with their buried supports extended to meet it. Small carvings and irregular stone profiles are authored approximations; see evidence."
+  },
+  "capture": {
+    "distance": 69.08,
+    "azimuth": 210,
+    "elevation": 25,
+    "target_height": 12.56,
+    "time_utc": "2026-03-20T10:00:00Z"
+  },
+  "grounding": {
+    "component_shifts_m": [
+      0.10549363374710197
+    ],
+    "toe_burial_m": 0.5,
+    "terrain_modified": false
+  },
+  "bbox_min": [
+    -3.4,
+    -1.5,
+    -3.4
+  ],
+  "bbox_max": [
+    3.4,
+    31.8,
+    3.4
+  ],
+  "levels": [
+    {
+      "vertices": 33340,
+      "triangles": 15368
+    },
+    {
+      "vertices": 22270,
+      "triangles": 10280
+    },
+    {
+      "vertices": 8855,
+      "triangles": 4424
+    }
+  ],
+  "geometry": "original metric interpretation of cited references; estimates identified in source notes",
+  "license": "repository LICENSE; no reference images or external meshes embedded",
+  "source": "tools/monument_catalog/ancient.py",
+  "dependencies": {
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_monument_catalog.py": "8c3e844ba10841572579fc3bd0be735c5486fcea0f1177d063466031a0686019",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/monument_catalog/ancient.py": "32220532a99137d5f9a5eb7c30fed188841c3dc2a38446d3238545c58f6b0664",
+    "tools/monument_catalog/grounding.py": "5631cb33fb7bf9ce32700497121f17e203d362d5e8e41b4d303a2d68e476c5ea",
+    "tools/monument_catalog/inventory.py": "ff39fac5843a5f13780da35b9658ce41d2b0fe79ce70354d2517fb6ecef8d127",
+    "tools/monument_catalog/references/ancient/ahu-tongariki.json": "aef165beb1f1d170accfd6f45b7e448e7db87e271c87433368c2816612be2117",
+    "tools/monument_catalog/references/ancient/aksum-obelisk.json": "f736fda55dc7ac708ee2ef752c245b10f1f3b3a767906a2a394dfda21ab5eb8f",
+    "tools/monument_catalog/references/ancient/ashoka-pillar-vaishali.json": "3da4af126373d626012438ba12bec7e25d88fe6e5ce9cfdd72f09e5544dd7113",
+    "tools/monument_catalog/references/ancient/callanish-stones.json": "a477cedbe4622d39dcc8d5a387c8c2f37daefbdf1a194fa98c4dc7e4fb501244",
+    "tools/monument_catalog/references/ancient/iron-pillar-delhi.json": "8bd42fc3c532b62d67d682dca0c9cd43c6f8d19b8b6f0dbf7a991e41533d4f0e",
+    "tools/monument_catalog/references/ancient/luxor-obelisk.json": "9a0212e5dbe5548f0c9d2ad0890adb947da021313856cb680d287d8db2014d96",
+    "tools/monument_catalog/references/ancient/marcus-aurelius-column.json": "5f6fb3d0f1fd3e5aef0191171b88804b48fe76c978f9b3350e00e134f14e9ea8",
+    "tools/monument_catalog/references/ancient/ring-of-brodgar.json": "c353e0895bbf0958d6ec5e93c023d4774fa3e57b894e48c70404bffc96d2e074",
+    "tools/monument_catalog/references/ancient/stonehenge.json": "e63560db022d37d5b831c5ac20dc67f26f1165b4f3a1c5970e4d6a2ef8a03741",
+    "tools/monument_catalog/references/ancient/trajan-column.json": "48e6eaba4edb517e18011639250904fe4a66d2e8a03954c807e7d9506c4874da",
+    "tools/monument_catalog/references/ancient/validate_models.py": "0f3d2f38eda71012068bdb8c59792b53822df8ff591176f99db1cda9a648336c",
+    "tools/monument_catalog/references/ground/luxor-obelisk.json": "9535aa5fab07d0cc3e3d70513d4af8a31d058fbb0e777a128782580d79b1789d",
+    "tools/survey_monument_ground.py": "43d30e8d5e35c96d0d6e67d8846d0cf69755080de6a3df6d6ca35f387faeb743"
+  },
+  "output_sha256": "f1a0e88dcebcd76a2a558c24a3324f3d2c879b29999a72e5832870cd7188262b"
+}

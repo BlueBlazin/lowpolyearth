@@ -1,0 +1,156 @@
+{
+  "attribution": "Survey plans © OpenStreetMap contributors, ODbL 1.0. Production terrain source and 8m sample pitch are recorded in the retained survey responses. Landscape grades are inferred repairs of contaminated approach terrain, not certified civil elevations.",
+  "sheikh-zayed-grand-mosque": {
+    "floor_m": 13.618247032165527,
+    "landing_m": 4.618247032165527,
+    "terrain_grades": [
+      {
+        "polygon_xz": [
+          [
+            220,
+            -35
+          ],
+          [
+            295,
+            -20
+          ],
+          [
+            280,
+            120
+          ],
+          [
+            205,
+            112
+          ],
+          [
+            205,
+            35
+          ]
+        ],
+        "plane": [
+          0,
+          0,
+          -9.15
+        ],
+        "feather_m": 45.0
+      }
+    ],
+    "basis": "Mapped steps167776873 and pedestrian terrace391867933 establish the eastern approach axis. The retained52-step nine-metre descent and existing lower landing remain unchanged. A constant grade0.15m below the4.618247m landing covers the immediate entrance garden and service-loop setting, with a45m blend into surrounding terrain. Its convex extent follows the mapped service loop167776895 and pedestrian route1394548484, reaching the north junction around east280,north102 without extending to the distant city. The full-weight core spans east205..295,north−35..120m. Exact-anchor598-point terrain sampling shows the source trough extends east210..350,north30..70m with−3.3..−7.3m returns; clean northern garden margins near east270..310,north150 return3.8..4.0m and east290,north−50 returns4.2m. These contexts support the inferred near-level entrance landscape at4.468247m, not an11m exposed podium or narrow fill with a steep rim. The grade and transition remain a bounded rendering repair, not a conservation elevation survey. Existing deep support toes remain buried, fixed architectural/step heights remain unchanged and source paths/roads retain geometry while receiving corrected ground. The nearest mapped pool is78m from the grade core, beyond the45m feather; water metadata is unchanged.",
+    "evidence_files": [
+      "zayed-platform-plan.json",
+      "zayed-approach-toes.json",
+      "zayed-platform-ground.json",
+      "zayed-lateral-setting-ground.json",
+      "zayed-outer-approach-plan.json"
+    ],
+    "axis_east_north": [
+      0.978744941060507,
+      0.2050813018011757
+    ],
+    "test_inside_xz": [
+      235,
+      18
+    ],
+    "test_inside_corrected_m": 4.468247032165527,
+    "outside_control_xz": [
+      440,
+      180
+    ],
+    "lateral_control_xz": [
+      260,
+      70
+    ],
+    "lateral_control_corrected_m": 4.468247032165527
+  },
+  "hassan-ii-mosque": {
+    "floor_m": 9.5,
+    "terrain_grades": [
+      {
+        "polygon_xz": [
+          [
+            110,
+            -10
+          ],
+          [
+            185,
+            -10
+          ],
+          [
+            183,
+            15
+          ],
+          [
+            170,
+            37
+          ],
+          [
+            110,
+            42
+          ]
+        ],
+        "plane": [
+          0,
+          -0.12,
+          -1.35
+        ],
+        "feather_m": 10.0
+      }
+    ],
+    "basis": "The official principal slab is9.50m NGM; its datum and sea-level supports remain unchanged. Dense approach sampling finds12.1m at east120,north10,5.5m only10m west and2.3..3.6m along north30. The rendered abrupt cliff is the source transition on the landward/coast apron. A bounded graded apron joins9.35m at north−10 to3.35m at north40, following the short hall face and nearest mapped landward footway1223296209. The12percent landscape transition is inferred from these endpoint contexts, not a surveyed historic ramp. The convex apron is clipped landward of coastline8692601 with 11.56m minimum mapped clearance. Feather10m blends the local correction into surrounding terrain; the ocean and remainder of the30,000m² esplanade are not authored or flattened.",
+    "evidence_files": [
+      "hassan-setting-ground.json",
+      "mosque-floor-calibrations.json"
+    ],
+    "reference": "https://www.fmh2.ma/en/mosqu%C3%A9e/outbuildings/esplanade",
+    "structure_reference": "https://www.fmh2.ma/fr/mosqu%C3%A9e/d%C3%A9fi-technique-et-savoir-faire-artisanal/d%C3%A9fi-technique/caract%C3%A9ristiques-des-structures",
+    "plan_source": "https://www.openstreetmap.org/api/0.6/map?bbox=-7.636,33.604,-7.628,33.611",
+    "plan_xml_sha256": "5ffdcdb85dd2aa367b440d1d4ff2ad7bf59d25593ae5bd13bb9d5411f3f7c500",
+    "test_inside_xz": [
+      150,
+      10
+    ],
+    "test_inside_corrected_m": 6.95,
+    "outside_control_xz": [
+      250,
+      90
+    ],
+    "coastline_control": {
+      "way_id": 8692601,
+      "xz": [
+        [
+          206.1,
+          -1.8
+        ],
+        [
+          197.0,
+          22.4
+        ],
+        [
+          184.4,
+          40.6
+        ],
+        [
+          169.1,
+          52.2
+        ],
+        [
+          161.1,
+          56.5
+        ],
+        [
+          154.1,
+          58.5
+        ],
+        [
+          146.7,
+          59.8
+        ],
+        [
+          115.6,
+          62.3
+        ]
+      ],
+      "note": "Rounded model east/north coordinates from retained OSM response; polygon and10m feather remain landward."
+    }
+  }
+}

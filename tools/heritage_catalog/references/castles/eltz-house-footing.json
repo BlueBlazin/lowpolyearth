@@ -1,0 +1,7 @@
+{
+  "component": "Middle southern13x11mhouse at unscaledlocal(0,\u221217).",
+  "evidence": "The externalfrontfoot at final model(0,\u221227),y0 is outside the maincourtyard. OfficialDGM rockmesh there islocal\u22120.05m. Other25 positive housefoot/rock comparisons lie inside same-level courtyard and are structurally supported by its5m retaining skirt.",
+  "correction": "Limestone footing spans the existinghouse footprint, from\u22120.45 to+0.05m. Its lowest toe embeds0.40m into authoredrock; existingfloor androof heights remain unchanged.",
+  "primary_ground_reference": "https://geobasis-rlp.de/data/dgm1/current/tif/dgm1_32_381_5562_1_rp_2024.tif",
+  "attribution": "\u00a9GeoBasis-DE / LVermGeoRP2026, dl-de/by-2-0, www.lvermgeo.rlp.de [Daten bearbeitet]"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "merdeka-118",
+  "kind": "merdeka-118",
+  "source": "merdeka-118/merdeka118.glb",
+  "sha256": "6e4875502a8b8a330a19b2c9c12ca72aa2742c2d44ee5212541edffe27238b44",
+  "license": "existing landmark SOURCES.md",
+  "output": "merdeka-118.lms",
+  "output_sha256": "aa51bf9990ffd1a6b4463ea051cc04fe2f7ec158edd2c54671d03ae810099ad8",
+  "levels": [
+    [
+      2692,
+      1132
+    ],
+    [
+      1437,
+      768
+    ],
+    [
+      1270,
+      671
+    ]
+  ]
+}

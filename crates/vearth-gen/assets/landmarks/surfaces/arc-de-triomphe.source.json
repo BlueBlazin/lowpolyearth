@@ -1,0 +1,23 @@
+{
+  "name": "arc-de-triomphe",
+  "kind": "arc",
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-156/1ad3fc2ded834e7ba0fa54f09d661583.glb?download=true",
+  "sha256": "8d9ea1ed62a6c6b3a672c8a106c3b99c526d94fc8fb72cdf649153b031985b00",
+  "license": "existing landmark SOURCES.md",
+  "output": "arc-de-triomphe.lms",
+  "output_sha256": "f5a345e08ca6453aa59561194c57b159505953c6344c8b2d0a2da3dd3661b3e6",
+  "levels": [
+    [
+      1034759,
+      348140
+    ],
+    [
+      83464,
+      121842
+    ],
+    [
+      32408,
+      38408
+    ]
+  ]
+}

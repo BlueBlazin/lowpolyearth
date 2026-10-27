@@ -1,0 +1,147 @@
+{
+  "name": "sanchi-north-torana",
+  "city": "Sanchi",
+  "lat": 23.479577,
+  "lon": 77.739645,
+  "heading": 10,
+  "base": 498.9486999511719,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://www.incredibleindia.gov.in/en/madhya-pradesh/bhopal/sanchi-stupa",
+    "https://imp-art.org/articles/gateways-at-sanchi-stupa-i/",
+    "https://www.openstreetmap.org/node/1124758825"
+  ],
+  "attribution": "Original Low Poly Earth geometry. Placement evidence \u00a9 OpenStreetMap contributors (ODbL 1.0). No reference images are embedded.",
+  "description": "Three separated sandstone lintels with upswept ends, narrative relief registers, carved square piers and elephant capitals.",
+  "source_exclusion_polygons": [
+    [
+      [
+        -4.8,
+        -1.1
+      ],
+      [
+        4.8,
+        -1.1
+      ],
+      [
+        4.8,
+        1.1
+      ],
+      [
+        -4.8,
+        1.1
+      ]
+    ]
+  ],
+  "road_exclusion_polygons": [],
+  "suppress_bbox": [
+    [
+      -4.8,
+      -1.1
+    ],
+    [
+      4.8,
+      1.1
+    ]
+  ],
+  "max_source_building_span_m": 14.399999999999999,
+  "passage_probe": {
+    "x": 0,
+    "y": 2.101717948913574,
+    "z_range": [
+      -2.1,
+      2.1
+    ]
+  },
+  "audit": {
+    "survey_file": "tools/monument_catalog/references/gateways/sanchi-north-torana-survey.json",
+    "placement_file": "tools/monument_catalog/references/gateways/sanchi-placement.json",
+    "architectural_dimensions_m": [
+      9.6,
+      10.6,
+      2.2
+    ],
+    "height_authority": "Published approximate torana height 10.6 m. Width, depth, relief and capital dimensions are proportional authoring estimates.",
+    "orientation_note": "Mapped northern gate node; approximately 10 degrees clockwise from north, following the gate-to-stupa radial axis.",
+    "grounding_note": "The connected gateway stays rigid above surveyed unmodified terrain. Only its separate masonry footings extend downward to meet local support elevations; the through-passage has no infill slab and no terrain reshaping."
+  },
+  "capture": {
+    "distance": 23.32,
+    "azimuth": 210,
+    "elevation": 23,
+    "target_height": 4.24,
+    "time_utc": "2026-03-20T10:00:00Z"
+  },
+  "grounding": {
+    "component_shifts_m": [
+      0.10171794891357422
+    ],
+    "toe_burial_m": 0.5,
+    "terrain_modified": false
+  },
+  "bbox_min": [
+    -4.8,
+    -1.5,
+    -1.1
+  ],
+  "bbox_max": [
+    4.8,
+    11.0,
+    1.1
+  ],
+  "levels": [
+    {
+      "vertices": 40215,
+      "triangles": 20820
+    },
+    {
+      "vertices": 17363,
+      "triangles": 8688
+    },
+    {
+      "vertices": 1845,
+      "triangles": 852
+    }
+  ],
+  "geometry": "original metric interpretation of cited references; estimates identified in source notes",
+  "license": "repository LICENSE; no reference images or external meshes embedded",
+  "source": "tools/monument_catalog/gateways.py",
+  "dependencies": {
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_monument_catalog.py": "8c3e844ba10841572579fc3bd0be735c5486fcea0f1177d063466031a0686019",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/heritage_catalog/temples.py": "298c5d5d794009cdf0ac997ed0813c634f692c1d94a6d07975243804a70edc7b",
+    "tools/monument_catalog/gateways.py": "feed280be733db4bd413f578620ffddf7d583df985d8827e94113170d33aa315",
+    "tools/monument_catalog/grounding.py": "5631cb33fb7bf9ce32700497121f17e203d362d5e8e41b4d303a2d68e476c5ea",
+    "tools/monument_catalog/inventory.py": "ff39fac5843a5f13780da35b9658ce41d2b0fe79ce70354d2517fb6ecef8d127",
+    "tools/monument_catalog/references/gateways/alcala-placement.json": "7a8538308254e5ce8a802ec023f35462fa9867e1312591f8f7a343ef5e25cef1",
+    "tools/monument_catalog/references/gateways/arch-of-constantine-survey.json": "b52445719536e04e8d1e436e2fc8e7ef6a615984f718a7018c2243ab1caa372b",
+    "tools/monument_catalog/references/gateways/arch-of-titus-survey.json": "8e691579322b029e6eb951c7d7c69885d146a2f6029e16394b6c42772c72fc0b",
+    "tools/monument_catalog/references/gateways/augusta-placement.json": "1a42626d367fa3c5718a2ae86395ea9cc0b0de299504426e0489b26817c12aa1",
+    "tools/monument_catalog/references/gateways/bangkok-giant-swing-survey.json": "f8782c1bcdbdb8c154f30ebc1932c834d4020468c8d6056876d945118822bbbd",
+    "tools/monument_catalog/references/gateways/constantine-placement.json": "3e6bbbcb6eb779c2ff42c83fdacd12532b616fdd06f42d68603452c47fa42bcf",
+    "tools/monument_catalog/references/gateways/lempuyang-gates-of-heaven-survey.json": "e005a8dc78d56e7ffc80507c6a4e921136795a82a3d503452a4c8f64169babfe",
+    "tools/monument_catalog/references/gateways/lempuyang-placement.json": "f1fbcf81ad56e49ce6f3e944e2d7b8849a9df6c41dd52cb7dae7a35bb5b3329b",
+    "tools/monument_catalog/references/gateways/ming-placement.json": "aee4b7b5f04ecd3fa392585ab9df6672b5957b3d520397dd72417f3f4c225ff9",
+    "tools/monument_catalog/references/gateways/ming-tombs-stone-archway-survey.json": "ad2f749f8408174a3f0e9cd3d9eedc7407df2dad1b57afaa1e7d874297a636ee",
+    "tools/monument_catalog/references/gateways/patuxai-placement.json": "15aee3d660addf0ad8f770e7282b7ea8c84f12bf5e27ab4758b39f1dfcbac823",
+    "tools/monument_catalog/references/gateways/patuxai-survey.json": "5bb41f4e40c651014eb61d15e701e43b6da0de0d7ec033656cd0a2f5d8a6eb21",
+    "tools/monument_catalog/references/gateways/puerta-de-alcala-survey.json": "e3c42e7cb5a2a9adb4ee61af176395b61e20c5d3c48f4011be05684ecc492de8",
+    "tools/monument_catalog/references/gateways/rua-augusta-arch-survey.json": "410443d1e2900fec16c5fe0f676c7e37943c363fd608bba725bbd410d411b196",
+    "tools/monument_catalog/references/gateways/sanchi-north-torana-survey.json": "fe14e513958f3087b168a40db2dc9a7db6cdc975be6242424e06a5ba489c8070",
+    "tools/monument_catalog/references/gateways/sanchi-placement.json": "e4810a96da56ee351a0603ece47f07e7bad412e62ce621ba86774c3848ad7e5d",
+    "tools/monument_catalog/references/gateways/sungnyemun-gate-survey.json": "cb08b12f0c979ae163997fa18fd4cd130341f3397891fd5a364ca21da065c13e",
+    "tools/monument_catalog/references/gateways/sungnyemun-placement.json": "6adfe41f4523fa209754e48040b206cd5435dea25a4b6ab6c4ac6756974cb597",
+    "tools/monument_catalog/references/gateways/swing-placement.json": "0578b6f5adf6b3602db2835d0e474846a47cef506b18171b15c8b5ea34a48e85",
+    "tools/monument_catalog/references/gateways/titus-placement.json": "ae4a7869375f3da6198213a3dab828b8b70757c80b8eb51c04ec8b8585eaa6f0",
+    "tools/monument_catalog/references/ground/sanchi-north-torana.json": "535d6549f4a56217843459c7c9c011de869a0e1b50090672c484cbfbc5d39e7f",
+    "tools/survey_monument_ground.py": "43d30e8d5e35c96d0d6e67d8846d0cf69755080de6a3df6d6ca35f387faeb743"
+  },
+  "output_sha256": "b90f37359c56668b75361b5d96e1820f839793a6f8107dfea3d324cd911719a3"
+}

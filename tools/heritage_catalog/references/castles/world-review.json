@@ -1,0 +1,262 @@
+{
+  "reviewed": [
+    {
+      "name": "alcazar-of-segovia",
+      "image": "output/heritage/castle-corrected-world/alcazar-of-segovia.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "b02d8a7c79811646a0f988c00a72b06c9f10f1898232610c9835051e3efc4142",
+      "generation_complete": true,
+      "network_errors": 1,
+      "provider_errors": [
+        {
+          "errors": 1,
+          "in_flight": 0,
+          "name": "http.tile:s3.amazonaws.com",
+          "not_found": 0,
+          "queued": 0,
+          "successes": 913
+        }
+      ],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    },
+    {
+      "name": "alhambra",
+      "image": "output/heritage/castle-corrected-world/alhambra.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "611e7e7f73ad96d71291a8bbd0c552e046bc7698cf86d301c340e45034608a08",
+      "generation_complete": true,
+      "network_errors": 0,
+      "provider_errors": [],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    },
+    {
+      "name": "bran-castle",
+      "image": "output/heritage/castle-corrected-world/bran-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "e767adda567f45885a83db2c3cb1cd447909b09f98411c1a22d5d73401de4dc2",
+      "generation_complete": true,
+      "network_errors": 0,
+      "provider_errors": [],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    },
+    {
+      "name": "chillon-castle",
+      "image": "output/heritage/castle-corrected-world/chillon-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "6a90703701ce6cf9045a3faaa6e6620fbb89e30161523f66429abd4c860f6638",
+      "generation_complete": true,
+      "network_errors": 0,
+      "provider_errors": [],
+      "visual_review": "correction awaiting central bake",
+      "issue": "Duplicate source ranges; complete22 mapped castle-part ownership corrected in sources; rebake pending."
+    },
+    {
+      "name": "conwy-castle",
+      "image": "output/heritage/castle-corrected-world/conwy-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "93e8f4b1a36e9179585bfdd3279564e2c7099383da7d73b7e3ea9af160ea4942",
+      "generation_complete": true,
+      "network_errors": 1,
+      "provider_errors": [
+        {
+          "errors": 1,
+          "in_flight": 0,
+          "name": "http.tile:s3.amazonaws.com",
+          "not_found": 0,
+          "queued": 0,
+          "successes": 546
+        }
+      ],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    },
+    {
+      "name": "edinburgh-castle",
+      "image": "output/heritage/castle-corrected-world/edinburgh-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "21b0f9d2ed62f4cf76a9a9e4db78f837e3cafe2ef5ab4525a5efe36f05faa556",
+      "generation_complete": true,
+      "network_errors": 2,
+      "provider_errors": [
+        {
+          "errors": 2,
+          "in_flight": 0,
+          "name": "http.range:build.protomaps.com",
+          "not_found": 0,
+          "queued": 0,
+          "successes": 336
+        }
+      ],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    },
+    {
+      "name": "eltz-castle",
+      "image": "output/heritage/castle-corrected-world/eltz-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "57897f9d6744101934e744072a8ce5529c86fa76964ee97ccafbd23f63454648",
+      "generation_complete": true,
+      "network_errors": 3,
+      "provider_errors": [
+        {
+          "errors": 3,
+          "in_flight": 0,
+          "name": "http.tile:s3.amazonaws.com",
+          "not_found": 0,
+          "queued": 0,
+          "successes": 948
+        }
+      ],
+      "visual_review": "correction awaiting central bake",
+      "issue": "Flattened natural spur; official1m DGM relief,140.4m castle datum and River-only water corrections in sources; rebake pending."
+    },
+    {
+      "name": "malbork-castle",
+      "image": "output/heritage/castle-corrected-world/malbork-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "bfed68dc55add23ce455cb7409e59117deb18de3812876531ea8019257eb2653",
+      "generation_complete": true,
+      "network_errors": 2,
+      "provider_errors": [
+        {
+          "errors": 2,
+          "in_flight": 0,
+          "name": "http.tile:s3.amazonaws.com",
+          "not_found": 0,
+          "queued": 0,
+          "successes": 1219
+        }
+      ],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    },
+    {
+      "name": "matsumoto-castle",
+      "image": "output/heritage/castle-corrected-world/matsumoto-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "0f8d736a5987d44481c9867402825d7967b94e4f2d701fd47bc84cca8fe0d0b3",
+      "generation_complete": true,
+      "network_errors": 0,
+      "provider_errors": [],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    },
+    {
+      "name": "neuschwanstein-castle",
+      "image": "output/heritage/castle-corrected-world/neuschwanstein-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "2a41a5af10f632109c6e783c8b656e21e547a0341d5a9786c1ca6daf9bed9bcd",
+      "generation_complete": true,
+      "network_errors": 0,
+      "provider_errors": [],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    },
+    {
+      "name": "osaka-castle",
+      "image": "output/heritage/castle-corrected-world/osaka-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "9808c5a3906f180a7b9b9b2561a8e9b48ce060550f7eb74934a5184e33885a4a",
+      "generation_complete": true,
+      "network_errors": 3,
+      "provider_errors": [
+        {
+          "errors": 1,
+          "in_flight": 0,
+          "name": "http.range:build.protomaps.com",
+          "not_found": 0,
+          "queued": 0,
+          "successes": 534
+        },
+        {
+          "errors": 2,
+          "in_flight": 0,
+          "name": "http.tile:s3.amazonaws.com",
+          "not_found": 0,
+          "queued": 0,
+          "successes": 1451
+        }
+      ],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    },
+    {
+      "name": "predjama-castle",
+      "image": "output/heritage/castle-corrected-world/predjama-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "0cc8642fba6add406841e2c338ac740cd4c9cc1e89b21bb3f0cbf23709f5940e",
+      "generation_complete": true,
+      "network_errors": 1,
+      "provider_errors": [
+        {
+          "errors": 1,
+          "in_flight": 0,
+          "name": "http.range:build.protomaps.com",
+          "not_found": 0,
+          "queued": 0,
+          "successes": 279
+        }
+      ],
+      "visual_review": "correction awaiting central bake",
+      "issue": "Harsh valley transition and facade-intersectingtree; wider384m measured transition and small authored facade ownership margin in sources; rebake pending."
+    },
+    {
+      "name": "windsor-castle",
+      "image": "output/heritage/castle-corrected-world/windsor-castle.png",
+      "app_sha256": "ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c",
+      "asset_sha256": "fb4a6420646f5eecf773d2ebb4963e377d0d89a29631957389f401f4662c4236",
+      "generation_complete": true,
+      "network_errors": 0,
+      "provider_errors": [],
+      "visual_review": "No obvious source interpenetration or buried base in reviewed image; qualified approximate finer architectural details retained.",
+      "issue": null
+    }
+  ],
+  "additional_overviews": [
+    "output/heritage/castle-corrected-overview/windsor-castle-overview.png",
+    "output/heritage/castle-corrected-overview/malbork-castle-overview.png",
+    "output/heritage/castle-corrected-overview/alhambra-overview.png"
+  ],
+  "unbaked_shared_change": "First nondegenerate triangle determines localface winding;3axis collapsed-edge regression passed.",
+  "limitations": "All13 sites received actual-engine visual review; acceptance is limited to recorded views and hashes. Proportional finer architectural dimensions and water-depth estimates remain explicitly qualified in per-site references.",
+  "latest_three_site_review": [
+    {
+      "name": "eltz-castle",
+      "image": "output/heritage/castle-final-review/eltz-castle.png",
+      "app_sha256": "9a4cdd0214ef38fe6cd7daa0d78ed55d03ae26f7a8a14185e5d0c3be7eaf15b5",
+      "asset_sha256": "d3ed7f63ec1e2873f2e78ad75a59a13179d6627f40a1f80e5f20b542aa40dd9d",
+      "generation_complete": true,
+      "network_errors": 1,
+      "visual_review": "spur/river accepted; eight local outer parts corrected after capture, final bake pending"
+    },
+    {
+      "name": "predjama-castle",
+      "image": "output/heritage/castle-final-review/predjama-castle.png",
+      "app_sha256": "9a4cdd0214ef38fe6cd7daa0d78ed55d03ae26f7a8a14185e5d0c3be7eaf15b5",
+      "asset_sha256": "12682124235c3ae3060cb595f11a527a5fbac1cd30c6ffe1fcce79ad643856bc",
+      "generation_complete": true,
+      "network_errors": 0,
+      "visual_review": "corrected placement accepted"
+    },
+    {
+      "name": "chillon-castle",
+      "image": "output/heritage/castle-final-review/chillon-castle.png",
+      "app_sha256": "9a4cdd0214ef38fe6cd7daa0d78ed55d03ae26f7a8a14185e5d0c3be7eaf15b5",
+      "asset_sha256": "6a90703701ce6cf9045a3faaa6e6620fbb89e30161523f66429abd4c860f6638",
+      "generation_complete": true,
+      "network_errors": 0,
+      "visual_review": "corrected placement accepted"
+    }
+  ],
+  "final_eltz_review": {
+    "image": "output/heritage/eltz-final-world/eltz-castle.png",
+    "app_sha256": "afa01a0c003ab0fdc344b87680fc71b83afc9eda39c8c59962165eea09dfe0cf",
+    "asset_sha256": "5c537e13ac56f9b856655867be4e08d2c6e59d66b58d9987d05cb0e0b7b8d2c1",
+    "generation_complete": true,
+    "cache_column_corruptions": 0,
+    "visual_review": "Eight mapped outer-part corrections accepted; roofless ruins, small slate-roof houses and plinths have plausible ground contact. Spur and river preserved."
+  }
+}

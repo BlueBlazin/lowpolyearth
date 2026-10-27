@@ -1,0 +1,6 @@
+{
+  "reference": "https://www.osakacastle.net/pdf/access/bf_map_eng_a4.pdf",
+  "primary_evidence": "Operator accessibility map distinguishes ground-level ticket counter, external elevator and raised main-tower entrance; stairs are identified in the route plan.",
+  "dimensional_qualification": "Existing entrance floor remains4m above authored honmaru datum31.3m. A10.6x12.6m stone landing supports its10x12m wall footprint, with5.2m-wide,8m-long stairs. Landing footprint/flight/tread count and handrails are secondary architectural estimates fitted to existing entrance geometry, not measurements supplied by the accessibility map.",
+  "ground_contact": "Corrected plaza31.25m. Stone landing extends to\u22120.44m relative31.3m datum; stair underside\u22120.4m, keepbatter toe\u22120.45m. These leave0.35\u20130.40m embed below correctedground. No source service buildings are deleted by this change; their corrected-ground placement is a runtime responsibility."
+}

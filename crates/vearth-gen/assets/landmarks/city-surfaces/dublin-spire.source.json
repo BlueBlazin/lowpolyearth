@@ -1,0 +1,61 @@
+{
+  "name": "dublin-spire",
+  "city": "Dublin",
+  "lat": 53.34981,
+  "lon": -6.26026,
+  "heading": 0,
+  "base": 10.97794533,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://www.ritchie.studio/projects/dublin/"
+  ],
+  "description": "A slender 120m steel needle, tapering from a 3m base to a 15cm tip, with a bronze ground disc and steady tip illumination.",
+  "source_audit": {
+    "center_ground_m": 10.97794533,
+    "foot_ground_range_m": [
+      10.91882,
+      11.03603
+    ],
+    "placement": "OConnell Street median; replaces the surveyed 121.2m generic source tower (seed 110781263095970683) within its 2.2m footprint while preserving surrounding streets."
+  },
+  "capture": {
+    "distance": 234,
+    "azimuth": 175,
+    "elevation": 14,
+    "target_height": 52,
+    "time_utc": "2026-03-20T17:50:00Z"
+  },
+  "bbox_min": [
+    -3.0,
+    -2.2,
+    -3.0
+  ],
+  "bbox_max": [
+    3.0,
+    120.2,
+    3.0
+  ],
+  "levels": [
+    {
+      "vertices": 8804,
+      "triangles": 3584
+    },
+    {
+      "vertices": 8036,
+      "triangles": 3104
+    },
+    {
+      "vertices": 780,
+      "triangles": 480
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "a6ae0e21d1f7bd1c921f8617f1f7daeb3f1f284768032c956df63bdf53fea557"
+}

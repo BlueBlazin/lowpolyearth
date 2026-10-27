@@ -1,0 +1,23 @@
+{
+  "name": "st-basils-cathedral",
+  "kind": "st-basils",
+  "source": "st-basils-cathedral/stbasils.glb",
+  "sha256": "6ca9923f70bd26489b05922eeeeb4045dba0c892e5f1658a4076f0ad2b6fe3c2",
+  "license": "existing landmark SOURCES.md",
+  "output": "st-basils-cathedral.lms",
+  "output_sha256": "b213f67157ba8fe59a6e653bb3236206575c99f298c48820b0d8cf7500c7dbda",
+  "levels": [
+    [
+      110260,
+      63732
+    ],
+    [
+      17021,
+      22439
+    ],
+    [
+      9725,
+      7190
+    ]
+  ]
+}

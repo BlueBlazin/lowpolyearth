@@ -1,0 +1,100 @@
+{
+  "name": "emirates-towers",
+  "sources": [
+    {
+      "url": "https://www.multiplex.global/projects/emirates-towers/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.besix.com/en/projects/emirates-hotel-tower",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.skyscrapercentre.com/building/emirates-tower-one/311",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Contractor354m office/309m hotel; CTBUH354.6m office tip. Source hotel parent incorrectly355m corrected to309m. Exact separate triangular plans; crown274\u2013312/230\u2013280m levels proportion estimates. Boulevard and parking retained native.",
+  "authored_form": "Two equilateral triangular silver towers with unequal heights, diagonal crowns and apex masts.",
+  "dimensions_m": {
+    "architectural_height": 354.6,
+    "tip_height": 354.6,
+    "mapped_parts": [
+      {
+        "seed": "4828877939102876477",
+        "bounds_xz": [
+          [
+            -154.16716,
+            -20.66746
+          ],
+          [
+            -100.20177,
+            27.09141
+          ]
+        ]
+      },
+      {
+        "seed": "11874907196484683909",
+        "bounds_xz": [
+          [
+            -27.07866,
+            -31.19063
+          ],
+          [
+            26.88673,
+            15.75881
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      25.217617308237305,
+      55.28363323235415
+    ],
+    "heading_deg": 0,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "8189fe3096795a069516ba1351a0cf353b65c9d5274f71c9ccb6df3c6b101b60"
+  },
+  "ground": {
+    "datum_m": 11.6,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "9dfd457e8648a659177f900034090309c1c39bb54ff6909ca003420cf7e55e92",
+    "quantiles_m": {
+      "toe": [
+        11.536985397338867,
+        14.621107816696167,
+        16.30518388748169,
+        20.718485832214355,
+        25.66644859313965
+      ],
+      "near": [
+        9.559202194213867,
+        13.322964668273926,
+        15.381619453430176,
+        20.04326105117798,
+        23.930927276611328
+      ],
+      "street": [
+        7.053348064422607,
+        11.548258781433105,
+        14.770384788513184,
+        18.12404203414917,
+        21.752012252807617
+      ]
+    },
+    "correction": "Hotel11.6m footprint cut retained. Office separately uses17.1m local datum and8m immediate approach buffer/10m feather; quantitative control in emirates-towers-contact-calibration.json.",
+    "office_datum_m": 17.1
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

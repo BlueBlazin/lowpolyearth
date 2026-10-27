@@ -1,0 +1,23 @@
+{
+  "name": "leaning-tower-of-pisa",
+  "kind": "pisa",
+  "source": "leaning-tower-of-pisa/pisa.glb",
+  "sha256": "098a89609e972488f97d4bd3b96c1dbb2a4f5e29cac992df22d386f0897f5a0f",
+  "license": "existing landmark SOURCES.md",
+  "output": "leaning-tower-of-pisa.lms",
+  "output_sha256": "d3007b8fdad3903349ef92be82cf8e088ac18be16e600c8f15da8969baf8fb34",
+  "levels": [
+    [
+      34632,
+      21136
+    ],
+    [
+      22948,
+      15432
+    ],
+    [
+      22212,
+      13960
+    ]
+  ]
+}

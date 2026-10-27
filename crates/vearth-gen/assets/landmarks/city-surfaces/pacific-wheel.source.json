@@ -1,0 +1,70 @@
+{
+  "name": "pacific-wheel",
+  "city": "Santa Monica",
+  "lat": 34.0082275,
+  "lon": -118.49783405,
+  "heading": 90,
+  "base": 5,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": false,
+  "suppress_bbox": [
+    [
+      -15,
+      -5
+    ],
+    [
+      15,
+      5
+    ]
+  ],
+  "references": [
+    "https://pacpark.com/santa-monica-amusement-park/ferris-wheel/",
+    "https://pacpark.com/the-pacific-wheel/",
+    "https://www.openstreetmap.org/way/742372514",
+    "https://www.openstreetmap.org/way/22728853"
+  ],
+  "description": "A stationary 25.9m Ferris wheel with twenty colorful level gondolas, steady radial lights, twin rims and supporting legs on a timber pier deck with supporting piles.",
+  "source_audit": {
+    "center_ground_m": 0,
+    "placement": "Mapped wheel plane runs north-south. A bounded deck follows the mapped pier outline at a five-metre datum, filling the missing source platform while preserving the surrounding pier buildings; piles descend below water."
+  },
+  "capture": {
+    "distance": 106,
+    "azimuth": 235,
+    "elevation": 18,
+    "target_height": 13,
+    "time_utc": "2026-03-21T01:45:00Z"
+  },
+  "bbox_min": [
+    -259.2,
+    -9.2,
+    -218.4
+  ],
+  "bbox_max": [
+    104.7,
+    29.5,
+    207.9
+  ],
+  "levels": [
+    {
+      "vertices": 37754,
+      "triangles": 21012
+    },
+    {
+      "vertices": 25477,
+      "triangles": 14052
+    },
+    {
+      "vertices": 16869,
+      "triangles": 9396
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "11ba061c3863ae7dbf5641ac9de947808eaa1148b73d4d32925be44a31726c4b"
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "fixed_metadata": {
+    "resolution": "640x360",
+    "adapter_selection": "high-performance; compare exact only on the same adapter/driver",
+    "time": "2026-01-15T12:00:00Z unless case overrides it",
+    "weather": "clear, seed 6840143425043995324 unless case overrides it",
+    "exposure": "production deterministic exposure; color grading and filmic saturation enabled",
+    "random_seed": 6840143425043995324,
+    "asset_version": "GEN_VERSION=113; render_schema=3; contract_schema=1; bundled stage assets",
+    "thresholds": {
+      "same_adapter": "exact RGBA8",
+      "documented_gpu_float": {
+        "max_absolute": 0.00784313725490196,
+        "p99_absolute": 0.00392156862745098,
+        "root_mean_square": 0.00196078431372549,
+        "max_relative": 0.02,
+        "max_changed_pixel_fraction": 0.001
+      }
+    }
+  },
+  "cases": [
+    {
+      "id": "stage-regional-buildings-day",
+      "offline": true,
+      "command": ["--screenshot", "{output}", "--size", "640x360", "--stage", "buildings:all-medium", "--stage-azimuth", "35", "--stage-elevation", "24"],
+      "tags": ["face-orientations", "camera-distance", "glass", "day", "tint", "material", "ambient-occlusion", "geometric-face", "shading-face"]
+    },
+    {
+      "id": "stage-landmark-calibration",
+      "offline": true,
+      "command": ["--screenshot", "{output}", "--size", "640x360", "--stage", "landmark:eiffel-tower", "--stage-azimuth", "28", "--stage-elevation", "18"],
+      "tags": ["landmarks", "emissive", "calibration", "near-plane"]
+    },
+    {
+      "id": "stage-foliage-near",
+      "offline": true,
+      "command": ["--screenshot", "{output}", "--size", "640x360", "--stage", "tree:banyan", "--stage-distance", "18"],
+      "tags": ["foliage", "camera-distance"]
+    },
+    {
+      "id": "alpine-lod-boundary",
+      "offline": false,
+      "command": ["--screenshot", "{output}", "--size", "640x360", "--lat", "46.577", "--lon", "7.990", "--alt", "3800", "--heading", "215", "--pitch", "28", "--time", "2026-01-15T12:00:00Z", "--weather", "clear", "--weather-seed", "6840143425043995324"],
+      "tags": ["lod-transition", "lod-predicate", "snow", "skirts", "lips"]
+    },
+    {
+      "id": "ocean-water-wet-fog",
+      "offline": false,
+      "command": ["--screenshot", "{output}", "--size", "640x360", "--lat", "37.808", "--lon", "-122.478", "--alt", "900", "--heading", "70", "--pitch", "20", "--time", "2026-01-15T12:00:00Z", "--weather", "preset:coastal-fog", "--weather-seed", "6840143425043995324"],
+      "tags": ["water", "wetness", "fog", "skirts", "lips"]
+    },
+    {
+      "id": "fields-night-lightning",
+      "offline": false,
+      "command": ["--screenshot", "{output}", "--size", "640x360", "--lat", "43.418", "--lon", "142.426", "--alt", "320", "--heading", "200", "--pitch", "22", "--time", "2026-07-15T23:00:00Z", "--weather", "preset:thunderstorm", "--weather-seed", "6840143425043995324"],
+      "tags": ["fields", "night", "lightning", "emissive"]
+    }
+  ]
+}

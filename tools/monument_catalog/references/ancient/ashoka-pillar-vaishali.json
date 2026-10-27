@@ -1,0 +1,25 @@
+{
+  "name": "ashoka-pillar-vaishali",
+  "sources": [
+    "https://tourism.gov.in/sites/default/files/2020-04/Bihar.pdf",
+    "https://vaishali.nic.in/tourist-place/ashoka-pillar/",
+    "https://tourism.bihar.gov.in/en/destinations/vaishali/ashokan-pillar-kolhua-vaishali",
+    "https://www.wikidata.org/wiki/Q19323579"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "visible_height_used_m": 11.0,
+    "conflicting_district_tourism_height_m": 18.3,
+    "lion_count": 1
+  },
+  "geometry_notes": "The Government of India Ministry of Tourism Bihar perspective plan describes the Kolhua pillar as11m high; this visible overall extent is used. District and state promotional pages instead give18.3m without specifying a datum. The plan documents the excavated site and is prioritized for the visible model. Sandstone shaft, bell capital, abacus and single north-facing seated lion retain photo-based proportions. No claim is made to reproduce a measured architectural survey.",
+  "placement_notes": "Wikidata coordinate26\u00b00\u203250.393\u2033N85\u00b06\u203232.440\u2033E converted to26.01400,85.109011. Lion faces true north (+z), registry heading0. The pillar footing avoids the adjacent brick stupa and tank; neither terrain nor tank is modified.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/ashoka-pillar-vaishali.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "One connected column and its footing",
+    "roads_suppressed": false
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

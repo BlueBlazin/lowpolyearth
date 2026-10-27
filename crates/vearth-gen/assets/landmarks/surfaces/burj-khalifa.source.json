@@ -1,0 +1,23 @@
+{
+  "name": "burj-khalifa",
+  "kind": "burj-khalifa-authored",
+  "source": "burj-khalifa/burjkhalifa.glb",
+  "sha256": "7f9ff1651fe3dce57fb820cab23433ab46dcb3faa5e40eefe78fb37f38d7bd6b",
+  "license": "existing landmark SOURCES.md",
+  "output": "burj-khalifa.lms",
+  "output_sha256": "02c772c1d135876d807355d56722a1fc9606b366714bc723aa26f2fa4f8a92ea",
+  "levels": [
+    [
+      22818,
+      14096
+    ],
+    [
+      20760,
+      13436
+    ],
+    [
+      20760,
+      13436
+    ]
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "heydar-aliyev-center",
+  "city": "Baku",
+  "lat": 40.39613925,
+  "lon": 49.8675167,
+  "heading": -36.36,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://www.zha.com/projects/architecture/heydar-aliyev-centre?disclaimer=true",
+    "https://tyrensakt.com/projects/heydar-aliyev-centre/",
+    "https://www.openstreetmap.org/relation/19380164"
+  ],
+  "description": "A continuous white architectural wave, curved curtain wall, lower vaulted fold and softly terraced plaza.",
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0,
+        -5
+      ],
+      "half_extent": [
+        124,
+        91
+      ],
+      "feather_m": 14,
+      "sample_clearance_m": 12,
+      "fixed_base_geo": 14.0
+    }
+  ],
+  "capture": {
+    "distance": 385,
+    "azimuth": 174,
+    "elevation": 22,
+    "target_height": 27,
+    "time_utc": "2026-03-20T11:00:00Z"
+  },
+  "audit": {
+    "source_dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+    "ground_center_m": 14.0318,
+    "perimeter_m": [
+      5.0289,
+      16.7556,
+      16.8168,
+      6.943,
+      15.9676,
+      10.8573,
+      17.846,
+      21.8783
+    ],
+    "source_file": "output/city-catalog-expansion/modern/heydar-aliyev-center-final.json",
+    "placement_note": "The terrain retains the former site slope: 5.03\u201321.88 m around the perimeter, with center 14.03 m. A 14 m central datum and 14 m feather support the deliberately terraced architectural plaza."
+  },
+  "bbox_min": [
+    -138.0,
+    -1.2,
+    -110.0
+  ],
+  "bbox_max": [
+    138.0,
+    73.9,
+    100.0
+  ],
+  "levels": [
+    {
+      "vertices": 115601,
+      "triangles": 40146
+    },
+    {
+      "vertices": 28895,
+      "triangles": 10302
+    },
+    {
+      "vertices": 11708,
+      "triangles": 4274
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_modern.py",
+  "source_sha256": "d67541172251567213bcbe5de36427df424d1e2d182247fc8aa63fac3b117c3d",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "40fae1458607c35b227e28ef22228477ff694617a16c7754f85e14e309ea5448"
+}

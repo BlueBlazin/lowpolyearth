@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "retrieved": "2026-09-16",
+  "source_url": "https://api.hel.fi/servicemap/v2/administrative_division/?format=json&type=neighborhood&municipality=helsinki&page_size=100&geometry=true",
+  "source_response_sha256": "73bb0e757d2b0b07096f50d180661c24adc2878e18df23a025aeb6792a7f8ef2",
+  "attribution": "Data ja kartat (c) Helsingin kaupunki, kaupunkimittauspalvelut.",
+  "license": "CC BY 4.0",
+  "license_url": "https://www.hel.fi/fi/paatoksenteko-ja-hallinto/tietoa-helsingista/kartat-ja-paikkatieto/paikkatiedot-tehokayttoon/avoimet-paikkatiedot",
+  "source_crs": "WGS84 longitude, latitude; official API GeoJSON",
+  "source_fields": "Original selected administrative_division fields and complete boundary coordinates retained; boundary renamed geometry in GeoJSON Feature wrapper.",
+  "selected_origin_ids": {
+    "helsinki-central": [
+      "91-001",
+      "91-002",
+      "91-003",
+      "91-004",
+      "91-005",
+      "91-006",
+      "91-007",
+      "91-011",
+      "91-013"
+    ],
+    "helsinki-etu-toolo": [
+      "91-013"
+    ]
+  },
+  "operation": "Union selected municipal multipolygons, preserve holes, remove exact duplicate consecutive vertices. No simplification, smoothing or coordinate transform.",
+  "sha256": {
+    "helsinki-central-source.geojson": "c97973e87a98b325d9de245dd6f26918a760a4389dd24eacc94f4089729cf609",
+    "helsinki-etu-toolo-source.geojson": "620338191e7c775a95cbe5dbbf20459305088baf037cf49dbeec1f61ca4bd9e1",
+    "helsinki-central.geojson": "bb7eb1671bb664f53a6aafe7566b69b71a61bf8bf77d69c4943d9f60d6983ffc",
+    "helsinki-etu-toolo.geojson": "a32e27826ab980a4afe885e1652826980081e641b2a08183c4ec94178eab7a50"
+  }
+}

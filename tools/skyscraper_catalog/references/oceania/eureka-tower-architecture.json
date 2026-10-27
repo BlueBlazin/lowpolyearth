@@ -1,0 +1,19 @@
+{
+  "name": "eureka-tower",
+  "city": "Melbourne",
+  "architectural_height_m": 297.3,
+  "references": [
+    "https://fkaustralia.com/project/eureka-tower/",
+    "https://agents.journeybeyond.com/wp-content/uploads/ENGLISH-EurekaSkydeck_VisitorGuide.pdf",
+    "https://www.skyscrapercenter.com/building/eureka-tower/544"
+  ],
+  "primary_evidence": "The visitor operator gives297.3m total height and identifies the projecting glass Edge experience; the architect describes the blue-glass tower, gold crown and symbolic red accent.",
+  "estimates": "Complete mapped irregular main tower, flanking177/207m wings, podium and parking plans set shape/heading. The crown begins at mapped261m; red accent placement, Edge orientation/282\u2013285m level, balcony courses and14.2m south approach floor datum are estimates requiring visual review.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 193.245,
+    "target_height": 8
+  }
+}

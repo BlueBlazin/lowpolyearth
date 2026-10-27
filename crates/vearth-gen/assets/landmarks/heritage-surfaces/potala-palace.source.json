@@ -1,0 +1,386 @@
+{
+  "name": "potala-palace",
+  "city": "Lhasa",
+  "lat": 29.65795,
+  "lon": 91.11705,
+  "heading": 0,
+  "base": 3653.12,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "references": [
+    "https://whc.unesco.org/en/list/707/",
+    "https://m.tibet.cn/eng/travel/destination/201512/t20151202_5717373.html",
+    "https://doi.org/10.1186/s43238-026-00260-0",
+    "https://www.chinastory.cn/ywdbk/english/v1/detail/20190708/1012700000042741562587081859903262_1.html"
+  ],
+  "attribution": "Geometry originally authored for Low Poly Earth. Placement and footprint evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps.",
+  "description": "Asymmetric terraced White and Red Palaces,seven gilded roof pavilions,window surrounds,and immediate rock outcrop.",
+  "source_exclusion_polygons": [
+    [
+      [
+        -142,
+        -63
+      ],
+      [
+        -58,
+        -63
+      ],
+      [
+        -58,
+        15
+      ],
+      [
+        -142,
+        15
+      ]
+    ],
+    [
+      [
+        -77,
+        -49
+      ],
+      [
+        62,
+        -49
+      ],
+      [
+        62,
+        69
+      ],
+      [
+        -77,
+        69
+      ]
+    ],
+    [
+      [
+        49,
+        -44
+      ],
+      [
+        148,
+        -44
+      ],
+      [
+        148,
+        59
+      ],
+      [
+        49,
+        59
+      ]
+    ],
+    [
+      [
+        132,
+        12
+      ],
+      [
+        223,
+        12
+      ],
+      [
+        223,
+        38
+      ],
+      [
+        132,
+        38
+      ]
+    ]
+  ],
+  "road_exclusion_polygons": [
+    [
+      [
+        -142,
+        -63
+      ],
+      [
+        -58,
+        -63
+      ],
+      [
+        -58,
+        15
+      ],
+      [
+        -142,
+        15
+      ]
+    ],
+    [
+      [
+        -77,
+        -49
+      ],
+      [
+        62,
+        -49
+      ],
+      [
+        62,
+        69
+      ],
+      [
+        -77,
+        69
+      ]
+    ],
+    [
+      [
+        49,
+        -44
+      ],
+      [
+        148,
+        -44
+      ],
+      [
+        148,
+        59
+      ],
+      [
+        49,
+        59
+      ]
+    ],
+    [
+      [
+        132,
+        12
+      ],
+      [
+        223,
+        12
+      ],
+      [
+        223,
+        38
+      ],
+      [
+        132,
+        38
+      ]
+    ]
+  ],
+  "activation_bounds_xz": [
+    [
+      -144,
+      -65
+    ],
+    [
+      225,
+      71
+    ]
+  ],
+  "terrain_flatten": [],
+  "terrain_cuts": [
+    {
+      "polygon_xz": [
+        [
+          -153,
+          -68
+        ],
+        [
+          -53,
+          -68
+        ],
+        [
+          -53,
+          22
+        ],
+        [
+          -153,
+          22
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.25
+      ],
+      "feather_m": 18
+    },
+    {
+      "polygon_xz": [
+        [
+          -77,
+          -49
+        ],
+        [
+          62,
+          -49
+        ],
+        [
+          62,
+          69
+        ],
+        [
+          -77,
+          69
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        15
+      ],
+      "feather_m": 4
+    },
+    {
+      "polygon_xz": [
+        [
+          49,
+          -44
+        ],
+        [
+          148,
+          -44
+        ],
+        [
+          148,
+          59
+        ],
+        [
+          49,
+          59
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        0
+      ],
+      "feather_m": 4
+    },
+    {
+      "polygon_xz": [
+        [
+          132,
+          12
+        ],
+        [
+          223,
+          12
+        ],
+        [
+          223,
+          38
+        ],
+        [
+          132,
+          38
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        18
+      ],
+      "feather_m": 3
+    }
+  ],
+  "max_source_building_span_m": 417,
+  "audit": {
+    "survey_file": "tools/heritage_catalog/references/temples/potala-palace-survey.json",
+    "ground_samples_file": "tools/heritage_catalog/references/temples/potala-palace-ground.json",
+    "ground_datum_m": 3653.12,
+    "architectural_dimensions_m": [
+      372,
+      117.2,
+      140
+    ],
+    "height_authority": "Published architectural dimension; vector tile heights are not architectural authority.",
+    "grounding_note": "Datum median of three level southeast-valley samples; cuts apply only beneath authored masonry. Southwest foundation cleanup extends11m beyond its former cut with18m feather: production samples reach3709.7m at(-125,-62), above the lowest range roof. This bounded DSM intrusion correction preserves surrounding Red Mountain. Facade/material evidence and approximation bounds are in references/temples/potala-palace-facade.json."
+  },
+  "capture": {
+    "distance": 410,
+    "azimuth": 210,
+    "elevation": 30,
+    "target_height": 41.019999999999996,
+    "time_utc": "2026-03-20T10:00:00Z"
+  },
+  "bbox_min": [
+    -190.2,
+    -13.3,
+    -86.0
+  ],
+  "bbox_max": [
+    226.0,
+    117.4,
+    84.9
+  ],
+  "levels": [
+    {
+      "vertices": 59028,
+      "triangles": 29036
+    },
+    {
+      "vertices": 54914,
+      "triangles": 26952
+    },
+    {
+      "vertices": 29699,
+      "triangles": 14516
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/heritage_catalog/temples.py",
+  "dependencies": {
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/heritage_catalog/references/temples/biete-giyorgis-ground-points.json": "a7b63b62a6bba9fea86d60883fa2a586cc4feb444bd3503b6c96da81d5f93258",
+    "tools/heritage_catalog/references/temples/biete-giyorgis-ground.json": "96915962bcdc306f9a4212cc2adc3b25c14a6d4764e13dcba1bd78a255e6b7b2",
+    "tools/heritage_catalog/references/temples/biete-giyorgis-rim-ground.json": "e5a757c5daad68e0e47fb7f1fbc7784c91a8f51d6396fc91942cb8792c20c1a2",
+    "tools/heritage_catalog/references/temples/biete-giyorgis-survey.json": "5c1a673de87257ee9968e7295f1d45228c6e6b614a5e716c0e780e7f1fb13f18",
+    "tools/heritage_catalog/references/temples/borobudur-ground-points.json": "b8d7a4350147345de118d2c70b1634cddad85eaf965b328b39249a6a196fa3ef",
+    "tools/heritage_catalog/references/temples/borobudur-ground.json": "8cf4479a065474bc792d2f66f3c43841682db108f2e073c2a1bf8d897848e1be",
+    "tools/heritage_catalog/references/temples/borobudur-survey.json": "71b1263c6a454ee4cd78742dadf55a7311f2c7ef27f750d865447e912b48d766",
+    "tools/heritage_catalog/references/temples/brihadisvara-temple-ground-points.json": "e28d2a37395d6d66a360ee11b7e3a586054cd88a682d6f59c64b070252ade5e1",
+    "tools/heritage_catalog/references/temples/brihadisvara-temple-ground.json": "faa271b0d391c3dcc69b3828720bdf14d2bfe65c2ff1b6cf21d908b22e4b4654",
+    "tools/heritage_catalog/references/temples/brihadisvara-temple-survey.json": "032c97d57b2163c3e8505118eaf76ce12c4caa2aef221084d3748643f97da36b",
+    "tools/heritage_catalog/references/temples/evidence.json": "c5922195ae0a8f01dbe3417a00de49ae6e976f1ee1c455063081e7eedbb95633",
+    "tools/heritage_catalog/references/temples/foundation-controls.json": "f06497136fdcf45062f3e166672011c8accbe0d405538d41be084318c123147c",
+    "tools/heritage_catalog/references/temples/konark-aux-ground.json": "6a1b87cf7d42975743a6e3da838e55ced210b4c625a75f0fb17f3148fe9669cf",
+    "tools/heritage_catalog/references/temples/konark-sun-temple-ground-points.json": "080e409a3d650f9c6e141075c374b62680a3c9fb9c55c31a4d6b79fdbb3448de",
+    "tools/heritage_catalog/references/temples/konark-sun-temple-ground.json": "5c093d778323655d9aae75714b9c2bfddcc6fbe0ad1e53a6cb0a4946755a333c",
+    "tools/heritage_catalog/references/temples/konark-sun-temple-survey.json": "d507a9196ef0f89ac82b62aebb3629ecdce1103479af33de0b9291996bb217e9",
+    "tools/heritage_catalog/references/temples/meenakshi-amman-temple-ground-points.json": "5445a96c7dd5a311b45a53e71b47b1d7e7a1a142db3c770d17c7f73de509c9f7",
+    "tools/heritage_catalog/references/temples/meenakshi-amman-temple-ground.json": "46888e5fbeef34db27b846497e566e88c8ac5788d7ec011cf9d1a56ad0a0a18a",
+    "tools/heritage_catalog/references/temples/meenakshi-amman-temple-survey.json": "9c16a0a0665a434c0b252bccdd9fe8f4f1ebf667eb2064f18874cad05a31a07a",
+    "tools/heritage_catalog/references/temples/paro-cliff-edge-ground.json": "9af7e6c44693046bdb0b099dbf84c168a204d54a8fcd929a37864e22b3bdd280",
+    "tools/heritage_catalog/references/temples/paro-taktsang-ground-points.json": "ed7a7831dd61c1f1daefe0b5f8e67acde1e779de214d1bf60ecc1f6f73245625",
+    "tools/heritage_catalog/references/temples/paro-taktsang-ground.json": "6169d43c2f3fff1648c6a1ebf0fdc8dfc6256da1cb350b28887cb7755e56fbbb",
+    "tools/heritage_catalog/references/temples/paro-taktsang-survey.json": "1d6e7bfe40b614848a19bb16c20f114193f261092e3f4fabf95162a788b9d378",
+    "tools/heritage_catalog/references/temples/potala-palace-facade.json": "db54c278bc88fe660aaf74e6af55f9da5945e8d2fff5b8dcf15444dd73ba0098",
+    "tools/heritage_catalog/references/temples/potala-palace-ground-points.json": "f4a66ea8591000d8ac13384d3ad2e2394088a8e5f6e3a4ae1a9dbfd0ae661630",
+    "tools/heritage_catalog/references/temples/potala-palace-ground.json": "f4c0c4c6fd12f5481fd5886c45f61b9d3daac59c0b71bfe08f32770cf5a048d8",
+    "tools/heritage_catalog/references/temples/potala-palace-survey.json": "a1c42226aa9c891be5c0d96f17124373b86afd9a90b495e02cf0e750cea3b104",
+    "tools/heritage_catalog/references/temples/prambanan-ground-points.json": "47fd0053b55c157600c20a74e95c69178c1db1aac33d928f9e1d2e4e3eb21a22",
+    "tools/heritage_catalog/references/temples/prambanan-ground.json": "cd33f40ce7f942bcc42e028edb442a74c46363e38867a9ad7d01a4670b336a56",
+    "tools/heritage_catalog/references/temples/prambanan-survey.json": "11fa7c06f4295b7be0bbf0abd509186b099862bd73a1571fe69399f024df7a29",
+    "tools/heritage_catalog/references/temples/sagrada-familia-ground-points.json": "3e179ffc13a230578b9c72291ca2d098f88aa92727003fd4ebb6e9bd184e9fad",
+    "tools/heritage_catalog/references/temples/sagrada-familia-ground.json": "24043b312a5a9795911ad0624866cbd533cac519bbc7812faebe2c788a902275",
+    "tools/heritage_catalog/references/temples/sagrada-familia-survey.json": "505346ef1abccd7e2a27d73864f743608fccf756ef28973a8f2aeb8993662e49",
+    "tools/heritage_catalog/references/temples/shwedagon-pagoda-ground-points.json": "8075be75e5be29d05bb1e193b0bf18d7b656ed5d9ad6aed32e1034b44f26a447",
+    "tools/heritage_catalog/references/temples/shwedagon-pagoda-ground.json": "e0a719a4c7d24eb9e205fbf3d3e5cee54a8dfb4b259c480f8bc1ad8571fa191b",
+    "tools/heritage_catalog/references/temples/shwedagon-pagoda-survey.json": "d000d49b685de530e521f5048208e77cdff6ecc64824c6ed5c30017c23df8708",
+    "tools/heritage_catalog/references/temples/swaminarayan-akshardham-ground-points.json": "dfa7e630d6e3b6cecbd124e6f96db991792adf76a0d35e854402dd790fa045d9",
+    "tools/heritage_catalog/references/temples/swaminarayan-akshardham-ground.json": "05ae82a85e7011c8505832ec0500075cf1859f261632e735466dfe9612a4a2dc",
+    "tools/heritage_catalog/references/temples/swaminarayan-akshardham-survey.json": "e01ba934a2615c83eee641912a02102124e1fd8c6cd22dbd0c7d3a2d3c3380ae",
+    "tools/heritage_catalog/references/temples/taj-mahal-ground-points.json": "d06108ca981171a5af1eddc5bb694a7ad3fadd46e71ef3110a8655dffc4a5054",
+    "tools/heritage_catalog/references/temples/taj-mahal-ground.json": "057512fb4ac9e8e113a2c4a253bd2f95b0da8fbea7705b5712924e3168ec3a2e",
+    "tools/heritage_catalog/references/temples/taj-mahal-survey.json": "4f8148661fb8682ebb90875611f393ff38cfe99f26c5144f8ab81d5fbebd35d9",
+    "tools/heritage_catalog/references/temples/wat-arun-ground-points.json": "50b4d5f2ff0526e9d17c7c6f4a4204cd34f2130e2c9faa6e535bc7252e56a10c",
+    "tools/heritage_catalog/references/temples/wat-arun-ground.json": "6b51533cd1511d21bc273f0d574cfb683ba512cf64fc2e83c9e9e5082f4883e4",
+    "tools/heritage_catalog/references/temples/wat-arun-survey.json": "64a80d5bba4862a14afa524f33d28231748e8cd20615950142dcbc194e88a328",
+    "tools/heritage_catalog/temples.py": "298c5d5d794009cdf0ac997ed0813c634f692c1d94a6d07975243804a70edc7b"
+  },
+  "output_sha256": "c36b86a1aaa317c59952579456e0987b1db925e8d80e43cd430e93e49f80818c"
+}

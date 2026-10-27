@@ -1,0 +1,85 @@
+{
+  "site": "Krak des Chevaliers",
+  "primary_sources": [
+    {
+      "url": "https://archeologie.culture.gouv.fr/crac-chevaliers/en/about-castle",
+      "evidence": "French Ministry of Culture archaeological account describes round and horseshoe towers emerging from a monumental talus on the southern and western fronts."
+    },
+    {
+      "url": "https://archeologie.culture.gouv.fr/fr/le-crac-des-chevaliers",
+      "evidence": "The central core is protected at its southern and western base by a monumental glacis containing defensive galleries."
+    },
+    {
+      "url": "https://whc.unesco.org/en/list/1229",
+      "evidence": "UNESCO identifies the fortress hilltop/ridge setting; these landscape relationships are preserved."
+    }
+  ],
+  "placement": {
+    "datum_m": 666.5631103515625,
+    "heading_deg": 0,
+    "anchor_latlon": [
+      34.7568,
+      36.2944
+    ],
+    "inner_reference_y_m": 0.22607421875
+  },
+  "mapped_ownership": {
+    "outer_wall": 226877188,
+    "talus": 375152260,
+    "gallery_outer": 375151599,
+    "gallery_courtyard_void": 375151598,
+    "tower_parts": [
+      375156451,
+      375156452,
+      375156453,
+      375156454,
+      375156455,
+      375156456,
+      375156457,
+      375156458
+    ]
+  },
+  "contact_evidence": {
+    "old_talus_points": [
+      {
+        "xz_m": [
+          89.09,
+          -23.7
+        ],
+        "gap_m": 10.33
+      },
+      {
+        "xz_m": [
+          89.05,
+          2.29
+        ],
+        "gap_m": 10.06
+      }
+    ],
+    "old_outer_wall_max_gap_m": 5.5,
+    "old_gallery_max_gap_m": 5.4,
+    "method": "Source geometry foot edges compared against corrected production ground; exact replacement toe positions were then independently sampled. Raised gallery roof/floor remains intentional; its load-bearing lower wall skin now reaches ground.",
+    "old_loggia_arch_foot_gaps_m": [
+      3.32,
+      2.37,
+      1.43
+    ]
+  },
+  "geometry_invariants": {
+    "outer_wall": "Original centreline subdivisions, base references and crowns retained. Only battered lower edge heights extend into sampled terrain.",
+    "talus": "Original crown elevation15.22607421875m and crown width6m retained. Each lower edge splays4.8m, the existing intended architectural estimate; explicit keyword arguments keep batter distinct from merlon visibility. Bottom faces extend to measured ground minus0.5m.",
+    "towers": "Mapped eight tower prisms and the three southern round towers retain their original upper geometry. Added perimeter skins continue their existing lower outlines to ground.",
+    "courtyard": "Mapped inner courtyard remains open except the narrow western loggia walkway supporting its existing arches; gallery roof tessellation is unchanged.",
+    "terrain": "No landscape flattening or new terrain cut; no lowering of castle datum. Foundation embedding is0.5m below terrain at each toe.",
+    "loggia": "A 3m wide, 39.6m long stone walkway beneath the existing western arch line has terrain-fitted retaining sides and a thin paving cap at the original arch floor. Its secondary dimensions follow the authored arch footprint, not an archaeological survey."
+  },
+  "quantitative_ground": {
+    "file": "krak-footing-ground.json",
+    "sha256": "69d87c06c11e80d256ab788d08f8ced2afef5f7fae6beeb1eeea5e90f182e8aa",
+    "points": 1280,
+    "sampling_pitch_m": 8,
+    "helper_sha256": "e34b6d33d05a2e4aa6760469f04dc3ed58383586c66480d0fe59b71bf364a898",
+    "coverage": "All wall and tower support query positions from LOD0,LOD1 andLOD2; generator verifies that no queried position is absent."
+  },
+  "limitations": "The production DEM resolves terrain at metre-scale sampling but smooths historic scarps. Precise buried foundation depths, mortar profiles and the4.8m talus splay remain secondary architectural estimates; the record does not present them as archaeological measurements."
+}

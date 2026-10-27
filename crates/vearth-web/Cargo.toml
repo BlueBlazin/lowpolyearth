@@ -1,0 +1,21 @@
+[package]
+name = "vearth-web"
+version.workspace = true
+edition.workspace = true
+license-file.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+vearth-app = { path = "../vearth-app" }
+vearth-data = { workspace = true }
+vearth-platform = { workspace = true, features = ["rt"] }
+egui = { git = "https://github.com/emilk/egui.git", rev = "e6eb00a31c7089d4458c55fcbe5f1253311a7176", default-features = false }
+web-sys = { version = "0.3.106", features = ["OffscreenCanvas", "WorkerGlobalScope", "WorkerNavigator"] }
+log = { workspace = true }
+wasm-bindgen = "0.2.129"
+js-sys = "0.3.106"
+wasm-bindgen-futures = "0.4.79"

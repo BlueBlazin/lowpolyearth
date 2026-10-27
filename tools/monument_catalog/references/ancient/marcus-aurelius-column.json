@@ -1,0 +1,22 @@
+{
+  "name": "marcus-aurelius-column",
+  "sources": [
+    "https://turismoroma.it/en/node/1031",
+    "https://soprintendenzaspecialeroma.it/intervento/id-71-colonna-marco-aurelio/"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "shaft_height_m": 29.617,
+    "historic_pedestal_height_m": 12
+  },
+  "geometry_notes": "Official heritage agency gives29.617m shaft. The historic12m base includes buried construction; model shows8m above its current square datum, approximately42.12m overall with capital and Saint Paul. Twenty-one deeper narrative spiral bands, bright weathered marble and restored plain inscription pedestal distinguish it from Trajan. Small relief figures and bronze sword-bearing saint are approximate.",
+  "placement_notes": "Rome municipality gives point41.901081,12.479801. Square pedestal heading7 degrees is a map-alignment estimate. Full historic basement height is not added above modern street level.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/marcus-aurelius-column.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "One connected column and its footing",
+    "roads_suppressed": false
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

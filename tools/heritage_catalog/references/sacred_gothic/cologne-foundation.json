@@ -1,0 +1,173 @@
+{
+  "references": [
+    "https://www.stadt-koeln.de/politik-und-verwaltung/stadtentwicklung-stadtplanung/ein-neues-umfeld-fuer-den-dom",
+    "https://www.stadt-koeln.de/artikel/74318/index.html",
+    "https://www.koelner-dom.de/besuchen/barrierefreiheit"
+  ],
+  "datum_m": 59.092,
+  "survey": {
+    "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+    "ground_m": 56.268524169921875,
+    "ground_samples": [
+      {
+        "east_m": -77.81127636896984,
+        "ground_m": 58.986446380615234,
+        "lat": 50.94158204940538,
+        "lon": 6.95709971425073,
+        "north_m": 29.9734093795116
+      },
+      {
+        "east_m": -76.13595167726596,
+        "ground_m": 59.31013107299805,
+        "lat": 50.94100695114492,
+        "lon": 6.95712356350824,
+        "north_m": -34.004659418924064
+      },
+      {
+        "east_m": -54.81915789453203,
+        "ground_m": 58.5279426574707,
+        "lat": 50.94158746404986,
+        "lon": 6.957426837443342,
+        "north_m": 30.575479190592684
+      },
+      {
+        "east_m": -53.143833202828155,
+        "ground_m": 59.06131362915039,
+        "lat": 50.94101236572312,
+        "lon": 6.957450682668202,
+        "north_m": -33.402589607842984
+      },
+      {
+        "east_m": -45.69135722821265,
+        "ground_m": 58.317222595214844,
+        "lat": 50.941544653017786,
+        "lon": 6.95755670499767,
+        "north_m": 25.812785100485755
+      },
+      {
+        "east_m": -44.2778020195875,
+        "ground_m": 58.82036209106445,
+        "lat": 50.94105941378272,
+        "lon": 6.957576823074715,
+        "north_m": -28.16871044819434
+      },
+      {
+        "east_m": -1.125608777238545,
+        "ground_m": 56.628273010253906,
+        "lat": 50.94169901813781,
+        "lon": 6.958190769277318,
+        "north_m": 42.985264973948965
+      },
+      {
+        "east_m": 1.125608777238545,
+        "ground_m": 57.891624450683594,
+        "lat": 50.94092622955225,
+        "lon": 6.958222798575639,
+        "north_m": -42.985264973948965
+      },
+      {
+        "east_m": 29.282942144954145,
+        "ground_m": 55.12195587158203,
+        "lat": 50.9415623019157,
+        "lon": 6.958623410657994,
+        "north_m": 27.77605622357624
+      },
+      {
+        "east_m": 30.696497353579293,
+        "ground_m": 54.68294143676758,
+        "lat": 50.941077062498415,
+        "lon": 6.958643517639751,
+        "north_m": -26.205439325103853
+      },
+      {
+        "east_m": 48.30260826779761,
+        "ground_m": 55.037376403808594,
+        "lat": 50.941557785507506,
+        "lon": 6.958894015190072,
+        "north_m": 27.27376091645027
+      },
+      {
+        "east_m": 49.66380957980701,
+        "ground_m": 54.117591857910156,
+        "lat": 50.94109051787605,
+        "lon": 6.958913374762093,
+        "north_m": -24.708419982278706
+      },
+      {
+        "east_m": 62.58575724884201,
+        "ground_m": 54.67811584472656,
+        "lat": 50.941462233348595,
+        "lon": 6.9590972285738,
+        "north_m": 16.644007618029367
+      },
+      {
+        "east_m": 63.371065698078205,
+        "ground_m": 53.98286819458008,
+        "lat": 50.94119265585003,
+        "lon": 6.959108396407033,
+        "north_m": -13.345712131237352
+      },
+      {
+        "east_m": 66.97704077336233,
+        "ground_m": 54.159332275390625,
+        "lat": 50.94132838536841,
+        "lon": 6.959159703220861,
+        "north_m": 1.7538555366275004
+      },
+      {
+        "east_m": -18.14596025013089,
+        "ground_m": 57.554054260253906,
+        "lat": 50.94170400359163,
+        "lon": 6.957948609431718,
+        "north_m": 43.53991417769067
+      },
+      {
+        "east_m": 15.842388799038057,
+        "ground_m": 55.91228103637695,
+        "lat": 50.94171200400968,
+        "lon": 6.95843218428452,
+        "north_m": 44.42993042015836
+      },
+      {
+        "east_m": -1.33502436370153,
+        "ground_m": 56.81254959106445,
+        "lat": 50.94177090544242,
+        "lon": 6.9581877897537225,
+        "north_m": 50.98252357375342
+      },
+      {
+        "east_m": -11.331597613457102,
+        "ground_m": 57.347320556640625,
+        "lat": 50.94176855228853,
+        "lon": 6.958045561671243,
+        "north_m": 50.72075409067469
+      },
+      {
+        "east_m": 8.661548886054042,
+        "ground_m": 56.33948516845703,
+        "lat": 50.94177325842309,
+        "lon": 6.9583300178505585,
+        "north_m": 51.24429305683215
+      },
+      {
+        "east_m": -66.02480405572614,
+        "ground_m": 58.80093002319336,
+        "lat": 50.94165676183413,
+        "lon": 6.9572674062757445,
+        "north_m": 38.28479135901053
+      },
+      {
+        "east_m": -46.031657556215,
+        "ground_m": 58.4109992980957,
+        "lat": 50.941661469864094,
+        "lon": 6.957551861694352,
+        "north_m": 38.808330325168
+      }
+    ],
+    "lat": 50.941312623858984,
+    "lon": 6.958206784059214
+  },
+  "survey_sha256": "d79c8731a895a59313c506f733843f78c42583a7732b91acbb3189f1631087e8",
+  "control": "West portal and Domplatte datum retained. Raw perimeter falls by up to5.109m toward the choir; a seven-metre buried foundation and narrow continuous paved apron now support outer walls and buttresses. Existing modern surroundings have upper Domplatte and lower street levels. North redevelopment started January2026 and is ongoing; future design renderings are not represented as completed construction.",
+  "interpretation": "Narrow cathedral apron perimeter and north transept stair profile are original bounded approximations, not a survey of the entire Domplatte. North stair spans the measured approximately2.3m fall; individual foundation bottoms\u22124m extend beneath uneven lower landing. Ground caps only clear authored paving by12cm and do not lower the cathedral."
+}

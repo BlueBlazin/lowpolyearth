@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "allowed": {
+        "origins": [
+          "https://play.lowpolyearth.online",
+          "https://lowpolyearth-web.pages.dev",
+          "http://localhost:8787",
+          "http://localhost:8789"
+        ],
+        "methods": ["GET", "HEAD"]
+      },
+      "maxAgeSeconds": 86400
+    }
+  ]
+}

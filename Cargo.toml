@@ -1,0 +1,54 @@
+[workspace]
+resolver = "3"
+members = [
+    "crates/vearth-core",
+    "crates/vearth-platform",
+    "crates/vearth-data",
+    "crates/vearth-gen",
+    "crates/vearth-app",
+    "crates/vearth-prep",
+    "crates/vearth-web",
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2024"
+license-file = "LICENSE"
+publish = false
+rust-version = "1.95"
+
+[workspace.dependencies]
+vearth-core = { path = "crates/vearth-core" }
+vearth-platform = { path = "crates/vearth-platform" }
+vearth-data = { path = "crates/vearth-data" }
+vearth-gen = { path = "crates/vearth-gen" }
+glam = "0.33.2"
+bytemuck = { version = "1.25.2", features = ["derive"] }
+log = "0.4.33"
+
+# Voxel meshing and math are hot paths; keep dev iterations debuggable but
+# dependencies (wgpu et al.) optimized even in dev builds.
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+lto = "thin"
+
+# With the system strip on macOS, rustc rejects some stripped proc-macro
+# libraries ("can't find crate", E0463). Build-time code is never shipped.
+[profile.release.build-override]
+strip = false
+
+# The browser build (tools/build-web.sh) optimizes across the whole program:
+# slower to build, but a smaller module than thin LTO.
+[profile.web]
+inherits = "release"
+lto = "fat"
+codegen-units = 1
+
+# See vendor/wgpu/VEARTH_PATCH.md.
+[patch.crates-io]
+wgpu = { path = "vendor/wgpu" }

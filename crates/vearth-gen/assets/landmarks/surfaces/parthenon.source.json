@@ -1,0 +1,23 @@
+{
+  "name": "parthenon",
+  "kind": "parthenon",
+  "source": "parthenon/parthenon.glb",
+  "sha256": "831c883113daf058ee803686b957b757223c19a367ca9179ade060515b03f856",
+  "license": "existing landmark SOURCES.md",
+  "output": "parthenon.lms",
+  "output_sha256": "c8cd0488873a0910f3b2d89088890d37536705914caa5628d66466e0d6bd62a2",
+  "levels": [
+    [
+      77428,
+      41960
+    ],
+    [
+      25372,
+      23224
+    ],
+    [
+      25372,
+      23224
+    ]
+  ]
+}

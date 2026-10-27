@@ -1,0 +1,99 @@
+{
+  "name": "guggenheim-bilbao",
+  "city": "Bilbao",
+  "lat": 43.26864,
+  "lon": -2.934,
+  "heading": 0,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://www.guggenheim-bilbao.eus/en/the-building",
+    "https://www.guggenheim-bilbao.eus/el-edificio/la-construccion",
+    "https://www.openstreetmap.org/way/118499485"
+  ],
+  "description": "Curving titanium galleries, limestone wings, recessed glass atrium and the long gallery beside La Salve.",
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        -12,
+        -17
+      ],
+      "half_extent": [
+        67,
+        80
+      ],
+      "feather_m": 4,
+      "sample_clearance_m": 12,
+      "fixed_base_geo": 8.0
+    },
+    {
+      "center_xz": [
+        106,
+        7
+      ],
+      "half_extent": [
+        61,
+        31
+      ],
+      "feather_m": 4,
+      "sample_clearance_m": 12,
+      "fixed_base_geo": 8.0
+    }
+  ],
+  "capture": {
+    "distance": 380,
+    "azimuth": 25,
+    "elevation": 25,
+    "target_height": 20,
+    "time_utc": "2026-03-20T15:30:00Z"
+  },
+  "audit": {
+    "source_dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+    "ground_center_m": 9.6485,
+    "perimeter_m": [
+      10.5891,
+      16.9416,
+      19.9594,
+      6.169,
+      9.11,
+      5.8328,
+      6.0028,
+      2.2278
+    ],
+    "source_file": "output/city-catalog-expansion/modern/guggenheim-bilbao-final.json",
+    "placement_note": "River-side samples are 2.23\u20139.11 m; southern road samples rise to 16.94\u201319.96 m. An 8 m river-facing datum avoids lifting the museum to the elevated street. Two bounded cleanup rectangles follow the main galleries and eastern gallery separately."
+  },
+  "bbox_min": [
+    -83.0,
+    -9.2,
+    -101.0
+  ],
+  "bbox_max": [
+    171.0,
+    50.3,
+    67.0
+  ],
+  "levels": [
+    {
+      "vertices": 67170,
+      "triangles": 23092
+    },
+    {
+      "vertices": 30213,
+      "triangles": 10700
+    },
+    {
+      "vertices": 4071,
+      "triangles": 1560
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_modern.py",
+  "source_sha256": "d67541172251567213bcbe5de36427df424d1e2d182247fc8aa63fac3b117c3d",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "03ac96eba62049be92ec264753a25781defb1373f4867063ea2fabc6864b0ebf"
+}

@@ -1,0 +1,105 @@
+{
+  "landmark": "dohany-street-synagogue",
+  "attribution": "Original procedural model. Retained mapping © OpenStreetMap contributors, ODbL 1.0. Reference photographs are not redistributed.",
+  "sources": [
+    {
+      "url": "https://dohany-zsinagoga.hu/?page_id=789",
+      "publisher": "Dohány Street Synagogue congregation",
+      "facts": {
+        "temple_length_m": 53.1,
+        "temple_width_m": 26.5,
+        "interior_nave_length_m": 37.9,
+        "interior_nave_width_m": 24.6,
+        "interior_nave_height_m": 26
+      }
+    },
+    {
+      "url": "https://cdn.culture.hu/uploads/documents/8/8a/8ac/8ac27401f6b50bbd45aa3330860c4782e1e38e5.pdf",
+      "publisher": "Hungarian Museum of Architecture / MMA",
+      "pages": "PDF page 9; printed pages 16–17",
+      "facts": {
+        "tower_height_m": 43.6,
+        "construction_years": [
+          1854,
+          1859
+        ]
+      },
+      "visual_evidence": "Aerial photograph inspected locally: pale yellow/red facing brick, square tower shafts transitioning to octagonal clock drums, dark onion bulbs with gold lower ribs, shallow gray metal nave roof and smaller roofs over the entrance wings. PDF SHA256 b8d97b0bd4902d4a1e4b3590b372360ca4f6ab871adc2bdd825cf616cd7f6efe"
+    },
+    {
+      "url": "https://hegedus.bzsh.hu/web/index.php/dr-schner-alfred-irasai/904-koenyv-a-dohany-utcai-zsinagoga.html",
+      "publisher": "Budapest Jewish Community, Hegedűs synagogue; Alfred Schöner facade study",
+      "facts": {
+        "tower_height_m": 43.61,
+        "clock_face_diameter_m": 1.34,
+        "entrance_steps": 6,
+        "large_upper_rosettes_per_side": 3
+      },
+      "detail": "Alternating facade bands, patterned friezes, corner polygonal columns, entrance rose, paired tablet-like windows and twin stone Tablets above the front gable."
+    },
+    {
+      "url": "https://hrcak.srce.hr/file/70144",
+      "publisher": "Rudolf Klein, PROSTOR 17 (2009), Ludwig Förster’s Dohány Tempel in Pest",
+      "evidence": "Original research text and captions to figures 10–11 (section and pre-1930s plan) distinguish richly treated west front and long plain nave. PDF image retrieval was unavailable; figure dimensions were not measured."
+    },
+    {
+      "url": "https://synagogues-360.anumuseum.org.il/gallery/dohany-street-synagogue/",
+      "publisher": "ANU Museum, Synagogues360",
+      "evidence": "Museum identity and architectural reference gallery; no metric measurement taken."
+    }
+  ],
+  "placement": {
+    "anchor_latlon": [
+      47.49581013602856,
+      19.060516915490105
+    ],
+    "heading_deg_clockwise_from_north": 37.033361938222676,
+    "heading_direction": "Model +z follows long nave axis toward the northeast; entrance faces southwest. Bearing comes from the production mapped straight nave side.",
+    "raw_osm_tower_ways": [
+      223530622,
+      223530621
+    ],
+    "tower_centers_xz_m": [
+      [
+        -9.602009914950953,
+        -0.08218949478851705
+      ],
+      [
+        9.602009914950951,
+        0.08218949478851846
+      ]
+    ],
+    "tower_center_distance_m": 19.20472332733486,
+    "base_geometric_height_m": 114.3,
+    "ground_evidence": "Production center 114.339 m; retained samples inside the temple/entrance bounds range 114.210–114.640 m. No flat pad or lowered terrain is authored.",
+    "exclusion": "Convex triangulation of synagogue way 223530620, each piece inset 1.5% toward its centroid to avoid shared boundaries. Museum 385832061, Heroes Temple 223530623 and the courtyard arcades retain source geometry. No road suppression."
+  },
+  "dimensional_qualification": {
+    "published_temple_length_m": 53.1,
+    "mapped_rear_rectangle_length_m": 56.5,
+    "difference_percent": 6.4,
+    "implementation": "The published 53.1 by 26.5 m controls the long rear body. Mapped separate western foyer and oblique entrance wings add to overall complex length. This interpretation does not resolve the source disagreement; the 56.5 m mapped rear length is retained in provenance and activation ownership.",
+    "source_height_rejected_m": 5.91,
+    "reason": "Whole-complex feature height conflicts with published 26 m interior and 43.6 m towers."
+  },
+  "estimated_secondary_geometry": {
+    "nave_wall_eave_m": 27.0,
+    "nave_roof_ridge_m": 30.4,
+    "foyer_wall_height_m": 22.8,
+    "entrance_wing_height_m": 19.8,
+    "tower_square_width_m": 4.55,
+    "onion_bulb_max_diameter_m": 5.6,
+    "scope": "Heights below the documented finial, roof slope, window spacing, voussoir counts, brick-band pitch and ornamental offsets are photograph-derived estimates rather than surveyed fabric. Roof metal type is not asserted. No interior, separate museum, Heroes Temple, courtyard monuments or invented lettering is modeled."
+  },
+  "materials": {
+    "brick_courses_and_buff_facing": 81,
+    "carved_stone_and_clock_surrounds": 119,
+    "windows": 15,
+    "doors": 84,
+    "gray_seamed_roof_and_dark_onion": 88,
+    "gold_onion_ribs_and_finials": 95,
+    "clock_face": 83,
+    "window_metalwork": 16
+  },
+  "validation": "Run PYTHONPATH=tools:tools/city_catalog python3 tools/heritage_catalog/references/sacred_dohany/validate_models.py. Geometry-only Blender inspection uses encoded LMS; engine atlas/world placement acceptance remains separate."
+}

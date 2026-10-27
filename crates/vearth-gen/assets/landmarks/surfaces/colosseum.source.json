@@ -1,0 +1,23 @@
+{
+  "name": "colosseum",
+  "kind": "colosseum",
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-040/e749705838044be78ced42205f9f9dda.glb?download=true",
+  "sha256": "ea58f91a5c0a4a6743ddb8afb3538894604aa8422198d718efb176f71b51e235",
+  "license": "existing landmark SOURCES.md",
+  "output": "colosseum.lms",
+  "output_sha256": "7eefdf607ecd5a22ca76b94ae65d5c2f986ae18b1eeaa50f079f891843a935a9",
+  "levels": [
+    [
+      21586,
+      12313
+    ],
+    [
+      5506,
+      4315
+    ],
+    [
+      1778,
+      1273
+    ]
+  ]
+}

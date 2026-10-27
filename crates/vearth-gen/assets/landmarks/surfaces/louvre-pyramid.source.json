@@ -1,0 +1,23 @@
+{
+  "name": "louvre-pyramid",
+  "kind": "louvre-pyramid",
+  "source": "louvre-pyramid/louvre.glb",
+  "sha256": "d8a508faa72b5cfe4fc1d1baf58cc138d70a6d0280b9ddce5b256a14bccf2f9d",
+  "license": "existing landmark SOURCES.md",
+  "output": "louvre-pyramid.lms",
+  "output_sha256": "281a3d09e42fa26112981afeb71de8e966bcb88c4130b7820b247b5c9ead3554",
+  "levels": [
+    [
+      2920,
+      1458
+    ],
+    [
+      2920,
+      1458
+    ],
+    [
+      2920,
+      1458
+    ]
+  ]
+}

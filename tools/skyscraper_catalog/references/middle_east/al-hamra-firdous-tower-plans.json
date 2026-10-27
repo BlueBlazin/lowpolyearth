@@ -1,0 +1,59 @@
+{
+  "method": "Topology-preserving union of complete retained OSM component rings; triangulation covers only polygon interiors, retaining courtyard holes. Derived from sibling placement record.",
+  "parts": [
+    {
+      "seed": "6534900716914540084",
+      "height": 413.0,
+      "min_height": 0.0,
+      "outer": [
+        [
+          30.04031,
+          29.28187
+        ],
+        [
+          29.832,
+          -29.46579
+        ],
+        [
+          -29.98383,
+          -29.16758
+        ],
+        [
+          -29.99042,
+          29.28187
+        ]
+      ],
+      "holes": [],
+      "triangles": [
+        [
+          [
+            30.04031,
+            29.28187
+          ],
+          [
+            29.832,
+            -29.46579
+          ],
+          [
+            -29.98383,
+            -29.16758
+          ]
+        ],
+        [
+          [
+            -29.98383,
+            -29.16758
+          ],
+          [
+            -29.99042,
+            29.28187
+          ],
+          [
+            30.04031,
+            29.28187
+          ]
+        ]
+      ]
+    }
+  ]
+}

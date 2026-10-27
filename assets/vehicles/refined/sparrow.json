@@ -1,0 +1,172 @@
+{
+  "author": "Vearth project contributors",
+  "blender_version": "5.1.2",
+  "coordinates": {
+    "forward": "+Z",
+    "units": "metres",
+    "up": "+Y"
+  },
+  "exporter": {
+    "bytes": 12707,
+    "path": "tools/export_vehicle.py",
+    "sha256": "f9938037713c820a3d947beaad86d45a57d79d2627f27cf5585d9dc09d1e3a01"
+  },
+  "format": "VEARTHV1",
+  "license": "MIT; see repository LICENSE",
+  "materials": {
+    "Sparrow | graphite machine casing": {
+      "color_srgb": [
+        42,
+        49,
+        55
+      ],
+      "material_id": 97,
+      "texture_layer": 0
+    },
+    "Sparrow | headlamp": {
+      "color_srgb": [
+        250,
+        234,
+        186
+      ],
+      "material_id": 101,
+      "texture_layer": 0
+    },
+    "Sparrow | oxblood lacquer": {
+      "color_srgb": [
+        135,
+        31,
+        39
+      ],
+      "material_id": 96,
+      "texture_layer": 0
+    },
+    "Sparrow | rear signal lens": {
+      "color_srgb": [
+        240,
+        70,
+        45
+      ],
+      "material_id": 101,
+      "texture_layer": 0
+    },
+    "Sparrow | recessed panel joint": {
+      "color_srgb": [
+        22,
+        27,
+        30
+      ],
+      "material_id": 98,
+      "texture_layer": 0
+    },
+    "Sparrow | saddle thread": {
+      "color_srgb": [
+        82,
+        85,
+        89
+      ],
+      "material_id": 98,
+      "texture_layer": 0
+    },
+    "Sparrow | satin titanium": {
+      "color_srgb": [
+        139,
+        151,
+        157
+      ],
+      "material_id": 97,
+      "texture_layer": 0
+    },
+    "Sparrow | smoked instrument glass": {
+      "color_srgb": [
+        33,
+        54,
+        64
+      ],
+      "material_id": 99,
+      "texture_layer": 0
+    },
+    "Sparrow | technical saddle": {
+      "color_srgb": [
+        32,
+        35,
+        39
+      ],
+      "material_id": 98,
+      "texture_layer": 0
+    },
+    "Sparrow | vector drive ceramic": {
+      "color_srgb": [
+        143,
+        214,
+        230
+      ],
+      "material_id": 100,
+      "texture_layer": 0
+    },
+    "Sparrow | warm porcelain": {
+      "color_srgb": [
+        227,
+        224,
+        211
+      ],
+      "material_id": 96,
+      "texture_layer": 0
+    }
+  },
+  "mesh": {
+    "bytes": 1226992,
+    "path": "sparrow.mesh",
+    "sha256": "410a91f76193d7a297e96b617cf799a660b06974201c2ebb8dfcbcb2349ab99b"
+  },
+  "parts": [
+    {
+      "bounds_m": {
+        "max": [
+          0.7793407440185547,
+          0.6868922114372253,
+          1.4291237592697144
+        ],
+        "min": [
+          -0.7793407440185547,
+          -0.35066837072372437,
+          -1.3385056257247925
+        ]
+      },
+      "name": "body",
+      "triangles": 30740,
+      "vertices": 21452
+    }
+  ],
+  "source_urls": [],
+  "sources": [
+    {
+      "bytes": 623,
+      "path": "../../../LICENSE",
+      "sha256": "919dd2290f1fde7743a83c37d87947047d633dc69a02be50db439d340ca70850"
+    },
+    {
+      "bytes": 17776,
+      "path": "../hoverbike/source/build_hoverbike.py",
+      "sha256": "475f1d4234c797fbad56351084a8d4efa59b7c2538a656aa2772fc71104c0318"
+    },
+    {
+      "bytes": 1000577,
+      "path": "../hoverbike/sparrow_hoverbike.blend",
+      "sha256": "e4174d61f9d2cd42b27d3306342b1b5ace6740874ee8d2b3bf773bf2f447728d"
+    },
+    {
+      "bytes": 20571,
+      "path": "source/build_sparrow.py",
+      "sha256": "c60168c6b1c55401770bc93bdbd4e32454a180dcb51e0d243eaa944fdd36be1d"
+    },
+    {
+      "bytes": 2189181,
+      "path": "sparrow.blend",
+      "sha256": "169c78aa4f33cdc59aeb4ed3ebb2209dc03754a66aad97f29f338b8d764c809b"
+    }
+  ],
+  "textures": {},
+  "uv_origin": "bottom-left",
+  "version": 1
+}

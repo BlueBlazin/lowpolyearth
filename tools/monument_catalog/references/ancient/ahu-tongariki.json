@@ -1,0 +1,26 @@
+{
+  "name": "ahu-tongariki",
+  "sources": [
+    "https://www.chile.travel/itinerarios/descubre-la-magia-de-rapa-nui-junto-a-sus-playas-volcanes-y-atractivos-lugares-ocultos/",
+    "https://chiletravelofficial.cn/experiences/cultural-heritage/all/discover-12-moai-in-rapa-nui",
+    "https://en.wikipedia.org/wiki/Ahu_Tongariki",
+    "https://altiplano.travel/library/CHILE-MILENARIO.pdf",
+    "https://chileprecolombino.cl/en/pueblos-originarios/rapa-nui/arte/"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "standing_moai_count": 15,
+    "restored_pukao_count": 1,
+    "central_platform_length_m": 96
+  },
+  "geometry_notes": "The Chilean museum publication describes a 96m central platform. Individual statues vary between approximately 5.6 and 8.3m in this model; these heights and the 1.7m platform height are estimated from site photographs, not individually measured. Single red scoria pukao is on the second statue from the right as seen from inland. Porous warm grey-brown tuff bodies, darker volcanic masonry, concave eye sockets, long brows/nose/ears, lips, chin, arms and elongated fingers are individually authored. Eyes remain empty, rather than depicting conjectural coral inlays.",
+  "placement_notes": "Coordinate -27.12583,-109.27694 is the published site centre. Local -z faces bearing 290 degrees after heading110; inland toward the west-northwest, with the ocean behind. Bearing is a geographic estimate consistent with the photographed shore and winter sunset direction, not a surveyed solar alignment.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/ahu-tongariki.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "One connected moai-and-ahu structure",
+    "roads_suppressed": false
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

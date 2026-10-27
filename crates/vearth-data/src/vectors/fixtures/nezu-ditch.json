@@ -1,0 +1,14 @@
+{
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0; Protomaps basemap build 20260913",
+  "source_url": "https://www.openstreetmap.org/way/485600756",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "source_tags": {"waterway": "ditch"},
+  "evidence": "The source way closes around gatehouse 164586227 and has no area=yes. The pinned tile incorrectly fills the centerline interior. This fixture preserves exact tile-space vertices and properties; ClosePath is implicit in the polygon. Corrected line facts remain available at width 1m; current RiversAndCanals terrain admission excludes all Ditch lines.",
+  "tile": [15, 29105, 12899],
+  "extent": 4096,
+  "layer": "water",
+  "id": 4856007562,
+  "geometry_type": "Polygon",
+  "properties": {"sort_rank": 200, "kind": "ditch"},
+  "paths": [[[1402, 29], [1464, 9], [1480, 59], [1417, 79]]]
+}

@@ -1,0 +1,86 @@
+{
+  "name": "oslo-opera-house",
+  "city": "Oslo",
+  "lat": 59.9074842,
+  "lon": 10.7526811,
+  "heading": 22,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://old.snohetta.com/projects/42-norwegian-national-opera-and-ballet",
+    "https://www.operaen.no/en/about-us-oslo-operahouse/about-the-oslo-opera-house/",
+    "https://www.openstreetmap.org/way/810259696"
+  ],
+  "description": "Broad walkable marble roof ramps around a blue-glass foyer and restrained metallic stage volumes.",
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0,
+        0
+      ],
+      "half_extent": [
+        116,
+        69
+      ],
+      "feather_m": 6,
+      "sample_clearance_m": 12,
+      "fixed_base_geo": 0.5
+    }
+  ],
+  "capture": {
+    "distance": 350,
+    "azimuth": 225,
+    "elevation": 26,
+    "target_height": 15,
+    "time_utc": "2026-03-20T12:30:00Z"
+  },
+  "audit": {
+    "source_dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+    "ground_center_m": 0.0036,
+    "perimeter_m": [
+      0.0,
+      0.0,
+      0.7595,
+      0.0,
+      0.7151,
+      0.6453,
+      0.3357,
+      2.5008
+    ],
+    "source_file": "output/city-catalog-expansion/modern/oslo-opera-house-final.json",
+    "placement_note": "Coastal perimeter median is 0.49 m, with verified sea-level zero samples. A 0.5 m datum keeps the marble waterfront carpet close to the quay."
+  },
+  "bbox_min": [
+    -122.0,
+    -2.2,
+    -75.0
+  ],
+  "bbox_max": [
+    122.0,
+    41.3,
+    75.0
+  ],
+  "levels": [
+    {
+      "vertices": 6508,
+      "triangles": 3392
+    },
+    {
+      "vertices": 3898,
+      "triangles": 2032
+    },
+    {
+      "vertices": 1333,
+      "triangles": 712
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_modern.py",
+  "source_sha256": "d67541172251567213bcbe5de36427df424d1e2d182247fc8aa63fac3b117c3d",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "07512991e6efeecc80a29c7f83fa4f3669d088cb6c64108856ea3f252d76e040"
+}

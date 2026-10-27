@@ -1,0 +1,77 @@
+{
+  "source_url": "https://www.openstreetmap.org/way/1013605479",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "source_timestamp": "2021-12-23T09:04:47Z",
+  "source_version": "2",
+  "coordinates_lat_lon": [
+    [
+      33.5234433,
+      131.3765153
+    ],
+    [
+      33.5234362,
+      131.3765358
+    ],
+    [
+      33.5234483,
+      131.3765418
+    ],
+    [
+      33.5234412,
+      131.3765626
+    ],
+    [
+      33.5234291,
+      131.3765565
+    ],
+    [
+      33.5234221,
+      131.3765766
+    ],
+    [
+      33.5234111,
+      131.3765712
+    ],
+    [
+      33.5233747,
+      131.3765531
+    ],
+    [
+      33.523364,
+      131.3765479
+    ],
+    [
+      33.5233709,
+      131.3765278
+    ],
+    [
+      33.5233552,
+      131.37652
+    ],
+    [
+      33.5233623,
+      131.3764993
+    ],
+    [
+      33.523378,
+      131.376507
+    ],
+    [
+      33.5233851,
+      131.3764865
+    ],
+    [
+      33.5233958,
+      131.3764918
+    ],
+    [
+      33.5234322,
+      131.3765098
+    ]
+  ],
+  "tags": {
+    "building": "yes",
+    "name": "\u897f\u5927\u9580"
+  },
+  "note": "Coordinates and orientation only; architectural dimensions and materials use cited architectural sources, which override inconsistent OSM tags."
+}

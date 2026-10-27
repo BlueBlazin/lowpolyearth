@@ -1,0 +1,363 @@
+{
+  "status": "13 original metric model recipes with geographic registry entries. Published dimensional controls and production vector/terrain evidence are separated from interpreted architectural detail. Final in-engine visual integration is required.",
+  "coordinate_convention": "x east, y up, z north before clockwise registry heading. Source survey rings are east/north metres relative to their recorded lat/lon.",
+  "source_attribution": "Production footprints: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Geometry is original authoring; no downloaded geometry or textures.",
+  "survey_command": "VEARTH_ASYNC_PROVIDERS=0 target/release/city-survey LAT LON FILE --extent METRES --ground-grid 9",
+  "surveys": {
+    "wat-arun-survey.json": {
+      "sha256": "64a80d5bba4862a14afa524f33d28231748e8cd20615950142dcbc194e88a328",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "meenakshi-amman-temple-survey.json": {
+      "sha256": "9c16a0a0665a434c0b252bccdd9fe8f4f1ebf667eb2064f18874cad05a31a07a",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "paro-taktsang-survey.json": {
+      "sha256": "1d6e7bfe40b614848a19bb16c20f114193f261092e3f4fabf95162a788b9d378",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "prambanan-survey.json": {
+      "sha256": "11fa7c06f4295b7be0bbf0abd509186b099862bd73a1571fe69399f024df7a29",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "borobudur-survey.json": {
+      "sha256": "71b1263c6a454ee4cd78742dadf55a7311f2c7ef27f750d865447e912b48d766",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "konark-sun-temple-survey.json": {
+      "sha256": "d507a9196ef0f89ac82b62aebb3629ecdce1103479af33de0b9291996bb217e9",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "swaminarayan-akshardham-survey.json": {
+      "sha256": "e01ba934a2615c83eee641912a02102124e1fd8c6cd22dbd0c7d3a2d3c3380ae",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "potala-palace-survey.json": {
+      "sha256": "a1c42226aa9c891be5c0d96f17124373b86afd9a90b495e02cf0e750cea3b104",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "biete-giyorgis-survey.json": {
+      "sha256": "5c1a673de87257ee9968e7295f1d45228c6e6b614a5e716c0e780e7f1fb13f18",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "brihadisvara-temple-survey.json": {
+      "sha256": "032c97d57b2163c3e8505118eaf76ce12c4caa2aef221084d3748643f97da36b",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "taj-mahal-survey.json": {
+      "sha256": "4f8148661fb8682ebb90875611f393ff38cfe99f26c5144f8ab81d5fbebd35d9",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "sagrada-familia-survey.json": {
+      "sha256": "505346ef1abccd7e2a27d73864f743608fccf756ef28973a8f2aeb8993662e49",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "shwedagon-pagoda-survey.json": {
+      "sha256": "d000d49b685de530e521f5048208e77cdff6ecc64824c6ed5c30017c23df8708",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "konark-aux-ground.json": {
+      "sha256": "6a1b87cf7d42975743a6e3da838e55ced210b4c625a75f0fb17f3148fe9669cf",
+      "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    }
+  },
+  "sites": [
+    {
+      "name": "borobudur",
+      "references": [
+        "https://whc.unesco.org/en/list/592/",
+        "https://whc.unesco.org/document/186919"
+      ],
+      "verified_features": "Five square galleries, three circular terraces, 72 openwork stupas, 35.4m current summit. Source vectors show stepped terrace corners; these are authored.",
+      "source_anchor_offset_east_north_m": [
+        7.4,
+        -7.3
+      ],
+      "heading_candidate_deg": 0,
+      "ground_note": "Pad267.572m is the median of12 selected\u00b172m-footprint-edge samples; retains the natural hillside outside the narrow pad feather.",
+      "final_anchor_lat_lon": [
+        -7.607940007352901,
+        110.20381806175165
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/borobudur-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed."
+    },
+    {
+      "name": "shwedagon-pagoda",
+      "references": [
+        "https://shwedagonpagoda.com/architecture.php",
+        "https://openjicareport.jica.go.jp/pdf/12122537_02.pdf"
+      ],
+      "verified_features": "326ft(99.365m) above platform; basal perimeter1420ft. Do not interpret complex perimeter as a circular diameter. Source basal footprint115x113m led to horizontal correction.",
+      "source_anchor_offset_east_north_m": [
+        -11.1,
+        4.3
+      ],
+      "heading_candidate_deg": -15,
+      "ground_note": "Platform65.732m uses selected near-platform samples. Distant hillside and published above-sea-level heights do not share the production DEM calibration.",
+      "final_anchor_lat_lon": [
+        16.7983388552758,
+        96.14959587152097
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/shwedagon-pagoda-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed."
+    },
+    {
+      "name": "wat-arun",
+      "references": [
+        "https://api.tat.or.th/upload/live/multimedia/8969/E-Brochure_Bangkok_%28Th%29.pdf"
+      ],
+      "verified_features": "82m central prang; four satellite prangs. Individual ceramic color units follow taper. Source rotated prang compound bbox66.9x66.6m.",
+      "source_anchor_offset_east_north_m": [
+        -9.4,
+        0.9
+      ],
+      "heading_candidate_deg": -18.3,
+      "ground_note": "River lies east. Do not include river samples in pad datum.",
+      "final_anchor_lat_lon": [
+        13.74369813471238,
+        100.48890308581204
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/wat-arun-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed."
+    },
+    {
+      "name": "potala-palace",
+      "references": [
+        "https://whc.unesco.org/en/list/707/",
+        "https://m.tibet.cn/eng/travel/destination/201512/t20151202_5717373.html"
+      ],
+      "verified_features": "13-storey117m principal palace mass. White/red/gold regional architectural palette.",
+      "ground_note": "3653.12m is the median of three level southeast valley samples. Model height117.2m includes the terraced lower palace datum. Only masonry footprints receive local cuts.",
+      "final_anchor_lat_lon": [
+        29.65795,
+        91.11705
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/potala-palace-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed."
+    },
+    {
+      "name": "paro-taktsang",
+      "references": [
+        "https://a.storyblok.com/f/171618/x/b4748f2dc4/visitor-travel-booklet-thimphu-and-paro.pdf"
+      ],
+      "verified_features": "Cliffside monastery at approximately3100m. Draft models only immediate support rock, not whole900m valley relief.",
+      "source_anchor_offset_east_north_m": [
+        -15,
+        -10
+      ],
+      "ground_note": "Updated source-matched anchor3060.623m; individually sampled ledges and source footprints control seven building groups. Buildings and immediate rock replace DEM cliff smoothing; final in-engine terrain visual confirmation remains essential.",
+      "final_anchor_lat_lon": [
+        27.491926829553478,
+        89.36351880518266
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/paro-taktsang-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed.",
+      "additional_terrain_samples": "tools/heritage_catalog/references/temples/paro-cliff-edge-ground.json",
+      "ground_interface_correction": "Thirteen targeted production DEM samples constrain the existing mesh rear edge at local north28m. Its western height is only3.323m above the3060.623m anchor rather than the former43m cap. Seven rear-edge samples rise to138.058m at the east end and remain on the raw hillside. Exact ledges are retained; muted continuous color and irregular facet spacing describe exposed gneiss rather than alternating checker tones."
+    },
+    {
+      "name": "prambanan",
+      "references": [
+        "https://whc.unesco.org/en/list/642/",
+        "https://borobudurpark.com/wp-content/uploads/2019/07/BROCHURE-PRAMBANAN-in-INDONESIAN.pdf",
+        "https://prambanan.slemankab.go.id/candi-prambanan/"
+      ],
+      "verified_features": "Three main western shrines, three eastern vehicle shrines, two apit shrines, eight small corner/entrance shrines.224perwara positions primarily modeled as ruins.",
+      "source_anchor_offset_east_north_m": [
+        -2,
+        2
+      ],
+      "heading_candidate_deg": 0,
+      "ground_note": "149.971m median of12\u00b1100m outer-court samples; center157.277m contains temple contamination.",
+      "final_anchor_lat_lon": [
+        -7.75200191591475,
+        110.49140186909271
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/prambanan-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed.",
+      "roof_control": "Operator brochure describes the surviving vajra mastaka and documents Shiva47m by34m; district heritage description identifies ratna as modified vajra. Roof core narrows above unchanged body, with four-to-one ratna ranks, lobed jewel shoulders, necks and subsidiary points. Tier widths, grouping and profiles are proportionally interpreted original geometry, not measured individual carving. Overall height, footprint and placement remain unchanged. Public brochure screenshot/direct retrieval failed; text was read through web source."
+    },
+    {
+      "name": "brihadisvara-temple",
+      "references": [
+        "https://whc.unesco.org/en/list/250/",
+        "https://www.tamilnadutourism.com/attractions/temples/brihadeeswarar-temple-tanjore"
+      ],
+      "verified_features": "66m vimana13tiers. Production top66m feature centered(-70.1,-37.8) relative survey anchor. Detached Nandi pavilion and two eastern gates.",
+      "source_anchor_offset_east_north_m": [
+        -13.4,
+        -15.7
+      ],
+      "heading_candidate_deg": -20.3,
+      "ground_note": "Source broadperimeter62.32m; enclosure mainfeet near63m. Draft temple centerlocalx-61 matches vector datum approximately. Outer gatewaylocalx182 is outside enclosure and must have separate suppression.",
+      "final_anchor_lat_lon": [
+        10.782698063895197,
+        79.13166747649804
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/brihadisvara-temple-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed."
+    },
+    {
+      "name": "meenakshi-amman-temple",
+      "references": [
+        "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/",
+        "https://maduraimeenakshi.hrce.tn.gov.in/",
+        "https://commons.wikimedia.org/wiki/File:Plan_of_Meenakshi_Amman_Temple_Madurai_India.jpg"
+      ],
+      "verified_features": "65000sqm precinct;14gateway towers; southern51.9m. Two gold sanctum roofs.",
+      "source_anchor_offset_east_north_m": [
+        1,
+        17
+      ],
+      "heading_candidate_deg": -13.8,
+      "final_anchor_lat_lon": [
+        9.919653696998244,
+        78.11930911857635
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/meenakshi-amman-temple-ground.json",
+      "layout_note": "1911primary plan(page image920x1412) has WEST toward TOP and NORTH toward RIGHT. Pixel-to-model fit: x=(pixelY-500)*.297; z=(pixelX-526)*.297. This matches current OSM fourgate arrangement. SundareshwararA\u2248(-47,0), MeenakshiB\u2248(-75,-65), GoldenLotusPoolL\u2248(+12,-93); outerwest/east\u2248(-134,0)/(+134,0), outersouth/north\u2248(-24,-138)/(-24,+96). Pool is authored as a roofless void. Current plan controls supersede1911details if changed.",
+      "ground_note": "143.401m median of8selected inner-court reference points.",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed.",
+      "architectural_control": "The retained1911 plan controls the asymmetric hall footprints, courtyard openings, pool and14 gopuram positions. Granite hall fronts are modeled as recessed cores with exposed column ranks; rooftop slab patches and restrained finish variation distinguish broad covered halls without introducing unsupported domes or pitches.",
+      "interpreted_detail": "Column spacing and simplified relief, rooftop joints and weathering are authored interpretations, not exact measured pillar ranks or surveyed roof finish. The broad hall roof outlines are retained from the site plan."
+    },
+    {
+      "name": "konark-sun-temple",
+      "references": [
+        "https://culture.gov.in/sun-temple-konarak",
+        "https://www.works.odisha.gov.in/en/odisha-tourism/important-tourist-pointskonark",
+        "https://ignca.gov.in/asi_reports/orpuri093.pdf",
+        "https://youngintach.org/files/activity_ideas56.pdf"
+      ],
+      "verified_features": "24carvedwheels and surviving eastern jagamohana; western tower collapsed, nata mandira roof absent. Draft does not reconstruct lost roofs.",
+      "ground_note": "Main temple datum14.82m is retained. The supplementary13-point production DEM survey establishes separate approximate ground datums: Mayadevi9.9468m, kitchen15.2816m, north elephants14.5822/15.7320m and south horses18.0655m. Each modeled group has an independent bounded feathered terrain pad; the runtime surface consumer applies that pad datum per vertex, so each group retains local y=0 feet without an additional datum offset. These are calibrated production terrain heights, not geodetic architectural survey measurements.",
+      "final_anchor_lat_lon": [
+        19.887563217904233,
+        86.09454
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/konark-sun-temple-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed.",
+      "architectural_control": "INTACH site plan and jagamohana photographs identify three pidha roof groups, roofless Mayadevi southwest of the principal temple, excavated kitchen southeast, elephant sculptures north and horses south. IGNCA inventory OR/PRI-51 records Mayadevi existing dimensions 29.5 x18 x4.55m, east orientation and 0.90m pista. The wider41m platform comes from the production footprint, rather than extending the published29.5m shrine body dimension.",
+      "interpreted_detail": "Individual roof offsets, subsidiary cell wall thicknesses, sculptural niches and simplified animals are original interpretations of the primary plan and photos. Kitchen stump heights are interpreted remains, not surveyed elevations. Only footprints explicitly replaced by authored remains are suppressed; other archaeological and service buildings remain.",
+      "additional_terrain_samples": "tools/heritage_catalog/references/temples/konark-aux-ground.json"
+    },
+    {
+      "name": "swaminarayan-akshardham",
+      "references": [
+        "https://akshardham.com/explore/Mandir/",
+        "https://akshardham.com/newdelhi/wp-content/uploads/2015/04/akshardhambrochureenglish.pdf",
+        "https://akshardham.com/explore/Mandir/mandapams/"
+      ],
+      "verified_features": "Official356x316x141.3ft=108.51x96.32x43.068m, nine domes,20quadrangularspires. Pink sandstone and cream stone.",
+      "source_anchor_offset_east_north_m": [
+        8.7,
+        -15.8
+      ],
+      "heading_candidate_deg": -30,
+      "ground_note": "Mandir body follows72.7x63.6m rotated source footprint; published108.51x96.32m refers to the broader peeth. Ground199.637m from12surrounding samples.",
+      "final_anchor_lat_lon": [
+        28.612537438555602,
+        77.2773589571242
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/swaminarayan-akshardham-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed.",
+      "architectural_control": "Official Mandir page gives a25ft(7.62m) mandovar,611ft perimeter,200 figures,234 carved pillars,9 domes and20 quadrangular shikharas. Official brochure photographs of the mandir and mandovar show the low sculptural enclosure, deeply carved columns, stepped roof samvarans and domed mandapams; these control the exterior articulation.",
+      "interpreted_detail": "Mandovar carving uses individually modeled niches, figures, plinth mouldings and pilasters. The layered roof offsets, petal relief, column profiles and visible porch ranks are original low-poly interpretations rather than individually measured carving or a234-column interior reconstruction."
+    },
+    {
+      "name": "biete-giyorgis",
+      "references": [
+        "https://whc.unesco.org/en/list/18/"
+      ],
+      "verified_features": "Rock-hewn cruciform church. Source footprint12.5x12.8m matches12.6m draftcross. BIETE_CROSS/BIETE_PIT exported; draftroof0.9m above rim, floor-12.6m.",
+      "source_anchor_offset_east_north_m": [
+        3.4,
+        -3.7
+      ],
+      "ground_note": "Rim datum2420.681m at shifted source church center. BIETE_PIT convex excavation plane-12.6m; church stays relative to rim.",
+      "final_anchor_lat_lon": [
+        12.031626552928785,
+        39.04114122419252
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/biete-giyorgis-ground.json",
+      "heading_candidate_deg": 10,
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed."
+    },
+    {
+      "name": "taj-mahal",
+      "references": [
+        "https://www.tajmahal.gov.in/outlying-building.aspx",
+        "https://www.tajmahal.gov.in/the-taj-exteriors.aspx"
+      ],
+      "verified_features": "Official313ft square marbleplatform;137ft minarets; authored73m summit,57m clipped-square mausoleum. Scope presently mausoleum river terrace and two flanking halls; fullgarden/gate not authored.",
+      "source_anchor_offset_east_north_m": [
+        -5.9,
+        -11.5
+      ],
+      "heading_candidate_deg": 0,
+      "ground_note": "164.4m datum calibrated to unobstructed southgarden samples; northriver excluded.10m sandstone retaining wall meets riverbank. Source mosque/jawab center offsets are local(-137,-2.8)/(141,-1.4), not a narrower symmetric guess.",
+      "final_anchor_lat_lon": [
+        27.175036215274172,
+        78.0420804645743
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/taj-mahal-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed."
+    },
+    {
+      "name": "sagrada-familia",
+      "references": [
+        "https://sagradafamilia.org/en/-/la-grua-central-de-la-sagrada-familia-inicia-una-nova-etapa-despres-de-completar-l-exterior-de-la-torre-de-jesucrist?redirect=%2Fen%2Fnews",
+        "https://sagradafamilia.org/documents/20142/1205286/SF_Booklet_10_20240415_digital_AF.pdf/504e0081-e3b7-43ff-be2c-0efb05e2ebaf",
+        "https://sagradafamilia.org/en/-/culminen-les-torres-dels-evangelistes-mateu-i-joan?redirect=%2Fen%2Fhome",
+        "https://sagradafamilia.org/en/-/benediccio-i-inauguracio-de-la-torre-de-jesucrist",
+        "https://sagradafamilia.org/es/detalle/-/asset_publisher/7JWibz9G2KUY/content/s-ornamenta-amb-trencadis-l-icosaedre-de-l-evangelista-mateu",
+        "https://sagradafamilia.org/en/-/s-inicia-la-col-locacio-de-les-ales-de-les-figures-dels-evangelistes-mateu-i-joan",
+        "https://sagradafamilia.org/en/-/ultim-pas-abans-de-culminar-la-torre-de-la-mare-de-deu?redirect=%2Fen%2F",
+        "https://blog.sagradafamilia.org/en/the-sagrada-familia-a-repository-of-other-gaudi-projects/",
+        "https://sagradafamilia.org/en/-/la-grua-central-de-la-sagrada-familia-inicia-una-nova-etapa-despres-de-completar-l-exterior-de-la-torre-de-jesucrist",
+        "https://sagradafamilia.org/en/-/s-esta-treballant-en-la-verticalitat-de-la-facana-de-la-gloria",
+        "https://sagradafamilia.org/documents/20142/1693659/SF_Booklet_08_20260227_digital_AF.pdf/5b1ae4de-8917-2c03-b419-9d28450194c7",
+        "https://sagradafamilia.org/documents/20142/1195295/memoria23-cat.pdf/1a2b3566-2faf-c59b-c7ca-d2238b270a8f"
+      ],
+      "verified_features": "As ofSeptember2026 Jesus exterior complete172.5m;14existing towers,4future Glory towers absent;135m evangelists and138m Mary. SourceOSM includes speculative185m values and is not architectural height authority.",
+      "source_anchor_offset_east_north_m": [
+        -0.2,
+        -4.5
+      ],
+      "heading_candidate_deg": -45,
+      "ground_note": "Anchor includes the inverse rotation of the local Jesus tower center(0,11). Pad45.579m from12sidewalk perimeter samples.",
+      "final_anchor_lat_lon": [
+        41.40351943085036,
+        2.1744406483531376
+      ],
+      "terrain_samples": "tools/heritage_catalog/references/temples/sagrada-familia-ground.json",
+      "detail_limit": "Small sculpture, carving and repeated facade ornament are original low-poly interpretations, not a photogrammetric replica. Numeric controls refer to massing, counts and placement; fine motifs are not metrically surveyed.",
+      "architectural_control": "Official central-tower booklet specifies parabolic form and12/14/8 paraboloid sides for Jesus/Mary/Evangelists. Jesus tower prefabricated panels start85m. Official Matthew account places open-rib lower Evangelist stages at45\u201374m, closed tower body74\u2013112m and22.5m terminal; later official updates give9m wings. Mary terminal has6m crown,18m shaft and7.5m diameter star. The172.5m completed Jesus tower and current14-tower state follow the retained2026 foundation evidence.",
+      "interpreted_detail": "Tower sections use faceted parabolic taper with independently open lower Evangelist ribs, recessed panel apertures and stepped terminals. Exact panel perforation counts, construction-joint spacing and statuary forms remain authored interpretations. Footprint paving receives a bounded lower-only terrain cut.",
+      "nave_and_glory_control": "Official architecture article gives15m central nave width,45m vault and30m side vaults, double stone roof and diagonally laid Ulldecona stone. July2026 foundation update places the central roof crane base54m high. Lower side roof profile34m at the inner edge is an interpreted external clearance above30m vaults; it exposes the clerestory rather than occluding it behind a45m invented slope.2023 annual report confirms side-roof lantern construction. The2026 Glory booklet documents seven bronze doors (central5m x4.7m), and eight supporting columns below the future towers at roughly30m. March2025 update confirms those columns under construction. Column shaft/branch completion heights, windows and roof-lantern forms are interpreted construction detail; no completed Glory towers or future16-lantern narthex is authored."
+    }
+  ],
+  "physical_materials": {
+    "method": "Construction material is selected per site and named authored component palette, never through a global brightness classifier. Natural cliff and monolithic rock use ROCK4; terraces retain PAVED8. Recesses in unglazed stone temples are rough dark rock rather than reflective glazing.",
+    "borobudur": "Andesite courses and relief82; no smooth marble assignment.",
+    "shwedagon-pagoda": "Explicit main pagoda and satellite skins95 gildedmetal. Pavilion plaster83, timber84 and red roof85 remain distinct.",
+    "wat-arun": "White plaster83 with individual colored porcelain85 and gold95 details.",
+    "potala-palace": "White/red plaster83, wooden facade frames and eave bands84, earth roofs121, gilt pavilion roofs95, actual outcrop4.",
+    "paro-taktsang": "Plaster83, timber84, painted metal roofs88, gilt edges95 and outcrop4.",
+    "prambanan": "Andesite82 for intact and ruined masonry.",
+    "brihadisvara-temple": "Granite82, including stone roofing; copper/gilt finials95.",
+    "meenakshi-amman-temple": "Painted sculptural stucco83, unpainted corridor stone82, flat roofs91, gilded sanctums95. Lotus pool WATER1 rather than emissive-window18.",
+    "konark-sun-temple": "Khondalite stone82 for surviving pyramid, wheels and ruined foundations.",
+    "swaminarayan-akshardham": "Authored visible exterior is Rajasthan pink sandstone82; white Carrara interior marble is not invented on exterior domes. Finials95.",
+    "biete-giyorgis": "Continuous carved volcanic tuffROCK4 throughout church and excavation; no ashlar joints.",
+    "taj-mahal": "Continuous veined marble120 on platform/mausoleum/minarets/chhatri and dome; red sandstone82; bronze finials95; pietra dura colors preserved.",
+    "sagrada-familia": "Weathered stone119, modeled ceramic roof and fruit terminals85, glass Mary star15, white ceramic Jesus cross85, white marble Evangelist figures120."
+  },
+  "ground_interface_controls": {
+    "paved_platforms": "Shwedagon, Wat Arun, Prambanan, Brihadisvara and Taj platform tops are localy0. Lower-only0.3m cuts avoid coincident native terrain and paving; exact platform bounds exclude adjoining gardens.",
+    "biete_rim": "Rim y=.07555537x+.20432129z\u2212.17042057 relative2420.681m, least-squares fit of12 perimeter samples in biete-giyorgis-ground.json;4.5% outward batter meets0.6m excavation feather.",
+    "paro_rock": "Irregular joined gneiss facets keep all pre-existing panel edges and authored cliff extent; regional900m valley is entirely source terrain.",
+    "wat_arun_detail": "Upper prang floral registers and central Erawan niche figures are original simplified relief geometry; macro heights and published82m overall profile retained. TAT exterior reference: https://tourismthailand.my/home/phraprang-wat-arun-ratchawararam"
+  }
+}

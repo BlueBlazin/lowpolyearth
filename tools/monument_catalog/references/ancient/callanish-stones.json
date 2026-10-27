@@ -1,0 +1,25 @@
+{
+  "name": "callanish-stones",
+  "sources": [
+    "https://www.historicenvironment.scot/visit/all/calanais-standing-stones/history-and-stories/",
+    "https://en.wikipedia.org/wiki/Callanish_Stones"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "centre_monolith_height_m": 4.8,
+    "central_ring_stones": 13,
+    "northern_avenue_remaining_stones": 19,
+    "avenue_length_m": 83.2
+  },
+  "geometry_notes": "The northern avenue has ten western and nine eastern stones, with lower middle heights. Eastern, southern and western arms have five, five and four stones respectively. Thirteen-stone oval approximately 12x13.4m; central rudder-shaped gneiss monolith offset west. Low open tomb walls retained. Stone shape, veining colors and exact irregular spacing are authored approximations.",
+  "placement_notes": "Published coordinate 58.197541,-6.745145. Geometry uses true north +z, with the northern avenue approximately 17 degrees east of north; no registry rotation. The complete footprint spans about 114m north-south. No assumption that these rows point exactly at the circle centre.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/callanish-stones.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "61 independent standing and tomb-wall stones",
+    "roads_suppressed": false,
+    "source_ownership": "Convex hull of each rigid component’s ground-support vertices only. Open areas between stones retain source vegetation and terrain; no site-wide clearance."
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

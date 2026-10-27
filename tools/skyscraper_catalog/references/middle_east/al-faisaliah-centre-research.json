@@ -1,0 +1,82 @@
+{
+  "name": "al-faisaliah-centre",
+  "sources": [
+    {
+      "url": "https://www.fosterandpartners.com/projects/al-faisaliah-center/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://saudipedia.com/en/al-faisaliah-tower",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Architect267m and gold sphere at200m; mapped41.3\u00d740m plan. Sphere11.4m radius, office/body184m and brace levels estimated from architectural proportions.",
+  "authored_form": "Tapering square office tower with four corner columns, K-braced belts, gold glazed sphere and open lantern.",
+  "dimensions_m": {
+    "architectural_height": 267,
+    "tip_height": 267,
+    "mapped_parts": [
+      {
+        "seed": "2087783012551711609",
+        "bounds_xz": [
+          [
+            -20.96398,
+            -20.01648
+          ],
+          [
+            20.96398,
+            20.01647
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      24.69020097581309,
+      46.68501064183535
+    ],
+    "heading_deg": 24.075497386367545,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "2f7f7159a280db663643e4cef9275cf1ddd6cde0efac055acb80a107140dc6d3"
+  },
+  "ground": {
+    "datum_m": 621.0,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "d2ff92ebbe019dfcc7016ab39a79e8e8f6b26701a5f46d8ae010c61d1616f917",
+    "quantiles_m": {
+      "toe": [
+        625.6605834960938,
+        626.5901489257812,
+        630.0320434570312,
+        632.9345092773438,
+        633.8273315429688
+      ],
+      "near": [
+        621.6168823242188,
+        623.7964477539062,
+        629.6506958007812,
+        633.06689453125,
+        634.470947265625
+      ],
+      "street": [
+        617.0589599609375,
+        621.010498046875,
+        628.3201904296875,
+        632.5771484375,
+        635.3818359375
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "palace-of-culture-and-science",
+  "sources": [
+    {
+      "url": "https://pkin.pl/en/trivia/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://pkin.pl/informacje-o-pkin/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Owner187.68m without spire,230.68m original tip,237m with1994 antenna,114m terrace. OSM upper-envelope heights conflict; upper setbacks and clock center157m are proportion-based estimates constrained to owner heights.",
+  "authored_form": "Courtyard-preserving stone complex with stepped office shaft,114m terrace, four6.3m clocks and spire.",
+  "dimensions_m": {
+    "architectural_height": 230.68,
+    "tip_height": 237,
+    "mapped_parts": [
+      {
+        "seed": "2126076577983071645",
+        "bounds_xz": [
+          [
+            -133.00476,
+            -109.17199
+          ],
+          [
+            133.92574,
+            106.62129
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      52.23171920888141,
+      21.005954787725976
+    ],
+    "heading_deg": 69.89001704783028,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "56c868aa31d26f50142983a0d2b5f9cb6505613ea5ac2e0c0619941be941b085"
+  },
+  "ground": {
+    "datum_m": 114.8,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "77d0e42aa070708b520b971332ea8975bb0ba4c8a7da332439cc0941b09c34b0",
+    "quantiles_m": {
+      "toe": [
+        113.20402526855469,
+        116.41812133789062,
+        119.37525177001953,
+        122.00051879882812,
+        126.11271667480469
+      ],
+      "near": [
+        113.26847839355469,
+        115.65984344482422,
+        118.47567367553711,
+        120.74535751342773,
+        125.62130737304688
+      ],
+      "street": [
+        112.16213989257812,
+        114.77562713623047,
+        116.66236114501953,
+        118.92671012878418,
+        125.1592788696289
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

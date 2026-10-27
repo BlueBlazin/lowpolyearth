@@ -1,0 +1,614 @@
+{
+  "units": "Metres in model coordinates before geographic heading; foundation extensions preserve all published roof, spire and floor controls. Below-grade toes are excluded from architectural height claims.",
+  "method": "Production8m-pitch elevation samples evaluated through ActiveLandmark::flattened_terrain. Asset contact also depends on rendered grid interpolation; low-angle engine checks remain required. A sampled negative footing gap means embedded support, not a shifted building.",
+  "sites": {
+    "borobudur": {
+      "selected_support_bottom_y_m": -0.4,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            -61.790000000000006,
+            -3.9968028886505635e-15
+          ],
+          "raw_ground_m": 269.3555603027344,
+          "corrected_ground_m": 267.5719909667969,
+          "model_base_m": 267.5719909667969
+        },
+        {
+          "model_xz": [
+            -7.549516567451064e-15,
+            61.790000000000006
+          ],
+          "raw_ground_m": 270.5792236328125,
+          "corrected_ground_m": 267.5719909667969,
+          "model_base_m": 267.5719909667969
+        },
+        {
+          "model_xz": [
+            0.0,
+            -61.790000000000006
+          ],
+          "raw_ground_m": 270.1717529296875,
+          "corrected_ground_m": 267.5719909667969,
+          "model_base_m": 267.5719909667969
+        },
+        {
+          "model_xz": [
+            61.790000000000006,
+            1.1546319456101628e-14
+          ],
+          "raw_ground_m": 271.4774475097656,
+          "corrected_ground_m": 267.5719909667969,
+          "model_base_m": 267.5719909667969
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "shwedagon-pagoda": {
+      "selected_support_bottom_y_m": -3,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            -18.61433444372975,
+            56.173723335751255
+          ],
+          "raw_ground_m": 63.48296356201172,
+          "corrected_ground_m": 63.48296356201172,
+          "model_base_m": 65.73200225830078
+        },
+        {
+          "model_xz": [
+            -24.4816771203966,
+            57.042589964335995
+          ],
+          "raw_ground_m": 63.67057800292969,
+          "corrected_ground_m": 63.67057800292969,
+          "model_base_m": 65.73200225830078
+        },
+        {
+          "model_xz": [
+            -22.600870151032016,
+            58.92339693370057
+          ],
+          "raw_ground_m": 63.69112014770508,
+          "corrected_ground_m": 63.69112014770508,
+          "model_base_m": 65.73200225830078
+        },
+        {
+          "model_xz": [
+            -18.33448908194019,
+            61.004102920045725
+          ],
+          "raw_ground_m": 63.713626861572266,
+          "corrected_ground_m": 63.713626861572266,
+          "model_base_m": 65.73200225830078
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "wat-arun": {
+      "selected_support_bottom_y_m": -4.2,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            -36.36000000000001,
+            29.088000000000005
+          ],
+          "raw_ground_m": 5.912541389465332,
+          "corrected_ground_m": 5.912541389465332,
+          "model_base_m": 9.270999908447266
+        },
+        {
+          "model_xz": [
+            -29.088000000000005,
+            36.36000000000001
+          ],
+          "raw_ground_m": 6.276144981384277,
+          "corrected_ground_m": 6.276144981384277,
+          "model_base_m": 9.270999908447266
+        },
+        {
+          "model_xz": [
+            -29.260989742084483,
+            26.511758576831188
+          ],
+          "raw_ground_m": 6.854488372802734,
+          "corrected_ground_m": 6.854488372802734,
+          "model_base_m": 9.270999908447266
+        },
+        {
+          "model_xz": [
+            -28.81375043214733,
+            27.286399784784386
+          ],
+          "raw_ground_m": 6.862654685974121,
+          "corrected_ground_m": 6.862654685974121,
+          "model_base_m": 9.270999908447266
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "prambanan": {
+      "selected_support_bottom_y_m": -2.2,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            56.0,
+            53.90909090909091
+          ],
+          "raw_ground_m": 148.48684692382812,
+          "corrected_ground_m": 148.48684692382812,
+          "model_base_m": 149.9709930419922
+        },
+        {
+          "model_xz": [
+            51.90909090909091,
+            55.0
+          ],
+          "raw_ground_m": 148.9093017578125,
+          "corrected_ground_m": 148.9093017578125,
+          "model_base_m": 149.9709930419922
+        },
+        {
+          "model_xz": [
+            53.0,
+            38.327272727272735
+          ],
+          "raw_ground_m": 149.23365783691406,
+          "corrected_ground_m": 149.23365783691406,
+          "model_base_m": 149.9709930419922
+        },
+        {
+          "model_xz": [
+            -92.0,
+            -86.16470588235293
+          ],
+          "raw_ground_m": 145.78709411621094,
+          "corrected_ground_m": 149.9709930419922,
+          "model_base_m": 149.9709930419922
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "brihadisvara-temple": {
+      "selected_support_bottom_y_m": -5,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            -95.6,
+            -60.5
+          ],
+          "raw_ground_m": 58.71375274658203,
+          "corrected_ground_m": 58.71375274658203,
+          "model_base_m": 62.983001708984375
+        },
+        {
+          "model_xz": [
+            -95.6,
+            -55.5
+          ],
+          "raw_ground_m": 58.724605560302734,
+          "corrected_ground_m": 58.724605560302734,
+          "model_base_m": 62.983001708984375
+        },
+        {
+          "model_xz": [
+            -96.4,
+            -61.0
+          ],
+          "raw_ground_m": 58.73944091796875,
+          "corrected_ground_m": 58.73944091796875,
+          "model_base_m": 62.983001708984375
+        },
+        {
+          "model_xz": [
+            -94.12,
+            -47.0
+          ],
+          "raw_ground_m": 59.09428787231445,
+          "corrected_ground_m": 59.09428787231445,
+          "model_base_m": 62.983001708984375
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "sagrada-familia": {
+      "selected_support_bottom_y_m": -3.2,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            36.0,
+            -43.6
+          ],
+          "raw_ground_m": 43.14130401611328,
+          "corrected_ground_m": 43.14130401611328,
+          "model_base_m": 45.57899856567383
+        },
+        {
+          "model_xz": [
+            28.799999999999997,
+            -54.50000000000001
+          ],
+          "raw_ground_m": 43.52486801147461,
+          "corrected_ground_m": 43.52486801147461,
+          "model_base_m": 45.57899856567383
+        },
+        {
+          "model_xz": [
+            23.64,
+            -40.7
+          ],
+          "raw_ground_m": 44.08673095703125,
+          "corrected_ground_m": 44.08673095703125,
+          "model_base_m": 45.57899856567383
+        },
+        {
+          "model_xz": [
+            20.067781745930525,
+            -51.62221825406948
+          ],
+          "raw_ground_m": 44.10320281982422,
+          "corrected_ground_m": 44.10320281982422,
+          "model_base_m": 45.57899856567383
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "swaminarayan-akshardham": {
+      "selected_support_bottom_y_m": -0.4,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            -54.255,
+            -38.528
+          ],
+          "raw_ground_m": 198.50628662109375,
+          "corrected_ground_m": 199.63699340820312,
+          "model_base_m": 199.63699340820312
+        },
+        {
+          "model_xz": [
+            -54.255,
+            0.0
+          ],
+          "raw_ground_m": 198.08184814453125,
+          "corrected_ground_m": 199.63699340820312,
+          "model_base_m": 199.63699340820312
+        },
+        {
+          "model_xz": [
+            -54.255,
+            38.528
+          ],
+          "raw_ground_m": 201.701416015625,
+          "corrected_ground_m": 199.63699340820312,
+          "model_base_m": 199.63699340820312
+        },
+        {
+          "model_xz": [
+            -43.404,
+            -48.160000000000004
+          ],
+          "raw_ground_m": 199.00657653808594,
+          "corrected_ground_m": 199.63699340820312,
+          "model_base_m": 199.63699340820312
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09"
+    },
+    "meenakshi-amman-temple": {
+      "selected_support_bottom_y_m": -2.4,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            -143.65,
+            -14.976
+          ],
+          "raw_ground_m": 141.9683074951172,
+          "corrected_ground_m": 141.9683074951172,
+          "model_base_m": 143.4010009765625
+        },
+        {
+          "model_xz": [
+            143.65,
+            -10.879999999999999
+          ],
+          "raw_ground_m": 142.7189483642578,
+          "corrected_ground_m": 142.7189483642578,
+          "model_base_m": 143.4010009765625
+        },
+        {
+          "model_xz": [
+            -141.65,
+            -5.760000000000002
+          ],
+          "raw_ground_m": 142.9337158203125,
+          "corrected_ground_m": 142.9337158203125,
+          "model_base_m": 143.4010009765625
+        },
+        {
+          "model_xz": [
+            141.65,
+            -5.760000000000001
+          ],
+          "raw_ground_m": 143.15113830566406,
+          "corrected_ground_m": 143.15113830566406,
+          "model_base_m": 143.4010009765625
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+      "approach_ground_samples": [
+        {
+          "corrected_ground_m": 142.9006805419922,
+          "east_m": -142.04113877398078,
+          "ground_m": 142.9006805419922,
+          "lat": 9.919310337015729,
+          "lon": 78.11801390635245,
+          "model_base_m": 143.4010009765625,
+          "model_xz_m": [
+            -146.99999996009885,
+            -2.99999999963417
+          ],
+          "north_m": -37.9778211037803
+        },
+        {
+          "corrected_ground_m": 143.217041015625,
+          "east_m": -142.7567391467165,
+          "ground_m": 143.217041015625,
+          "lat": 9.919336677065907,
+          "lon": 78.11800738099558,
+          "model_base_m": 143.4010009765625,
+          "model_xz_m": [
+            -146.99999996163004,
+            2.6403057518109563e-10
+          ],
+          "north_m": -35.06441826405139
+        },
+        {
+          "corrected_ground_m": 143.4986114501953,
+          "east_m": -143.47233951945225,
+          "ground_m": 143.4986114501953,
+          "lat": 9.919363017115913,
+          "lon": 78.11800085563769,
+          "model_base_m": 143.4010009765625,
+          "model_xz_m": [
+            -146.99999996072523,
+            2.9999999991108695
+          ],
+          "north_m": -32.15101542432248
+        },
+        {
+          "corrected_ground_m": 142.84347534179688,
+          "east_m": 143.47233951945225,
+          "ground_m": 142.84347534179688,
+          "lat": 9.919944371773324,
+          "lon": 78.12061738382137,
+          "model_base_m": 143.4010009765625,
+          "model_xz_m": [
+            146.99999996084205,
+            -2.99999999925657
+          ],
+          "north_m": 32.15101542432248
+        },
+        {
+          "corrected_ground_m": 143.0626220703125,
+          "east_m": 142.7567391467165,
+          "ground_m": 143.0626220703125,
+          "lat": 9.919970711873148,
+          "lon": 78.12061085865993,
+          "model_base_m": 143.4010009765625,
+          "model_xz_m": [
+            146.99999996133891,
+            8.148504093696829e-11
+          ],
+          "north_m": 35.06441826405139
+        },
+        {
+          "corrected_ground_m": 143.28428649902344,
+          "east_m": 142.04113877398078,
+          "ground_m": 143.28428649902344,
+          "lat": 9.919997051972803,
+          "lon": 78.12060433349743,
+          "model_base_m": 143.4010009765625,
+          "model_xz_m": [
+            146.9999999605513,
+            2.9999999993076614
+          ],
+          "north_m": 37.9778211037803
+        }
+      ]
+    },
+    "konark-sun-temple": {
+      "selected_support_bottom_y_m": -1.6,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            103.65666666666667,
+            -3.5999999999999996
+          ],
+          "raw_ground_m": 13.843232154846191,
+          "corrected_ground_m": 13.863585472106934,
+          "model_base_m": 14.819999694824219
+        },
+        {
+          "model_xz": [
+            103.65666666666667,
+            0.0
+          ],
+          "raw_ground_m": 13.843235969543457,
+          "corrected_ground_m": 13.8635892868042,
+          "model_base_m": 14.819999694824219
+        },
+        {
+          "model_xz": [
+            103.82533333333333,
+            -4.5
+          ],
+          "raw_ground_m": 13.861851692199707,
+          "corrected_ground_m": 13.867173194885254,
+          "model_base_m": 14.819999694824219
+        },
+        {
+          "model_xz": [
+            103.65666666666667,
+            3.5999999999999996
+          ],
+          "raw_ground_m": 13.870438575744629,
+          "corrected_ground_m": 13.89022445678711,
+          "model_base_m": 14.819999694824219
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+      "approach_ground_samples": [
+        {
+          "corrected_ground_m": 14.546043395996094,
+          "east_m": 110.0,
+          "ground_m": 14.546043395996094,
+          "lat": 19.887563214805795,
+          "lon": 86.09559040825428,
+          "model_base_m": 14.819999694824219,
+          "model_xz_m": [
+            109.99999998423857,
+            -3.91796934956154e-10
+          ],
+          "north_m": 0.0
+        },
+        {
+          "corrected_ground_m": 14.546039581298828,
+          "east_m": 110.0,
+          "ground_m": 14.546039581298828,
+          "lat": 19.887522565459715,
+          "lon": 86.0955904079863,
+          "model_base_m": 14.819999694824219,
+          "model_xz_m": [
+            109.9999999836509,
+            -4.499999999786834
+          ],
+          "north_m": -4.5
+        },
+        {
+          "corrected_ground_m": 14.562710762023926,
+          "east_m": 110.0,
+          "ground_m": 14.562710762023926,
+          "lat": 19.887603864151693,
+          "lon": 86.09559040852227,
+          "model_base_m": 14.819999694824219,
+          "model_xz_m": [
+            109.99999998337275,
+            4.49999999968706
+          ],
+          "north_m": 4.5
+        }
+      ]
+    },
+    "taj-mahal": {
+      "selected_support_bottom_y_m": -3.5,
+      "datum_control": "Existing entry ground datum and floor retained.",
+      "ground_samples": [
+        {
+          "model_xz": [
+            -7.5,
+            -59.833
+          ],
+          "raw_ground_m": 161.90130615234375,
+          "corrected_ground_m": 161.90130615234375,
+          "model_base_m": 164.39999389648438
+        },
+        {
+          "model_xz": [
+            -7.5,
+            -59.125
+          ],
+          "raw_ground_m": 161.94314575195312,
+          "corrected_ground_m": 161.94314575195312,
+          "model_base_m": 164.39999389648438
+        },
+        {
+          "model_xz": [
+            -6.0,
+            -60.01
+          ],
+          "raw_ground_m": 162.0672149658203,
+          "corrected_ground_m": 162.0672149658203,
+          "model_base_m": 164.39999389648438
+        },
+        {
+          "model_xz": [
+            -7.5,
+            -55.625
+          ],
+          "raw_ground_m": 162.14999389648438,
+          "corrected_ground_m": 162.14999389648438,
+          "model_base_m": 164.39999389648438
+        }
+      ],
+      "dataset": "20260913-terrain-ff72be71951c0f92-bridges-none-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+      "approach_ground_samples": [
+        {
+          "corrected_ground_m": 162.45518493652344,
+          "east_m": 0.0,
+          "ground_m": 162.45518493652344,
+          "lat": 27.174440581139365,
+          "lon": 78.0420804645743,
+          "model_base_m": null,
+          "model_xz_m": null,
+          "north_m": -66.0
+        },
+        {
+          "corrected_ground_m": 161.59376525878906,
+          "east_m": -7.5,
+          "ground_m": 161.59376525878906,
+          "lat": 27.174440581118947,
+          "lon": 78.04200478442017,
+          "model_base_m": null,
+          "model_xz_m": null,
+          "north_m": -66.0
+        },
+        {
+          "corrected_ground_m": 163.4669189453125,
+          "east_m": 7.5,
+          "ground_m": 163.4669189453125,
+          "lat": 27.174440581118947,
+          "lon": 78.04215614472842,
+          "model_base_m": null,
+          "model_xz_m": null,
+          "north_m": -66.0
+        }
+      ]
+    },
+    "paro-taktsang": {
+      "southern_room_foundation_depth_m": 14,
+      "western_perched_room_foundation_depth_m": 12,
+      "other_room_foundation_depth_m": 8,
+      "control": "Room floors and cliff top remain unchanged; bases extend into the sampled corrected ledges. Authored cliff is a connected rock surface, so its elevated skin is not required to touch raw DEM at each horizontal ray."
+    },
+    "potala-palace": {
+      "eastern_tail_foundation_before_vertical_scale_y_m": [
+        10,
+        18
+      ],
+      "plan_xz_m": [
+        178,
+        25
+      ],
+      "plan_lower_size_m": [
+        88,
+        23
+      ],
+      "plan_upper_size_m": [
+        86,
+        21
+      ],
+      "control": "Only the wing beyond the Marpo Ri outcrop receives added battered earthen-plaster footing. Published dimensions and all original block/roof datums remain unchanged."
+    }
+  }
+}

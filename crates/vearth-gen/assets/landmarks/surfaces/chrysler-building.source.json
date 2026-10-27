@@ -1,0 +1,23 @@
+{
+  "name": "chrysler-building",
+  "kind": "chrysler-building",
+  "source": "chrysler-building/chrysler.glb",
+  "sha256": "cb12f78b80dd5320983f984bdf4953a961ce9fd963a00068ee63c2deb1018cdf",
+  "license": "existing landmark SOURCES.md",
+  "output": "chrysler-building.lms",
+  "output_sha256": "7b83804c2c5f0d888877edd8e73165cbad15a7f3ae19e7418e762cbf9f6632bd",
+  "levels": [
+    [
+      124074,
+      65764
+    ],
+    [
+      30179,
+      27750
+    ],
+    [
+      25848,
+      13914
+    ]
+  ]
+}

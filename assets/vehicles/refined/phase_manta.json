@@ -1,0 +1,129 @@
+{
+  "author": "Quaternius; Vearth material and mesh preparation",
+  "blender_version": "5.1.2",
+  "coordinates": {
+    "forward": "+Z",
+    "units": "metres",
+    "up": "+Y"
+  },
+  "exporter": {
+    "bytes": 12707,
+    "path": "tools/export_vehicle.py",
+    "sha256": "f9938037713c820a3d947beaad86d45a57d79d2627f27cf5585d9dc09d1e3a01"
+  },
+  "format": "VEARTHV1",
+  "license": "CC0-1.0",
+  "materials": {
+    "Cockpit glass.001": {
+      "color_srgb": [
+        213,
+        234,
+        255
+      ],
+      "material_id": 99,
+      "texture_layer": 2
+    },
+    "Painted airframe.001": {
+      "color_srgb": [
+        243,
+        249,
+        255
+      ],
+      "material_id": 96,
+      "texture_layer": 2
+    },
+    "Recessed exhaust core.001": {
+      "color_srgb": [
+        105,
+        201,
+        238
+      ],
+      "material_id": 100,
+      "texture_layer": 0
+    },
+    "Titanium nacelles.001": {
+      "color_srgb": [
+        255,
+        255,
+        255
+      ],
+      "material_id": 97,
+      "texture_layer": 2
+    }
+  },
+  "mesh": {
+    "bytes": 1474792,
+    "path": "phase_manta.mesh",
+    "sha256": "8a0c6e77bcc9031bc886766544a4b3eaf077ef3154aac43d7d2514149dfaeb39"
+  },
+  "parts": [
+    {
+      "bounds_m": {
+        "max": [
+          4.0,
+          0.7365828156471252,
+          3.671266794204712
+        ],
+        "min": [
+          -4.0,
+          -0.7372347116470337,
+          -3.6726508140563965
+        ]
+      },
+      "name": "body",
+      "triangles": 11290,
+      "vertices": 33482
+    }
+  ],
+  "source_urls": [
+    "https://quaternius.com/packs/ultimatespaceships.html",
+    "https://opengameart.org/content/lowpoly-spaceships-pack"
+  ],
+  "sources": [
+    {
+      "bytes": 11048,
+      "path": "source/build_craft.py",
+      "sha256": "5935c6eb7ac25bffbae285b1f327a8dfc8f1305221543e39b2129f5bc43ceaa8"
+    },
+    {
+      "bytes": 2174878,
+      "path": "source/phase_manta.blend",
+      "sha256": "11a36bbcbe43ec0f0643e570f3bb60e868f190267d4582386e1e1c3408103970"
+    },
+    {
+      "bytes": 240,
+      "path": "source/quaternius/Executioner/Executioner.mtl",
+      "sha256": "123f17d44e27feda7adad142e682d4fa566df2d7e965162ce07e32c518b72661"
+    },
+    {
+      "bytes": 223346,
+      "path": "source/quaternius/Executioner/Executioner.obj",
+      "sha256": "74ff008ff89f50b83c873d9c0e10fd3ff8e7b64091c3abb7208abb25b1f573a6"
+    },
+    {
+      "bytes": 3308502,
+      "path": "source/quaternius/Executioner/Executioner_Blue.png",
+      "sha256": "abd0011470e8fd9c8e64ca085b244c4b38f117611b60230ec4b9d0fc34d79b4c"
+    },
+    {
+      "bytes": 364,
+      "path": "source/quaternius/License.txt",
+      "sha256": "83d8959f9fc56353ed571fbe2dc52e4bcd64508e2399501cd45ac2ce3df0bf8c"
+    },
+    {
+      "bytes": 964,
+      "path": "source/quaternius/provenance.json",
+      "sha256": "0556acb499ec12f15dd0cba95de5075700d98d2967f5a87701606658a099a678"
+    }
+  ],
+  "textures": {
+    "2": {
+      "bytes": 3308502,
+      "color_space": "sRGB",
+      "path": "textures/phase_manta.png",
+      "sha256": "abd0011470e8fd9c8e64ca085b244c4b38f117611b60230ec4b9d0fc34d79b4c"
+    }
+  },
+  "uv_origin": "bottom-left",
+  "version": 1
+}

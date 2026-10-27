@@ -1,0 +1,84 @@
+{
+  "source_sha256": "9d644e28cde3ba2ebcfd09431d6c1fc3a36c65bbdc19f127198474f4f648f29f",
+  "levels": [
+    {
+      "vertices": 643672,
+      "triangles": 325809,
+      "encoded_sha256": "090dfdfef790a069ded7a71016fe6ed50ec279c04f41e2cd33e6ea9c97e250ca",
+      "minimum": [
+        -126.95996856689453,
+        -3.0,
+        -111.32437133789062
+      ],
+      "maximum": [
+        363.0,
+        133.3000030517578,
+        125.3068618774414
+      ],
+      "materials": [
+        15,
+        16,
+        82,
+        85,
+        88,
+        95,
+        119
+      ]
+    },
+    {
+      "vertices": 407483,
+      "triangles": 206845,
+      "encoded_sha256": "38ad331b0a7c45b45fc0ec83ff26c923a2566fbcf0f9076e20e782ed6928a0f4",
+      "minimum": [
+        -126.95996856689453,
+        -3.0,
+        -111.3553695678711
+      ],
+      "maximum": [
+        363.0,
+        133.3000030517578,
+        125.33786010742188
+      ],
+      "materials": [
+        15,
+        16,
+        82,
+        85,
+        88,
+        95,
+        119
+      ]
+    },
+    {
+      "vertices": 178146,
+      "triangles": 91065,
+      "encoded_sha256": "c8efe236e8dc6e5d1eee069e1e1d9b3b0893396cfd473917cb178400afe5aec3",
+      "minimum": [
+        -126.95996856689453,
+        -3.0,
+        -111.3553695678711
+      ],
+      "maximum": [
+        363.0,
+        133.3000030517578,
+        125.33786010742188
+      ],
+      "materials": [
+        15,
+        16,
+        82,
+        85,
+        88,
+        95,
+        119
+      ]
+    }
+  ],
+  "source_polygons": 342,
+  "base_m": 24.5035,
+  "evidence_sha256": {
+    "st-peters-basilica-survey.json": "c43a1569f0dc526a9d5a1def47bb979defb1b2872fcdce3024b95c269633a482",
+    "plaza-ground.json": "2a8f8ea67e531cb1b53f67964e198b421fdf9dc6d9cd675e1e0843e0193f254d",
+    "research.json": "3887a724370a42d9aa011eb133d8f6e8b29881f9e59f2128ee860744f64219e6"
+  }
+}

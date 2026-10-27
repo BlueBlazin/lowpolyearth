@@ -1,0 +1,56 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Oslo — Grünerløkka historic masonry grid",
+    "interpretation": "Authored historic residential district outline connecting verified street vertices; not an administrative or legal conservation boundary.",
+    "attribution": "Data © OpenStreetMap contributors, ODbL 1.0; physical-character sources are listed in the accompanying recipe.",
+    "approximate_area_km2": 0.415
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          10.7548056,
+          59.9282489
+        ],
+        [
+          10.7639039,
+          59.9286515
+        ],
+        [
+          10.7629022,
+          59.9241042
+        ],
+        [
+          10.7647455,
+          59.9213135
+        ],
+        [
+          10.761166,
+          59.9203712
+        ],
+        [
+          10.7573647,
+          59.9201162
+        ],
+        [
+          10.7556417,
+          59.9211014
+        ],
+        [
+          10.7556257,
+          59.9224238
+        ],
+        [
+          10.7549165,
+          59.9255004
+        ],
+        [
+          10.7548056,
+          59.9282489
+        ]
+      ]
+    ]
+  }
+}

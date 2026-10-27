@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "attribution": "Câmara Municipal de Lisboa, Departamento de Planeamento / Divisão de Gestão de Informação Georreferenciada",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "license_documentation": "https://dados.cm-lisboa.pt/dataset/limite-de-planos-de-pormenor",
+  "retrieved": "2026-09-16",
+  "conversion": "Select the exact active plan Feature from the pinned municipal ArcGIS GeoJSON requested with outSR=4326. Preserve all source properties, coordinate pairs, rings and components. No reprojection or simplification.",
+  "boundaries": [
+    {
+      "label": "Baixa Pombalina",
+      "source_snapshot": "plans-crs84.geojson",
+      "source_sha256": "28f637d1cd598df4acdd7c8006bb8671b7ceb593d4d279b133e250557073ec6e",
+      "file": "baixa-pombalina.geojson",
+      "sha256": "4ab8735a207c97003eacd572e7784e7005f44e35d97cc58417ec369841de2568",
+      "source_url": "https://services.arcgis.com/1dSrzEWVQn5kHHyK/arcgis/rest/services/Planeamento/FeatureServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "license": "CC0-1.0; Câmara Municipal de Lisboa, Departamento de Planeamento / Divisão de Gestão de Informação Georreferenciada",
+      "license_url": "https://dados.cm-lisboa.pt/dataset/limite-de-planos-de-pormenor",
+      "selector": {
+        "OBJECTID": 83,
+        "COD_SIG": "140",
+        "GlobalID": "74f4a099-a897-4331-8c2d-e02364d2a304"
+      },
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 248,
+      "conversion": "Select exact matching Feature from source FeatureCollection; preserve properties and all coordinates without simplification. Response explicitly requested outSR4326; no reprojection or third-party library needed.",
+      "source_name": "De Salvaguarda da Baixa Pombalina",
+      "publication_date": "18-03-2011"
+    }
+  ]
+}

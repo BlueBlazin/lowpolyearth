@@ -1,0 +1,22 @@
+{
+  "name": "trajan-column",
+  "sources": [
+    "https://www.turismoroma.it/it/node/1021"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "shaft_height_m": 29.78,
+    "overall_visible_height_m": 39.86,
+    "spiral_turns": 23
+  },
+  "geometry_notes": "White Carrara marble, warm aged streaking, 23 continuous relief turns and small faceted people retained around the shaft. Original relief scene details are represented by authored silhouettes, not exact epigraphic or narrative reproductions. Pedestal and Doric capital support the present bronze Saint Peter, not the ancient lost emperor statue. Pedestal split and saint proportions estimated to match total height.",
+  "placement_notes": "Approximate monument point41.89585,12.48430. Pedestal heading40 degrees follows forum axis approximately; relief shaft is rotationally symmetric. The pedestal is positioned on surveyed raw terrain without modifying the wider archaeological excavation.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/trajan-column.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "One connected column and its footing",
+    "roads_suppressed": false
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

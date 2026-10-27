@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "attribution": "© OpenStreetMap contributors",
+  "license": "ODbL-1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "retrieved": "2026-09-16",
+  "conversion": "Join member ways by exact node IDs and retain all coordinate values. Reject open/ambiguous chains or unsupported members. No simplifying, snapping or circle approximation.",
+  "scope": "Pinned mapped named districts; relation identities, holes and complete source topology retained.",
+  "boundaries": [
+    {
+      "label": "Stare Miasto (krakow)",
+      "relation_id": 3228435,
+      "relation_version": 19,
+      "wikidata": "Q652634",
+      "source_snapshot": "3228435-v19.json",
+      "source_sha256": "a8fbbb3c959569e40a25e0eb59da84fbd587eada5713b375cade432b6d2d96d9",
+      "source_url": "https://www.openstreetmap.org/api/0.6/relation/3228435/full.json",
+      "file": "krakow-oldtown.geojson",
+      "sha256": "b217c6509a1ca2f4f4452ba80f2c27846be7432d3d8c54389a9bc7b14f0531b3",
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 182,
+      "scope": "Mapped City Information System Old Town area; not asserted to be an exact UNESCO property boundary."
+    },
+    {
+      "label": "Stare Miasto (warsaw)",
+      "relation_id": 11191573,
+      "relation_version": 4,
+      "wikidata": "Q1139084",
+      "source_snapshot": "11191573-v4.json",
+      "source_sha256": "615741fe52ca4c8505786b6be8dd0c01add68a21e29178ff885a2d6aa44c1c5c",
+      "source_url": "https://www.openstreetmap.org/api/0.6/relation/11191573/full.json",
+      "file": "warsaw-oldtown.geojson",
+      "sha256": "fac98f953c9e1657650bc4d7afbcdd64920633e318ead7776cc0b0654f746b92",
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 22,
+      "scope": "Mapped City Information System Old Town area; not asserted to be an exact UNESCO property boundary."
+    },
+    {
+      "label": "Staré Město (Prague)",
+      "relation_id": 428812,
+      "relation_version": 21,
+      "wikidata": "Q748211",
+      "source_snapshot": "428812-v21.json",
+      "source_sha256": "8199a544725631647c57d4a7c6926b1700a24773ce56ed879a45675c49cfe5e5",
+      "source_url": "https://api.openstreetmap.org/api/0.6/relation/428812/full.json",
+      "file": "prague-oldtown.geojson",
+      "components": 1,
+      "rings": 2,
+      "coordinate_pairs": 107,
+      "scope": "Mapped Staré Město cadastral area (ref727024, OSM source cuzk:km). Retains Josefov inner boundary; excludes Malá Strana/Kampa across the Vltava. Not asserted to be the complete Prague UNESCO property.",
+      "sha256": "d01b7693806797a9ebabbcfb28017bdc62c599636bc04e4d9840ca51e808aa6b"
+    },
+    {
+      "label": "Malá Strana (Prague)",
+      "relation_id": 433401,
+      "relation_version": 18,
+      "wikidata": "Q753289",
+      "source_snapshot": "433401-v18.json",
+      "source_sha256": "bac2b08ccd50930e5ee484b05d494828def9292d51c2cbaafc8e16f93f0628a7",
+      "source_url": "https://api.openstreetmap.org/api/0.6/relation/433401/full.json",
+      "file": "prague-malastrana.geojson",
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 328,
+      "scope": "Mapped Malá Strana cadastral area727091, sourcecuzk:ruian in OSM. Own named district identity; includes Kampa and Nerudova, excludes Staré Město/Josefov across the Vltava and Hradčany beyond its northern boundary. Not a claim that every building is domestic heritage.",
+      "sha256": "dd52da75d46b2c08ee483f209f0b225ff8f1cfdf48849eeb2c15db54bc1215cd"
+    },
+    {
+      "label": "Porto historic center",
+      "relation_id": 9745063,
+      "relation_version": 22,
+      "wikidata": "Q3848157",
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 118,
+      "scope": "Mapped World Heritage historic center, bridge and Serra do Pilar; verified against national heritage polygon. Ordinary housing recipe does not prescribe monument geometry. One member notes approximate alignment with former Fernandine walls; this is an OSM mapped envelope rather than legal cadastral precision.",
+      "source_snapshot": "9745063-v22.json",
+      "source_sha256": "8c7b39b9b8cb7f752f5846a9fe8e3427804ecc8fb325ce7ec0f12c9d4451315f",
+      "file": "porto-historic.geojson",
+      "sha256": "df4bc8a342efc810d7d3b7f29faca335c9557b2487938d2528ff87650036c2e7",
+      "source_url": "https://api.openstreetmap.org/api/0.6/relation/9745063/full.json"
+    },
+    {
+      "label": "Stockholm inner-city apartment districts",
+      "sources": [
+        {
+          "relation_id": 5695409,
+          "relation_version": 15,
+          "wikidata": "Q1026676",
+          "source_snapshot": "5695409-v15.json",
+          "source_sha256": "6958dbb49fefb73c57903d812439ac020ac637df399528013e5cba16581ab0cb",
+          "source_url": "https://api.openstreetmap.org/api/0.6/relation/5695409/full.json"
+        },
+        {
+          "relation_id": 5695411,
+          "relation_version": 20,
+          "wikidata": "Q3646335",
+          "source_snapshot": "5695411-v20.json",
+          "source_sha256": "d4633abe16221ab66521619e2f898bb8d621cf284c453e1e315767af6c8a14e9",
+          "source_url": "https://api.openstreetmap.org/api/0.6/relation/5695411/full.json"
+        },
+        {
+          "relation_id": 5695423,
+          "relation_version": 11,
+          "wikidata": "Q298489",
+          "source_snapshot": "5695423-v11.json",
+          "source_sha256": "1acd502983068b8f511e454d03526e16119f2d027d0628153448ae2c97a313bc",
+          "source_url": "https://api.openstreetmap.org/api/0.6/relation/5695423/full.json"
+        },
+        {
+          "relation_id": 5689372,
+          "relation_version": 6,
+          "wikidata": "Q15054735",
+          "source_snapshot": "5689372-v6.json",
+          "source_sha256": "b6a9476845e8603d88a48982f5b66f6d5991c6cdb2ca8dbc8d71b0a11336908f",
+          "source_url": "https://api.openstreetmap.org/api/0.6/relation/5689372/full.json"
+        },
+        {
+          "relation_id": 5695402,
+          "relation_version": 6,
+          "wikidata": "Q740149",
+          "source_snapshot": "5695402-v6.json",
+          "source_sha256": "96aa6f64a18af48dcfc55e94cbca5a232a0c9af51b192fbfb36c1ab819249f1c",
+          "source_url": "https://api.openstreetmap.org/api/0.6/relation/5695402/full.json"
+        }
+      ],
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 266,
+      "scope": "Authored union of five mapped districts: Norrmalm, Vasastaden, Östermalm, Kungsholmen district (eastern island), and Södermalm. Gamla Stan is excluded. This is an architecture influence envelope, not a claim that all buildings share one period.",
+      "file": "stockholm-stenstad.geojson",
+      "sha256": "f4cabe481b3ed54da7ddbf15bf81ee5d18795a23b7e9588b1ac693f00edffced"
+    },
+    {
+      "label": "Copenhagen",
+      "relation_id": 2192363,
+      "relation_version": 160,
+      "wikidata": "Q504125",
+      "source_snapshot": "2192363-v160.json",
+      "source_sha256": "14ca80e7532f6a2d3f7c9a06f5ca5fc82a79536a0a26b3ee4cfd0c29a04e2296",
+      "source_url": "https://api.openstreetmap.org/api/0.6/relation/2192363/full.json",
+      "file": "copenhagen-municipality.geojson",
+      "components": 44,
+      "rings": 45,
+      "coordinate_pairs": 7789,
+      "scope": "Mapped Copenhagen municipality only, retaining the Frederiksberg enclave hole and disconnected components. Compatible ordinary housing only; not metropolitan Copenhagen or a historic-conservation boundary.",
+      "sha256": "f862e5494002c1f4f84a11387798897813a713efc2dcda4cd626200b419905cc"
+    },
+    {
+      "label": "Athens",
+      "relation_id": 1370736,
+      "relation_version": 190,
+      "wikidata": "Q1224979",
+      "source_snapshot": "1370736-v190.json",
+      "source_sha256": "d7dc072f2cd8e1b76827435124b43875da89eca530b68f5d7208fb1fcc5fe39e",
+      "source_url": "https://api.openstreetmap.org/api/0.6/relation/1370736/full.json",
+      "file": "athens-municipality.geojson",
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 982,
+      "scope": "Mapped municipality of Athens, not all metropolitan Attica. Ordinary apartment stock prior retains smaller older houses; institutional monuments are not inferred.",
+      "sha256": "ca6b74c99545125916dbf95b8b0a242d1ae81f6083799a6d64c6ebe6f144fc30"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "source_url": "https://www.openstreetmap.org/way/100398421",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "source_timestamp": "2026-08-04T07:56:37Z",
+  "source_version": "10",
+  "coordinates_lat_lon": [
+    [
+      35.0125701,
+      135.7828598
+    ],
+    [
+      35.0125826,
+      135.7828587
+    ],
+    [
+      35.0125624,
+      135.7825047
+    ],
+    [
+      35.01255,
+      135.7825058
+    ]
+  ],
+  "tags": {
+    "alt_name:en": "Big Torii Gate (BTG)",
+    "ceremonial_gate": "torii",
+    "contact:tripadvisor": "19236261",
+    "height": "24.22",
+    "historic": "yes",
+    "layer": "1",
+    "man_made": "ceremonial_gate",
+    "material": "concrete",
+    "name": "\u5927\u9ce5\u5c45",
+    "name:en": "O-torii",
+    "name:fr": "Grand torii",
+    "name:ja": "\u5927\u9ce5\u5c45",
+    "name:ja-Hira": "\u304a\u304a\u3068\u308a\u3044",
+    "name:ja-Latn": "\u014ctorii",
+    "note": "\u9ce5\u5c45",
+    "religion": "shinto",
+    "start_date": "1928",
+    "tourism": "gate;attraction",
+    "wikidata": "Q18457837",
+    "wikimedia_commons": "Category:Heian-jing\u016b \u014c-Torii",
+    "wikipedia": "ja:\u5927\u9ce5\u5c45 (\u5e73\u5b89\u795e\u5bae)"
+  },
+  "note": "Coordinates and orientation only; architectural dimensions and materials use cited architectural sources, which override inconsistent OSM tags."
+}

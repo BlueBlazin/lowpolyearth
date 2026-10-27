@@ -1,0 +1,5 @@
+{
+  "material_contract": "Ordinary facade ribs and mullions use the existing native PANEL_WALL87 construction material, including Tokyo stone/piers, Umeda/Eureka/Baiyoke/Exchange facade ribs, Cocoon powder-coated structural lattice, and Capita pinstripe fins. They are not reflective sculpture surfaces. Architectural glass retains native highrise103\u2013110 families; genuine discrete metal details retain their original appropriate materials.",
+  "evidence": "V2 world views showed overly dark reflective rib marks with SCULPTURE_METAL95 despite non-overlapping geometry. The construction material matches native regional helpers and preserves the authored facade framing without near-black reflected slivers.",
+  "geometry_invariant": "Only material IDs change for the affected framing; footprints, vertices, heights, support toes and LOD geometry remain unchanged."
+}

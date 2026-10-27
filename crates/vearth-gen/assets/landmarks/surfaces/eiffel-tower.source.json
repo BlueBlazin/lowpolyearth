@@ -1,0 +1,23 @@
+{
+  "name": "eiffel-tower",
+  "kind": "eiffel",
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-016/0cee46511c5d42b49efcc173127c2ca8.glb?download=true",
+  "sha256": "7eac8c8cc901ed1ed896f818af9b3a67ebe878d0b26b5d82043031d7f694593a",
+  "license": "existing landmark SOURCES.md",
+  "output": "eiffel-tower.lms",
+  "output_sha256": "d7846617fe2623a998a284e83f9e4631e4389adcd593923d935a2d7a4c447b55",
+  "levels": [
+    [
+      159247,
+      131510
+    ],
+    [
+      21896,
+      46026
+    ],
+    [
+      15232,
+      34677
+    ]
+  ]
+}

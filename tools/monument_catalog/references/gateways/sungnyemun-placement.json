@@ -1,0 +1,202 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "way",
+      "id": 233625717,
+      "timestamp": "2026-03-11T21:07:33Z",
+      "version": 20,
+      "nodes": [
+        13639573213,
+        7167417633,
+        7153779330,
+        2419820751,
+        7167417616,
+        7167417601,
+        4033306001,
+        7167417596,
+        7167417617,
+        3893462054,
+        7169295860,
+        13639573214
+      ]
+    },
+    {
+      "type": "way",
+      "id": 1487802248,
+      "timestamp": "2026-03-11T21:07:33Z",
+      "version": 1,
+      "nodes": [
+        13639573214,
+        7184046181,
+        7184095090,
+        2419820754,
+        7184095089,
+        7229008442,
+        7153779327,
+        7167417628,
+        13639573213
+      ]
+    },
+    {
+      "type": "node",
+      "id": 2419820751,
+      "lat": 37.5598123,
+      "lon": 126.9754225,
+      "timestamp": "2025-01-11T17:58:56Z",
+      "version": 5,
+      "tags": {
+        "addr:city": "서울특별시",
+        "addr:district": "중구"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2419820754,
+      "lat": 37.5601602,
+      "lon": 126.975298,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 6
+    },
+    {
+      "type": "node",
+      "id": 3893462054,
+      "lat": 37.5599573,
+      "lon": 126.9755844,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 5
+    },
+    {
+      "type": "node",
+      "id": 4033306001,
+      "lat": 37.5598785,
+      "lon": 126.9754918,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 7153779327,
+      "lat": 37.5599783,
+      "lon": 126.9751935,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 7153779330,
+      "lat": 37.55986,
+      "lon": 126.9753567,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 7167417596,
+      "lat": 37.5598931,
+      "lon": 126.9755107,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7167417601,
+      "lat": 37.5598563,
+      "lon": 126.9754671,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7167417616,
+      "lat": 37.5598343,
+      "lon": 126.9754455,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7167417617,
+      "lat": 37.5599216,
+      "lon": 126.9755414,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7167417628,
+      "lat": 37.559942,
+      "lon": 126.9752485,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7167417633,
+      "lat": 37.5598937,
+      "lon": 126.9753138,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7169295860,
+      "lat": 37.5600057,
+      "lon": 126.9755161,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7184046181,
+      "lat": 37.5601363,
+      "lon": 126.9753317,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7184095089,
+      "lat": 37.5601521,
+      "lon": 126.9752885,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7184095090,
+      "lat": 37.5601433,
+      "lon": 126.9753218,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 7229008442,
+      "lat": 37.5600223,
+      "lon": 126.9751364,
+      "timestamp": "2025-07-19T17:51:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 13639573213,
+      "lat": 37.5599216,
+      "lon": 126.9752761,
+      "timestamp": "2026-03-11T21:07:33Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 13639573214,
+      "lat": 37.5600626,
+      "lon": 126.9754358,
+      "timestamp": "2026-03-11T21:07:33Z",
+      "version": 1
+    }
+  ]
+}

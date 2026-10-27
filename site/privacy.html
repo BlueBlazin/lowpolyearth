@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ef" />
+    <title>Privacy policy | Low Poly Earth</title>
+    <meta name="description" content="How Low Poly Earth handles online map requests, local storage and photo exports." />
+    <meta property="og:title" content="Privacy policy | Low Poly Earth" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="bar">
+      <a class="name" href="index.html">Low Poly Earth</a>
+      <nav aria-label="Primary">
+        <a href="screenshots.html">Photos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main id="main">
+      <header class="page-title">
+        <h1>Privacy</h1>
+        <p>The same policy is included in the app.</p>
+      </header>
+      <div class="text-page">
+        <!-- Policy content is generated from docs/PRIVACY.md by tools/write-privacy-policy.py. -->
+        <nav class="toc" aria-label="On this page">
+          <ol>
+            <li><a href="#overview">Overview</a></li>
+<li><a href="#your-location">Your location</a></li>
+<li><a href="#network-data-providers">Network data providers</a></li>
+<li><a href="#local-search-and-storage">Local search and storage</a></li>
+<li><a href="#photo-exports">Photo exports</a></li>
+<li><a href="#external-links-and-support">External links and support</a></li>
+<li><a href="#changes">Changes</a></li>
+          </ol>
+        </nav>
+        <article class="prose" aria-label="App privacy policy">
+          <div class="policy-intro"><h1>Low Poly Earth Privacy Policy</h1>
+<p>Effective date: 1 October 2026</p></div>
+          <section aria-labelledby="overview">
+<h2 id="overview">Overview</h2>
+<p>Low Poly Earth is a desktop Earth explorer. It has no account system, advertising, tracking identifiers, or built-in analytics or crash-report upload service. Apart from the map data host described below, the developer does not operate a server that receives your activity from the app.</p>
+</section>
+<section aria-labelledby="your-location">
+<h2 id="your-location">Your location</h2>
+<p>The app does not request or access your device’s location. Places you explore by searching or navigating manually can trigger map and terrain requests for those areas when online data sources are enabled.</p>
+</section>
+<section aria-labelledby="network-data-providers">
+<h2 id="network-data-providers">Network data providers</h2>
+<p>The app requests terrain from Mapterhorn and map features from the developer&#x27;s copy of Protomaps map data, hosted on Cloudflare at maps.lowpolyearth.online. Bundled imagery, the place-search index, star data, and simulated weather are processed locally.</p>
+<p>Providers and their hosting services receive your public IP address, request time, requested tile coordinates or geographic bounds, or byte ranges identifying map data. Requests may also identify the app and its version. These services can infer which areas you explore and may keep server logs under their own policies. The developer cannot specify or control their retention periods or delete their records. The developer does not keep request logs for the map data host; Cloudflare, which serves it, processes requests under its own policies.</p>
+<p>Use Settings &gt; Data sources to control the providers used for map rendering. Requests already in progress may finish, and startup may contact the map data host to open its data archive even when its rendering source is disabled. Disconnecting your Mac from the network prevents remote requests; bundled data remains available with reduced detail.</p>
+</section>
+<section aria-labelledby="local-search-and-storage">
+<h2 id="local-search-and-storage">Local search and storage</h2>
+<p>Place-search text is searched against the bundled index on your Mac. It is not sent to an online geocoding service. Choosing a result can trigger data requests for that area.</p>
+<p>Preferences, downloaded map and terrain caches, generated world data, and diagnostic logs are stored on your Mac. Local logs and caches can contain explored locations, request URLs, performance information, and local file paths. They are not automatically uploaded. Logs rotate when their size limit is reached; caches are managed according to the app&#x27;s storage settings.</p>
+<p>Settings &gt; Storage provides controls to clear downloaded data on the next launch. Preferences and logs remain until you remove them. Sandboxed builds keep these files in the app&#x27;s macOS container. Removing the app alone may leave local data behind.</p>
+</section>
+<section aria-labelledby="photo-exports">
+<h2 id="photo-exports">Photo exports</h2>
+<p>Photo export saves a rendered image and a JSON recipe to Pictures/Low Poly Earth. The recipe includes the scene&#x27;s geographic position, camera settings, and simulated time; the image may also reveal the place shown. Nothing is uploaded by the export action. If you share these files, their recipients can see that information. Files in a folder synced by another service are subject to that service&#x27;s settings.</p>
+<p>The app requests Pictures access to write exports. It does not scan your existing photo collection. You can delete exported files using Finder.</p>
+</section>
+<section aria-labelledby="external-links-and-support">
+<h2 id="external-links-and-support">External links and support</h2>
+<p>For app support or privacy enquiries, email contact.urbanphilosophy@gmail.com. Opening a provider or other web link uses your browser, and the destination&#x27;s privacy policy applies. If you choose to send diagnostic logs, screenshots, or photo recipes for support, review them first for locations and other information you do not wish to share.</p>
+<p>When you email us, we receive your email address, any sender name, your message, and any attachments you choose to include. We use this information to respond to your enquiry and investigate issues you report, not for advertising. Correspondence is handled through Gmail and retained as needed for your enquiry and follow-up support. You can request deletion of support correspondence at the same address; records that must be retained for legal obligations may be kept. Your email provider and Google process messages under their own policies.</p>
+</section>
+<section aria-labelledby="changes">
+<h2 id="changes">Changes</h2>
+<p>Updates that change these practices will include an updated policy. The effective date identifies this version.</p>
+</section>
+        </article>
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="name" href="#top">Low Poly Earth</a>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="screenshots.html">Photos</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="contact.html">Contact and support</a>
+      </nav>
+      <p class="credits">Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. All data sources are listed on the <a href="index.html#source-credits">home page</a>.</p>
+      <p class="legal"><span>© Low Poly Earth. All rights reserved.</span><span>Privacy policy</span></p>
+    </footer>
+  </body>
+</html>

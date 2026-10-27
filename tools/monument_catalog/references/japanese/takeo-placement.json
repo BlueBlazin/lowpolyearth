@@ -1,0 +1,63 @@
+{
+  "source_url": "https://www.openstreetmap.org/way/454414426",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "source_timestamp": "2024-09-23T15:24:44Z",
+  "source_version": "4",
+  "coordinates_lat_lon": [
+    [
+      33.1961655,
+      130.0146467
+    ],
+    [
+      33.1962293,
+      130.0145775
+    ],
+    [
+      33.1962637,
+      130.0146228
+    ],
+    [
+      33.1962981,
+      130.0146681
+    ],
+    [
+      33.1962948,
+      130.0146717
+    ],
+    [
+      33.196294,
+      130.0146726
+    ],
+    [
+      33.1963837,
+      130.0146999
+    ],
+    [
+      33.1963688,
+      130.01477
+    ],
+    [
+      33.1962403,
+      130.0147309
+    ],
+    [
+      33.1962377,
+      130.0147337
+    ],
+    [
+      33.1962344,
+      130.0147373
+    ],
+    [
+      33.1962,
+      130.0146921
+    ]
+  ],
+  "tags": {
+    "building": "yes",
+    "heritage": "2",
+    "name": "\u6b66\u96c4\u6e29\u6cc9\u697c\u9580",
+    "tourism": "attraction"
+  },
+  "note": "Coordinates and orientation only; architectural dimensions and materials use cited architectural sources, which override inconsistent OSM tags."
+}

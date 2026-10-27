@@ -1,0 +1,41 @@
+{
+  "source_url": "https://www.openstreetmap.org/way/469908912",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "source_timestamp": "2026-08-20T13:34:02Z",
+  "source_version": "7",
+  "coordinates_lat_lon": [
+    [
+      35.6741747,
+      139.7013098
+    ],
+    [
+      35.6740193,
+      139.7013223
+    ],
+    [
+      35.6740185,
+      139.7013073
+    ],
+    [
+      35.6741739,
+      139.7012948
+    ]
+  ],
+  "tags": {
+    "building": "roof",
+    "ceremonial_gate": "torii",
+    "height": "12",
+    "image": "https://photos.app.goo.gl/AQnwpu7xXVEz9gzz9",
+    "layer": "1",
+    "man_made": "ceremonial_gate",
+    "material": "wood",
+    "name": "\u5927\u9ce5\u5c45",
+    "name:en": "Ootorii (The Grand Shrine-gate)",
+    "name:es": "Gran Torii",
+    "name:ja": "\u5927\u9ce5\u5c45",
+    "name:ja-Hira": "\u304a\u304a\u3068\u308a\u3044",
+    "name:ja-Latn": "\u014ctorii",
+    "width": "17.1"
+  },
+  "note": "Coordinates and orientation only; architectural dimensions and materials use cited architectural sources, which override inconsistent OSM tags."
+}

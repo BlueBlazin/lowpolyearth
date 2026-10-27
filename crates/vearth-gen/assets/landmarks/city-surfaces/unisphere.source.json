@@ -1,0 +1,63 @@
+{
+  "name": "unisphere",
+  "city": "Queens, New York",
+  "lat": 40.746396,
+  "lon": -73.8450737,
+  "heading": 0,
+  "base": 5.9727993,
+  "suppress_buildings": false,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://www.nycgovparks.org/parks/flushing-meadows-corona-park/monuments/1597",
+    "https://s-media.nyc.gov/agencies/lpc/lp/1925.pdf",
+    "https://www.openstreetmap.org/way/596273458"
+  ],
+  "description": "An open 36.6m steel globe with a tilted axis, raised continental silhouettes and three orbit rings, on a three-legged support.",
+  "source_audit": {
+    "center_ground_m": 5.9727993,
+    "foot_ground_range_m": [
+      5.93596,
+      5.96791
+    ],
+    "placement": "Mapped globe center; support and foundation remain inside the existing pool without flattening it."
+  },
+  "capture": {
+    "distance": 109,
+    "azimuth": 35,
+    "elevation": 17,
+    "target_height": 22,
+    "time_utc": "2026-03-20T17:00:00Z"
+  },
+  "bbox_min": [
+    -22.4,
+    -2.0,
+    -22.2
+  ],
+  "bbox_max": [
+    22.4,
+    43.6,
+    22.2
+  ],
+  "levels": [
+    {
+      "vertices": 90921,
+      "triangles": 46976
+    },
+    {
+      "vertices": 45564,
+      "triangles": 24326
+    },
+    {
+      "vertices": 21886,
+      "triangles": 11196
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "c5682d85383a713e840ab653b82f55d7fd94ac8a3ddf28e72ef247febbbce8f8"
+}

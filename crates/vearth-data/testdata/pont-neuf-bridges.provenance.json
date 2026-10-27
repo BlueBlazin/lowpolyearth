@@ -1,0 +1,10 @@
+{
+  "source": "https://api.openstreetmap.org/api/0.6/map?bbox=2.331,48.852,2.346,48.861",
+  "downloaded": "2026-09-10",
+  "source_sha256": "df40ab179a2aa54d0ba52fc8748157f41f074b470cc6616398e40015d4d7b9eb",
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "selection": "Ways named Pont Neuf tagged bridge or man_made=bridge, with referenced nodes. Original coordinates, node references and tags retained; edit metadata omitted. Water is supplied independently by the unit test.",
+  "fixture_sha256": "55325d41f8db8ada4bb8ee0a6e65c00a5b5c7fcdbe1f5e603f8588b4685b63d0"
+}

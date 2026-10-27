@@ -1,0 +1,23 @@
+{
+  "name": "brandenburg-gate",
+  "kind": "brandenburg",
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-076/f0501d1cc3d04c78a0bb8efd6058cb90.glb?download=true",
+  "sha256": "d63ea5004ee6fa20230e081d1823051a294f2eb59088e784fc9cc463d622eeb1",
+  "license": "existing landmark SOURCES.md",
+  "output": "brandenburg-gate.lms",
+  "output_sha256": "335ca3791af5741ded4595ff3e6d0bef50e75dde104b50f735824f50d0771009",
+  "levels": [
+    [
+      68636,
+      37696
+    ],
+    [
+      7963,
+      13816
+    ],
+    [
+      3834,
+      6060
+    ]
+  ]
+}

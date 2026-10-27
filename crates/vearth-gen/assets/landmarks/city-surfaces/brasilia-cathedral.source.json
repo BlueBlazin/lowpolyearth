@@ -1,0 +1,87 @@
+{
+  "name": "brasilia-cathedral",
+  "city": "Brasilia",
+  "lat": -15.7983445,
+  "lon": -47.8755465,
+  "heading": 0.0,
+  "base": 1079.3665771484375,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -44.0,
+      -44.0
+    ],
+    [
+      44.0,
+      44.0
+    ]
+  ],
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0.0,
+        0.0
+      ],
+      "half_extent": [
+        44.0,
+        44.0
+      ],
+      "feather_m": 8.0,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 1079.3665771484375
+    }
+  ],
+  "references": [
+    "https://catedral.org.br/institucional/historia/",
+    "https://catedral.org.br/comunicacao-da-catedral/a-genialidade-de-joaquim-cardozo-na-estrutura-da-catedral/",
+    "https://www.openstreetmap.org/way/66379902"
+  ],
+  "description": "Sixteen white curved concrete blades pinch into a crown above blue glass, with a circular foundation, still reflecting pool, and steady warm rib lighting.",
+  "source_audit": {
+    "center_ground_m": 1078.5120849609375,
+    "perimeter_median_m": 1079.3665771484375,
+    "pool_source_peak_above_base_m": 0.445133,
+    "pool_fit": "Production water-datum audit: mapped reflecting-pool boundary peaks 0.445m above base; authored surface 0.65m and rim 0.80m cover it without moving the cathedral.",
+    "dimensions": "Official structural account: 16 columns, 30m high, 70m foundation diameter; the underground nave is not a raised drum."
+  },
+  "capture": {
+    "distance": 128.0,
+    "azimuth": 215.0,
+    "elevation": 19.0,
+    "target_height": 12.0,
+    "time_utc": "2026-03-20T20:45:00Z"
+  },
+  "bbox_min": [
+    -52.0,
+    -6.2,
+    -52.0
+  ],
+  "bbox_max": [
+    52.0,
+    33.0,
+    52.0
+  ],
+  "levels": [
+    {
+      "vertices": 134806,
+      "triangles": 54020
+    },
+    {
+      "vertices": 63260,
+      "triangles": 24932
+    },
+    {
+      "vertices": 27611,
+      "triangles": 10628
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_civic.py",
+  "source_sha256": "1ab7d29fd7be5730a4c5a9fd5e3e9d4f8c9d85de20436921a1314ffbbcc82f98",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "cdd5e0eddaaab19c89bc2f4b429348c21dd54319779a625e20803ba40bd4a417"
+}

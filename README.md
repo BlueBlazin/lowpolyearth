@@ -75,5 +75,92 @@ Builder, ESA Hipparcos (CC BY-NC 3.0 IGO) and ESO/S. Brunier.
 The app lists every source and licence in its attribution window, and ships
 full third-party notices inside the app bundle.
 
-Low Poly Earth is free. It is not open source; this repository hosts releases,
-screenshots and issue reports.
+Low Poly Earth is free, and its source code is in this repository.
+
+## Source code
+
+Low Poly Earth is a native Rust application for exploring a streamed,
+multiresolution surface planet. It combines geospatial elevation, imagery, and
+map features with deterministic procedural generation, then renders the result
+with `wgpu` from globe scale to ground level.
+
+The application includes place search and map navigation, an astronomical
+day/night cycle, procedural weather, still-image capture, and three playable
+vehicles. Global terrain and surface colour have bundled fallbacks; network
+providers supply streamed terrain and map features.
+
+### Build and run
+
+The workspace uses Rust 2024 and requires Rust 1.95 or newer. From the
+repository root, first provide the generated offline place index at
+`crates/vearth-data/assets/place-search-v1.bin`. The file is intentionally
+ignored because of its size; its source manifest records the canonical hash
+and rebuild inputs. See [Development](docs/DEVELOPMENT.md#required-local-asset)
+for the clean-checkout bootstrap.
+
+Then build and run:
+
+```sh
+cargo build --workspace
+cargo run --release -p vearth-app
+```
+
+The native viewer requires a graphics adapter supported by `wgpu`. Cargo needs
+network access when dependencies are not already cached, and the running app
+uses network sources where available.
+
+Run the standard validation suite with:
+
+```sh
+cargo fmt --all -- --check
+cargo check --workspace --all-targets --all-features
+cargo test --workspace --all-features
+```
+
+See [Development](docs/DEVELOPMENT.md) for capture, replay, data-preparation,
+and packaging workflows.
+
+### Controls
+
+- Drag to pan, scroll to zoom, and hold Command or Control while dragging to
+  orbit and tilt.
+- Use WASD or the arrow keys to pan, `+`/`-` to zoom, `Q`/`E` to rotate, and
+  `R`/`F` to tilt.
+- Press `/` to search, Enter to open or close the map, and `T` to show the
+  current location title in explore or play mode. `[` and `]` move simulation
+  time by one hour.
+- Press `P` to enter or leave play mode. In play mode, use WASD to move,
+  Shift to boost, `V` to cycle vehicles, or `1` through `3` to select one
+  directly. Space and `C` control vertical movement where the vehicle permits
+  it.
+
+The in-app settings and HUD expose weather, visual, data-source, storage, and
+photo controls.
+
+### Documentation
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [Development](docs/DEVELOPMENT.md)
+- [Data and attribution](docs/DATA_AND_ATTRIBUTION.md)
+- [Performance](docs/PERFORMANCE.md)
+- [Environment visual improvements checklist](docs/VISUAL_IMPROVEMENTS.md)
+
+Dataset-level provenance is kept beside the assets it describes:
+
+- Application assets: [fonts](crates/vearth-app/assets/fonts/README.md),
+  [map](crates/vearth-app/assets/mercator-map-SOURCE.md), and
+  [sky](crates/vearth-app/assets/sky/SOURCES.md)
+- Data assets: [administrative regions](crates/vearth-data/assets/admin-regions-SOURCES.md),
+  [climate](crates/vearth-data/assets/climate-SOURCES.md),
+  [place search](crates/vearth-data/assets/place-search-SOURCES.md),
+  [monthly surface imagery](crates/vearth-data/assets/surface-SOURCES.md),
+  [terrain](crates/vearth-data/assets/terrain-SOURCES.md), and
+  [timezones](crates/vearth-data/assets/timezones-SOURCES.md)
+- Generated landmarks: [source manifest](crates/vearth-gen/assets/landmarks/SOURCES.md)
+
+## License
+
+The project-authored code, documentation, and assets are released under the
+[MIT License](LICENSE). Included datasets and third-party assets keep their own
+terms, recorded in [Data and attribution](docs/DATA_AND_ATTRIBUTION.md) and the
+source manifests beside each asset.

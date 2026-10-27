@@ -1,0 +1,19 @@
+{
+  "name": "the-exchange-106",
+  "city": "Kuala Lumpur",
+  "architectural_height_m": 453.6,
+  "references": [
+    "https://www.skyscrapercenter.com/build/the-exchange-106/24971",
+    "https://www.exchange106.my/",
+    "https://trx.my/our-district-category/exchange-106/"
+  ],
+  "primary_evidence": "Current CTBUH entry records453.6m architectural/tip height and405.4m highest occupied floor. The owner identifies its illuminated geometric crown.",
+  "estimates": "The tower and detached entrance gallery plans are mapped measurements. The48.2m crown interval uses published vertical endpoints; individual facet setbacks and gallery13m height are approximations. Datum43m fits the near-flat mapped tower approach; the neighboring TRX mall is outside ownership.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 294.84000000000003,
+    "target_height": 8
+  }
+}

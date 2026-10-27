@@ -1,0 +1,86 @@
+{
+  "name": "milwaukee-art-museum",
+  "city": "Milwaukee",
+  "lat": 43.039529,
+  "lon": -87.8969658,
+  "heading": 0,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://mam.org/info/pressroom/2015/09/fact-sheet-for-the-reimagined-milwaukee-art-museum/",
+    "https://mam.org/info/pressroom/2010/10/anniversary/",
+    "https://www.openstreetmap.org/way/403894584"
+  ],
+  "description": "The white Quadracci Pavilion with seventy-two fixed-open wing fins, glazed Windhover Hall and cable-stayed pedestrian bridge.",
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0,
+        -8
+      ],
+      "half_extent": [
+        51,
+        78
+      ],
+      "feather_m": 4,
+      "sample_clearance_m": 12,
+      "fixed_base_geo": 179.5
+    }
+  ],
+  "capture": {
+    "distance": 270,
+    "azimuth": 125,
+    "elevation": 20,
+    "target_height": 19,
+    "time_utc": "2026-03-20T20:00:00Z"
+  },
+  "audit": {
+    "source_dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+    "ground_center_m": 181.2637,
+    "perimeter_m": [
+      179.572,
+      177.8221,
+      176.307,
+      179.8689,
+      176.1066,
+      180.6205,
+      180.0906,
+      179.3823
+    ],
+    "source_file": "output/city-catalog-expansion/modern/milwaukee-art-museum-final.json",
+    "placement_note": "Lake-side samples are 176.11\u2013176.31 m, landward paths 179.57\u2013180.62 m. The 179.5 m landward datum retains the authored podium; cleanup northern edge plus feather stops at z74 before the existing galleries begin near z76."
+  },
+  "bbox_min": [
+    -92.2,
+    -1.2,
+    -90.0
+  ],
+  "bbox_max": [
+    55.0,
+    51.5,
+    74.0
+  ],
+  "levels": [
+    {
+      "vertices": 27358,
+      "triangles": 11264
+    },
+    {
+      "vertices": 17324,
+      "triangles": 7072
+    },
+    {
+      "vertices": 11120,
+      "triangles": 4502
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_modern.py",
+  "source_sha256": "d67541172251567213bcbe5de36427df424d1e2d182247fc8aa63fac3b117c3d",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "352be00aeb2f3ee33c2942088a46f5b3d26e401bc85b3ee92820823ba7969b22"
+}

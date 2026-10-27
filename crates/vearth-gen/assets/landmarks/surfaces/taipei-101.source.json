@@ -1,0 +1,23 @@
+{
+  "name": "taipei-101",
+  "kind": "taipei-101",
+  "source": "taipei-101/taipei101.glb",
+  "sha256": "570a9570c5a96db1a196130ecd5b0de0f14e2039c2965dee0df5b1ad885fa8cc",
+  "license": "existing landmark SOURCES.md",
+  "output": "taipei-101.lms",
+  "output_sha256": "57cddf79336563a8eb8c9be05e8002ade27ff5f696f74e2fedea85df6ae5f7c4",
+  "levels": [
+    [
+      7152,
+      4380
+    ],
+    [
+      2963,
+      2530
+    ],
+    [
+      2898,
+      2400
+    ]
+  ]
+}

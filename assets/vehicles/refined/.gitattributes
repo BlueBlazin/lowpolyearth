@@ -1,0 +1,2 @@
+# Preserve the exact upstream license bytes recorded in the source manifest.
+source/quaternius/License.txt -text -whitespace

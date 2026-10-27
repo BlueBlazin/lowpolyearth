@@ -1,0 +1,52 @@
+{
+  "name": "seville-setas",
+  "city": "Seville",
+  "lat": 37.39313734,
+  "lon": -5.99182458,
+  "heading": 95.0,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://setasdesevilla.com/en/events/-/asset_publisher/rLfde59VaxQq/",
+    "https://www.spain.info/en/top/andalusia-contemporary-architecture/"
+  ],
+  "description": "Six connected mushroom canopies formed from open orthogonal timber fins, with a winding rooftop promenade and shaded market podium.",
+  "capture": {
+    "distance": 240.0,
+    "azimuth": 210.0,
+    "elevation": 32.0
+  },
+  "bbox_min": [
+    -75.1,
+    -0.2,
+    -43.6
+  ],
+  "bbox_max": [
+    73.2,
+    27.2,
+    33.2
+  ],
+  "levels": [
+    {
+      "vertices": 111499,
+      "triangles": 69532
+    },
+    {
+      "vertices": 53767,
+      "triangles": 33172
+    },
+    {
+      "vertices": 29190,
+      "triangles": 17848
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/sculptural.py",
+  "source_sha256": "13f8fd088aad0da760d6d7fca86c3edb853b07100e758232a1e4e5f4368aceec",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "3f99ddfe8e0aba0005b145f41f6a4342159df0d58cd3c0764d467cbf8c61835a"
+}

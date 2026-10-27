@@ -1,0 +1,16 @@
+{
+  "name": "rua-augusta-arch",
+  "references": [
+    "https://www.visitportugal.com/en/destinos/lisboa/315757",
+    "https://en.wikipedia.org/wiki/Rua_Augusta_Arch",
+    "https://www.openstreetmap.org/way/41683195"
+  ],
+  "retrieved_utc": "2026-09-15",
+  "dimensions_and_limits": "Approximate 30.55 m overall sculptural height; width and depth fitted to mapped arch footprint, with estimated detail dimensions. Conflicting OSM height tags are not used.",
+  "orientation": "Mapped monument center; minus 17.5-degree heading follows the facade facing Praca do Comercio; clock is on the opposite Rua Augusta face.",
+  "placement_evidence": "tools/monument_catalog/references/gateways/augusta-placement.json",
+  "appearance": "Deep walkable barrel passage, six engaged columns, historical figures, sculpted coat of arms, allegorical crown group and a clock on the street-facing side.",
+  "authorship": "Original procedural geometry; ornaments are schematic sculptural interpretations. Reference photographs and plans are not distributed or used as textures.",
+  "grounding": "The connected gateway stays rigid above surveyed unmodified terrain. Separate masonry footings extend downward to local support elevations. No slab spans the passage and no terrain flattening, cutting or grading is applied.",
+  "materials": "Surface classes use existing physical stone, limestone, marble, timber, plaster, tile and metal materials with authored per-part colors. Relief silhouettes, molding shadows and coursing are geometry, not painted opaque doorway panels."
+}

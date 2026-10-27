@@ -1,0 +1,179 @@
+{
+  "shanghai-tower": {
+    "city": "Shanghai",
+    "architectural_height_m": 632,
+    "tip_height_m": 632,
+    "references": [
+      "https://www.gensler.com/projects/shanghai-tower",
+      "https://www.gensler.com/uploads/document/242/file/Shanghai_Tower_Facade_Design_Process_11_10_2011.pdf",
+      "https://www.thorntontomasetti.com/project/shanghai-tower"
+    ],
+    "description": "Curved triangular double-skin envelope with120-degree twist, exponential taper, recessed sky-garden floor rings and an open inclined crown.",
+    "published_controls": "Gensler facade study:120-degree rotation;605m section at55.686% scale relative to45m section;144 outer panels per floor;4.5m lower and4.3m upper floor heights. Completed height632m.",
+    "estimated_details": "Outer ground shape follows the mapped entrance notch. Zone boundary elevations, inclined crown rim interpolation and secondary ribs are approximate original reconstructions; the preconstruction facade study is reconciled to the completed632m envelope."
+  },
+  "shanghai-world-financial-center": {
+    "city": "Shanghai",
+    "architectural_height_m": 492,
+    "tip_height_m": 492,
+    "references": [
+      "https://www.kpf.com/project/shanghai-world-financial-center",
+      "https://www.kpf.com/story/mixed-use",
+      "https://www.skyscrapercenter.com/building/shanghai-world-financial-center/131"
+    ],
+    "description": "Square tower shaved toward a diagonal blade, with a real trapezoidal crown aperture and upper skywalk above the mapped retail podium.",
+    "published_controls": "492m architectural height;58m structural square;KPF identifies the97th-floor trapezoidal aperture. The upper observation bridge is at474m.",
+    "estimated_details": "Curved trimming planes,438m aperture sill,478m bridge soffit and jamb profiles are approximate. The original curved podium boundary is retained, but its facade and15m height are mapped estimates."
+  },
+  "jin-mao-tower": {
+    "city": "Shanghai",
+    "architectural_height_m": 420.5,
+    "tip_height_m": 420.5,
+    "references": [
+      "https://www.skyscrapercenter.com/building/jin-mao-tower/189",
+      "https://www.som.com/news/som-and-jin-mao-tower-part-2/",
+      "https://usmodernist.org/D/D-2002-06.pdf"
+    ],
+    "description": "Eight-lobed silver pagoda tower with shrinking floor groups, projecting cornices, eight vertical ribs and an open lattice lantern and pinnacle.",
+    "published_controls": "420.5m architectural height,88floors. Architect Adrian Smith's2002 interview gives successive16,14,12,10,8,7,6,5,4,3,2,1-floor groups.",
+    "estimated_details": "Floor-group elevations are distributed over365m above the10m mapped podium. Individual cornices, radial rib widths, open lantern levels and secondary rooftop equipment are estimated rather than surveyed."
+  },
+  "ping-an-finance-centre": {
+    "city": "Shenzhen",
+    "architectural_height_m": 599.1,
+    "tip_height_m": 599.1,
+    "references": [
+      "https://www.kpf.com/project/ping-an-finance-centre",
+      "https://www.skyscrapercenter.com/building/ping-an-finance-center/54"
+    ],
+    "description": "Chamfered tapering tower with eight silver mega-column lines, major diagonal ties, faceted pyramidal crown and terraced southern retail podium.",
+    "published_controls": "CTBUH599.1m completed height;KPF rounded600m description and five-level retail terracing. The unbuilt660m spire is omitted.",
+    "estimated_details": "Mapped 76m maximum ground envelope; 68m main glazed section and successive upper widths are approximate facade fits. Mechanical bands and terrace depths are estimates. The fixed 6m entrance datum is estimated from retained clean street controls; surrounding DSM samples show strong contamination and are not survey benchmarks."
+  },
+  "guangzhou-ctf-finance-centre": {
+    "city": "Guangzhou",
+    "architectural_height_m": 530,
+    "tip_height_m": 530,
+    "references": [
+      "https://www.kpf.com/project/ctf-finance-centre",
+      "https://www.kpf.com/news/director-florence-chan-presents-on-ctfs-terracotta-facade",
+      "https://global.ctbuh.org/resources/papers/1888-Ho_2014_ANewSkylineVision.pdf"
+    ],
+    "description": "Four successively offset tower stages, white glazed terracotta piers, blue-grey glazing, asymmetric crystalline crown and stepped retail podium.",
+    "published_controls": "KPF530m and four program transitions;white terracotta facade explicitly identified by architect.41st/42nd-floor double-height sky lobby.",
+    "estimated_details": "273/355/440/498m transition elevations and stepped crown parapets are photograph-informed estimates. Ground-plan unions preserve both halves of clipped source footprints; secondary retail roof terraces are simplified."
+  },
+  "guangzhou-international-finance-center": {
+    "city": "Guangzhou",
+    "architectural_height_m": 438.6,
+    "tip_height_m": 438.6,
+    "references": [
+      "https://wilkinsoneyre.com/projects/guangzhou-international-finance-center",
+      "https://www.skyscrapercenter.com/building/guangzhou-international-finance-center/60"
+    ],
+    "description": "Rounded triangular tube, slightly widening lower body, tapering hotel crown, and externally expressed structural diagrid.",
+    "published_controls": "WilkinsonEyre describes triangular plan, diagrid,103storeys and rounded440m height;CTBUH438.6m used for model.",
+    "estimated_details": "12 structural perimeter nodes,30m diamond heights and taper controls are estimated from the published exterior. Adjoining large retail complex remains native and is not replaced by an invented podium."
+  },
+  "citic-tower": {
+    "city": "Beijing",
+    "architectural_height_m": 527.7,
+    "tip_height_m": 527.7,
+    "references": [
+      "https://www.kpf.com/project/citic-tower-china-zun",
+      "https://www.kpf.com/news/kpf-design-team-headlines-citic-tower-forum-in-beijing",
+      "https://www.skyscrapercenter.com/building/citic-tower/11116"
+    ],
+    "description": "Concave-waisted rounded-square vessel form with flared base and crown, lifted crown corners and entrance canopy ribs.",
+    "published_controls": "KPF78m base,54m waist,69m top;completed527.7m architectural height versus rounded528m owner description.",
+    "estimated_details": "Waist position at53% height, corner radius, canopy projection and crown rim curvature are fitted estimates; no unverified roof antenna is added."
+  },
+  "cctv-headquarters": {
+    "city": "Beijing",
+    "architectural_height_m": 234,
+    "tip_height_m": 234,
+    "references": [
+      "https://www.oma.com/projects/cctv-headquarters",
+      "https://www.arup.com/en-us/projects/china-central-television-headquarters/",
+      "https://www.arup.com/globalassets/downloads/arup-journal/the-arup-journal-2005-issue-2.pdf"
+    ],
+    "description": "Two diagonally opposed leaning towers joined by opposite L-shaped upper and lower links, open central void, exposed nonuniform diagrid and glazed soffit.",
+    "published_controls": "Arup234m,6-degree tilt in each direction,nine-storey base and nine-to13-storey upper cantilever. OMA continuous three-dimensional loop.",
+    "estimated_details": "Mapped lower rings determine the two legs and base. Lower leg210m, upper soffit162\u2013180m and link roof interpolation are estimates; the diagrid reproduces stress-dependent density, not every individual member."
+  },
+  "two-international-finance-centre": {
+    "city": "Hong Kong",
+    "architectural_height_m": 412,
+    "tip_height_m": 412,
+    "references": [
+      "https://pcparch.com/work/ifc-hong-kong",
+      "https://www.skyscrapercenter.com/building/two-international-finance-centre/205",
+      "https://www.building.hk/feature/2004_04ifc2.pdf"
+    ],
+    "description": "Tapering faceted obelisk with directional setbacks,pearl-coloured ascending ribs,recessed plant and slender inward-curving crown fins.",
+    "published_controls": "Current CTBUH412m architectural/tip and387.6m occupied height,88floors. Pelli and2003 construction coverage round overall project elevation to420m;the model uses the CTBUH height above its fixed entrance datum.",
+    "estimated_details": "Setback heights, blade curvature and crown plant level are estimates. Only the tower footprint is replaced;the shared station/mall and neighboring IFC1 are retained."
+  },
+  "international-commerce-centre": {
+    "city": "Hong Kong",
+    "architectural_height_m": 484,
+    "tip_height_m": 484,
+    "references": [
+      "https://www.kpf.com/project/international-commerce-centre",
+      "https://www.skyscrapercenter.com/building/international-commerce-centre/137"
+    ],
+    "description": "Subtly tapered square glass tower with re-entrant corner channels,three curved sheltering base skirts and extended northern atrium.",
+    "published_controls": "484m height. KPF specifically identifies tapering re-entrant corners,three sheltering canopies and northern atrium connected to Union Square.",
+    "estimated_details": "Mapped corner notches and attached skirt rings determine the plan. Curved canopy roof elevations,vertical bands and shallow upper taper are approximate. Adjacent Union Square towers and remaining mall are preserved."
+  },
+  "bank-of-china-tower": {
+    "city": "Hong Kong",
+    "architectural_height_m": 367.4,
+    "tip_height_m": 367.4,
+    "references": [
+      "https://www.pcf-p.com/projects/bank-of-china-tower/",
+      "https://www.bochk.com/m/en/aboutus/corpprofile/boctower.html"
+    ],
+    "description": "Four triangular shafts with successive sloping terminations,large silver triangulated frames and paired rooftop masts.",
+    "published_controls": "Architect52m square base;owner315m body and367.4m overall height,70floors and four triangular shafts.",
+    "estimated_details": "Mapped triangular quadrants determine compass placement. Roof slopes,50m major bracing bays and secondary360.8m mast height are estimated. Hillside street levels vary substantially and need low-angle contact review."
+  },
+  "hsbc-main-building": {
+    "city": "Hong Kong",
+    "architectural_height_m": 180,
+    "tip_height_m": 180,
+    "references": [
+      "https://www.steelconstruction.info/images/a/a4/1986_-_New_Headquarters_for_HSBC_Hong_Kong.pdf",
+      "https://www.fosterandpartners.com/news/hongkong-and-shanghai-bank-celebrates-25th-anniversary/",
+      "https://www.about.hsbc.com.hk/news-and-media/the-fourth-generation-hsbc-main-building-marks-40th-anniversary"
+    ],
+    "description": "Eight exposed four-column masts carry three stepped suspended office bays,transverse suspension trusses,X-braces,east service modules and an open plaza with paired escalators.",
+    "published_controls": "1986 British Steel/Arup structural award report:180m,47floors,approximately54\u00d770m plan,eight masts,four1.4m-diameter columns per mast tapering to0.8m,3.9m story links,33.6m transverse truss span and10.8m cantilevers.",
+    "estimated_details": "Mapped parent ring and elevated parts determine the present outline;reported approximate plan dimensions and mapped footprint differ slightly. Suspension-zone elevations and maintenance boom positions are estimates. Northern street controls chosen over severely rooftop-contaminated southern DSM samples."
+  },
+  "lotte-world-tower": {
+    "city": "Seoul",
+    "architectural_height_m": 554.5,
+    "tip_height_m": 554.5,
+    "references": [
+      "https://www.kpf.com/project/lotte-world-tower",
+      "https://www.skyscrapercenter.com/building/lotte-world-tower/88"
+    ],
+    "description": "Convex tapered rounded-square glass envelope,narrow vertical seams,two separated crown ears and a connecting sky bridge above the roof cleft.",
+    "published_controls": "KPF rounded555m and split crown ears with sky bridge;CTBUH554.5m. Retained mapped section rings constrain the lower and upper taper.",
+    "estimated_details": "Intermediate section levels are mapped building-part approximations,not survey elevations. Crown cleft width,541m bridge datum and rib spacing are estimated;large adjoining Lotte World Mall remains native."
+  },
+  "85-sky-tower": {
+    "city": "Kaohsiung",
+    "architectural_height_m": 347.5,
+    "tip_height_m": 378,
+    "references": [
+      "https://www.skyscrapercenter.com/building/t-c-tower/338",
+      "https://www.turnerconstruction.com/projects/85-sky-tower",
+      "https://www.cylee.com"
+    ],
+    "description": "Two separate lower wings and crossbar support an elevated central shaft over a large genuine aperture,with a stepped pagoda crown and antenna.",
+    "published_controls": "CTBUH347.5m architecture,378m tip and85floors. Turner describes the multiple cores and structural-steel building;its87storey count differs from CTBUH.",
+    "estimated_details": "Mapped50/70/145/190/330m part levels establish the H-shaped arrangement but are approximate. Complete union rings join source tile fragments. Crown steps,upper taper and secondary facade bands are estimated."
+  }
+}

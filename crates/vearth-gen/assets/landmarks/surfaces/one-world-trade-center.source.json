@@ -1,0 +1,23 @@
+{
+  "name": "one-world-trade-center",
+  "kind": "one-world-trade-center",
+  "source": "one-world-trade-center/onewtc.glb",
+  "sha256": "076cd76076b9af53e41aac68ec2533b9f6d56abb52d44ca0b142cc743ed7e641",
+  "license": "existing landmark SOURCES.md",
+  "output": "one-world-trade-center.lms",
+  "output_sha256": "119ad13610f40259082ed109496bd4164a4b6e7c1a7e9328f2577a83e9b5feb8",
+  "levels": [
+    [
+      3008,
+      1968
+    ],
+    [
+      1420,
+      1136
+    ],
+    [
+      1306,
+      908
+    ]
+  ]
+}

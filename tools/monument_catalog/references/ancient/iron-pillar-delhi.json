@@ -1,0 +1,25 @@
+{
+  "name": "iron-pillar-delhi",
+  "sources": [
+    "https://www.delhitourism.gov.in/tourist_place/qutab_minar.html",
+    "https://nehrusciencecentre.gov.in/wp-content/uploads/2024/01/SCI-MAIL-JAN-TO-MARCH-2024.pdf",
+    "https://en.wikipedia.org/wiki/Iron_pillar_of_Delhi"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "total_iron_length_m": 7.21,
+    "below_ground_length_m": 1.12,
+    "above_ground_height_m": 6.09,
+    "base_diameter_m": 0.41
+  },
+  "geometry_notes": "The7.21m total includes1.12m underground; authored visible shaft and capital reach6.09m. Wrought iron carries dark brown protective patina, warm polished high spots and small recessed inscription marks. Ringed/amala-like capital and narrow shaft remain distinctive. Inscription strokes are suggestive geometry, not a Sanskrit transcription.",
+  "placement_notes": "Approximate individual pillar coordinate28.5246556,77.1850694 in the Qutb courtyard. Rotational shaft needs no facade bearing; inscription orientation is approximate. Only the small pillar footing geometry adapts to the raw terrain.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/iron-pillar-delhi.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "One connected column and its footing",
+    "roads_suppressed": false
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

@@ -1,0 +1,74 @@
+{
+  "name": "hongyadong",
+  "city": "Chongqing",
+  "lat": 29.564827,
+  "lon": 106.575395,
+  "heading": -20.0,
+  "base": 231.29296875,
+  "suppress_buildings": true,
+  "activation_pad": 3.0,
+  "activation_bounds_xz": [
+    [
+      -103.0,
+      -14.0
+    ],
+    [
+      103.0,
+      90.0
+    ]
+  ],
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -102.0,
+      -13.0
+    ],
+    [
+      102.0,
+      56.0
+    ]
+  ],
+  "references": [
+    "https://www.architecture.com/-/media/Files/International/RIBA_China_Architects_Building_Contemporary_China_2024.pdf",
+    "https://www.travelchina.org.cn/en/article/vF1cJZaYCtX8",
+    "https://www.openstreetmap.org/way/939578294"
+  ],
+  "description": "A 200 m riverfront village descending the 48.5 m cliff, with timber galleries, sweeping tiled roofs and steady amber eaves.",
+  "capture": {
+    "distance": 265,
+    "azimuth": 340,
+    "elevation": 9
+  },
+  "bbox_min": [
+    -103.0,
+    -51.8,
+    -15.5
+  ],
+  "bbox_max": [
+    103.0,
+    10.1,
+    90.0
+  ],
+  "levels": [
+    {
+      "vertices": 102951,
+      "triangles": 52456
+    },
+    {
+      "vertices": 48087,
+      "triangles": 25024
+    },
+    {
+      "vertices": 43781,
+      "triangles": 22424
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/waterfront.py",
+  "source_sha256": "b0620972864133663ef6a7061f796d85dffeb028b8e9eb20a539c3a39523b472",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "81969e037f76e3f5619a5c2eabfc8e9741fa35c4ec80fec9a292884cb0825479"
+}

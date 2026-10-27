@@ -1,0 +1,19 @@
+{
+  "name": "mode-gakuen-cocoon-tower",
+  "city": "Tokyo",
+  "architectural_height_m": 204,
+  "references": [
+    "https://www.tangeweb.com/project/modegakuen/",
+    "https://www.arup.com/globalassets/downloads/arup-journal/the-arup-journal-2009-issue-2.pdf",
+    "https://www.archdaily.com/139167/mode-gakuen-cocoon-tower-tange-associates"
+  ],
+  "primary_evidence": "Tange and structural engineer Arup identify a50storey educational tower organized into three wings, with curved cocoon-shaped cladding; nominal published height204m (Arup precise203.65m).",
+  "estimates": "54\u00d748m maximum oval is fitted to mapped roof and wing outlines. The continuous shell taper and rib spacing are an exterior approximation. Structural seams occur at three orientations. 38.3m floor datum is an adjacent west approach estimate; the central64.8m DSM sample is roof-contaminated. The separate low hall is not included without a verified plan.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 135,
+    "target_height": 8
+  }
+}

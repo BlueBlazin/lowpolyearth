@@ -1,0 +1,22 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "node",
+      "id": 1124758825,
+      "lat": 23.479577,
+      "lon": 77.739645,
+      "timestamp": "2019-11-29T20:41:24Z",
+      "version": 2,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Northern Gate",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

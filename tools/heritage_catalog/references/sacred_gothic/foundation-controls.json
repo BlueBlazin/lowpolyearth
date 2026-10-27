@@ -1,0 +1,11 @@
+{
+  "units": "Metres in model coordinates before geographic heading; foundation extensions preserve all published roof, spire and floor controls. Below-grade toes are excluded from architectural height claims.",
+  "method": "Production8m-pitch elevation samples evaluated through ActiveLandmark::flattened_terrain. Asset contact also depends on rendered grid interpolation; low-angle engine checks remain required. A sampled negative footing gap means embedded support, not a shifted building.",
+  "cologne": "Continuous shaped Domplatte footing from−7m to+.08m, north stair landing supported to−4m. Existing59.092m west portal datum unchanged; individual perimeter samples in cologne-foundation.json.",
+  "mont": "Lodging foundations−47m, northwest turret−46m, projecting western toe−53m, west Merveille projections−47m. Passage foundation−38.4m overlaps a granite shoulder at−38m, whose8-point perimeter lies0.4m below sampled corrected ground. CMN northwest photograph shows the rock shoulder between the terrace and Merveille; individual facets and top-of-rock estimate are authored interpretations.",
+  "las": "Bridge pier/crypt toes−54m intersect bounded corrected riverbed−52m. Northwest chapel remains at−7m on a narrow bank tongue, with top around−6.5m near its front and joining existing apse rock atnorth17.9m. The tongue remains north ofz−8.6m; the mapped river12m corridor atchapelx−10 is aroundz−19m. Its outside faces meet sampled corrected bank heights minus0.4m; the river corridor/water planes are unchanged. Primary2023Fig2 photograph supports the bank-backed chapel; face-level terrain shape remains an estimate. The main cavity spans z−35…−15m and feathers20m, ending before the far-bank shrine. A bridge-width transition toward z−57m rises to−13m beneath the southern arch, with2m feather. These blending dimensions are bounded estimates preserving the raw far bank; shrine footing reaches−0.9m with its floor and roof unchanged.",
+  "references": [
+    "https://www.abbaye-mont-saint-michel.fr/var/cmn_inter/storage/images/_aliases/image_text_webp/9/5/9/4/120474959-1-fre-FR/a1858f189290-abb_eglise.sommet.webp.webp",
+    "http://www.sciresit.it/article/download/13845/12097"
+  ]
+}

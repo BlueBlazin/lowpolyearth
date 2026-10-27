@@ -1,0 +1,388 @@
+{
+  "name": "alhambra",
+  "reference_urls": [
+    "https://www.alhambra-patronato.es/elemento-del-mes/patio-de-los-arrayanes-the-courtyard-of-the-myrtles",
+    "https://www.alhambra-patronato.es/edificios-lugares/salon-de-los-embajadores",
+    "https://www.alhambra-patronato.es/wp-content/uploads/2020/04/Cuaderno-Erase-2020-web.pdf",
+    "https://www.alhambra-patronato.es/en/edificios-lugares/palace-of-charles-v",
+    "https://www.granada.org/inet/wfotos.nsf/ae8ed1fa9c644732c125754000465473/ef095026ffa62ccbc1256e2f007bad68!OpenDocument",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-3.5963365802676828,37.17114441341787,-3.581663419732317,37.18283558658214"
+  ],
+  "documented_evidence": "Patronato publishes Myrtles court36\u00d723m and pool34\u00d77.1m, Comares external height45m and124 marble columns. Granada municipal image archive gives Lions Court28.5\u00d715.7m. Raw OSM historic boundary92528618 supplies the201-point circuit, with separate named towers, Nasrid Palace, Charles V and church footprints.",
+  "modeling_qualifications": "Charles V63m square and30m open court are dimensional anchors. Comares45m includes downhill wall: modeled foot\u221217m and courtyard-relative top28m. Lions Court has116 perimeter columns and8 pavilion columns,124 total; historical grouping remains simplified. Alcazaba and Partal use lower sampled terraces; the irregular long rampart follows production ground. Secondary tower heights and much carved decoration are estimates. Hotel/service infill outside authored structures remains native.",
+  "metric_targets": {
+    "charles_v_side_m": 63,
+    "charles_v_court_diameter_m": 30,
+    "myrtles_court_m": [
+      23,
+      36
+    ],
+    "myrtles_pool_m": [
+      7.1,
+      34
+    ],
+    "comares_external_height_m": 45,
+    "lions_columns": 124,
+    "lions_court_m": [
+      28.5,
+      15.7
+    ]
+  },
+  "placement": {
+    "lat": 37.17699,
+    "lon": -3.589,
+    "heading_deg": 0,
+    "base": "terrain",
+    "source_file": "tools/heritage_catalog/references/castles/alhambra-source.json",
+    "source_offset_east_north_m": [
+      0,
+      0
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/alhambra-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/alhambra-terrain.json",
+    "production_ground_at_anchor_m": 768.1981811523438
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 26935518,
+      "name": "Alcazaba",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -246.864,
+          12.788
+        ],
+        "size_m": [
+          67.137,
+          113.795
+        ],
+        "heading_deg": 84.272
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 23472864,
+      "name": "Palacio de Carlos V",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -83.177,
+          -25.542
+        ],
+        "size_m": [
+          62.607,
+          61.738
+        ],
+        "heading_deg": -169.006
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 279110939,
+      "name": "Palacios Nazar\u00edes",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -57.819,
+          27.952
+        ],
+        "size_m": [
+          117.768,
+          88.915
+        ],
+        "heading_deg": 177.178
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 117369758,
+      "name": "Iglesia de Santa Mar\u00eda de la Alhambra",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -21.498,
+          -64.263
+        ],
+        "size_m": [
+          36.205,
+          24.893
+        ],
+        "heading_deg": 11.881
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 196500564,
+      "name": "Torre de las Damas",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          42.726,
+          51.355
+        ],
+        "size_m": [
+          5.927,
+          6.663
+        ],
+        "heading_deg": -90.773
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528624,
+      "name": "Torre del Capit\u00e1n",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          153.195,
+          -239.44
+        ],
+        "size_m": [
+          7.379,
+          8.547
+        ],
+        "heading_deg": -157.407
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528634,
+      "name": "Torre de Siete Suelos",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          199.831,
+          -264.145
+        ],
+        "size_m": [
+          36.087,
+          19.246
+        ],
+        "heading_deg": 91.874
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528662,
+      "name": "Torre de las Cabezas",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          64.253,
+          -197.117
+        ],
+        "size_m": [
+          27.984,
+          14.02
+        ],
+        "heading_deg": 129.715
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528680,
+      "name": "Torre del Cad\u00ed",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          196.959,
+          -37.157
+        ],
+        "size_m": [
+          9.087,
+          5.362
+        ],
+        "heading_deg": 136.744
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528682,
+      "name": "Torre de Juan de Arce",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          300.187,
+          -256.161
+        ],
+        "size_m": [
+          10.316,
+          6.252
+        ],
+        "heading_deg": 68.228
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528687,
+      "name": "Torre de las Infantas",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          281.496,
+          -142.339
+        ],
+        "size_m": [
+          13.521,
+          9.88
+        ],
+        "heading_deg": -59.538
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528702,
+      "name": "Torre del Agua",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          337.214,
+          -238.131
+        ],
+        "size_m": [
+          10.673,
+          11.182
+        ],
+        "heading_deg": -87.621
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528709,
+      "name": "Torre de la Justicia",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -120.424,
+          -96.722
+        ],
+        "size_m": [
+          14.42,
+          13.938
+        ],
+        "heading_deg": -67.316
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528739,
+      "name": "Torre de Baltasar de la Cruz",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          265.328,
+          -254.22
+        ],
+        "size_m": [
+          5.421,
+          9.567
+        ],
+        "heading_deg": -176.944
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528760,
+      "name": "Torre de la Bruja",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          114.628,
+          -222.389
+        ],
+        "size_m": [
+          6.763,
+          6.406
+        ],
+        "heading_deg": 121.717
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528764,
+      "name": "Torre de los Picos",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          134.929,
+          15.011
+        ],
+        "size_m": [
+          8.419,
+          7.475
+        ],
+        "heading_deg": -38.663
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 92528800,
+      "name": "Torre de la Cautiva",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          239.718,
+          -86.009
+        ],
+        "size_m": [
+          13.764,
+          8.104
+        ],
+        "heading_deg": -28.735
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 196485670,
+      "name": "Torre de Barba",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -78.55,
+          -105.874
+        ],
+        "size_m": [
+          11.281,
+          3.497
+        ],
+        "heading_deg": -154.169
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 196485671,
+      "name": "Torre de los Abencerrajes",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          29.796,
+          -151.576
+        ],
+        "size_m": [
+          10.972,
+          7.003
+        ],
+        "heading_deg": 41.077
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 196485672,
+      "name": "Torre de los Carros",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -26.904,
+          -120.873
+        ],
+        "size_m": [
+          9.07,
+          4.102
+        ],
+        "heading_deg": -156.863
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 283661651,
+      "name": "Puerta del Vino",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -154.3,
+          -38.431
+        ],
+        "size_m": [
+          7.47,
+          8.319
+        ],
+        "heading_deg": -166.568
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed. Earthen wall material121 is assigned to rammed-earth ramparts; veined marble120 is assigned to Lions Court columns and fountain.",
+  "terrain_cuts": [],
+  "source_exclusion_piece_count": 362
+}

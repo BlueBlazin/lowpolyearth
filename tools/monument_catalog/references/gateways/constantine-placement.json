@@ -1,0 +1,81 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "way",
+      "id": 23590989,
+      "timestamp": "2026-05-24T12:16:56Z",
+      "version": 61,
+      "nodes": [
+        255460332,
+        255460333,
+        255460334,
+        255460335,
+        255460332
+      ],
+      "tags": {
+        "building": "triumphal_arch",
+        "height": "21",
+        "historic": "monument",
+        "image": "41.88977598623146, 12.490683019894265",
+        "inscription": "IMP·CAES·FL·CONSTANTINO·MAXIMO·P·F·AVGUSTO·S·P·Q·R·QVOD·INSTINCTV·DIVINITATIS·MENTIS·MAGNITVDINE·CVM·EXERCITV·SVO·TAM·DE·TYRANNO·QVAM·DE·OMNI·EIVS·FACTIONE·VNO·TEMPORE·IVSTIS·REM-PVBLICAM·VLTVS·EST·ARMIS·ARCVM·TRIVMPHIS·INSIGNEM·DICAVIT",
+        "name": "Arco di Costantino",
+        "name:ar": "قوس قسطنطين",
+        "name:cs": "Konstantinův oblouk",
+        "name:de": "Konstantinsbogen",
+        "name:el": "Αψίδα Μεγάλου Κωνσταντίνου",
+        "name:en": "Arch of Constantine",
+        "name:es": "Arco de Constantino",
+        "name:fr": "Arc de Constantin",
+        "name:it": "Arco di Costantino",
+        "name:ko": "콘스탄티누스 개선문",
+        "name:lt": "Konstantino arka",
+        "name:nl": "Boog van Constantijn",
+        "name:ru": "Триумфальная арка Константина",
+        "name:zh": "君士坦丁凯旋门",
+        "start_date": "315",
+        "tourism": "attraction",
+        "wheelchair": "limited",
+        "wikidata": "Q5786",
+        "wikimedia_commons": "Category:Arch of Constantine (Rome)",
+        "wikipedia": "en:Arch of Constantine"
+      }
+    },
+    {
+      "type": "node",
+      "id": 255460332,
+      "lat": 41.8898183,
+      "lon": 12.4905269,
+      "timestamp": "2021-11-25T21:03:03Z",
+      "version": 8
+    },
+    {
+      "type": "node",
+      "id": 255460333,
+      "lat": 41.889767,
+      "lon": 12.4908255,
+      "timestamp": "2021-11-25T21:03:03Z",
+      "version": 8
+    },
+    {
+      "type": "node",
+      "id": 255460334,
+      "lat": 41.8897062,
+      "lon": 12.4908066,
+      "timestamp": "2021-11-25T21:03:03Z",
+      "version": 12
+    },
+    {
+      "type": "node",
+      "id": 255460335,
+      "lat": 41.8897574,
+      "lon": 12.4905081,
+      "timestamp": "2021-11-25T21:03:03Z",
+      "version": 9
+    }
+  ]
+}

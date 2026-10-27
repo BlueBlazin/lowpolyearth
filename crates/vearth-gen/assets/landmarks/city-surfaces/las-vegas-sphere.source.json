@@ -1,0 +1,53 @@
+{
+  "name": "las-vegas-sphere",
+  "city": "Las Vegas",
+  "lat": 36.12069,
+  "lon": -115.16166,
+  "heading": 0,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "activation_pad": 0.0,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "description": "The monumental spherical screen carries one fixed original aurora color composition.",
+  "references": [
+    "https://www.thesphere.com/science",
+    "https://www.thesphere.com/studios-proxy/spherestudios/canvases"
+  ],
+  "capture": {
+    "distance": 355,
+    "azimuth": 155,
+    "elevation": 25
+  },
+  "bbox_min": [
+    -78.9,
+    -0.2,
+    -78.9
+  ],
+  "bbox_max": [
+    78.9,
+    111.9,
+    78.9
+  ],
+  "levels": [
+    {
+      "vertices": 29546,
+      "triangles": 10308
+    },
+    {
+      "vertices": 13194,
+      "triangles": 4708
+    },
+    {
+      "vertices": 5634,
+      "triangles": 2076
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/iconic.py",
+  "source_sha256": "9f9a7aa3aafc7ae2fa741fbb6d982ba895884ee600e32b439bbfc8157e855b68",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "c9d8f15a585573535e3c3bde74642e85f186a0c98965b317b4dbf8f8639cd246"
+}

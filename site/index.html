@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#e2231a" />
+    <title>Low Poly Earth</title>
+    <meta name="description" content="The whole Earth in 3D, built from open map and elevation data. Free for Mac with Apple silicon." />
+    <meta property="og:title" content="Low Poly Earth" />
+    <meta property="og:description" content="The whole Earth in 3D, built from open map and elevation data. Free for Mac." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://lowpolyearth.online/" />
+    <meta property="og:image" content="assets/web/yosemite-evening-og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="675" />
+    <meta property="og:image:alt" content="Yosemite Valley in the evening, rendered in Low Poly Earth." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preload" as="font" href="fonts/archivo-black.woff" type="font/woff" crossorigin />
+    <script src="site.js" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="bar bar-over">
+      <a class="name" href="index.html">Low Poly Earth</a>
+      <nav aria-label="Primary">
+        <a href="screenshots.html">Photos</a>
+        <a href="#mac">Download</a>
+        <a href="#faq">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="photo"><video autoplay muted loop playsinline preload="auto" poster="assets/web/yosemite-evening-1440.webp" width="1280" height="720" aria-label="Low Poly Earth trailer: flights over cities, mountains and coastlines"><source src="assets/web/trailer-720.webm" type="video/webm" /></video>
+          <div class="hero-actions">
+            <a class="button red" href="#mac">Download (Apple silicon)</a>
+            <a class="button glass" href="https://play.lowpolyearth.online/">Play online</a>
+          </div>
+        </div>
+        <div class="band">
+          <h1 id="hero-title">Low Poly Earth</h1>
+          <p>The whole planet in 3D.<br />Free for Mac with Apple silicon.</p>
+        </div>
+      </section>
+
+      <section class="film" aria-labelledby="film-title">
+        <video muted loop playsinline preload="metadata" poster="assets/web/alps-flyby-poster.webp" width="1920" height="1080" aria-label="A continuous flight from orbit down to the Matterhorn, rendered in Low Poly Earth">
+          <source src="assets/web/alps-flyby-720.webm" type="video/webm" media="(max-width: 900px)" />
+          <source src="assets/web/alps-flyby.webm" type="video/webm" />
+        </video>
+        <div class="film-caption">
+          <h2 id="film-title">From orbit to the Matterhorn</h2>
+          <button type="button" class="film-toggle" data-film-toggle hidden>Pause</button>
+        </div>
+      </section>
+
+      <section class="intro" aria-labelledby="intro-title">
+        <h2 id="intro-title" class="reveal">The whole Earth in 3D, built from open map and elevation data.</h2>
+        <div class="columns">
+          <div><h3>Explore</h3><p>Pan and zoom from orbit to street level. Search for any place by name.</p></div>
+          <div><h3>Fly</h3><p>Press P to fly. Three vehicles: Kestrel, Phase Manta and Sparrow.</p></div>
+          <div><h3>Photograph</h3><p>Set the date, time and weather. Save the view as a 4K image.</p></div>
+        </div>
+      </section>
+
+      <div class="run">
+        <figure class="poster full reveal"><a class="photo-link" href="assets/web/tre-cime-sunset-2048.webp" data-photo data-title="Dolomites" data-meta="Italy. Tre Cime at sunset. 15 August 2026, 17:57 UTC."><img src="assets/web/tre-cime-sunset-1440.webp" srcset="assets/web/tre-cime-sunset-640.webp 640w, assets/web/tre-cime-sunset-1024.webp 1024w, assets/web/tre-cime-sunset-1440.webp 1440w, assets/web/tre-cime-sunset-2048.webp 2048w" sizes="100vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Tre Cime at sunset, Dolomites, Italy. Rendered in Low Poly Earth." /></a><figcaption><h2>Dolomites</h2><p>Italy. Tre Cime at sunset.</p></figcaption></figure>
+        <div class="pair reveal"><figure><a class="photo-link" href="assets/web/london-thames-sunset-2048.webp" data-photo data-title="London" data-meta="United Kingdom. The Thames at sunset. 20 September 2026, 17:39 UTC."><img src="assets/web/london-thames-sunset-1440.webp" srcset="assets/web/london-thames-sunset-640.webp 640w, assets/web/london-thames-sunset-1024.webp 1024w, assets/web/london-thames-sunset-1440.webp 1440w, assets/web/london-thames-sunset-2048.webp 2048w" sizes="(max-width: 700px) 100vw, 50vw" width="3840" height="2160" loading="lazy" decoding="async" alt="The Thames at sunset, London, United Kingdom. Rendered in Low Poly Earth." /></a><figcaption><h2>London</h2><p>United Kingdom. The Thames at sunset.</p></figcaption></figure><figure><a class="photo-link" href="assets/web/manhattan-central-park-2048.webp" data-photo data-title="New York" data-meta="United States. Midtown and Central Park at midday. 15 June 2026, 15:10 UTC."><img src="assets/web/manhattan-central-park-1440.webp" srcset="assets/web/manhattan-central-park-640.webp 640w, assets/web/manhattan-central-park-1024.webp 1024w, assets/web/manhattan-central-park-1440.webp 1440w, assets/web/manhattan-central-park-2048.webp 2048w" sizes="(max-width: 700px) 100vw, 50vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Midtown and Central Park at midday, New York, United States. Rendered in Low Poly Earth." /></a><figcaption><h2>New York</h2><p>United States. Midtown and Central Park at midday.</p></figcaption></figure></div>
+        <figure class="poster banded reveal"><a class="photo-link" href="assets/web/paris-etoile-topdown-2048.webp" data-photo data-title="Paris" data-meta="France. Place Charles de Gaulle, straight down. 10 May 2026, 16:05 UTC."><img src="assets/web/paris-etoile-topdown-1440.webp" srcset="assets/web/paris-etoile-topdown-640.webp 640w, assets/web/paris-etoile-topdown-1024.webp 1024w, assets/web/paris-etoile-topdown-1440.webp 1440w, assets/web/paris-etoile-topdown-2048.webp 2048w" sizes="100vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Place Charles de Gaulle, straight down, Paris, France. Rendered in Low Poly Earth." /></a><figcaption><h2>Paris</h2><p>France. Place Charles de Gaulle, straight down.</p></figcaption></figure>
+        <figure class="poster full reveal"><a class="photo-link" href="assets/web/monument-valley-2048.webp" data-photo data-title="Monument Valley" data-meta="United States. Buttes at sunset. 21 May 2026, 01:49 UTC."><img src="assets/web/monument-valley-1440.webp" srcset="assets/web/monument-valley-640.webp 640w, assets/web/monument-valley-1024.webp 1024w, assets/web/monument-valley-1440.webp 1440w, assets/web/monument-valley-2048.webp 2048w" sizes="100vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Buttes at sunset, Monument Valley, United States. Rendered in Low Poly Earth." /></a><figcaption><h2>Monument Valley</h2><p>United States. Buttes at sunset.</p></figcaption></figure>
+        <figure class="poster inset reveal"><a class="photo-link" href="assets/web/tokyo-dusk-2048.webp" data-photo data-title="Tokyo" data-meta="Japan. Chiyoda at sunset. 5 December 2026, 07:17 UTC."><img src="assets/web/tokyo-dusk-1440.webp" srcset="assets/web/tokyo-dusk-640.webp 640w, assets/web/tokyo-dusk-1024.webp 1024w, assets/web/tokyo-dusk-1440.webp 1440w, assets/web/tokyo-dusk-2048.webp 2048w" sizes="100vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Chiyoda at sunset, Tokyo, Japan. Rendered in Low Poly Earth." /></a><figcaption><h2>Tokyo</h2><p>Japan. Chiyoda at sunset.</p></figcaption></figure>
+        <div class="pair reveal"><figure><a class="photo-link" href="assets/web/iceland-highlands-twilight-2048.webp" data-photo data-title="Icelandic Highlands" data-meta="Iceland. Highlands at sundown. 20 August 2026, 21:08 UTC."><img src="assets/web/iceland-highlands-twilight-1440.webp" srcset="assets/web/iceland-highlands-twilight-640.webp 640w, assets/web/iceland-highlands-twilight-1024.webp 1024w, assets/web/iceland-highlands-twilight-1440.webp 1440w, assets/web/iceland-highlands-twilight-2048.webp 2048w" sizes="(max-width: 700px) 100vw, 50vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Highlands at sundown, Icelandic Highlands, Iceland. Rendered in Low Poly Earth." /></a><figcaption><h2>Icelandic Highlands</h2><p>Iceland. Highlands at sundown.</p></figcaption></figure><figure><a class="photo-link" href="assets/web/lofoten-evening-2048.webp" data-photo data-title="Lofoten" data-meta="Norway. Islands in the evening. 1 August 2026, 19:01 UTC."><img src="assets/web/lofoten-evening-1440.webp" srcset="assets/web/lofoten-evening-640.webp 640w, assets/web/lofoten-evening-1024.webp 1024w, assets/web/lofoten-evening-1440.webp 1440w, assets/web/lofoten-evening-2048.webp 2048w" sizes="(max-width: 700px) 100vw, 50vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Islands in the evening, Lofoten, Norway. Rendered in Low Poly Earth." /></a><figcaption><h2>Lofoten</h2><p>Norway. Islands in the evening.</p></figcaption></figure></div>
+        <figure class="poster full reveal"><a class="photo-link" href="assets/web/hawaii-maui-sunset-2048.webp" data-photo data-title="Haleakalā" data-meta="United States. Summit above the clouds at sunset. 11 March 2026, 04:16 UTC."><img src="assets/web/hawaii-maui-sunset-1440.webp" srcset="assets/web/hawaii-maui-sunset-640.webp 640w, assets/web/hawaii-maui-sunset-1024.webp 1024w, assets/web/hawaii-maui-sunset-1440.webp 1440w, assets/web/hawaii-maui-sunset-2048.webp 2048w" sizes="100vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Summit above the clouds at sunset, Haleakalā, United States. Rendered in Low Poly Earth." /></a><figcaption><h2>Haleakalā</h2><p>United States. Summit above the clouds at sunset.</p></figcaption></figure>
+        <div class="pair reveal"><figure><a class="photo-link" href="assets/web/amsterdam-canals-topdown-2048.webp" data-photo data-title="Amsterdam" data-meta="The Netherlands. Canal rings, straight down. 20 April 2026, 07:23 UTC."><img src="assets/web/amsterdam-canals-topdown-1440.webp" srcset="assets/web/amsterdam-canals-topdown-640.webp 640w, assets/web/amsterdam-canals-topdown-1024.webp 1024w, assets/web/amsterdam-canals-topdown-1440.webp 1440w, assets/web/amsterdam-canals-topdown-2048.webp 2048w" sizes="(max-width: 700px) 100vw, 50vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Canal rings, straight down, Amsterdam, The Netherlands. Rendered in Low Poly Earth." /></a><figcaption><h2>Amsterdam</h2><p>The Netherlands. Canal rings, straight down.</p></figcaption></figure><figure><a class="photo-link" href="assets/web/barcelona-eixample-topdown-2048.webp" data-photo data-title="Barcelona" data-meta="Spain. Eixample grid, straight down. 15 June 2026, 07:01 UTC."><img src="assets/web/barcelona-eixample-topdown-1440.webp" srcset="assets/web/barcelona-eixample-topdown-640.webp 640w, assets/web/barcelona-eixample-topdown-1024.webp 1024w, assets/web/barcelona-eixample-topdown-1440.webp 1440w, assets/web/barcelona-eixample-topdown-2048.webp 2048w" sizes="(max-width: 700px) 100vw, 50vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Eixample grid, straight down, Barcelona, Spain. Rendered in Low Poly Earth." /></a><figcaption><h2>Barcelona</h2><p>Spain. Eixample grid, straight down.</p></figcaption></figure></div>
+        <figure class="poster full reveal"><a class="photo-link" href="assets/web/machu-picchu-clouds-2048.webp" data-photo data-title="Machu Picchu" data-meta="Peru. Ridge above valley cloud. 10 July 2026, 12:25 UTC."><img src="assets/web/machu-picchu-clouds-1440.webp" srcset="assets/web/machu-picchu-clouds-640.webp 640w, assets/web/machu-picchu-clouds-1024.webp 1024w, assets/web/machu-picchu-clouds-1440.webp 1440w, assets/web/machu-picchu-clouds-2048.webp 2048w" sizes="100vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Ridge above valley cloud, Machu Picchu, Peru. Rendered in Low Poly Earth." /></a><figcaption><h2>Machu Picchu</h2><p>Peru. Ridge above valley cloud.</p></figcaption></figure>
+        <figure class="poster inset reveal"><a class="photo-link" href="assets/web/tromso-aurora-2048.webp" data-photo data-title="Tromsø" data-meta="Norway. Aurora over the city at night. 15 January 2026, 16:58 UTC."><img src="assets/web/tromso-aurora-1440.webp" srcset="assets/web/tromso-aurora-640.webp 640w, assets/web/tromso-aurora-1024.webp 1024w, assets/web/tromso-aurora-1440.webp 1440w, assets/web/tromso-aurora-2048.webp 2048w" sizes="100vw" width="3840" height="2160" loading="lazy" decoding="async" alt="Aurora over the city at night, Tromsø, Norway. Rendered in Low Poly Earth." /></a><figcaption><h2>Tromsø</h2><p>Norway. Aurora over the city at night.</p></figcaption></figure>
+      </div>
+
+      <section class="section landmarks" id="landmarks" aria-labelledby="landmarks-title">
+        <h2 id="landmarks-title">Landmarks</h2>
+        <p class="landmarks-lead">231 landmarks are modelled individually, from cathedrals and castles to towers and temples. Here are 15. Can you find all 231?</p>
+        <div class="montage">
+          <figure><img src="assets/landmarks/temple-of-heaven.webp" srcset="assets/landmarks/temple-of-heaven-500.webp 500w, assets/landmarks/temple-of-heaven.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Temple of Heaven, Beijing, rendered in Low Poly Earth" /><figcaption><strong>Temple of Heaven</strong> Beijing</figcaption></figure>
+          <figure><img src="assets/landmarks/shwedagon-pagoda.webp" srcset="assets/landmarks/shwedagon-pagoda-500.webp 500w, assets/landmarks/shwedagon-pagoda.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Shwedagon Pagoda, Yangon, rendered in Low Poly Earth" /><figcaption><strong>Shwedagon Pagoda</strong> Yangon</figcaption></figure>
+          <figure><img src="assets/landmarks/hagia-sophia.webp" srcset="assets/landmarks/hagia-sophia-500.webp 500w, assets/landmarks/hagia-sophia.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Hagia Sophia, Istanbul, rendered in Low Poly Earth" /><figcaption><strong>Hagia Sophia</strong> Istanbul</figcaption></figure>
+          <figure><img src="assets/landmarks/matsumoto-castle.webp" srcset="assets/landmarks/matsumoto-castle-500.webp 500w, assets/landmarks/matsumoto-castle.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Matsumoto Castle, Matsumoto, rendered in Low Poly Earth" /><figcaption><strong>Matsumoto Castle</strong> Matsumoto</figcaption></figure>
+          <figure><img src="assets/landmarks/mont-saint-michel-abbey.webp" srcset="assets/landmarks/mont-saint-michel-abbey-500.webp 500w, assets/landmarks/mont-saint-michel-abbey.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Mont-Saint-Michel, Normandy, rendered in Low Poly Earth" /><figcaption><strong>Mont-Saint-Michel</strong> Normandy</figcaption></figure>
+          <figure><img src="assets/landmarks/lotus-temple.webp" srcset="assets/landmarks/lotus-temple-500.webp 500w, assets/landmarks/lotus-temple.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Lotus Temple, New Delhi, rendered in Low Poly Earth" /><figcaption><strong>Lotus Temple</strong> New Delhi</figcaption></figure>
+          <figure><img src="assets/landmarks/atomium.webp" srcset="assets/landmarks/atomium-500.webp 500w, assets/landmarks/atomium.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Atomium, Brussels, rendered in Low Poly Earth" /><figcaption><strong>Atomium</strong> Brussels</figcaption></figure>
+          <figure><img src="assets/landmarks/hallgrimskirkja.webp" srcset="assets/landmarks/hallgrimskirkja-500.webp 500w, assets/landmarks/hallgrimskirkja.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Hallgrímskirkja, Reykjavík, rendered in Low Poly Earth" /><figcaption><strong>Hallgrímskirkja</strong> Reykjavík</figcaption></figure>
+          <figure><img src="assets/landmarks/heydar-aliyev-center.webp" srcset="assets/landmarks/heydar-aliyev-center-500.webp 500w, assets/landmarks/heydar-aliyev-center.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Heydar Aliyev Center, Baku, rendered in Low Poly Earth" /><figcaption><strong>Heydar Aliyev Center</strong> Baku</figcaption></figure>
+          <figure><img src="assets/landmarks/shanghai-tower.webp" srcset="assets/landmarks/shanghai-tower-500.webp 500w, assets/landmarks/shanghai-tower.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Shanghai Tower, Shanghai, rendered in Low Poly Earth" /><figcaption><strong>Shanghai Tower</strong> Shanghai</figcaption></figure>
+          <figure><img src="assets/landmarks/wat-arun.webp" srcset="assets/landmarks/wat-arun-500.webp 500w, assets/landmarks/wat-arun.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Wat Arun, Bangkok, rendered in Low Poly Earth" /><figcaption><strong>Wat Arun</strong> Bangkok</figcaption></figure>
+          <figure><img src="assets/landmarks/bled-island.webp" srcset="assets/landmarks/bled-island-500.webp 500w, assets/landmarks/bled-island.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Bled Island, Slovenia, rendered in Low Poly Earth" /><figcaption><strong>Bled Island</strong> Slovenia</figcaption></figure>
+          <figure><img src="assets/landmarks/hemisferic.webp" srcset="assets/landmarks/hemisferic-500.webp 500w, assets/landmarks/hemisferic.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="L’Hemisfèric, Valencia, rendered in Low Poly Earth" /><figcaption><strong>L’Hemisfèric</strong> Valencia</figcaption></figure>
+          <figure><img src="assets/landmarks/great-mosque-of-djenne.webp" srcset="assets/landmarks/great-mosque-of-djenne-500.webp 500w, assets/landmarks/great-mosque-of-djenne.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Great Mosque of Djenné, Mali, rendered in Low Poly Earth" /><figcaption><strong>Great Mosque of Djenné</strong> Mali</figcaption></figure>
+          <figure><img src="assets/landmarks/florence-cathedral.webp" srcset="assets/landmarks/florence-cathedral-500.webp 500w, assets/landmarks/florence-cathedral.webp 1000w" sizes="(max-width: 700px) 50vw, 33vw" width="1000" height="750" loading="lazy" decoding="async" alt="Florence Cathedral, Florence, rendered in Low Poly Earth" /><figcaption><strong>Florence Cathedral</strong> Florence</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section" id="features" aria-labelledby="features-title">
+        <h2 id="features-title">What it does</h2>
+        <ul class="spec">
+          <li><h3>Terrain</h3><p>Elevation for the whole planet, with finer detail where national data exists.</p></li>
+          <li><h3>Cities</h3><p>Buildings, roads and water from OpenStreetMap. Buildings follow the local style of their region.</p></li>
+          <li><h3>Light</h3><p>The sun, moon, stars and aurora follow the date, time and location. Step the clock by an hour with [ and ].</p></li>
+          <li><h3>Weather</h3><p>Simulated clouds, rain, snow and fog, with seasonal snow cover. Not a live forecast.</p></li>
+          <li><h3>Photos</h3><p>Saved as 4K PNG files in Pictures/Low Poly Earth, each with a JSON file recording the camera, place and time.</p></li>
+          <li><h3>Search</h3><p>Find any place by name or pick it on the world map. The camera flies there from wherever you are.</p></li>
+        </ul>
+      </section>
+
+      <section class="section" id="controls" aria-labelledby="controls-title">
+        <h2 id="controls-title">Controls</h2>
+        <div class="keys">
+          <div>
+            <h3>Explore</h3>
+            <dl>
+              <div><dt>Drag</dt><dd>Pan</dd></div>
+              <div><dt>Scroll</dt><dd>Zoom</dd></div>
+              <div><dt><kbd>⌘</kbd> or <kbd>Ctrl</kbd> + drag</dt><dd>Rotate and tilt</dd></div>
+              <div><dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or arrows</dt><dd>Pan</dd></div>
+              <div><dt><kbd>Q</kbd> <kbd>E</kbd></dt><dd>Rotate left, right</dd></div>
+              <div><dt><kbd>R</kbd> <kbd>F</kbd></dt><dd>Tilt up, down</dd></div>
+              <div><dt><kbd>+</kbd> <kbd>−</kbd></dt><dd>Zoom in, out</dd></div>
+              <div><dt><kbd>/</kbd></dt><dd>Search</dd></div>
+              <div><dt><kbd>Enter</kbd></dt><dd>World map</dd></div>
+              <div><dt><kbd>T</kbd></dt><dd>Show the place name</dd></div>
+              <div><dt><kbd>[</kbd> <kbd>]</kbd></dt><dd>One hour back, forward</dd></div>
+            </dl>
+          </div>
+          <div>
+            <h3>Fly</h3>
+            <dl>
+              <div><dt><kbd>P</kbd></dt><dd>Start or stop flying</dd></div>
+              <div><dt><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd></dt><dd>Move and steer</dd></div>
+              <div><dt><kbd>Shift</kbd></dt><dd>Boost</dd></div>
+              <div><dt><kbd>Space</kbd> <kbd>C</kbd></dt><dd>Rise, descend</dd></div>
+              <div><dt><kbd>Space</kbd></dt><dd>Jump, on the Sparrow</dd></div>
+              <div><dt><kbd>V</kbd></dt><dd>Next vehicle</dd></div>
+              <div><dt><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd></dt><dd>Kestrel, Phase Manta, Sparrow</dd></div>
+              <div><dt><kbd>Esc</kbd></dt><dd>Show or hide the controls</dd></div>
+              <div><dt><kbd>⌘</kbd> <kbd>,</kbd></dt><dd>Settings</dd></div>
+            </dl>
+          </div>
+          <p class="note">Settings has six tabs: Interface, World, Flight, Data, Photos and Storage. Turn data sources on or off under Data. Clear downloaded data under Storage.</p>
+        </div>
+      </section>
+
+      <a class="call" href="screenshots.html">
+        <h2>33 photographs <span aria-hidden="true">→</span></h2>
+        <p>All rendered in the app.</p>
+      </a>
+
+      <section class="availability" id="mac" aria-labelledby="mac-title">
+        <h2 id="mac-title">Download for Mac</h2>
+        <div class="download">
+          <div class="actions">
+            <a class="button red" href="https://github.com/BlueBlazin/lowpolyearth/releases/latest/download/Low-Poly-Earth-Apple-Silicon.dmg">Download for Mac</a>
+            <a class="button" href="https://play.lowpolyearth.online/">Play in browser</a>
+          </div>
+          <dl class="facts">
+            <div><dt>Version</dt><dd>1.0.0</dd></div>
+            <div><dt>Price</dt><dd>Free</dd></div>
+            <div><dt>Requires</dt><dd>Mac with Apple silicon, macOS 13 or later</dd></div>
+            <div><dt>Download size</dt><dd>About 640 MB</dd></div>
+          </dl>
+        </div>
+        <div class="install">
+          <p>Open the downloaded disk image and drag Low Poly Earth to Applications. The app is signed and notarized by Apple. Release notes and checksums are on <a href="https://github.com/BlueBlazin/lowpolyearth/releases">GitHub</a>. Questions? See the <a href="#faq">FAQ</a>.</p>
+          <p>The browser version needs a desktop computer and a browser with WebGPU, such as Chrome. It loads map data as you explore instead of installing.</p>
+        </div>
+      </section>
+
+      <section class="section" id="faq" aria-labelledby="faq-title">
+        <h2 id="faq-title">FAQ</h2>
+        <div class="faq-topic">
+          <h3>The world</h3>
+          <div class="faq-list">
+            <details>
+              <summary>Is this the real Earth?</summary>
+              <p>It is built from real elevation, imagery and map data, with procedural detail added. Accuracy varies with the data available for each place.</p>
+            </details>
+            <details>
+              <summary>Can I see my house?</summary>
+              <p>If your building is mapped in <a href="https://www.openstreetmap.org/">OpenStreetMap</a>, yes: its outline and height, rendered in the local style. It is not a photograph, so there are no real facades. If it is missing, add it to OpenStreetMap and it will appear in a later map update.</p>
+            </details>
+            <details>
+              <summary>Why is my area wrong or missing buildings?</summary>
+              <p>Detail depends on OpenStreetMap coverage and the elevation data available for each place. Report it on <a href="https://github.com/BlueBlazin/lowpolyearth/issues">GitHub</a> with the location.</p>
+            </details>
+            <details>
+              <summary>Is the weather real?</summary>
+              <p>No. It is simulated from climate data and the season, not a live forecast.</p>
+            </details>
+            <details>
+              <summary>Are the sun, moon and stars accurate?</summary>
+              <p>They follow the real date, time and location, and the stars come from ESA’s Hipparcos catalogue.</p>
+            </details>
+            <details>
+              <summary>Were the landmarks modelled by hand?</summary>
+              <p>Yes, all 231. Some are original geometry and some are adapted from openly licensed models, all credited in the app.</p>
+            </details>
+          </div>
+        </div>
+        <div class="faq-topic">
+          <h3>About</h3>
+          <div class="faq-list">
+            <details>
+              <summary>Is it open source?</summary>
+              <p>Not yet, but I am working on open sourcing it soon.</p>
+            </details>
+            <details>
+              <summary>Did you use AI to build it?</summary>
+              <p>Yes. Low Poly Earth was built entirely with the latest GPT and Claude models over around 80 days.</p>
+            </details>
+            <details>
+              <summary>How is this different from Google Earth?</summary>
+              <p>Google Earth shows photographs and 3D scans of the real world. Low Poly Earth builds a stylized world from open map and elevation data: buildings follow each region’s local style, light and weather are simulated, and you can fly vehicles and take 4K photos.</p>
+            </details>
+            <details>
+              <summary>Is this a flight simulator, like Microsoft Flight Simulator?</summary>
+              <p>No, but you can fly around in three vehicles. They are for getting around and sightseeing, not realistic flight. It is much smaller and runs on any Apple silicon Mac.</p>
+            </details>
+            <details>
+              <summary>Is it a game? Is there anything to do?</summary>
+              <p>Explore, fly and photograph. There is also a landmark hunt: can you find all 231? It is mainly my hobby project; I tried to gamify it but then removed those parts.</p>
+            </details>
+          </div>
+        </div>
+        <div class="faq-topic">
+          <h3>Install and support</h3>
+          <div class="faq-list">
+            <details>
+              <summary>What Mac do I need?</summary>
+              <p>Any Mac with Apple silicon running macOS 13 or later, and the more powerful the better. It was tested on an M1 Max MacBook Pro.</p>
+            </details>
+            <details>
+              <summary>Windows, Linux, Intel Macs, iPad?</summary>
+              <p>Not supported yet. If there is interest, I will port it to Windows and Linux.</p>
+            </details>
+            <details>
+              <summary>Is it safe to install?</summary>
+              <p>It is signed and notarized by Apple, so macOS checks it before first launch. It needs no account, and nothing you do is sent to the developer.</p>
+            </details>
+            <details>
+              <summary>How do I update or uninstall it?</summary>
+              <p>There is no automatic updater. Download the new version from this page, or watch the <a href="https://github.com/BlueBlazin/lowpolyearth/releases">GitHub releases</a>. To uninstall, first clear downloaded data in Settings &gt; Storage, then drag the app to the Trash.</p>
+            </details>
+            <details>
+              <summary>Where do I report a bug?</summary>
+              <p>Open an issue on <a href="https://github.com/BlueBlazin/lowpolyearth/issues">GitHub</a> with the location and a screenshot if you can, or <a href="contact.html">write to us</a>.</p>
+            </details>
+          </div>
+        </div>
+        <div class="faq-topic">
+          <h3>Privacy and data</h3>
+          <div class="faq-list">
+            <details>
+              <summary>Does it track me?</summary>
+              <p>No account, no analytics, and it never asks for your location. Place search runs offline on your Mac. The map and terrain services see your IP address and which areas you load, as any online map does; the <a href="privacy.html">privacy policy</a> has details.</p>
+            </details>
+            <details>
+              <summary>Does it need an internet connection?</summary>
+              <p>Yes, for full detail. Buildings, roads, water and fine terrain stream from online map and elevation sources. Without a connection, only the bundled global terrain and imagery are shown.</p>
+            </details>
+            <details>
+              <summary>How much disk space does it use?</summary>
+              <p>The download cache is capped at 12 GB by default and adjustable in Settings &gt; Storage.</p>
+            </details>
+          </div>
+        </div>
+        <div class="faq-topic">
+          <h3>Under the hood</h3>
+          <div class="faq-list">
+            <details>
+              <summary>What is it built with?</summary>
+              <p>Rust and wgpu, running on Metal. It is a native app, not Electron or a web view.</p>
+            </details>
+            <details>
+              <summary>How does it render the whole planet?</summary>
+              <p>It streams map and terrain data on demand, builds the world near you in increasing detail, and caches it on disk.</p>
+            </details>
+            <details>
+              <summary>Why is it blurry for a moment when I arrive somewhere?</summary>
+              <p>Detail streams in as you move. It is faster the second time because of the cache.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="name" href="#top">Low Poly Earth</a>
+      <nav aria-label="Footer">
+        <a href="screenshots.html">Photos</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="contact.html">Contact and support</a>
+      </nav>
+      <section class="credits" id="source-credits" aria-labelledby="credits-title">
+        <h2 id="credits-title">Data sources</h2>
+        <p>Elevation: <a href="https://mapterhorn.com/attribution">Mapterhorn</a> (Copernicus GLO-30 and national elevation models).</p>
+        <p>Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL), via <a href="https://protomaps.com/">Protomaps</a>.</p>
+        <p>Imagery: <a href="https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/">NASA Blue Marble</a>.</p>
+        <p>Also GeoNames, Wikidata, Natural Earth, WorldClim, JRC GHS-SMOD, Timezone Boundary Builder, ESA Hipparcos (CC BY-NC 3.0 IGO) and ESO/S. Brunier. The app lists every source and licence in its attribution window.</p>
+      </section>
+      <p class="legal"><span>© Low Poly Earth. All rights reserved.</span><span>Every image on this site is an unedited capture from the app.</span></p>
+    </footer>
+
+    <dialog class="viewer" id="viewer" aria-labelledby="viewer-title">
+      <div class="viewer-top">
+        <h2 id="viewer-title">Photograph</h2>
+        <button type="button" class="button" data-close>Close</button>
+      </div>
+      <figure>
+        <p class="viewer-status" role="status"></p>
+        <img alt="" width="3840" height="2160" />
+      </figure>
+      <div class="viewer-bottom">
+        <p class="viewer-meta"></p>
+        <div class="actions">
+          <button type="button" class="button" data-step="-1">Previous</button>
+          <button type="button" class="button" data-step="1">Next</button>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>

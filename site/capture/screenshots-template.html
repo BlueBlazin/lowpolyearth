@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ef" />
+    <title>Photographs | Low Poly Earth</title>
+    <meta name="description" content="{{COUNT}} photographs rendered in Low Poly Earth. Rendered in the app and not retouched." />
+    <meta property="og:title" content="Photographs | Low Poly Earth" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="site.js" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="bar">
+      <a class="name" href="index.html">Low Poly Earth</a>
+      <nav aria-label="Primary">
+        <a href="screenshots.html" aria-current="page">Photos</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main id="main">
+      <header class="page-title">
+        <h1>Photographs</h1>
+        <p id="photo-count" aria-live="polite">{{COUNT}} photographs</p>
+        <p>Rendered in the app and not retouched. Select a photograph to view it full screen.</p>
+      </header>
+      <div class="filters" role="group" aria-label="Filter photographs" data-js-only hidden>
+        <button type="button" data-filter="all" aria-pressed="true">All</button>
+        <button type="button" data-filter="cities" aria-pressed="false">Cities</button>
+        <button type="button" data-filter="terrain" aria-pressed="false">Terrain</button>
+        <button type="button" data-filter="above" aria-pressed="false">From above</button>
+        <button type="button" data-filter="towns" aria-pressed="false">Towns</button>
+      </div>
+      <div class="grid">
+{{FIGURES}}
+      </div>
+    </main>
+    <footer class="footer">
+      <a class="name" href="#top">Low Poly Earth</a>
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="screenshots.html">Photos</a>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="contact.html">Contact and support</a>
+      </nav>
+      <p class="credits">Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>. All data sources are listed on the <a href="index.html#source-credits">home page</a>.</p>
+      <p class="legal"><span>© Low Poly Earth. All rights reserved.</span><span>Every image on this site is an unedited capture from the app.</span></p>
+    </footer>
+
+    <dialog class="viewer" id="viewer" aria-labelledby="viewer-title">
+      <div class="viewer-top">
+        <h2 id="viewer-title">Photograph</h2>
+        <button type="button" class="button" data-close>Close</button>
+      </div>
+      <figure>
+        <p class="viewer-status" role="status"></p>
+        <img alt="" width="3840" height="2160" />
+      </figure>
+      <div class="viewer-bottom">
+        <p class="viewer-meta"></p>
+        <div class="actions">
+          <button type="button" class="button" data-step="-1">Previous</button>
+          <button type="button" class="button" data-step="1">Next</button>
+        </div>
+      </div>
+    </dialog>
+  </body>
+</html>

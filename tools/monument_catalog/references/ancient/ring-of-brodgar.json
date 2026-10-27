@@ -1,0 +1,28 @@
+{
+  "name": "ring-of-brodgar",
+  "sources": [
+    "https://www.historicenvironment.scot/visit/all/ring-of-brodgar-stone-circle-and-henge/history-and-stories/",
+    "https://i.rcahms.gov.uk/canmore-pdf/WP00006811.pdf"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "circle_diameter_m": 104,
+    "surviving_stones_including_fragments": 36,
+    "upright_stones": 27,
+    "standing_height_range_m": [
+      2.1,
+      4.7
+    ]
+  },
+  "geometry_notes": "Twenty-seven varied thin sandstone uprights and nine low broken or recumbent remnants. Large missing sectors remain empty. Slots are a visual approximation of the surviving arc distribution, not an archaeological stone-by-stone survey. Earth ditch and surrounding mounds are left to existing terrain instead of adding a fictitious raised platform.",
+  "placement_notes": "Published site centre approximately59.0014818,-3.2297227; circular architecture has no entrance facade. Registry heading0 preserves north-south map orientation.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/ring-of-brodgar.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "36 independent standing and fallen stones",
+    "roads_suppressed": false,
+    "source_ownership": "Convex hull of each rigid component’s ground-support vertices only. Open areas between stones retain source vegetation and terrain; no site-wide clearance."
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

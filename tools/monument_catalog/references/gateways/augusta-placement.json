@@ -1,0 +1,315 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "way",
+      "id": 41683195,
+      "timestamp": "2026-05-17T22:21:03Z",
+      "version": 32,
+      "nodes": [
+        512572806,
+        9622069821,
+        1122752247,
+        13814466581,
+        9622069820,
+        512572811,
+        9622067334,
+        9622069812,
+        1116301323,
+        9622069811,
+        512572810,
+        9622069810,
+        9622069809,
+        9622069808,
+        9622069807,
+        9622069806,
+        9622069805,
+        1122752235,
+        9622069790,
+        9622069789,
+        9622069788,
+        9622069799,
+        512572805,
+        9622069798,
+        9622069797,
+        9622069796,
+        1116301048,
+        9622069795,
+        9622069829,
+        512572806
+      ],
+      "tags": {
+        "alt_name": "Arco da Rua Augusta;Arco do Triunfo do Terreiro do Paço",
+        "building": "yes",
+        "building:colour": "white",
+        "building:height": "40",
+        "email": "info@atlx.pt",
+        "height": "15",
+        "historic": "monument",
+        "inscription": "VIRTVTIBVS MAIORVM VT SIT OMNIBVS DOCVMENTO",
+        "layer": "1",
+        "name": "Arco do Triunfo da Rua Augusta",
+        "name:cs": "Vítězný oblouk",
+        "name:en": "Rua Augusta Arch",
+        "name:it": "Arco di Via Augusta",
+        "name:ko": "아우구스타 거리의 아치",
+        "name:pt": "Arco da Rua Augusta",
+        "name:zh": "奧古斯塔街凱旋門",
+        "operator": "Câmara Municipal de Lisboa",
+        "owner": "Estado Português",
+        "ownership": "national",
+        "phone": "+351 21 099 8599",
+        "roof:shape": "flat",
+        "start_date": "1875",
+        "tourism": "attraction",
+        "wikidata": "Q637590",
+        "wikimedia_commons": "Category:Arco Triunfal da Rua Augusta",
+        "wikipedia": "pt:Arco da Rua Augusta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 512572805,
+      "lat": 38.7084042,
+      "lon": -9.1366956,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 7
+    },
+    {
+      "type": "node",
+      "id": 512572806,
+      "lat": 38.7085338,
+      "lon": -9.1367299,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 7
+    },
+    {
+      "type": "node",
+      "id": 512572810,
+      "lat": 38.7083655,
+      "lon": -9.1368938,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 7
+    },
+    {
+      "type": "node",
+      "id": 512572811,
+      "lat": 38.7084798,
+      "lon": -9.1369527,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 8
+    },
+    {
+      "type": "node",
+      "id": 1116301048,
+      "lat": 38.7084323,
+      "lon": -9.1366895,
+      "timestamp": "2022-03-29T19:57:10Z",
+      "version": 6
+    },
+    {
+      "type": "node",
+      "id": 1116301323,
+      "lat": 38.708378,
+      "lon": -9.1369122,
+      "timestamp": "2022-03-29T19:57:10Z",
+      "version": 6
+    },
+    {
+      "type": "node",
+      "id": 1122752235,
+      "lat": 38.7083834,
+      "lon": -9.1367909,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 9
+    },
+    {
+      "type": "node",
+      "id": 1122752247,
+      "lat": 38.7085079,
+      "lon": -9.1368368,
+      "timestamp": "2026-05-10T14:18:53Z",
+      "version": 9,
+      "tags": {
+        "amenity": "clock",
+        "display": "analog",
+        "indoor": "no",
+        "level": "3",
+        "support": "wall_mounted",
+        "visibility": "area"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9622067334,
+      "lat": 38.708436,
+      "lon": -9.1369353,
+      "timestamp": "2022-03-30T04:52:18Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 9622069788,
+      "lat": 38.7083793,
+      "lon": -9.136728,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069789,
+      "lat": 38.7083969,
+      "lon": -9.136735,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069790,
+      "lat": 38.7083951,
+      "lon": -9.1367424,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069795,
+      "lat": 38.7084502,
+      "lon": -9.1366966,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069796,
+      "lat": 38.7084136,
+      "lon": -9.136682,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069797,
+      "lat": 38.7084117,
+      "lon": -9.1366898,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069798,
+      "lat": 38.7084061,
+      "lon": -9.1366875,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069799,
+      "lat": 38.7083887,
+      "lon": -9.1366894,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069805,
+      "lat": 38.7083716,
+      "lon": -9.1368394,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069806,
+      "lat": 38.7083696,
+      "lon": -9.1368476,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069807,
+      "lat": 38.708352,
+      "lon": -9.1368406,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069808,
+      "lat": 38.7083431,
+      "lon": -9.1368771,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069809,
+      "lat": 38.7083614,
+      "lon": -9.1368843,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069810,
+      "lat": 38.7083597,
+      "lon": -9.1368915,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069811,
+      "lat": 38.7083625,
+      "lon": -9.136906,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069812,
+      "lat": 38.7083961,
+      "lon": -9.1369194,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069820,
+      "lat": 38.7084937,
+      "lon": -9.1368953,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069821,
+      "lat": 38.7085209,
+      "lon": -9.1367833,
+      "timestamp": "2022-03-29T19:50:29Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 9622069829,
+      "lat": 38.7084894,
+      "lon": -9.1367122,
+      "timestamp": "2022-03-30T04:52:18Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 13814466581,
+      "lat": 38.7085079,
+      "lon": -9.1368369,
+      "timestamp": "2026-05-10T14:18:53Z",
+      "version": 1
+    }
+  ]
+}

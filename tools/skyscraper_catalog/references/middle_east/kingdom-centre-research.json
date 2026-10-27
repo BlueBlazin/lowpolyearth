@@ -1,0 +1,78 @@
+{
+  "name": "kingdom-centre",
+  "sources": [
+    {
+      "url": "https://www.arup.com/projects/kingdom-centre/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Engineer302m. Source205m lower shaft and mapped end-pier/skybridge plans retained; curved opening sill211\u2013289m and bridge underside294.5m are proportion-based estimates.",
+  "authored_form": "Elliptical blue-glass shaft with open parabolic crown, slim end piers and mapped bowed skybridge.",
+  "dimensions_m": {
+    "architectural_height": 302,
+    "tip_height": 302,
+    "mapped_parts": [
+      {
+        "seed": "15169974894133460255",
+        "bounds_xz": [
+          [
+            -39.60924,
+            -22.35531
+          ],
+          [
+            39.7521,
+            22.48967
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      24.71134754841848,
+      46.67441106381918
+    ],
+    "heading_deg": -26.095441771074775,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "9eb78feed827f6e2839814093acd9a1da76da267828365ac885d4098f00f817a"
+  },
+  "ground": {
+    "datum_m": 633.9,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "06ad554e2dd6e356a299ac3a5815267be32f6542e18fe4dff927ecae605e9af5",
+    "quantiles_m": {
+      "toe": [
+        632.5189819335938,
+        636.8095703125,
+        641.3800354003906,
+        643.6278686523438,
+        645.3931274414062
+      ],
+      "near": [
+        631.014892578125,
+        635.7597045898438,
+        641.6740112304688,
+        644.5301208496094,
+        646.4529418945312
+      ],
+      "street": [
+        628.6153564453125,
+        633.9176635742188,
+        641.4017639160156,
+        643.5243530273438,
+        647.1058959960938
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

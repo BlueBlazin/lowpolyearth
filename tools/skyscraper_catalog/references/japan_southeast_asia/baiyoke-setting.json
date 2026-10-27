@@ -1,0 +1,160 @@
+{
+  "name": "baiyoke-tower-ii",
+  "grade_polygon_xz": [
+    [
+      -42,
+      -64
+    ],
+    [
+      78,
+      -64
+    ],
+    [
+      86,
+      88
+    ],
+    [
+      -34,
+      104
+    ]
+  ],
+  "plane_relative_to_floor": [
+    0,
+    0,
+    -0.1
+  ],
+  "feather_m": 24,
+  "evidence": "The actual-engine contact and overview show a roof-contaminated DSM mound lifting the Soi Ratchaprarop3 approach and the immediate hotel service loop nearly to the60m podium roof. The retained ground grid has a54.1m central sample but6.4m on the open north approach; the same fixed6.4m architectural floor is retained. A bounded setting grade at6.3m restores the connected service/entry setting and blends into existing terrain. This is an estimated street datum, not a geodetic survey.",
+  "scope": "Only the immediate hotel block, service loop and entry junction; surrounding geometry, roads and buildings remain native. No suppression polygons are expanded.",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL1.0; complete relevant ways from the retained OSM extract.",
+  "ways": [
+    {
+      "id": "89546083",
+      "tags": {
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "polyline_xz": [
+        [
+          55.750700468852585,
+          60.9810959999615
+        ],
+        [
+          57.21042594599357,
+          67.74935199995838
+        ],
+        [
+          9.1151746496983,
+          78.89248399986478
+        ],
+        [
+          -25.485725563939116,
+          -5.844300000075364
+        ],
+        [
+          -25.19378046728165,
+          -10.631060000052344
+        ],
+        [
+          -23.17179036124841,
+          -14.26009200014434
+        ],
+        [
+          -18.52229439605407,
+          -17.588560000085565
+        ],
+        [
+          12.791520297310841,
+          -27.65188800002889
+        ]
+      ]
+    },
+    {
+      "id": "453869062",
+      "tags": {
+        "highway": "residential",
+        "name": "\u0e0b\u0e2d\u0e22\u0e23\u0e32\u0e0a\u0e1b\u0e23\u0e32\u0e23\u0e20 3",
+        "name:en": "Soi Ratchaprarop 3",
+        "name:th": "\u0e0b\u0e2d\u0e22\u0e23\u0e32\u0e0a\u0e1b\u0e23\u0e32\u0e23\u0e20 3"
+      },
+      "polyline_xz": [
+        [
+          12.791520297310841,
+          -27.65188800002889
+        ],
+        [
+          32.01664547871193,
+          -31.904312000089377
+        ],
+        [
+          169.85798170436934,
+          -62.394860000070125
+        ],
+        [
+          180.70320136498,
+          -64.28730000003803
+        ]
+      ]
+    },
+    {
+      "id": "453869063",
+      "tags": {
+        "highway": "residential"
+      },
+      "polyline_xz": [
+        [
+          -14.759446496897125,
+          -98.8744240000377
+        ],
+        [
+          11.299356476608995,
+          -31.503560000152007
+        ],
+        [
+          12.791520297310841,
+          -27.65188800002889
+        ]
+      ]
+    },
+    {
+      "id": "1361222626",
+      "tags": {
+        "highway": "service",
+        "oneway": "yes"
+      },
+      "polyline_xz": [
+        [
+          32.01664547871193,
+          -31.904312000089377
+        ],
+        [
+          47.48973554316741,
+          29.00999199988256
+        ]
+      ]
+    },
+    {
+      "id": "1361222629",
+      "tags": {
+        "highway": "service",
+        "layer": "-1",
+        "oneway": "yes",
+        "tunnel": "yes"
+      },
+      "polyline_xz": [
+        [
+          47.48973554316741,
+          29.00999199988256
+        ],
+        [
+          51.620218006778295,
+          44.9955440000209
+        ],
+        [
+          55.750700468852585,
+          60.9810959999615
+        ]
+      ]
+    }
+  ]
+}

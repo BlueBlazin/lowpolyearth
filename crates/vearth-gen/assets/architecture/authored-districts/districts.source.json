@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "attribution": "Data © OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "method": "Exact selected source street and dock vertices linked into authored material districts. Straight links simplify intervening bends. These polygons express documented common physical character, not administrative or legal conservation boundaries.",
+  "sources": [
+    {
+      "path": "raw/districts-osm.json.gz",
+      "sha256": "3d87b854b6c9e0954ddadfe0208caacdd1752d0b2a8c072f26d5b128aa64897f",
+      "uncompressed_sha256": "4b70a6f188a1369e72c312ea0976862c48cd30f72fd1cfcec54f94cc6f37dbb5",
+      "format": "overpass-json",
+      "url": "https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%3B%28nwr%5Bname%3D%22Gr%C3%BCnerl%C3%B8kka%22%5D%5Bplace%5D%3Bnwr%5Bname%3D%22Birkelunden%22%5D%5Bboundary%5D%3Bway%5Bhighway%5D%5Bname~%22%5E%28Cours%20Xavier%20Arnozan%7CCours%20du%20M%C3%A9doc%7CCours%20de%20Verdun%7CCours%20Saint-Louis%7CQuai%20des%20Chartrons%29%24%22%5D%2844.845%2C-0.583%2C44.868%2C-0.56%29%3B%29%3Bout%20geom%3B",
+      "retrieved": "2026-09-16"
+    },
+    {
+      "path": "raw/streets-osm.json.gz",
+      "sha256": "31872995a8d3a80f2a245e7d9d1d99129c5a89471157649245e09bfc0ef0e469",
+      "uncompressed_sha256": "302c3efbd0f2e04b8826007ac11009a47d5dd724e9ba097d90f01d325c0ba509",
+      "format": "overpass-json",
+      "url": "https://overpass.kumi.systems/api/interpreter?data=%5Bout%3Ajson%5D%3B%28way%5Bhighway%5D%5Bname%3D%22Toftes%20gate%22%5D%2859.915%2C10.75%2C59.93%2C10.77%29%3Bway%5Bhighway%5D%5Bname%3D%22Helgesens%20gate%22%5D%2859.915%2C10.75%2C59.93%2C10.77%29%3Bway%5Bhighway%5D%5Bname%3D%22Rue%20Notre-Dame%22%5D%2844.846%2C-0.576%2C44.86%2C-0.56%29%3B%29%3Bout%20geom%3B",
+      "retrieved": "2026-09-16"
+    },
+    {
+      "path": "raw/oslo-map.osm.gz",
+      "sha256": "d8b02bd2e2c3c503c200d54df8e84d7193fe58d49312a6cd3e999b8ba7a8ea55",
+      "uncompressed_sha256": "5bb7d299100fdc85397a29ff692c528d5eb2cdf1dbe0076a6c1c773194a692b0",
+      "format": "osm-xml",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=10.751,59.918,10.765,59.929",
+      "retrieved": "2026-09-16"
+    },
+    {
+      "path": "raw/canary-map.osm.gz",
+      "sha256": "87f305e849563f3997346fa275edd62a00d18488cca68b8973950ee56407e583",
+      "uncompressed_sha256": "83c9c9565da927f35cbbcf66fb5665988006382e799d20801d5cd821fc5202a2",
+      "format": "osm-xml",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=-0.029,51.5015,-0.009,51.509",
+      "retrieved": "2026-09-21"
+    }
+  ],
+  "anchors": {
+    "path": "street-anchors.json",
+    "sha256": "cc03981c4da8781f6bc5bc09563f24d07f24f8bc998ccdf19aace97725961a07"
+  },
+  "polygons": [
+    {
+      "district": "bordeaux-chartrons",
+      "path": "bordeaux-chartrons.geojson",
+      "sha256": "6273ed1bd7d377a88694ca1015d9aab0bd2b14db0ae2064d7f199d911bd9e713"
+    },
+    {
+      "district": "oslo-grunerlokka",
+      "path": "oslo-grunerlokka.geojson",
+      "sha256": "4fdd7017f88985865d827171cbdfeac02ca5acd9cac23be51f7a4f24cb438d4c"
+    },
+    {
+      "district": "canary-wharf-office-core",
+      "path": "canary-wharf-office-core.geojson",
+      "sha256": "684c13e55b80d16e537ba03316f325e4f3ef606082158d5ed3c961ad094cb317"
+    }
+  ]
+}

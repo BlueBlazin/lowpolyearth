@@ -1,0 +1,40 @@
+{
+  "name": "transamerica-pyramid",
+  "lat": 37.79516598395239,
+  "lon": -122.40278672743891,
+  "heading_deg": -9.178077785123632,
+  "center_en_m": [
+    1.1662197537614016,
+    -6.006314414047996
+  ],
+  "source_anchor_latlon": [
+    37.79522,
+    -122.4028
+  ],
+  "parts": [
+    {
+      "source_seed": "16678020977929095631",
+      "height_m": 260.0,
+      "polygon_xz": [
+        [
+          -26.967271982422115,
+          27.413818601850767
+        ],
+        [
+          27.19994122852848,
+          27.256319938508216
+        ],
+        [
+          27.19994122852848,
+          -27.413818601850767
+        ],
+        [
+          -27.199941228528488,
+          -27.218783126394616
+        ]
+      ],
+      "source_index": 0
+    }
+  ],
+  "method": "Explicit source-part identification; facade-edge bearing and rotated envelope centre, or twin-tower centreline. All rings retain their mapped dimensions."
+}

@@ -1,0 +1,86 @@
+{
+  "name": "abuja-national-mosque",
+  "city": "Abuja",
+  "lat": 9.06019645,
+  "lon": 7.48979445,
+  "heading": 0.7,
+  "base": 483.0863342285156,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -39.0,
+      -39.0
+    ],
+    [
+      39.0,
+      39.0
+    ]
+  ],
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0.0,
+        0.0
+      ],
+      "half_extent": [
+        39.0,
+        39.0
+      ],
+      "feather_m": 8.0,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 483.0863342285156
+    }
+  ],
+  "references": [
+    "https://aim-consultants.com/projects",
+    "https://www.archnet.org/sites/703",
+    "https://www.openstreetmap.org/way/188837229",
+    "https://www.openstreetmap.org/way/564467266"
+  ],
+  "description": "A ribbed gold main dome and four smaller domes crown a battered stone prayer hall between four fluted minarets, with open galleries and steady gold-white illumination.",
+  "source_audit": {
+    "center_ground_m": 498.3421630859375,
+    "perimeter_median_m": 483.0863342285156,
+    "dimensions": "73m mapped main footprint. Authored dome40m/minarets~63m follow mapped55m shafts plus finials and the architect's photograph; unsourced120m claims contradict these proportions."
+  },
+  "capture": {
+    "distance": 205.0,
+    "azimuth": 220.0,
+    "elevation": 18.0,
+    "target_height": 23.0,
+    "time_utc": "2026-03-20T17:00:00Z"
+  },
+  "bbox_min": [
+    -47.0,
+    -7.2,
+    -47.0
+  ],
+  "bbox_max": [
+    47.0,
+    63.2,
+    47.0
+  ],
+  "levels": [
+    {
+      "vertices": 76131,
+      "triangles": 36754
+    },
+    {
+      "vertices": 44536,
+      "triangles": 21818
+    },
+    {
+      "vertices": 27006,
+      "triangles": 13506
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_civic.py",
+  "source_sha256": "1ab7d29fd7be5730a4c5a9fd5e3e9d4f8c9d85de20436921a1314ffbbcc82f98",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "91561ec022be3d7226d449e82832f3539efc130dc6b459bc41003d4da0f722bc"
+}

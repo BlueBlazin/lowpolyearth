@@ -1,0 +1,16 @@
+{
+  "name": "bangkok-giant-swing",
+  "references": [
+    "https://en.wikipedia.org/wiki/Giant_Swing",
+    "https://publicspace.bangkok.go.th/Spaces/Info/A5123802-E88B-45A2-AEAE-DF0BC0A9FFE9",
+    "https://www.openstreetmap.org/way/178353988"
+  ],
+  "retrieved_utc": "2026-09-15",
+  "dimensions_and_limits": "Published height 21.15 m; span, joint dimensions and crown curvature are proportional estimates.",
+  "orientation": "Mapped circular memorial island center; estimated east-west beam axis, six degrees anticlockwise, following the Wat Suthat forecourt.",
+  "placement_evidence": "tools/monument_catalog/references/gateways/swing-placement.json",
+  "appearance": "Paired tall red teak uprights with dark red collars, twin curved carved crown beams and pale support plinths.",
+  "authorship": "Original procedural geometry; ornaments are schematic sculptural interpretations. Reference photographs and plans are not distributed or used as textures.",
+  "grounding": "The connected gateway stays rigid above surveyed unmodified terrain. Separate masonry footings extend downward to local support elevations. No slab spans the passage and no terrain flattening, cutting or grading is applied.",
+  "materials": "Surface classes use existing physical stone, limestone, marble, timber, plaster, tile and metal materials with authored per-part colors. Relief silhouettes, molding shadows and coursing are geometry, not painted opaque doorway panels."
+}

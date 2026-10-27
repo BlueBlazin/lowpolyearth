@@ -1,0 +1,23 @@
+{
+  "name": "space-needle",
+  "kind": "space-needle",
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-122/a0cbf7ba6d6342f4983b86ea20144ace.glb?download=true",
+  "sha256": "abcec4c09ccb843beda7db9e32321d9c0b07a533cefaf1dac3736c58e9d7775a",
+  "license": "existing landmark SOURCES.md",
+  "output": "space-needle.lms",
+  "output_sha256": "590b022af387e31168d9c43a4dd001c902ea5e7b03569abf1242b241a6afe9bd",
+  "levels": [
+    [
+      43130,
+      46383
+    ],
+    [
+      8764,
+      16231
+    ],
+    [
+      2701,
+      4877
+    ]
+  ]
+}

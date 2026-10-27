@@ -1,0 +1,40 @@
+name: Copy Protomaps build
+
+# Copies a Protomaps daily build into the R2 bucket the browser app reads
+# map data from (web/README.md on the web branch). Run by hand.
+on:
+  workflow_dispatch:
+    inputs:
+      build:
+        description: Build to copy (YYYYMMDD); empty copies the newest
+        required: false
+        default: ""
+      ref:
+        description: Branch holding tools/copy-protomaps-build.py
+        required: false
+        default: master
+
+permissions:
+  contents: read
+
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    # The source limits each machine's throughput; shards run in parallel.
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref }}
+          sparse-checkout: tools
+      - run: pip install boto3
+      - run: python3 tools/copy-protomaps-build.py --shard ${{ matrix.shard }}/8 $BUILD
+        env:
+          BUILD: ${{ inputs.build }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}

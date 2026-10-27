@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "attribution": "Ayuntamiento de Madrid",
+  "license": "CC BY 4.0 / Ayuntamiento de Madrid general reuse conditions",
+  "license_url": "https://datos.madrid.es/pages/condiciones-de-uso",
+  "retrieved": "2026-09-16",
+  "conversion": "Select exactly one complete Feature; preserve every coordinate and all properties; serialize with UTF-8 JSON indent=2 and terminal newline. No reprojection or simplification: service requested outSR=4326.",
+  "boundaries": [
+    {
+      "label": "Centro district",
+      "source_snapshot": "districts-crs84.geojson",
+      "source_sha256": "b39428208c77b760c0e362e04937dbe4b39616537465aef53f2ef0979af405cf",
+      "file": "centro.geojson",
+      "sha256": "03a55cf167ec42dbf1535c1006a874711f7f7cd94b8e92ae23a2ded97bbf17f9",
+      "source_url": "https://sigma.madrid.es/hosted/rest/services/CARTOGRAFIA/LIMITES_ADMINISTRATIVOS_GENERICOS/MapServer/1/query?where=COD_DIS_TX%3D%2701%27&outFields=%2A&returnGeometry=true&outSR=4326&f=geojson",
+      "selector": {
+        "COD_DIS_TX": "01",
+        "OBJECTID": 87
+      },
+      "components": 1,
+      "rings": 1,
+      "coordinate_pairs": 113
+    }
+  ]
+}

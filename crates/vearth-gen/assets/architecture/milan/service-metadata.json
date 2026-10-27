@@ -1,0 +1,323 @@
+{
+ "currentVersion": 11.5,
+ "cimVersion": "3.5.0",
+ "serviceDescription": "<div style='text-align:Left;font-size:12pt'><div><p><span>L'elaborato individua le aree di valore paesaggistico-storico-ambientale all'interno dei Nuclei di Antica Formazione (NAF).<\/span><span> I dati sono stati approvati il 05/02/2020. Proprietario: Comune di Milano. Responsabile del dato: Direzione Rigenerazione urbana. Frequenza di aggiornamento: Non pianificato. Limitazioni d'uso: Licenza Creative Commons Attribuzione (CC-BY 4.0)<\/span><\/p><\/div><\/div>",
+ "mapName": "PGT Milano2030 Vigente Tavola R04",
+ "description": "L'elaborato individua le aree di valore paesaggistico-storico-ambientale all'interno dei Nuclei di Antica Formazione (NAF). I dati sono stati approvati il 05/02/2020. Proprietario: Comune di Milano. Responsabile del dato: Direzione Rigenerazione urbana. Frequenza di aggiornamento: Non pianificato. Limitazioni d'uso: Licenza Creative Commons Attribuzione (CC-BY 4.0)",
+ "copyrightText": "Comune di Milano",
+ "supportsDynamicLayers": true,
+ "layers": [
+  {
+   "id": 0,
+   "name": "NAF -NUCLEI DI ANTICA FORMAZIONE",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 1,
+   "name": "NORME TRANSITORIE E FINALI",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    2
+   ],
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Group Layer",
+   "supportsDynamicLegends": false
+  },
+  {
+   "id": 2,
+   "name": "Ambiti interessati da provvedimenti in itinere approvati e adottati (Art. 52)",
+   "parentLayerId": 1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 3,
+   "name": "PIANI ATTUATIVI OBBLIGATORI",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 4,
+   "name": "COMPLESSI EDILIZI CON VALORE STORICO-ARCHITETTONICO (Allegato 1 DdP)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 5,
+   "name": "COMPLESSI EDILIZI CON VALORE STORICO-ARCHITETTONICO INTRINSECO (Art. 18.2.a)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 1999,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 6,
+   "name": "COMPLESSI EDILIZI CON VALORE STORICO-ARCHITETTONICO INTRINSECO (Art. 18.2.a)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 2000,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 7,
+   "name": "COMPOSIZIONE ARCHITETTONICA E VEGETALE CON CARATTERE STORICO-ARTISTICO-TESTIMONIALE (Art. 18.2.b)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 8,
+   "name": "COMPLESSI EDILIZI CON VALORE ARCHITETTONICO INTRINSECO (Art. 18.2.c)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 1999,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 9,
+   "name": "COMPLESSI EDILIZI CON VALORE ARCHITETTONICO INTRINSECO (Art. 18.2.c)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 2000,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 10,
+   "name": "IMMOBILI CON VALORE ESTETICO-CULTURALE-AMBIENTALE (Art. 18.2.d)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": [
+    11,
+    12,
+    13
+   ],
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Group Layer",
+   "supportsDynamicLegends": false
+  },
+  {
+   "id": 11,
+   "name": "Facciate",
+   "parentLayerId": 10,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolyline",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 12,
+   "name": "Immobili con valore estetico-culturale-ambientale",
+   "parentLayerId": 10,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 2000,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 13,
+   "name": "Immobili con valore estetico-culturale-ambientale",
+   "parentLayerId": 10,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 1999,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 14,
+   "name": "IMMOBILI NON RICADENTI NELLE PRECEDENTI CATEGORIE (Art. 18.2.e)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 0,
+   "maxScale": 2000,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  },
+  {
+   "id": 15,
+   "name": "IMMOBILI NON RICADENTI NELLE PRECEDENTI CATEGORIE (Art. 18.2.e)",
+   "parentLayerId": -1,
+   "defaultVisibility": true,
+   "subLayerIds": null,
+   "minScale": 1999,
+   "maxScale": 0,
+   "type": "Feature Layer",
+   "geometryType": "esriGeometryPolygon",
+   "supportsDynamicLegends": true
+  }
+ ],
+ "tables": [],
+ "spatialReference": {
+  "wkid": 7791,
+  "latestWkid": 7791,
+  "xyTolerance": 0.001,
+  "zTolerance": 0.001,
+  "mTolerance": 0.001,
+  "falseX": -5120900,
+  "falseY": -9998100,
+  "xyUnits": 10000,
+  "falseZ": -100000,
+  "zUnits": 10000,
+  "falseM": -100000,
+  "mUnits": 10000
+ },
+ "singleFusedMapCache": false,
+ "initialExtent": {
+  "xmin": 499885.89262952644,
+  "ymin": 5025930.136299999,
+  "xmax": 525007.1018704736,
+  "ymax": 5042505.1072,
+  "spatialReference": {
+   "wkid": 7791,
+   "latestWkid": 7791,
+   "xyTolerance": 0.001,
+   "zTolerance": 0.001,
+   "mTolerance": 0.001,
+   "falseX": -5120900,
+   "falseY": -9998100,
+   "xyUnits": 10000,
+   "falseZ": -100000,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "fullExtent": {
+  "xmin": 503175.91500000004,
+  "ymin": 5025930.136299999,
+  "xmax": 521717.0795,
+  "ymax": 5042505.1072,
+  "zmin": -1.0000000474974513E-4,
+  "zmax": 136.4360000000015,
+  "mmin": null,
+  "mmax": null,
+  "spatialReference": {
+   "wkid": 7791,
+   "latestWkid": 7791,
+   "xyTolerance": 0.001,
+   "zTolerance": 0.001,
+   "mTolerance": 0.001,
+   "falseX": -5120900,
+   "falseY": -9998100,
+   "xyUnits": 10000,
+   "falseZ": -100000,
+   "zUnits": 10000,
+   "falseM": -100000,
+   "mUnits": 10000
+  }
+ },
+ "datesInUnknownTimezone": false,
+ "minScale": 0,
+ "maxScale": 0,
+ "units": "esriMeters",
+ "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+ "documentInfo": {
+  "Title": "Tavola R04 Nuclei di antica formazione",
+  "Author": "",
+  "Comments": "L'elaborato individua le aree di valore paesaggistico-storico-ambientale all'interno dei Nuclei di Antica Formazione (NAF). I dati sono stati approvati il 05/02/2020. Proprietario: Comune di Milano. Responsabile del dato: Direzione Rigenerazione urbana. Frequenza di aggiornamento: Non pianificato. Limitazioni d'uso: Licenza Creative Commons Attribuzione (CC-BY 4.0)",
+  "Subject": "L'elaborato individua le aree di valore paesaggistico-storico-ambientale all'interno dei Nuclei di Antica Formazione (NAF).",
+  "Category": "",
+  "Version": "3.3.0",
+  "AntialiasingMode": "Fast",
+  "TextAntialiasingMode": "Force",
+  "Keywords": "Comune di Milano,Rigenerazione urbana,pianificazione urbanistica,pgt,comune di milano,adottato,rigenerazione,tavola,piano di governo del territorio,milano 2030"
+ },
+ "supportsQueryDomains": true,
+ "capabilities": "Query,Map,Data",
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "exportTilesAllowed": false,
+ "referenceScale": 0.0,
+ "datumTransformations": [
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": true,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  },
+  {
+   "geoTransforms": [
+    {
+     "wkid": 108001,
+     "latestWkid": 1241,
+     "transformForward": false,
+     "name": "NAD_1927_To_NAD_1983_NADCON"
+    }
+   ]
+  }
+ ],
+ "supportsDatumTransformation": true,
+ "archivingInfo": {"supportsHistoricMoment": false},
+ "supportsClipping": true,
+ "supportsSpatialFilter": true,
+ "supportsTimeRelation": true,
+ "supportsQueryDataElements": true,
+ "mapUnits": {"uwkid": 9001},
+ "maxSelectionCount": 2000,
+ "maxRecordCount": 2000,
+ "maxImageHeight": 4096,
+ "maxImageWidth": 4096,
+ "supportedExtensions": "",
+ "serviceItemId": "f83c6c3ac9a24ce88c3b953029afb6c1"
+}

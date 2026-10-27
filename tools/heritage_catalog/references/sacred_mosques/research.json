@@ -1,0 +1,156 @@
+{
+  "retrieved": "2026-09-13",
+  "authorship": "Original architectural geometry; no downloaded mesh or textures. Survey plans \u00a9 OpenStreetMap contributors, via Protomaps, ODbL 1.0.",
+  "sites": {
+    "hagia-sophia": {
+      "city": "Istanbul",
+      "references": [
+        "https://www.ktb.gov.tr/EN-113776/ayasofya-hagia-sophia.html",
+        "https://ayasofyacamii.gov.tr/Pdf/Ayasofya_Camii_EN.pdf"
+      ],
+      "published": {
+        "dome_internal_height_m": 55.6,
+        "dome_diameter_m_range": [
+          30.8,
+          31.88
+        ]
+      },
+      "layout": "Mapped buttress apron, high tympana, two main half-domes and lateral exedrae, lead roof skins, brick southeast minaret and unequal pale-stone minarets; southern Ottoman tombs remain separate.",
+      "uncertainty": "Published dome diameter describes the interior; roof exterior uses the measured source dome center with a 32.2m outer diameter. Minaret heights and small tomb details are visual estimates; unequal profiles and source positions are retained."
+    },
+    "blue-mosque": {
+      "city": "Istanbul",
+      "references": [
+        "https://www.sultanahmetcami.org/detay.php?dil=ar&id=58",
+        "https://kulturportali.gov.tr/turkiye/istanbul/gezilecekyer/sultanahmet-camii"
+      ],
+      "published": {
+        "main_dome_height_m": 43,
+        "main_dome_diameter_m": 23.5,
+        "prayer_hall_inside_m": [
+          53.5,
+          49.47
+        ],
+        "minarets": 6
+      },
+      "layout": "Square main hall, four cascading half-domes and exedrae, four three-balcony minarets and two lower two-balcony courtyard minarets; open sahn and domed colonnades.",
+      "uncertainty": "Provider central-dome tags span 56\u201366.5m and conflict with the mosque association\u2019s 43m dome. Geometry uses the association\u2019s 43m shell plus a small interpreted finial, with published 23.5m diameter."
+    },
+    "sheikh-zayed-grand-mosque": {
+      "city": "Abu Dhabi",
+      "references": [
+        "https://www.szgmc.gov.ae/en/domes1",
+        "https://www.szgmc.gov.ae/en/minarets1",
+        "https://www.szgmc.gov.ae/en/columns1",
+        "https://www.szgmc.gov.ae/en/islamic-architecture/overview",
+        "https://szgmc.gov.ae/Files/uploads/pdf/otherpages/MapEnglish.pdf",
+        "https://www.openstreetmap.org/way/391867933"
+      ],
+      "published": {
+        "domes": 82,
+        "main_dome_diameter_m": 32.6,
+        "main_dome_height_m": 84,
+        "minarets": 4,
+        "minaret_height_m": 107,
+        "exterior_columns": 1096,
+        "approach_rise_m": 9,
+        "approach_steps": 52
+      },
+      "layout": "White marble main prayer range west of a large open floral-inlaid sahn; three dominant domes, onion secondary domes, pierced colonnades and four square/octagonal/circular minarets.",
+      "uncertainty": "42 primary/secondary dome centers are mapped in the source. Forty small roof dome centers interpolate roof gaps to preserve the published 82 total; small dome heights, exact floral motifs and colonnade ornaments are interpretations. The retained dense terrain survey selects six open southern-sahn samples for the median floor datum; roof-contaminated center elevation is not used. The 52-step eastern approach follows OSM way 167776873 inside mapped pedestrian area 391867933. Basin cuts preserve source water. Minaret centers use four mapped tower footprints, whose 104m tags yield to the official 107m dimension. Pool surfaces are capped 0.65m below the modeled podium and beds 1.85m below it: the 0.50m shallow basin depth is an exterior visual estimate, not a published measurement. Ten retained OSM perimeter pond rings constrain native-water correction; the two small western service ponds remain unmodified. The mapped entrance pedestrian polygon is extended 8m into the gallery to cover the survey seam. The renderer enforces a 1.2m minimum inland depth; the \u22121.85m bed cut therefore allows collision/rendering clearance beneath the \u22120.65m water surface rather than asserting the actual architectural basin depth. Immediate perimeter grading is lower-only: a rounded gallery/pool envelope grades across mapped walks/gardens toward an 8m outer cap supported by retained open-ground samples; it removes roof/tree DSM peaks while preserving lower terrain and all source features."
+    },
+    "hassan-ii-mosque": {
+      "city": "Casablanca",
+      "references": [
+        "https://www.fmh2.ma/fr/mosqu%C3%A9e/d%C3%A9pendances/salle-des-pri%C3%A8res",
+        "https://www.fmh2.ma/fr/mosqu%C3%A9e/d%C3%A9fi-technique-et-savoir-faire-artisanal/d%C3%A9fi-technique/caract%C3%A9ristiques-dimensionnelles",
+        "https://www.fmh2.ma/fr/node/88",
+        "https://www.fmh2.ma/fr/mosqu%C3%A9e/d%C3%A9fi-technique-et-savoir-faire-artisanal/d%C3%A9fi-technique/caract%C3%A9ristiques-des-structures",
+        "https://www.fmh2.ma/fr/mosqu%C3%A9e/d%C3%A9fi-technique-et-savoir-faire-artisanal/d%C3%A9fi-technique/ouvrages-de-protection-%C3%A0-la-mer"
+      ],
+      "published": {
+        "prayer_hall_m": [
+          200,
+          100
+        ],
+        "minaret_base_m": [
+          25,
+          25
+        ],
+        "structural_minaret_height_above_prayer_floor_m": 190.5,
+        "jamour_m": 15.5,
+        "principal_floor_ngm_m": 9.5,
+        "ablution_levels_ngm_m": [
+          2.5,
+          6
+        ],
+        "superstructure_levels_ngm_m": [
+          36.4,
+          47.4,
+          55.4
+        ],
+        "sliding_roof_ngm_m": 60.9
+      },
+      "layout": "Long green-tiled hall roofs, closed central sliding roof, cream travertine arcades, square minaret on independent diagonal alignment with green mosaic fields and raised diamond tracery.",
+      "uncertainty": "Foundation dimensions give 190.5m structural tower above prayer floor; another foundation page rounds minaret to200m and describes a15.5m jamour. Model separates190.5m structure,4m roof and15.5m finial for210m silhouette; this height convention is not a survey reconciliation. Principal floor and roof absolute elevations use the Foundation's published NGM datum; the engine coastal vertical reference is treated as compatible at its terrain resolution. Basement envelopes follow measured footprints; depth to0.5m belowsea is a support allowance, not a surveyed excavation level."
+    },
+    "great-mosque-of-djenne": {
+      "city": "Djenn\u00e9",
+      "references": [
+        "https://whc.unesco.org/en/list/116/",
+        "https://s3.us-east-1.amazonaws.com/media.archnet.org/system/publications/contents/6682/original/DPC3538.pdf?1384800670="
+      ],
+      "published": {
+        "restored_interior_area_m2": 1400,
+        "restored_courtyard_area_m2": 800
+      },
+      "layout": "Asymmetric earth mosque footprint with open western courtyard, three tapered qibla towers on east facade, softened buttresses, palm toron scaffolding and clay-capped roof vents; raised flood plinth.",
+      "uncertainty": "Horizontal perimeter and courtyard are measured provider rings. Wall/tower elevations, toron spacing, roof vents and softened mud profiles are interpretations of AKTC restoration drawings and exterior photographs; no flat-roof mosque template is used.",
+      "modeled_tower_tops_m": [
+        17.6,
+        18.5,
+        17.1
+      ],
+      "modeled_tower_top_note": "Interpreted elevation above plaza, including2.7m flood plinth and softened cone cap; not a published surveyed dimension."
+    },
+    "shah-mosque": {
+      "city": "Isfahan",
+      "references": [
+        "https://www.archnet.org/sites/1622?media_content_id=63198",
+        "https://whc.unesco.org/en/list/115/"
+      ],
+      "published": {
+        "sanctuary_dome_diameter_m": 25,
+        "sanctuary_dome_height_m": 52,
+        "entrance_portal_arch_m": 28
+      },
+      "layout": "Blue and turquoise haft-rangi tile surfaces; four iwans and three domed chambers around a rotated main sahn, independent square-facing portal, twin minarets at portal and sanctuary, side madrasa courts.",
+      "uncertainty": "Published25m dome is treated as inner diameter; roof is26.8m before onion bulge. Provider circle spans33m and is used for center only. Small tile ornament is original geometric interpretation; inscriptions are not fabricated."
+    },
+    "sultan-qaboos-grand-mosque": {
+      "city": "Muscat",
+      "references": [
+        "https://sultanqaboosgrandmosque.com/wp-content/uploads/2013/03/englishfactsheet.pdf",
+        "https://carillionalawi.com/cases/sultan-qaboos-grand-mosque-construction/"
+      ],
+      "published": {
+        "main_hall_envelope_m": [
+          74.4,
+          74.4
+        ],
+        "dome_finial_height_m": 50,
+        "dome_shell_height_m": 42.85,
+        "main_minaret_height_m": 91.5,
+        "corner_minaret_heights_m": 45,
+        "side_riwaq_length_m": 237.2
+      },
+      "layout": "Sandstone main musalla with gold external dome lattice, nested roofless sahns, long low arcaded riwaqs and five distinct minarets.",
+      "uncertainty": "Provider outer wall spans about72m versus documented74.4m hall envelope; mapped wall positions retained. Dome50m includes7.15m finial, matching fact sheet42.85m shell. Side-riwaq source endpoints govern alignment."
+    }
+  },
+  "material_evidence": {
+    "wall": "Construction atlas stone/plaster/marble materials are chosen per architectural component; visible stone courses vary by block and darken toward the base.",
+    "roof": "Ottoman lead, Moroccan and Persian glazed tile, Qaboos metallic dome, white marble Zayed domes and clay Djenn\u00e9 surfaces use distinct materials.",
+    "ornament": "Recesses, raised tracery, toron, dome seams, gold lattice and original geometric tile motifs are geometric relief; no invented calligraphy or downloaded texture."
+  }
+}

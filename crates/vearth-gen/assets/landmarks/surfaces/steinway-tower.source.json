@@ -1,0 +1,23 @@
+{
+  "name": "steinway-tower",
+  "kind": "steinway-tower",
+  "source": "steinway-tower/steinway.glb",
+  "sha256": "578f0fd8cd73b47f2aeebacbd78961ce80243fc5e7990d103fafcef20978075b",
+  "license": "existing landmark SOURCES.md",
+  "output": "steinway-tower.lms",
+  "output_sha256": "2e3bb417f6ec14cc30f215474bbb29397991694719810abae82305de8d545a38",
+  "levels": [
+    [
+      5526,
+      2800
+    ],
+    [
+      5394,
+      2736
+    ],
+    [
+      5394,
+      2736
+    ]
+  ]
+}

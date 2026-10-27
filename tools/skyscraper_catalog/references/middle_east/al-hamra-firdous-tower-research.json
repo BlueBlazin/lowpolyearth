@@ -1,0 +1,78 @@
+{
+  "name": "al-hamra-firdous-tower",
+  "sources": [
+    {
+      "url": "https://www.som.com/projects/al-hamra-tower/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Architect412m,74 stories, quarter-floor south cut migrates west to east,24.4m north lobby and39.6m upper hall. Mapped60\u00d758.7m plan; cutout path and panel subdivision proportional approximations.",
+  "authored_form": "Sculpted glass tower with migrating south cutout and two continuous Jura limestone ribbons.",
+  "dimensions_m": {
+    "architectural_height": 412,
+    "tip_height": 412,
+    "mapped_parts": [
+      {
+        "seed": "6534900716914540084",
+        "bounds_xz": [
+          [
+            -29.99042,
+            -29.46579
+          ],
+          [
+            30.04031,
+            29.28187
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      29.379340729530096,
+      47.99309275085317
+    ],
+    "heading_deg": 9.217558311293487,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "2d3e3a682ea7091c5f740367972ed22a54f054ac45be9b9a6613d6e97a91d616"
+  },
+  "ground": {
+    "datum_m": 6.7,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "07c898264ed206d215483916cbce3fd68097d866c0dd7739e295bd9970501b29",
+    "quantiles_m": {
+      "toe": [
+        5.736154079437256,
+        6.984837293624878,
+        7.733966827392578,
+        8.488977432250977,
+        12.666329383850098
+      ],
+      "near": [
+        3.9131522178649902,
+        6.9533371925354,
+        8.0,
+        9.15131402015686,
+        14.948833465576172
+      ],
+      "street": [
+        1.063997745513916,
+        6.658991098403931,
+        7.985743522644043,
+        9.494306564331055,
+        15.836181640625
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

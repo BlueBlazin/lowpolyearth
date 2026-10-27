@@ -1,0 +1,37 @@
+{
+  "source": "https://www.openstreetmap.org/relation/318110",
+  "query": "[out:json][timeout:180];rel(318110);(._;>>;)->.all;(way.all;node.all[historic];node.all[man_made];node.all[barrier];rel.all;);out geom;",
+  "timestamp_osm_base": "2026-09-13T04:39:21Z",
+  "copyright": "© OpenStreetMap contributors; database licensed under ODbL 1.0",
+  "source_sha256": "82e70dc8c7145ab8936ff0230141d6a5e7a8e8e6a39527356eee98c873aa288c",
+  "tower_source_sha256": "63d48562cbd23ccd7222dae846b4e2ac919d89a0dedee764966db12aef020547",
+  "tower_timestamp_osm_base": "2026-09-13T05:01:49Z",
+  "tower_query": "[out:json][timeout:180];rel(318110);way(r)->.walls;(node(around.walls:35)[\"tower:type\"=\"defensive\"];way(around.walls:35)[\"tower:type\"=\"defensive\"];);out geom;",
+  "pack_sha256": "4e8b8bb949a7926d6cab627fa321295e34e0d414b67356e302a5b39f1918679a",
+  "segments": 265699,
+  "towers": 6700,
+  "bounds_south_west_north_east": [
+    27.0550579,
+    91.3336188,
+    48.5839167,
+    124.5171035
+  ],
+  "wall_ways": 8987,
+  "wall_km": 6828.572,
+  "styles_km": [
+    4144.558,
+    993.946,
+    161.349,
+    1528.72
+  ],
+  "skipped_ditches": 107,
+  "area_axes": 550,
+  "style_order": [
+    "masonry",
+    "earth",
+    "ruined masonry",
+    "ruined earth"
+  ],
+  "coverage": "All mapped wall ways and tower members of the recursively expanded relation, supplemented by mapped defensive towers within 35 m of its wall ways. Disconnected routes remain disconnected. This is not an exhaustive reconstruction of all historical Great Wall remains.",
+  "inference": "Untagged dimensions use conservative metre-scale defaults. Untagged material west of 105°E and named Han/Qin/Jin walls uses earth; those ancient named walls use ruined profiles. Narrow polygon wall footprints are reduced to paired-boundary centre lines. Individual tower point dimensions and all architectural detail are approximate. Ditches are omitted, not replaced by walls."
+}

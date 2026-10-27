@@ -1,0 +1,53 @@
+{
+  "name": "hollywood-sign",
+  "city": "Los Angeles",
+  "lat": 34.13412,
+  "lon": -118.32155,
+  "heading": 0,
+  "base": "terrain",
+  "suppress_buildings": false,
+  "activation_pad": 0.0,
+  "suppress_roads": false,
+  "suppress_trees": false,
+  "description": "White hillside letter structures on individual steel supports.",
+  "references": [
+    "https://www.hollywoodsign.org/history",
+    "https://www.hollywoodsign.org/history-mission"
+  ],
+  "capture": {
+    "distance": 235,
+    "azimuth": 180,
+    "elevation": 12
+  },
+  "bbox_min": [
+    -52.5,
+    -5.3,
+    -2.0
+  ],
+  "bbox_max": [
+    52.6,
+    25.4,
+    7.1
+  ],
+  "levels": [
+    {
+      "vertices": 3864,
+      "triangles": 1776
+    },
+    {
+      "vertices": 3864,
+      "triangles": 1776
+    },
+    {
+      "vertices": 1412,
+      "triangles": 696
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/iconic.py",
+  "source_sha256": "9f9a7aa3aafc7ae2fa741fbb6d982ba895884ee600e32b439bbfc8157e855b68",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "ae6e576041be5a6e1d9701846b760960ebdcf92742a3becfb19c4b867882f5dc"
+}

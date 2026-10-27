@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "license": "CC0-1.0",
+  "license_url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+  "wikidata_sources": [
+    {
+      "entity_id": "Q1139084",
+      "revision": 2497661715,
+      "country_name": "Poland",
+      "country_entity": "Q36",
+      "sha256": "8929f6b0ca12af851fc637cd065668b6d95e9f5cda03525a22080ab247db86b4",
+      "snapshot": "Q1139084.json",
+      "source_url": "https://www.wikidata.org/wiki/Special:EntityData/Q1139084.json",
+      "retrieved": "2026-09-16",
+      "coordinate_statement": "q1139084$9F9E4262-0180-481C-A97A-F1B39CD565BC"
+    }
+  ]
+}

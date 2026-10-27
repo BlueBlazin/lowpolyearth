@@ -1,0 +1,62 @@
+{
+  "name": "angel-of-the-north",
+  "city": "Gateshead",
+  "lat": 54.9141164,
+  "lon": -1.58952455,
+  "heading": 152.64,
+  "base": 87.49531555,
+  "suppress_buildings": false,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://www.ice.org.uk/what-is-civil-engineering/infrastructure-projects/the-angel-of-the-north",
+    "https://www.openstreetmap.org/way/922533965"
+  ],
+  "description": "A weathering-steel human figure with long ribbed wings swept slightly forward; 20m tall with a 54m span.",
+  "source_audit": {
+    "center_ground_m": 87.49531555,
+    "foot_ground_range_m": [
+      87.10557,
+      87.63136
+    ],
+    "placement": "OSM sculpture outline principal axis; narrow feet descend one metre into the retained grassy mound."
+  },
+  "capture": {
+    "distance": 91,
+    "azimuth": 155,
+    "elevation": 17,
+    "target_height": 9,
+    "time_utc": "2026-03-20T15:30:00Z"
+  },
+  "bbox_min": [
+    -27.3,
+    -1.2,
+    -1.1
+  ],
+  "bbox_max": [
+    27.3,
+    20.2,
+    2.5
+  ],
+  "levels": [
+    {
+      "vertices": 6766,
+      "triangles": 2952
+    },
+    {
+      "vertices": 4324,
+      "triangles": 1912
+    },
+    {
+      "vertices": 1988,
+      "triangles": 872
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "e0032ea314d26fcafd4c829d44bd2f399e4544b4246cdf55a7a25d1f5f5a3143"
+}

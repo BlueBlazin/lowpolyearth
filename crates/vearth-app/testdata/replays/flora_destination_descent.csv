@@ -1,0 +1,8 @@
+# Farm Tomita destination descent: future curated field identity viewed from
+# regional, aerial, and near-field ranges.
+frame,lat_deg,lon_deg,alt_m,heading_deg,pitch_deg
+0,43.4170,142.4250,30000,120,40
+150,43.4170,142.4250,8000,120,47
+330,43.4170,142.4250,2400,120,54
+480,43.4170,142.4250,900,120,58
+600,43.4170,142.4250,550,120,61

@@ -1,0 +1,52 @@
+{
+  "name": "conwy-castle",
+  "reference_urls": [
+    "https://cadw.gov.wales/sites/default/files/2019-05/Conwyteachersnotes_EN.pdf",
+    "https://cadw.gov.wales/visit/places-to-visit/castell-conwy",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-3.8273745346346764,53.2790707468861,-3.8240654653653237,53.2810492531139"
+  ],
+  "documented_evidence": "Cadw teacher guide provides the scaled castle plan and confirms eight towers, extra turrets on four eastern towers, two wards, royal rooms and roof removal after the Civil War.",
+  "modeling_qualifications": "Plan positions digitised using30m/160pixels on a1500pixel page image. Local origin is image(450,475), z is upward on plan. Do not restore missing roof ranges.21m main tower height is an approximate secondary dimension; tower plan radii follow scaled outlines. The compass and production north wall both indicate near-east/west axis.",
+  "metric_targets": {
+    "site_scale_m_per_plan_pixel": 0.1875,
+    "tower_height_m": 21,
+    "tower_diameter_m": 12.2
+  },
+  "placement": {
+    "lat": 53.280051006789876,
+    "lon": -3.8256748763281454,
+    "heading_deg": 352,
+    "base": "terrain",
+    "source_file": "tools/heritage_catalog/references/castles/conwy-source.json",
+    "source_offset_east_north_m": [
+      3,
+      -1
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/conwy-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/conwy-terrain.json",
+    "production_ground_at_anchor_m": 8.992898941040039
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 52467063,
+      "name": "Conwy Castle",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          7.689,
+          -4.271
+        ],
+        "size_m": [
+          122.217,
+          58.775
+        ],
+        "heading_deg": -176.118
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed. Weathered masonry119 supplies worn coursing and relief on the exposed castle walls.",
+  "terrain_cuts": [],
+  "source_exclusion_piece_count": 112
+}

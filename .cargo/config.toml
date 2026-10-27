@@ -1,0 +1,18 @@
+# The browser build shares one WebAssembly memory between Web Workers and
+# unwinds panics with WebAssembly exception handling, so generation workers can
+# retire a failed cell as they do natively. Its standard library must be
+# rebuilt for both (`-Zbuild-std`, nightly only); tools/build-web.sh supplies
+# the toolchain and build-std flags. Native targets are unaffected.
+[target.wasm32-unknown-unknown]
+rustflags = [
+    "-C", "target-feature=+atomics,+bulk-memory,+mutable-globals,+simd128,+nontrapping-fptoint,+exception-handling",
+    "-C", "panic=unwind",
+    "-C", "link-arg=--shared-memory",
+    "-C", "link-arg=--import-memory",
+    "-C", "link-arg=--max-memory=4294967296",
+    "-C", "link-arg=--export=__wasm_init_tls",
+    "-C", "link-arg=--export=__tls_size",
+    "-C", "link-arg=--export=__tls_align",
+    "-C", "link-arg=--export=__tls_base",
+    "--cfg", "getrandom_backend=\"wasm_js\"",
+]

@@ -1,0 +1,718 @@
+{
+  "name": "copacabana-promenade",
+  "city": "Rio de Janeiro",
+  "lat": -22.9751921,
+  "lon": -43.1870711,
+  "heading": 34,
+  "base": 11.50849104,
+  "suppress_buildings": false,
+  "suppress_roads": true,
+  "suppress_trees": false,
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        -1.1635488573164139,
+        166.37592348323824
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.5769302958263385,
+        157.41603119328286
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.8090394125297713,
+        148.45231280719582
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.7740887445881726,
+        139.48295761787946
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.739138076646574,
+        130.51360242856308
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.7041874087049753,
+        121.5442472392467
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.6689851784750576,
+        112.57489303840161
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.633448739106905,
+        103.60554015077459
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.597912299738753,
+        94.63618726314758
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.5623758603706002,
+        85.66683437552054
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.5268394210024478,
+        76.69748148789353
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.4913029816342953,
+        67.72812860026649
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.455766542266143,
+        58.75877571263947
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.3933757208758888,
+        49.789851723226505
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -1.142463433580686,
+        40.823938658435466
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -0.8915511462854832,
+        31.85802559364443
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -0.6406388589902805,
+        22.892112528853403
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -0.38972657169507763,
+        13.926199464062368
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        -0.13881428439987492,
+        4.960286399271338
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        0.2418326700868272,
+        -3.9985418835164106
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        0.8764607557366884,
+        -12.945186274296331
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        1.460312560020728,
+        -21.895586887226482
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        2.0441643643047676,
+        -30.84598750015663
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        2.6280161685888075,
+        -39.79638811308679
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        3.2108549140333107,
+        -48.745706172253094
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        4.27663674584613,
+        -57.65158418333566
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        5.342418577658949,
+        -66.55746219441824
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        6.4082004094717675,
+        -75.4633402055008
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        7.474657062820308,
+        -84.36913741421924
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        8.541617761827524,
+        -93.27487426908309
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        9.608578460834739,
+        -102.18061112394693
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        10.675539159841957,
+        -111.08634797881078
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        11.849698652796071,
+        -119.97846066567615
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    },
+    {
+      "center_xz": [
+        13.044380534868296,
+        -128.86796510979195
+      ],
+      "half_extent": [
+        4.6,
+        5.5
+      ],
+      "feather_m": 1.0,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 11.50849104
+    }
+  ],
+  "road_exclusion_polygons": [
+    [
+      [
+        -5.540438235151473,
+        166.97828498117335
+      ],
+      [
+        3.2502108008375163,
+        166.57271189766576
+      ],
+      [
+        2.553718501965296,
+        151.47649470617066
+      ],
+      [
+        -6.236930534023694,
+        151.88206778967825
+      ]
+    ],
+    [
+      [
+        -6.2246961296974685,
+        152.46170792464122
+      ],
+      [
+        2.5752370611065043,
+        152.49599841000705
+      ],
+      [
+        2.7172787846837476,
+        116.04397201108824
+      ],
+      [
+        -6.082654406120225,
+        116.00968152572244
+      ]
+    ],
+    [
+      [
+        -6.085796716901634,
+        116.80938799611313
+      ],
+      [
+        2.7141342156895556,
+        116.84425318827893
+      ],
+      [
+        2.976889243587874,
+        50.52521250435501
+      ],
+      [
+        -5.823041689003316,
+        50.490347312189215
+      ]
+    ],
+    [
+      [
+        -5.83412871957705,
+        51.18453382255977
+      ],
+      [
+        2.962427364933532,
+        51.43070663190281
+      ],
+      [
+        4.4094677154072475,
+        -0.27675705371532416
+      ],
+      [
+        -4.387088369103335,
+        -0.5229298630583652
+      ]
+    ],
+    [
+      [
+        -4.4100298649887355,
+        0.26765012592456017
+      ],
+      [
+        4.385999070237612,
+        0.531988868186926
+      ],
+      [
+        4.460785727129173,
+        -1.9565816393253792
+      ],
+      [
+        -4.335243208097174,
+        -2.220920381587745
+      ]
+    ],
+    [
+      [
+        -4.36724301082162,
+        -1.653071249793411
+      ],
+      [
+        4.402795128983141,
+        -0.9275155824805212
+      ],
+      [
+        4.90104466968945,
+        -6.950027254558958
+      ],
+      [
+        -3.868993470115311,
+        -7.675582921871848
+      ]
+    ],
+    [
+      [
+        -3.933659955791776,
+        -6.801427043887201
+      ],
+      [
+        4.847676691298836,
+        -6.228603606462207
+      ],
+      [
+        7.254263988163762,
+        -43.12139088378086
+      ],
+      [
+        -1.5270726589268495,
+        -43.69421432120585
+      ]
+    ],
+    [
+      [
+        -1.5781738349777377,
+        -42.86267052543669
+      ],
+      [
+        7.207225592389147,
+        -42.35595867278115
+      ],
+      [
+        7.544734926355803,
+        -48.20771503849872
+      ],
+      [
+        -1.2406645010110826,
+        -48.71442689115426
+      ]
+    ],
+    [
+      [
+        -1.287354219170807,
+        -48.18739363781077
+      ],
+      [
+        7.450300812745704,
+        -47.14174334099826
+      ],
+      [
+        11.280251482795949,
+        -79.14554790756168
+      ],
+      [
+        2.5425964508794383,
+        -80.19119820437419
+      ]
+    ],
+    [
+      [
+        2.4475540052393123,
+        -79.39745052353778
+      ],
+      [
+        11.185070547234538,
+        -78.35064362713338
+      ],
+      [
+        15.263320055866586,
+        -112.39108859024178
+      ],
+      [
+        6.52580351387136,
+        -113.43789548664618
+      ]
+    ],
+    [
+      [
+        6.432906300897193,
+        -112.70695403077345
+      ],
+      [
+        15.154497045876525,
+        -111.53483847457137
+      ],
+      [
+        17.45845388718533,
+        -128.67834327464453
+      ],
+      [
+        8.736863142205998,
+        -129.8504588308466
+      ]
+    ]
+  ],
+  "activation_pad": 2,
+  "references": [
+    "https://riotur.rio/que_fazer/copacabana-e-leme/",
+    "https://mam.rio/lugar-de-estar/avenida-atlantica-ev/",
+    "https://www.openstreetmap.org/way/42292908"
+  ],
+  "description": "A nine-metre-wide, roughly 295m beachfront stretch of the famous black-and-white wave paving, following the mapped promenade and surveyed grade.",
+  "source_audit": {
+    "path_ground_samples_m": [
+      13.01384,
+      12.83424,
+      10.64243,
+      9.0,
+      11.43708,
+      11.57991,
+      12.07334,
+      13.93889,
+      13.67894,
+      10.9306,
+      8.45269,
+      8.0
+    ],
+    "paving_datum_m": 11.50849104,
+    "placement": "Twelve mapped walk vertices define the curve. A common median source datum anchors the connected paving and narrow terrain pads; nearby kiosks, carriageways and beach remain outside the replacement corridor."
+  },
+  "capture": {
+    "distance": 270,
+    "azimuth": 127,
+    "elevation": 55,
+    "target_height": 1,
+    "time_utc": "2026-03-20T17:30:00Z"
+  },
+  "bbox_min": [
+    -8.6,
+    -2.2,
+    -135.36796510979195
+  ],
+  "bbox_max": [
+    19.8,
+    0.5,
+    172.87592348323824
+  ],
+  "levels": [
+    {
+      "vertices": 8972,
+      "triangles": 8880
+    },
+    {
+      "vertices": 5168,
+      "triangles": 5076
+    },
+    {
+      "vertices": 3332,
+      "triangles": 3240
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "f930081e2b367c344bba23d024de2d6b415d0b06b5a5e462ec6b6ae334084af7"
+}

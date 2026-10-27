@@ -1,0 +1,132 @@
+{
+  "retrieved": "2026-09-13",
+  "authorship": "Original metric geometry and small sculpture silhouettes. Footprints \u00a9 OpenStreetMap contributors, via Protomaps, ODbL 1.0.",
+  "primary_evidence": [
+    {
+      "url": "https://www.vatican.va/content/vatican/en/ra/facciata-basilica.html",
+      "metrics": {
+        "facade_width_m": 116,
+        "height_without_statues_m": 45.5,
+        "column_height_m": 27.48,
+        "column_diameter_m": 2.77,
+        "pediment_m": [
+          30,
+          7.5
+        ],
+        "apostles_and_john_height_m": 5.65,
+        "christ_height_m": 6
+      },
+      "exterior": "Travertine giant Corinthian order; five entrance bays below five balconies; four smaller niches; thirteen statues."
+    },
+    {
+      "url": "https://www.vatican.va/content/vatican/en/ra/cupolone-lanterna.html",
+      "metrics": {
+        "external_cross_height_from_street_m": 133.3,
+        "maximum_external_diameter_m": 58.9,
+        "internal_diameter_m": 41.5,
+        "internal_lantern_vault_height_m": 117.57,
+        "globe_diameter_m": 2.5,
+        "cross_m": [
+          3.33,
+          2.4
+        ]
+      },
+      "exterior": "Brick double shell with metal armature and travertine, lead-clad cap, sixteen ribs, paired drum columns, lantern, gold globe and cross.",
+      "measurement_basis_quote": "External height, from street level to summit of Cross: 133.30 m"
+    },
+    {
+      "url": "https://www.vatican.va/content/vatican/en/ra/colonnato-statue-santi.html",
+      "metrics": {
+        "columns": 284,
+        "pillars": 88,
+        "column_height_m": 13,
+        "colonnade_m": 16.77,
+        "saints": 140,
+        "saints_height_m": 3.1
+      },
+      "exterior": "Four rows; open Tuscan shafts, architrave, roof cornice and balustrade; saints continue along the straight arms."
+    },
+    {
+      "url": "https://www.vatican.va/content/vatican/en/ra/orologio-alla-italiana.html",
+      "metrics": {
+        "clock_diameter_m": 4
+      },
+      "exterior": "Travertine/stucco dials in sculptured surrounds at facade corners. Northern Italian clock has one hand."
+    },
+    {
+      "url": "https://www.vatican.va/content/vatican/en/ra/obelisco.html",
+      "metrics": {
+        "shaft_m": 25.36,
+        "base_m": 8.25
+      },
+      "exterior": "Plain red granite, no hieroglyphic inscriptions; bronze lions at base and cross on summit."
+    },
+    {
+      "url": "https://www.vatican.va/content/vatican/en/ra/fontana-destra.html",
+      "metrics": {
+        "height_m": 8,
+        "upper_basin_circumference_m": 16,
+        "octagonal_basin_circumference_m": 30
+      },
+      "exterior": "Travertine and granite, two bowls and lower pool."
+    },
+    {
+      "url": "https://www.vatican.va/content/vatican/en/ra/fontana-sinistra.html",
+      "metrics": {
+        "height_m": 8,
+        "upper_basin_circumference_m": 16,
+        "octagonal_basin_circumference_m": 30
+      },
+      "exterior": "Bernini repeats north fountain on opposite side of obelisk."
+    }
+  ],
+  "conflicting_evidence": [
+    "Vatican RA explicitly states External height, from street level to summit of Cross: 133.30 m. Basilica FAQ rounds to136m without naming a level. Model top is133.30m above selected open-plaza datum; the estimated3.3m threshold rise is not added to this dome dimension. Dome components use plaza datum; nave/facade use threshold datum.",
+    "Official Square page describes 16m columns; detailed RA distinguishes 13m shafts and 16.77m colonnade. Geometry follows detailed inventory.",
+    "OSM building 54m height applied to whole plan would erase the lower chapels; model roof tiers distinguish 31m side chapel terraces, 49m upper walls and 54m ridge. Those subdivisions are interpreted."
+  ],
+  "metric_plan": {
+    "source_full_survey_sha256": "9f805efc001c6490198b4351aa4163bbcd08a2b415483998e3768551c4e6025d",
+    "provider": "Production Protomaps OSM footprints in east/north metres relative to [41.902166,12.453936].",
+    "tile_clipping": "432/1267 share original seed and overlap across tile margin. Half-plane clipping at north=0 removes duplicate portions while retaining the complete basilica outline.",
+    "main_dome_center_m": [
+      -46.7,
+      -0.8
+    ],
+    "facade_center_m": [
+      81,
+      -0.8
+    ],
+    "facade_rotation_deg": -89.3,
+    "colonnade_roofs_source_ids": [
+      869,
+      929
+    ],
+    "ambulacra_source_ids": [
+      451,
+      1284
+    ],
+    "support_centres": 305,
+    "support_uncertainty": "All 305 small mapped support positions retained; provider omits true round/rectangular distinction. Near terminal clusters are modeled as square piers, intermediate supports as columns. This subset does not purport to separately count all official 284 columns and 88 piers."
+  },
+  "grounding": {
+    "production_center_m": 61.3782,
+    "open_plaza_sample_at_east300_north8_m": 24.4967041015625,
+    "rejected_ground": "Centre and western approach are contaminated by roof elevations; sampled approach climbs 24.5m at x300 to 44.8m at x110 although paving is a gentle incline.",
+    "estimated_threshold_rise_m": 3.3,
+    "estimated_paving_grade": {
+      "westward_slope": 0.008,
+      "northward_slope": 0.001
+    },
+    "scope": "Conservative lower-only cuts under actual building, ambulacra, colonnade footprints and explicitly authored interior paving. No whole-site rectangular flattening, no roads suppressed beyond authored geometry."
+  },
+  "materials": {
+    "travertine": 119,
+    "lead_shells": 88,
+    "nave_roof_tiles": 85,
+    "granite_obelisk_and_paving": 82,
+    "glazing_and_water": 15,
+    "bronze_and_gold": 95
+  },
+  "interpretation_limits": "Secondary roof tiers, individual statue poses/attributes, facade fine relief and paving bands are original visual interpretations, not exact archaeological copies. No readable substitute inscriptions or invented hieroglyphics. Source Blender preview verifies geometry/color only; actual engine atlas/capture is required for final surface acceptance."
+}

@@ -1,0 +1,23 @@
+{
+  "name": "angkor-wat",
+  "kind": "angkor-wat",
+  "source": "angkor-wat/angkorwat.glb",
+  "sha256": "6b1b60160a88856b82699c964ea073ca52276864f8b20a35aaf6ec03da00dd1d",
+  "license": "existing landmark SOURCES.md",
+  "output": "angkor-wat.lms",
+  "output_sha256": "bbc037800a1bb04de98723ecd1e2560c9a87c8ce505d0143f68a53572160c918",
+  "levels": [
+    [
+      141680,
+      73972
+    ],
+    [
+      26396,
+      26250
+    ],
+    [
+      11073,
+      8190
+    ]
+  ]
+}

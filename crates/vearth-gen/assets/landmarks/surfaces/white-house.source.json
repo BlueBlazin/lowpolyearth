@@ -1,0 +1,23 @@
+{
+  "name": "white-house",
+  "kind": "white-house",
+  "source": "white-house/whitehouse.glb",
+  "sha256": "45b8c06d6755a53f96881ae901b4197639ee7bd3a42b738857df2539419c4522",
+  "license": "existing landmark SOURCES.md",
+  "output": "white-house.lms",
+  "output_sha256": "aa7c645e9393cd65982df66583ff88f6f4985dcbe524318794ddadf617d9262c",
+  "levels": [
+    [
+      46404,
+      25416
+    ],
+    [
+      21978,
+      15458
+    ],
+    [
+      21132,
+      14044
+    ]
+  ]
+}

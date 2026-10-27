@@ -1,0 +1,22 @@
+{
+  "name": "washington-monument",
+  "kind": "washington",
+  "source": "surveyed dimensions in converter",
+  "license": "project license",
+  "output": "washington-monument.lms",
+  "output_sha256": "1420895f8e79f120abdbb5389770cfef6841de010f1656fe9c515a2a04e04619",
+  "levels": [
+    [
+      37,
+      30
+    ],
+    [
+      37,
+      30
+    ],
+    [
+      37,
+      30
+    ]
+  ]
+}

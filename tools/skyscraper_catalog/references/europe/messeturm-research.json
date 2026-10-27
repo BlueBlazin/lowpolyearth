@@ -1,0 +1,86 @@
+{
+  "name": "messeturm",
+  "sources": [
+    {
+      "url": "https://www.skyscrapercenter.com/building/building/796",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://jahn.studio/work/messeturm/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://messeturm.com/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "CTBUH256.5m; mapped188/194/200/210/220m shoulders and drum levels rounded. Jahn2022 curved-glass lobby17m retained; granite panel subdivisions estimated. Jahn project summary251m differs from CTBUH256.5m and owner rounded257m; CTBUH tip used.",
+  "authored_form": "Rose granite stepped office shaft, renovated curved-glass lobby, cylindrical crown and copper pyramid.",
+  "dimensions_m": {
+    "architectural_height": 256.5,
+    "tip_height": 256.5,
+    "mapped_parts": [
+      {
+        "seed": "12855753025345812219",
+        "bounds_xz": [
+          [
+            -20.68815,
+            -20.53027
+          ],
+          [
+            20.68792,
+            20.60592
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      50.112376959654085,
+      8.652716377326277
+    ],
+    "heading_deg": -54.679294927671805,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "e029a1bcf3e9d152c6bdf0b3e5c8afdabcc0acc41c26aea7f8809732547d6ee6"
+  },
+  "ground": {
+    "datum_m": 102.0,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "c426f3935a0bb7aeb2e5468deb2164c166e567e40f47697e36de77ed86616e43",
+    "quantiles_m": {
+      "toe": [
+        101.82904052734375,
+        101.9968032836914,
+        102.33694458007812,
+        102.6213607788086,
+        102.75216674804688
+      ],
+      "near": [
+        101.69313049316406,
+        101.96359252929688,
+        102.4736328125,
+        102.83011627197266,
+        103.1471939086914
+      ],
+      "street": [
+        101.4743423461914,
+        101.90484619140625,
+        102.6984634399414,
+        103.0926284790039,
+        103.80935668945312
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

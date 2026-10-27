@@ -1,0 +1,108 @@
+{
+  "name": "potala-palace",
+  "primary_references": [
+    {
+      "url": "https://doi.org/10.1186/s43238-026-00260-0",
+      "authors": "Wu et al. (2026), Built Heritage10:23; includes Potala Palace Management Office",
+      "evidence": "Field study identifies splashed kaolinite-based white finishing and iron-rich red earth; thick gravity-flow accumulations50\u2013100mm. Figure1 is a front photograph; Figure3 supplies south/north facade color-elevation drawings. White frontage has mostly blank battered lower walls with two main upper window rows, broad dark parapets; central Red Palace has a vertical balcony band.",
+      "inspected": "PDF pages2\u20133; original PDF SHA256 c462d399fdf52db8cf0b0cd230d2b5f408891ab5811e8941085ca8d5f79720f6"
+    },
+    {
+      "url": "https://www.chinastory.cn/ywdbk/english/v1/detail/20190708/1012700000042741562587081859903262_1.html",
+      "publisher": "ChinaCulture via China Story",
+      "evidence": "Describes a concave central balcony belt, dark brown upper band, contrasting white band, gilded copper plates, and a largely blank lower20m wall."
+    }
+  ],
+  "implementation": "Potala-specific facade builder retains existing block footprints/heights and seven golden pavilions. Battered earthen-plaster faces, top-concentrated white window ranks, dark trapezoidal surrounds, timber lintel hoods, measured-scale plaster flow relief, dark tamarisk bands, white band beneath, copper plates, and a real central balcony recess replace generic full-height window arrays. Small blind warehouse apertures form two subordinate rows beneath the main window ranks, as documented by ChinaCulture and visible in the conservation elevation.",
+  "approximation_bounds": "Individual window pitch/heights,2.2m balcony recess,1.7\u20133m upper bands and maximum3.5m wall batter are proportional facade estimates, not a measured architectural survey. Overall published117.2m roof height and mapped registry anchor remain unchanged. Finish relief is kept45mm while physical121 atlas supplies fine uneven texture.",
+  "terrain_evidence": {
+    "file": "potala-palace-survey.json",
+    "sample_local_east_north_m": [
+      -125,
+      -62.5
+    ],
+    "production_ground_m": 3709.7,
+    "base_m": 3653.12,
+    "lowest_roof_approx_m": 3687.3,
+    "correction": "Extend first southwest lower-only cut11m west and7m north;18m feather replaces4m. Cut remains bounded around authored foundation and lower-only, with surrounding Marpo Ri preserved."
+  },
+  "validation": [
+    {
+      "lod": 0,
+      "triangles": 29024,
+      "materials": [
+        4,
+        15,
+        82,
+        83,
+        84,
+        95,
+        121
+      ],
+      "bounds": [
+        [
+          -190.0,
+          -13.0663232917753,
+          -84.6934667590499
+        ],
+        [
+          221.00900000000001,
+          117.2,
+          84.69346675904988
+        ]
+      ]
+    },
+    {
+      "lod": 1,
+      "triangles": 26940,
+      "materials": [
+        4,
+        15,
+        82,
+        83,
+        84,
+        95,
+        121
+      ],
+      "bounds": [
+        [
+          -190.0,
+          -13.0663232917753,
+          -84.6934667590499
+        ],
+        [
+          221.003025,
+          117.2,
+          84.69346675904988
+        ]
+      ]
+    },
+    {
+      "lod": 2,
+      "triangles": 14504,
+      "materials": [
+        4,
+        15,
+        82,
+        83,
+        84,
+        95,
+        121
+      ],
+      "bounds": [
+        [
+          -190.0,
+          -13.0663232917753,
+          -84.6934667590499
+        ],
+        [
+          221.0,
+          117.2,
+          84.69346675904988
+        ]
+      ]
+    }
+  ],
+  "consumer_encoded_bytes": 1221834,
+  "engine_review_status": "Source consumer encodes validated; central rebake and production-engine confirmation still required."
+}

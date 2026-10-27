@@ -1,0 +1,23 @@
+{
+  "name": "tower-bridge",
+  "kind": "tower-bridge-authored",
+  "source": "tower-bridge/towerbridge.glb",
+  "sha256": "6181112dbefb8e1e256e2d415b572b3936b44e0c949e5f80874f6790ede1cbf9",
+  "license": "existing landmark SOURCES.md",
+  "output": "tower-bridge.lms",
+  "output_sha256": "f7f1added8957d4a1694cd40fba61352d08d3100cc3c9282ebd7a79286206a42",
+  "levels": [
+    [
+      47352,
+      25244
+    ],
+    [
+      47352,
+      25244
+    ],
+    [
+      47352,
+      25244
+    ]
+  ]
+}

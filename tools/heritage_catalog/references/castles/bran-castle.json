@@ -1,0 +1,54 @@
+{
+  "name": "bran-castle",
+  "reference_urls": [
+    "https://bran-castle.com/pages/bran-fortress",
+    "https://bran-castle.com/pages/visitor-map",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=25.365866576741148,45.51426067898737,25.36843342325885,45.516059321012634"
+  ],
+  "documented_evidence": "Castle official fortress history describes progressive ramparts and the northwest main tower; visitor map provides reference for the residential courtyard.",
+  "modeling_qualifications": "Building envelope is fitted to the49x39m production footprint with measured center correction and34deg bearing. Upper tower and wing dimensions, roof pitches and courtyard timber gallery placement are proportional visual estimates. Texture/mesh assets from the operator are not reused.",
+  "metric_targets": {
+    "surveyed_core_extent_approx_m": [
+      49,
+      39
+    ],
+    "highest_roof_approx_m": 32
+  },
+  "placement": {
+    "lat": 45.515088054318994,
+    "lon": 25.36704732613929,
+    "heading_deg": 34,
+    "base": "terrain",
+    "source_file": "tools/heritage_catalog/references/castles/bran-source.json",
+    "source_offset_east_north_m": [
+      -8,
+      -8
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/bran-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/bran-terrain.json",
+    "production_ground_at_anchor_m": 765.1260986328125
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 179351361,
+      "name": "Castelul Bran",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          2.741,
+          0.876
+        ],
+        "size_m": [
+          47.637,
+          27.406
+        ],
+        "heading_deg": -174.484
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed.",
+  "terrain_cuts": [],
+  "source_exclusion_piece_count": 34
+}

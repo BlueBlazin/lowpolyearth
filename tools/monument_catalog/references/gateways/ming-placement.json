@@ -1,0 +1,68 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "way",
+      "id": 677547734,
+      "timestamp": "2024-07-16T16:59:41Z",
+      "version": 2,
+      "nodes": [
+        6344042214,
+        6344042215,
+        6344042216,
+        6344042217,
+        12057650531,
+        6344042214
+      ],
+      "tags": {
+        "building": "yes",
+        "historic": "paifang",
+        "name": "十三陵石牌坊"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6344042214,
+      "lat": 40.2382628,
+      "lon": 116.2099192,
+      "timestamp": "2024-07-16T16:59:41Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 6344042215,
+      "lat": 40.2383374,
+      "lon": 116.209952,
+      "timestamp": "2024-07-16T16:59:41Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 6344042216,
+      "lat": 40.2382332,
+      "lon": 116.2103578,
+      "timestamp": "2024-07-16T16:59:41Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 6344042217,
+      "lat": 40.2381587,
+      "lon": 116.210325,
+      "timestamp": "2024-07-16T16:59:41Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 12057650531,
+      "lat": 40.2381824,
+      "lon": 116.2102326,
+      "timestamp": "2024-07-16T16:59:41Z",
+      "version": 1
+    }
+  ]
+}

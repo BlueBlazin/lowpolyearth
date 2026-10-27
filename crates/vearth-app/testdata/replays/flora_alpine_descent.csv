@@ -1,0 +1,8 @@
+# Lauterbrunnen alpine/meadow descent: regional surface through detailed
+# valley geometry and the future coarse/middle/close flora handoffs.
+frame,lat_deg,lon_deg,alt_m,heading_deg,pitch_deg
+0,46.5930,7.9090,30000,175,42
+150,46.5930,7.9090,9000,175,48
+330,46.5930,7.9090,4200,175,53
+480,46.5930,7.9090,2600,175,57
+600,46.5930,7.9090,2100,175,59

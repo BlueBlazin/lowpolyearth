@@ -1,0 +1,23 @@
+{
+  "name": "the-shard",
+  "kind": "the-shard",
+  "source": "the-shard/shard.glb",
+  "sha256": "7e1497d09b5a2f1390b433c501a72c0c7ca6d9d4c033fea8cf39de6a766b22c9",
+  "license": "existing landmark SOURCES.md",
+  "output": "the-shard.lms",
+  "output_sha256": "76e340ec9bcbf2bbba8c157f47d8c6012c446d7a414ac86d9963c48534653b37",
+  "levels": [
+    [
+      2496,
+      1332
+    ],
+    [
+      2496,
+      1332
+    ],
+    [
+      2496,
+      1332
+    ]
+  ]
+}

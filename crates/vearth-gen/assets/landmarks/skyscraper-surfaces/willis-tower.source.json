@@ -1,0 +1,918 @@
+{
+  "name": "willis-tower",
+  "city": "Chicago",
+  "lat": 41.87888379716369,
+  "lon": -87.63590097473917,
+  "heading": -1.080922435328894,
+  "base": 181.4,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "source_exclusion_polygons": [
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -51.157605400692425,
+        43.16261624195917
+      ],
+      [
+        -51.316789139048296,
+        11.182951955099423
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -51.316789139048296,
+        11.182951955099423
+      ],
+      [
+        -43.5417739287529,
+        11.258356380642045
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -43.5417739287529,
+        11.258356380642045
+      ],
+      [
+        -43.47474746687527,
+        -8.732147864190763
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -43.47474746687527,
+        -8.732147864190763
+      ],
+      [
+        -43.51244958969385,
+        -10.730363611886895
+      ]
+    ],
+    [
+      [
+        -43.51244958969385,
+        -10.730363611886895
+      ],
+      [
+        -51.28746479998923,
+        -10.80576803742952
+      ],
+      [
+        -51.18274283584568,
+        -75.88423238719723
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -43.51244958969385,
+        -10.730363611886895
+      ],
+      [
+        -51.18274283584568,
+        -75.88423238719723
+      ]
+    ],
+    [
+      [
+        -51.18274283584568,
+        -75.88423238719723
+      ],
+      [
+        -11.205915798923723,
+        -75.97220124854414
+      ],
+      [
+        -11.13051076169912,
+        -71.97572779894908
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -51.18274283584568,
+        -75.88423238719723
+      ],
+      [
+        -11.13051076169912,
+        -71.97572779894908
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -11.13051076169912,
+        -71.97572779894908
+      ],
+      [
+        11.524280900856159,
+        -71.95896701414758
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        11.524280900856159,
+        -71.95896701414758
+      ],
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ]
+    ],
+    [
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        40.54235438153617,
+        -76.06015650895857
+      ],
+      [
+        40.63870816892027,
+        -12.0960151904818
+      ]
+    ],
+    [
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        40.63870816892027,
+        -12.0960151904818
+      ],
+      [
+        34.652448694401535,
+        -11.538861905559486
+      ]
+    ],
+    [
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        34.652448694401535,
+        -11.538861905559486
+      ],
+      [
+        34.65245049571661,
+        0.23258869735342816
+      ]
+    ],
+    [
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        34.65245049571661,
+        0.23258869735342816
+      ],
+      [
+        34.870284457136954,
+        11.77780736283106
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        34.870284457136954,
+        11.77780736283106
+      ]
+    ],
+    [
+      [
+        34.870284457136954,
+        11.77780736283106
+      ],
+      [
+        40.64289670998363,
+        11.6688903270246
+      ],
+      [
+        40.56749131295195,
+        42.98666542206878
+      ]
+    ]
+  ],
+  "road_exclusion_polygons": [
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -51.157605400692425,
+        43.16261624195917
+      ],
+      [
+        -51.316789139048296,
+        11.182951955099423
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -51.316789139048296,
+        11.182951955099423
+      ],
+      [
+        -43.5417739287529,
+        11.258356380642045
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -43.5417739287529,
+        11.258356380642045
+      ],
+      [
+        -43.47474746687527,
+        -8.732147864190763
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -43.47474746687527,
+        -8.732147864190763
+      ],
+      [
+        -43.51244958969385,
+        -10.730363611886895
+      ]
+    ],
+    [
+      [
+        -43.51244958969385,
+        -10.730363611886895
+      ],
+      [
+        -51.28746479998923,
+        -10.80576803742952
+      ],
+      [
+        -51.18274283584568,
+        -75.88423238719723
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -43.51244958969385,
+        -10.730363611886895
+      ],
+      [
+        -51.18274283584568,
+        -75.88423238719723
+      ]
+    ],
+    [
+      [
+        -51.18274283584568,
+        -75.88423238719723
+      ],
+      [
+        -11.205915798923723,
+        -75.97220124854414
+      ],
+      [
+        -11.13051076169912,
+        -71.97572779894908
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -51.18274283584568,
+        -75.88423238719723
+      ],
+      [
+        -11.13051076169912,
+        -71.97572779894908
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        -11.13051076169912,
+        -71.97572779894908
+      ],
+      [
+        11.524280900856159,
+        -71.95896701414758
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        11.524280900856159,
+        -71.95896701414758
+      ],
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ]
+    ],
+    [
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        40.54235438153617,
+        -76.06015650895857
+      ],
+      [
+        40.63870816892027,
+        -12.0960151904818
+      ]
+    ],
+    [
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        40.63870816892027,
+        -12.0960151904818
+      ],
+      [
+        34.652448694401535,
+        -11.538861905559486
+      ]
+    ],
+    [
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        34.652448694401535,
+        -11.538861905559486
+      ],
+      [
+        34.65245049571661,
+        0.23258869735342816
+      ]
+    ],
+    [
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        34.65245049571661,
+        0.23258869735342816
+      ],
+      [
+        34.870284457136954,
+        11.77780736283106
+      ]
+    ],
+    [
+      [
+        40.56749131295195,
+        42.98666542206878
+      ],
+      [
+        11.444686782851015,
+        -76.17746210491983
+      ],
+      [
+        34.870284457136954,
+        11.77780736283106
+      ]
+    ],
+    [
+      [
+        34.870284457136954,
+        11.77780736283106
+      ],
+      [
+        40.64289670998363,
+        11.6688903270246
+      ],
+      [
+        40.56749131295195,
+        42.98666542206878
+      ]
+    ]
+  ],
+  "max_source_building_span_m": 160,
+  "terrain_flatten": [],
+  "terrain_cuts": [
+    {
+      "polygon_xz": [
+        [
+          40.56749131295195,
+          42.98666542206878
+        ],
+        [
+          -51.157605400692425,
+          43.16261624195917
+        ],
+        [
+          -51.316789139048296,
+          11.182951955099423
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          40.56749131295195,
+          42.98666542206878
+        ],
+        [
+          -51.316789139048296,
+          11.182951955099423
+        ],
+        [
+          -43.5417739287529,
+          11.258356380642045
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          40.56749131295195,
+          42.98666542206878
+        ],
+        [
+          -43.5417739287529,
+          11.258356380642045
+        ],
+        [
+          -43.47474746687527,
+          -8.732147864190763
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          40.56749131295195,
+          42.98666542206878
+        ],
+        [
+          -43.47474746687527,
+          -8.732147864190763
+        ],
+        [
+          -43.51244958969385,
+          -10.730363611886895
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          -43.51244958969385,
+          -10.730363611886895
+        ],
+        [
+          -51.28746479998923,
+          -10.80576803742952
+        ],
+        [
+          -51.18274283584568,
+          -75.88423238719723
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          40.56749131295195,
+          42.98666542206878
+        ],
+        [
+          -43.51244958969385,
+          -10.730363611886895
+        ],
+        [
+          -51.18274283584568,
+          -75.88423238719723
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          -51.18274283584568,
+          -75.88423238719723
+        ],
+        [
+          -11.205915798923723,
+          -75.97220124854414
+        ],
+        [
+          -11.13051076169912,
+          -71.97572779894908
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          40.56749131295195,
+          42.98666542206878
+        ],
+        [
+          -51.18274283584568,
+          -75.88423238719723
+        ],
+        [
+          -11.13051076169912,
+          -71.97572779894908
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          40.56749131295195,
+          42.98666542206878
+        ],
+        [
+          -11.13051076169912,
+          -71.97572779894908
+        ],
+        [
+          11.524280900856159,
+          -71.95896701414758
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          40.56749131295195,
+          42.98666542206878
+        ],
+        [
+          11.524280900856159,
+          -71.95896701414758
+        ],
+        [
+          11.444686782851015,
+          -76.17746210491983
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          11.444686782851015,
+          -76.17746210491983
+        ],
+        [
+          40.54235438153617,
+          -76.06015650895857
+        ],
+        [
+          40.63870816892027,
+          -12.0960151904818
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          11.444686782851015,
+          -76.17746210491983
+        ],
+        [
+          40.63870816892027,
+          -12.0960151904818
+        ],
+        [
+          34.652448694401535,
+          -11.538861905559486
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          11.444686782851015,
+          -76.17746210491983
+        ],
+        [
+          34.652448694401535,
+          -11.538861905559486
+        ],
+        [
+          34.65245049571661,
+          0.23258869735342816
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          11.444686782851015,
+          -76.17746210491983
+        ],
+        [
+          34.65245049571661,
+          0.23258869735342816
+        ],
+        [
+          34.870284457136954,
+          11.77780736283106
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          40.56749131295195,
+          42.98666542206878
+        ],
+        [
+          11.444686782851015,
+          -76.17746210491983
+        ],
+        [
+          34.870284457136954,
+          11.77780736283106
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    },
+    {
+      "polygon_xz": [
+        [
+          34.870284457136954,
+          11.77780736283106
+        ],
+        [
+          40.64289670998363,
+          11.6688903270246
+        ],
+        [
+          40.56749131295195,
+          42.98666542206878
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.0
+    }
+  ],
+  "description": "Nine bundled tubes with directional setbacks, muted office glazing, mechanical bands, two antenna masts and the current retail podium.",
+  "attribution": "Original Low Poly Earth geometry; mapped podium and placement \u00a9 OpenStreetMap contributors (ODbL), via Protomaps.",
+  "references": [
+    "https://www.som.com/projects/willis-tower-formerly-sears-tower/",
+    "https://www.aisc.org/media/hbbp3p4k/f115-21.pdf",
+    "https://www.skyscrapercenter.com/building/willis-tower/169",
+    "https://www.architecture.org/online-resources/buildings-of-chicago/willis-tower",
+    "https://www.gensler.com/projects/willis-tower-repositioning"
+  ],
+  "audit": {
+    "architectural_height_m": 442.1,
+    "tip_height_m": 527,
+    "structural_module_m": 22.86,
+    "height_authority": "CTBUH architectural/tip height; AISC 75ft modules and directional tube layout.",
+    "estimates": "200/260/355m setback levels and podium heights are mapped estimates, not a vertical survey. Secondary mast520.3m and mechanical-band levels are approximate.",
+    "foundation_bottom_m": -3.2,
+    "ground_datum_m": 181.4,
+    "survey_file": "tools/skyscraper_catalog/references/americas/willis-tower-survey.json",
+    "placement_file": "tools/skyscraper_catalog/references/americas/willis-tower-placement.json"
+  },
+  "capture": {
+    "distance": 920,
+    "azimuth": 235,
+    "elevation": 24,
+    "target_height": 220
+  },
+  "night_eligible": true,
+  "bbox_min": [
+    -53.316789139048296,
+    -3.5,
+    -78.17746210491983
+  ],
+  "bbox_max": [
+    42.64289670998363,
+    527.2,
+    45.16261624195917
+  ],
+  "levels": [
+    {
+      "vertices": 9253,
+      "triangles": 5198
+    },
+    {
+      "vertices": 8573,
+      "triangles": 4814
+    },
+    {
+      "vertices": 5071,
+      "triangles": 2918
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/skyscraper_catalog/americas.py",
+  "dependencies": {
+    "crates/vearth-gen/src/building_surface.rs": "d4c5ca0b699c5cda62866b62ee1d26f17ce4b03f913c85e7045d7aadfe609bfb",
+    "crates/vearth-gen/src/highrise.rs": "476ec0574809c680b62cb60691a48a7e07f0b785b90568f14c4745f7562f2eb7",
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_skyscraper_catalog.py": "b7cae016f2d115ecccc277dff44f8490423b4a05f79c41a70d8a552dc58f7fb2",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/skyscraper_catalog/americas.py": "44ee010a991450cf66a7d2190d274cdfdbf0bf58e844070c2dc29c845ed7b3c1",
+    "tools/skyscraper_catalog/americas_classic.py": "423955ec2a3a08b98107f6d7de7725805f15a820301d4389674b929b24371c8d",
+    "tools/skyscraper_catalog/americas_common.py": "d707099bcbcda4f92d3490338ed236ce34419347ad2012be95f1717c069a076b",
+    "tools/skyscraper_catalog/americas_modern.py": "ccbc3e5248a4abe996ddfb879e7a272e7149c0fb3c691270ea492aaa0b79d879",
+    "tools/skyscraper_catalog/appearance.py": "ed485b103e0e6e9da95b4abf7faefc4b9f0f6c5741359458fc25c4616d6262e0",
+    "tools/skyscraper_catalog/geometry.py": "36ff1db56d17b9a5cea29ec0588398bf2a8492dad7ee906531ba983006f3dcbd",
+    "tools/skyscraper_catalog/inventory.py": "c2baa65db2fec4ad9daf239556addbad9ff866472c6bf025b5553e2fd3a9a645",
+    "tools/skyscraper_catalog/references/americas/30-rockefeller-plaza-envelope.json": "058136b4395ce956a50f8cc057072bc76a5c345d0cc09c1e787b88786187d70d",
+    "tools/skyscraper_catalog/references/americas/30-rockefeller-plaza-placement.json": "302ae0ac0feaa9af9642f2b0e940e3695ef9adca6ff61354636ce5f35cbe8f4b",
+    "tools/skyscraper_catalog/references/americas/30-rockefeller-plaza-survey.json": "55aa625f55d0ca999a54a614fd45bfa45f8097b7ab454d859ade551ae3b8f2d4",
+    "tools/skyscraper_catalog/references/americas/432-park-avenue-placement.json": "31757a8757d25c79c8ac437046362ff18ae5b7b409e333d81899f3c644039dee",
+    "tools/skyscraper_catalog/references/americas/432-park-avenue-survey.json": "079682e03db6307ae9a0f049737c7e29e26c1e816350dc7a40ef0a021363d27d",
+    "tools/skyscraper_catalog/references/americas/aqua-tower-placement.json": "bc91823ef3f784eeac9d11cc45eda38645b061b74a59f34cbd8f28ce3b472380",
+    "tools/skyscraper_catalog/references/americas/aqua-tower-survey.json": "753189e3283effc39e077f0e301240436a725bf37bfba0a60a25de433f2d0382",
+    "tools/skyscraper_catalog/references/americas/john-hancock-center-placement.json": "1cb04a81f4625b93fb5a2bd4417086266dbbb80f8eb21bc0505023755e7b9a09",
+    "tools/skyscraper_catalog/references/americas/john-hancock-center-survey.json": "ed495f00927d98c6bbbe93552d67035ee22a7c1e1dc7425c2320da0f200bade3",
+    "tools/skyscraper_catalog/references/americas/marina-city-placement.json": "6e2d68a53f9581f6166cd609830b6aeee7c0705a8576ae8b3347d872f349c629",
+    "tools/skyscraper_catalog/references/americas/marina-city-survey.json": "08a5073d3e294e4376cff04041f5e873e7ab31774727359fe40f8686fa7f3d09",
+    "tools/skyscraper_catalog/references/americas/salesforce-tower-placement.json": "0586b5574024e8026318c62a6bb3ea5c9b4e7f946cbb9f6f1ea4d70932b30551",
+    "tools/skyscraper_catalog/references/americas/salesforce-tower-survey.json": "57521ef6907aa3b739fff6df878b80b25dbed6e7e364f3d29f40e199d1d3a90c",
+    "tools/skyscraper_catalog/references/americas/torre-reforma-envelope.json": "bd5ad690e2510b14a7d931863f645979f6ee05a550be0ee695e2b29eab3f18bb",
+    "tools/skyscraper_catalog/references/americas/torre-reforma-placement.json": "ff41e6328f851733637074939813c21f74c13625caa6a135d98996c512f5e164",
+    "tools/skyscraper_catalog/references/americas/torre-reforma-survey.json": "db5566319a83a365079972cacc281920b4d64132e9a5b3b070f42a0b10d6d568",
+    "tools/skyscraper_catalog/references/americas/transamerica-pyramid-placement.json": "c9ddea28e3bebc3656d9cbb740ff5e0d3968dd4e4c4183da0ca8b52016aade25",
+    "tools/skyscraper_catalog/references/americas/transamerica-pyramid-survey.json": "fe41cc9372c3dd23b9481f2e65badd44e86a7b5495bf85e6208554b5bff90200",
+    "tools/skyscraper_catalog/references/americas/tribune-tower-placement.json": "89633513b436a0a1139366c21bb51b3abc6fe055bc60233acb86554a6e101f49",
+    "tools/skyscraper_catalog/references/americas/tribune-tower-survey.json": "57466337e4e88152746319795b2868977704cb2a6a1555b51b941c10a0b345af",
+    "tools/skyscraper_catalog/references/americas/willis-tower-placement.json": "0066b3eb8288c3bf6ea53283b230fd2d423b823f748712bbfcb9da655ec10163",
+    "tools/skyscraper_catalog/references/americas/willis-tower-survey.json": "398ab97790e089c2c5196efb493d74e5f1459c54e198822c08ff18eb45c79c49",
+    "tools/skyscraper_catalog/references/americas/woolworth-building-placement.json": "f27c4c3c8f2e06df9742d8d3896988c8e5f6c10663ec072095f703e6f9aa5167",
+    "tools/skyscraper_catalog/references/americas/woolworth-building-survey.json": "ae32b8f753a687132f5f4b1804a5d1d606c2531e61378718fe354ee61ce04b33",
+    "tools/skyscraper_catalog/references/americas/wrigley-building-placement.json": "998df0d71bcc8ad91c72ea227bcdf5d453ea4b40b02d46135dbe49a94534bf8c",
+    "tools/skyscraper_catalog/references/americas/wrigley-building-survey.json": "c683c2e139dd4ba1e76505972a845fa05f14864d693ad2a056f8bb447c3c3dd3"
+  },
+  "output_sha256": "7f8de1533e3c82b20a4afbe9a9b6677db15836a28820321194cd4a0eeb617f40"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "torre-glories",
+  "sources": [
+    {
+      "url": "https://www.jeannouvel.com/en/projects/tour-agbar/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.miradortorreglories.com/ca/sobre-nosaltres/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Architect program142m differs from operator144m; mapped144.4m envelope retained with0.4m precision treated as an estimate. Crown spring105m, facade module and color distribution are photograph-based approximations, not panel-by-panel survey.",
+  "authored_form": "Ellipsoidal colored shaft, glass-louver outer skin and continuous domed crown.",
+  "dimensions_m": {
+    "architectural_height": 144.4,
+    "tip_height": 144.4,
+    "mapped_parts": [
+      {
+        "seed": "1391719188254690749",
+        "bounds_xz": [
+          [
+            -19.93033,
+            -18.39664
+          ],
+          [
+            19.86218,
+            18.467
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      41.40351519958846,
+      2.1895209083138054
+    ],
+    "heading_deg": 16.389516997639987,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "621a9d7f217762b94357a1aebab0995749d197363868aeb70ca4e3aac7450c71"
+  },
+  "ground": {
+    "datum_m": 11.8,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "ba278129b74538ce3cd955ce41d48c0344c0eeeea59e532bf50516a8f4f054ab",
+    "quantiles_m": {
+      "toe": [
+        11.565543174743652,
+        11.68063735961914,
+        11.946097373962402,
+        12.194070816040039,
+        12.291755676269531
+      ],
+      "near": [
+        11.504444122314453,
+        11.65017557144165,
+        11.989516258239746,
+        12.30966329574585,
+        12.442395210266113
+      ],
+      "street": [
+        11.473859786987305,
+        11.609930515289307,
+        12.042932510375977,
+        12.438104152679443,
+        12.578825950622559
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

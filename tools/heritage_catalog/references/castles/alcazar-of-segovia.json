@@ -1,0 +1,67 @@
+{
+  "name": "alcazar-of-segovia",
+  "reference_urls": [
+    "https://www.alcazardesegovia.com/wp-content/uploads/2025/06/la_fortaleza_del_alcazar.pdf",
+    "https://www.turismodesegovia.com/es/monumentos/edificios-militares/real-alcazar",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-4.1344952083230195,40.95111108637978,-4.130684791676981,40.95398891362022"
+  ],
+  "documented_evidence": "Official castle architectural history documents the construction and union of tower elements and the final JuanII upper stages/bartizans. Municipal tourism names twelve crowning turrets and quotes80m total tower height.",
+  "modeling_qualifications": "80m is not used as above-courtyard wall height because the public description does not define the vertical datum and is incompatible with the photographed tower-to-palace proportions. Above-court31m main wall plus crowns approximates35m; this requires surveyed elevation verification. The tapered plan is fitted to production footprint with26deg bearing. Secondary spires/windows are proportional estimates.",
+  "metric_targets": {
+    "palace_axis_approx_m": 138,
+    "juan_ii_above_court_approx_height_m": 35
+  },
+  "placement": {
+    "lat": 40.95253201357975,
+    "lon": -4.132613815104039,
+    "heading_deg": 26,
+    "base": "terrain",
+    "source_file": "tools/heritage_catalog/references/castles/segovia-source.json",
+    "source_offset_east_north_m": [
+      -2,
+      -2
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/segovia-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/segovia-terrain.json",
+    "production_ground_at_anchor_m": 958.0984497070312
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 47800753,
+      "name": "Alc\u00e1zar de Segovia",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -3.972,
+          3.539
+        ],
+        "size_m": [
+          127.357,
+          64.378
+        ],
+        "heading_deg": 5.648
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 1176897232,
+      "name": "Torre de Juan II",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          46.511,
+          -3.948
+        ],
+        "size_m": [
+          9.979,
+          21.841
+        ],
+        "heading_deg": -176.929
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed.",
+  "terrain_cuts": [],
+  "source_exclusion_piece_count": 131
+}

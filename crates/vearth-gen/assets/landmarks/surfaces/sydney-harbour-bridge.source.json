@@ -1,0 +1,22 @@
+{
+  "name": "sydney-harbour-bridge",
+  "kind": "harbour",
+  "source": "analytic registry bridge curves",
+  "license": "project license",
+  "output": "sydney-harbour-bridge.lms",
+  "output_sha256": "5fe8b09fff5903494b214330b9669a6db345f3ddb887d88497f59cd96cead14d",
+  "levels": [
+    [
+      11940,
+      21176
+    ],
+    [
+      11200,
+      19696
+    ],
+    [
+      10915,
+      19126
+    ]
+  ]
+}

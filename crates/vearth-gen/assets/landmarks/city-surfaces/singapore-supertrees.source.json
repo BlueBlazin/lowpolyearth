@@ -1,0 +1,52 @@
+{
+  "name": "singapore-supertrees",
+  "city": "Singapore",
+  "lat": 1.28172,
+  "lon": 103.86365,
+  "heading": 0,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "activation_pad": 8.0,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "description": "Twelve branching vertical gardens with violet crowns and a suspended skyway.",
+  "references": [
+    "https://www.gardensbythebay.com.sg/en/things-to-do/attractions/supertree-grove.html"
+  ],
+  "capture": {
+    "distance": 240,
+    "azimuth": 155,
+    "elevation": 25
+  },
+  "bbox_min": [
+    -89.5,
+    -0.2,
+    -82.5
+  ],
+  "bbox_max": [
+    98.5,
+    50.5,
+    91.5
+  ],
+  "levels": [
+    {
+      "vertices": 197085,
+      "triangles": 99136
+    },
+    {
+      "vertices": 104588,
+      "triangles": 55282
+    },
+    {
+      "vertices": 61663,
+      "triangles": 33732
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/iconic.py",
+  "source_sha256": "9f9a7aa3aafc7ae2fa741fbb6d982ba895884ee600e32b439bbfc8157e855b68",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "9f0cddc9cdfc826556561e72a32ea004a51a9085e13de23b53656ef185dc69ce"
+}

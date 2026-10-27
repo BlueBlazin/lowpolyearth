@@ -1,0 +1,54 @@
+{
+  "name": "lotus-temple",
+  "city": "New Delhi",
+  "lat": 28.55336,
+  "lon": 77.25861,
+  "heading": 12.0,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "activation_pad": 8.0,
+  "references": [
+    "https://bahaihouseofworship.in/architecture/",
+    "https://bahaihouseofworship.in/wp-content/uploads/2024/04/architectural_blossoming_of_the_lotus.pdf",
+    "https://www.openstreetmap.org/way/44827278"
+  ],
+  "description": "Twenty-seven marble shells in three ninefold tiers above a sandstone podium, nine blue pools, and radial entrance bridges.",
+  "capture": {
+    "distance": 170.0,
+    "azimuth": 192.0,
+    "elevation": 19.0
+  },
+  "bbox_min": [
+    -63.2,
+    -1.7,
+    -62.7
+  ],
+  "bbox_max": [
+    61.2,
+    34.5,
+    62.7
+  ],
+  "levels": [
+    {
+      "vertices": 122314,
+      "triangles": 45036
+    },
+    {
+      "vertices": 61366,
+      "triangles": 23436
+    },
+    {
+      "vertices": 26265,
+      "triangles": 10800
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/sculptural.py",
+  "source_sha256": "13f8fd088aad0da760d6d7fca86c3edb853b07100e758232a1e4e5f4368aceec",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "cca0e835c17a18ebb9d1efb7f432c42aa9b3ad68ab611e13406ca6b59bba55c0"
+}

@@ -1,0 +1,59 @@
+{
+  "source_url": "https://www.openstreetmap.org/way/753612747",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "source_timestamp": "2025-07-29T09:45:16Z",
+  "source_version": "3",
+  "coordinates_lat_lon": [
+    [
+      33.074021,
+      130.1084435
+    ],
+    [
+      33.0740522,
+      130.1084506
+    ],
+    [
+      33.0740653,
+      130.1083689
+    ],
+    [
+      33.0740788,
+      130.1082853
+    ],
+    [
+      33.0740495,
+      130.1082786
+    ],
+    [
+      33.073996,
+      130.1082663
+    ],
+    [
+      33.0739703,
+      130.1082604
+    ],
+    [
+      33.0739572,
+      130.1083422
+    ],
+    [
+      33.0739437,
+      130.1084258
+    ],
+    [
+      33.0739713,
+      130.1084321
+    ]
+  ],
+  "tags": {
+    "building": "gatehouse",
+    "building:levels": "2",
+    "building:wikidata": "Q3458957",
+    "name": "\u697c\u9580",
+    "name:en": "Tower Gate",
+    "name:fr": "Porte de la Tour",
+    "name:ja-Hira": "\u308d\u3046\u3082\u3093",
+    "name:ja-Latn": "R\u014d-mon"
+  },
+  "note": "Coordinates and orientation only; architectural dimensions and materials use cited architectural sources, which override inconsistent OSM tags."
+}

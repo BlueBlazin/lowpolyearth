@@ -1,0 +1,85 @@
+{
+  "name": "monas",
+  "city": "Jakarta",
+  "lat": -6.1754073,
+  "lon": 106.82716715,
+  "heading": 1.1,
+  "base": 4.835268259048462,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -47.0,
+      -47.0
+    ],
+    [
+      47.0,
+      47.0
+    ]
+  ],
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0.0,
+        0.0
+      ],
+      "half_extent": [
+        47.0,
+        47.0
+      ],
+      "feather_m": 8.0,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 4.835268259048462
+    }
+  ],
+  "references": [
+    "https://dpp.jakarta.go.id/berita/monumen-nasional-monas-simbol-perjuangan-bangsa-yang-terus-menginspirasi-generasi",
+    "https://www.jakarta.go.id/index.php/wisata-bersejarah",
+    "https://www.openstreetmap.org/way/1159084257"
+  ],
+  "description": "A tapered marble obelisk rises from a broad stepped museum and upturned square cup to a recessed observation deck and a sculpted, steadily lit gold flame.",
+  "source_audit": {
+    "center_ground_m": 2.0943586826324463,
+    "perimeter_median_m": 4.835268259048462,
+    "dimensions": "Jakarta government:132m total,45x45m cup at17m and observation level115m; footprint measured93m."
+  },
+  "capture": {
+    "distance": 280.0,
+    "azimuth": 210.0,
+    "elevation": 17.0,
+    "target_height": 55.0,
+    "time_utc": "2026-03-20T10:45:00Z"
+  },
+  "bbox_min": [
+    -55.0,
+    -5.2,
+    -55.0
+  ],
+  "bbox_max": [
+    55.0,
+    132.2,
+    55.0
+  ],
+  "levels": [
+    {
+      "vertices": 18537,
+      "triangles": 7072
+    },
+    {
+      "vertices": 9705,
+      "triangles": 3896
+    },
+    {
+      "vertices": 5045,
+      "triangles": 2176
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_civic.py",
+  "source_sha256": "1ab7d29fd7be5730a4c5a9fd5e3e9d4f8c9d85de20436921a1314ffbbcc82f98",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "ea4faf87dd5b842cc1b3f04a98636567c661cd88103bcb1e30fe2f214921c7e3"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "empire-state-building",
+  "kind": "empire-state",
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-029/20378f7cc4e0467aaf797c42e9fe4a23.glb?download=true",
+  "sha256": "c1d5f84819221f456e11d5ef222df2d783cc4adc15aeaee694080931626eb7c4",
+  "license": "existing landmark SOURCES.md",
+  "output": "empire-state-building.lms",
+  "output_sha256": "f1297a6e603be7925e09f0347430d64fc952a286a162662daddd39f1e0c26d10",
+  "levels": [
+    [
+      29110,
+      13097
+    ],
+    [
+      4520,
+      4582
+    ],
+    [
+      2502,
+      2527
+    ]
+  ]
+}

@@ -1,0 +1,1035 @@
+[
+  {
+    "name": "angkor-wat",
+    "kind": "angkor-wat",
+    "source": "angkor-wat/angkorwat.glb",
+    "sha256": "6b1b60160a88856b82699c964ea073ca52276864f8b20a35aaf6ec03da00dd1d",
+    "license": "existing landmark SOURCES.md",
+    "output": "angkor-wat.lms",
+    "output_sha256": "bbc037800a1bb04de98723ecd1e2560c9a87c8ce505d0143f68a53572160c918",
+    "levels": [
+      [
+        141680,
+        73972
+      ],
+      [
+        26396,
+        26250
+      ],
+      [
+        11073,
+        8190
+      ]
+    ]
+  },
+  {
+    "name": "arc-de-triomphe",
+    "kind": "arc",
+    "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-156/1ad3fc2ded834e7ba0fa54f09d661583.glb?download=true",
+    "sha256": "8d9ea1ed62a6c6b3a672c8a106c3b99c526d94fc8fb72cdf649153b031985b00",
+    "license": "existing landmark SOURCES.md",
+    "output": "arc-de-triomphe.lms",
+    "output_sha256": "f5a345e08ca6453aa59561194c57b159505953c6344c8b2d0a2da3dd3661b3e6",
+    "levels": [
+      [
+        1034759,
+        348140
+      ],
+      [
+        83464,
+        121842
+      ],
+      [
+        32408,
+        38408
+      ]
+    ]
+  },
+  {
+    "name": "brandenburg-gate",
+    "kind": "brandenburg",
+    "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-076/f0501d1cc3d04c78a0bb8efd6058cb90.glb?download=true",
+    "sha256": "d63ea5004ee6fa20230e081d1823051a294f2eb59088e784fc9cc463d622eeb1",
+    "license": "existing landmark SOURCES.md",
+    "output": "brandenburg-gate.lms",
+    "output_sha256": "335ca3791af5741ded4595ff3e6d0bef50e75dde104b50f735824f50d0771009",
+    "levels": [
+      [
+        68636,
+        37696
+      ],
+      [
+        7963,
+        13816
+      ],
+      [
+        3834,
+        6060
+      ]
+    ]
+  },
+  {
+    "name": "brooklyn-bridge",
+    "kind": "brooklyn-bridge-authored",
+    "source": "brooklyn-bridge/brooklyn.glb",
+    "sha256": "e291a7e31a876d002892461b2f82ca519563d270b0cf378fb36db50860873ab4",
+    "license": "existing landmark SOURCES.md",
+    "output": "brooklyn-bridge.lms",
+    "output_sha256": "836cfc5f73cf0ae8e5f93076558a1f3fcd4450aca25591b2127149ab1e3a20d4",
+    "levels": [
+      [
+        177740,
+        102300
+      ],
+      [
+        36203,
+        71910
+      ],
+      [
+        32632,
+        66572
+      ]
+    ]
+  },
+  {
+    "name": "buckingham-palace",
+    "kind": "buckingham-palace",
+    "source": "buckingham-palace/buckingham.glb",
+    "sha256": "933df8d3c598c41f5c3cc96f474c93d2eaa1393cf8d5325f997a90db573b04e9",
+    "license": "existing landmark SOURCES.md",
+    "output": "buckingham-palace.lms",
+    "output_sha256": "24ac1adf288d11f7aec1d5be0fef5e47841a4a12c03a1b00cc4f72edb14ece9e",
+    "levels": [
+      [
+        127264,
+        66696
+      ],
+      [
+        49990,
+        34396
+      ],
+      [
+        33465,
+        22480
+      ]
+    ]
+  },
+  {
+    "name": "burj-al-arab",
+    "kind": "burj-al-arab",
+    "source": "burj-al-arab/burjalarab.glb",
+    "sha256": "b4c45e1c0f11e82a5d5c9692c758a1a4cc56a9091d285d4b0ce145b1402ec8c1",
+    "license": "existing landmark SOURCES.md",
+    "output": "burj-al-arab.lms",
+    "output_sha256": "85f8ce234b9b44a208c787725deb02328ed3fcb6cd4f3ff98a8e1843daa179f1",
+    "levels": [
+      [
+        24532,
+        13868
+      ],
+      [
+        3433,
+        5302
+      ],
+      [
+        1988,
+        2412
+      ]
+    ]
+  },
+  {
+    "name": "burj-khalifa",
+    "kind": "burj-khalifa-authored",
+    "source": "burj-khalifa/burjkhalifa.glb",
+    "sha256": "7f9ff1651fe3dce57fb820cab23433ab46dcb3faa5e40eefe78fb37f38d7bd6b",
+    "license": "existing landmark SOURCES.md",
+    "output": "burj-khalifa.lms",
+    "output_sha256": "02c772c1d135876d807355d56722a1fc9606b366714bc723aa26f2fa4f8a92ea",
+    "levels": [
+      [
+        22818,
+        14096
+      ],
+      [
+        20760,
+        13436
+      ],
+      [
+        20760,
+        13436
+      ]
+    ]
+  },
+  {
+    "name": "christ-the-redeemer",
+    "kind": "christ",
+    "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-105/90d53b3cb4b042ce845a24baa679109e.glb?download=true",
+    "sha256": "f15404edb246a5cfadf80602fefc95132298b6f1c095f6a885e91cfdc6486d31",
+    "license": "existing landmark SOURCES.md",
+    "output": "christ-the-redeemer.lms",
+    "output_sha256": "1f907f250572cb028adaae4ae25fa53d36768ead767731f07a98abb622b195b1",
+    "levels": [
+      [
+        6091,
+        2308
+      ],
+      [
+        457,
+        811
+      ],
+      [
+        197,
+        332
+      ]
+    ]
+  },
+  {
+    "name": "chrysler-building",
+    "kind": "chrysler-building",
+    "source": "chrysler-building/chrysler.glb",
+    "sha256": "cb12f78b80dd5320983f984bdf4953a961ce9fd963a00068ee63c2deb1018cdf",
+    "license": "existing landmark SOURCES.md",
+    "output": "chrysler-building.lms",
+    "output_sha256": "7b83804c2c5f0d888877edd8e73165cbad15a7f3ae19e7418e762cbf9f6632bd",
+    "levels": [
+      [
+        124074,
+        65764
+      ],
+      [
+        30179,
+        27750
+      ],
+      [
+        25848,
+        13914
+      ]
+    ]
+  },
+  {
+    "name": "cn-tower",
+    "kind": "cn-tower",
+    "source": "cn-tower/cntower.glb",
+    "sha256": "ad820cb8858fb0047a35dd78c93baf9ad56db798d1f165107d10eee974a74bae",
+    "license": "existing landmark SOURCES.md",
+    "output": "cn-tower.lms",
+    "output_sha256": "eb81fdd54e4b41389feebcae73593229142eb1b448e9ca26fd514f4840478ab7",
+    "levels": [
+      [
+        9228,
+        5730
+      ],
+      [
+        1353,
+        2306
+      ],
+      [
+        891,
+        1382
+      ]
+    ]
+  },
+  {
+    "name": "colosseum",
+    "kind": "colosseum",
+    "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-040/e749705838044be78ced42205f9f9dda.glb?download=true",
+    "sha256": "ea58f91a5c0a4a6743ddb8afb3538894604aa8422198d718efb176f71b51e235",
+    "license": "existing landmark SOURCES.md",
+    "output": "colosseum.lms",
+    "output_sha256": "7eefdf607ecd5a22ca76b94ae65d5c2f986ae18b1eeaa50f079f891843a935a9",
+    "levels": [
+      [
+        21586,
+        12313
+      ],
+      [
+        5506,
+        4315
+      ],
+      [
+        1778,
+        1273
+      ]
+    ]
+  },
+  {
+    "name": "eiffel-tower",
+    "kind": "eiffel",
+    "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-016/0cee46511c5d42b49efcc173127c2ca8.glb?download=true",
+    "sha256": "7eac8c8cc901ed1ed896f818af9b3a67ebe878d0b26b5d82043031d7f694593a",
+    "license": "existing landmark SOURCES.md",
+    "output": "eiffel-tower.lms",
+    "output_sha256": "d7846617fe2623a998a284e83f9e4631e4389adcd593923d935a2d7a4c447b55",
+    "levels": [
+      [
+        159247,
+        131510
+      ],
+      [
+        21896,
+        46026
+      ],
+      [
+        15232,
+        34677
+      ]
+    ]
+  },
+  {
+    "name": "empire-state-building",
+    "kind": "empire-state",
+    "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-029/20378f7cc4e0467aaf797c42e9fe4a23.glb?download=true",
+    "sha256": "c1d5f84819221f456e11d5ef222df2d783cc4adc15aeaee694080931626eb7c4",
+    "license": "existing landmark SOURCES.md",
+    "output": "empire-state-building.lms",
+    "output_sha256": "f1297a6e603be7925e09f0347430d64fc952a286a162662daddd39f1e0c26d10",
+    "levels": [
+      [
+        29110,
+        13097
+      ],
+      [
+        4520,
+        4582
+      ],
+      [
+        2502,
+        2527
+      ]
+    ]
+  },
+  {
+    "name": "flatiron-building",
+    "kind": "flatiron-building",
+    "source": "flatiron-building/flatiron.glb",
+    "sha256": "59b7fa15c34a14fb708a874ca10d936e67b63efb584bbe79321a58fec67a80ad",
+    "license": "existing landmark SOURCES.md",
+    "output": "flatiron-building.lms",
+    "output_sha256": "276ce3d7f4752c12281b24d5777aeca7a1ea0f16ffd7d338e59a6a4c690eff73",
+    "levels": [
+      [
+        29422,
+        16392
+      ],
+      [
+        27156,
+        15388
+      ],
+      [
+        27127,
+        15316
+      ]
+    ]
+  },
+  {
+    "name": "gateway-arch",
+    "kind": "gateway",
+    "source": "analytic registry catenary",
+    "license": "project license",
+    "output": "gateway-arch.lms",
+    "output_sha256": "5076b93b2fd0c2b5dc994bb31a7015b93cb1196f3ea0dc528fc4ec2bb402fc30",
+    "levels": [
+      [
+        1612,
+        3212
+      ],
+      [
+        610,
+        1208
+      ],
+      [
+        226,
+        440
+      ]
+    ]
+  },
+  {
+    "name": "giza-necropolis",
+    "kind": "giza",
+    "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-066/b30a5047bd1e4b28a10e438df2bc1428.glb?download=true",
+    "sha256": "7ba058be251b6c3e24c476e1386fd4defb21b626c4093e981a38723dd4e73c1e",
+    "license": "existing landmark SOURCES.md",
+    "output": "giza-necropolis.lms",
+    "output_sha256": "b7fce597709168bcd2c30a4a2b77545da8aee67e86837203b4ce0c06b55f6a39",
+    "levels": [
+      [
+        225793,
+        273620
+      ],
+      [
+        76059,
+        95758
+      ],
+      [
+        27773,
+        27883
+      ]
+    ]
+  },
+  {
+    "name": "golden-gate-bridge",
+    "kind": "golden-gate-bridge-authored",
+    "source": "golden-gate-bridge/goldengate.glb",
+    "sha256": "886200c8205f71fc2baf7528ed3c419d891f467421e196b48af229658fdd3f95",
+    "license": "existing landmark SOURCES.md",
+    "output": "golden-gate-bridge.lms",
+    "output_sha256": "8c6f75e3fed89adcede98ff9e42db088ff51ab4ade7428eabf449dc3c65f745b",
+    "levels": [
+      [
+        82832,
+        44456
+      ],
+      [
+        19928,
+        29132
+      ],
+      [
+        19027,
+        25146
+      ]
+    ]
+  },
+  {
+    "name": "golden-temple",
+    "kind": "golden-temple",
+    "source": "golden-temple/goldentemple.glb",
+    "sha256": "2a41d447ffe1a664f96a96f3cfb8a10ccb4dfbf867b1fe98a1afd47a35ec8e7c",
+    "license": "existing landmark SOURCES.md",
+    "output": "golden-temple.lms",
+    "output_sha256": "86191c8467793632bff053738287f633f82ab591193ae8e81794d05b7ea567b8",
+    "levels": [
+      [
+        51422,
+        28612
+      ],
+      [
+        13707,
+        13320
+      ],
+      [
+        12324,
+        10522
+      ]
+    ]
+  },
+  {
+    "name": "himeji-castle",
+    "kind": "himeji-castle",
+    "source": "himeji-castle/himeji.glb",
+    "sha256": "e337c2a9b04b1198b80b0f04bf5cc442b3d696798a9c87392cc677a5ff73b04b",
+    "license": "existing landmark SOURCES.md",
+    "output": "himeji-castle.lms",
+    "output_sha256": "36182c0ee8e0f89603325948aa6b10a16a5c29f5ef0ca29571017846144c31ed",
+    "levels": [
+      [
+        78768,
+        40008
+      ],
+      [
+        76716,
+        39072
+      ],
+      [
+        76716,
+        39072
+      ]
+    ]
+  },
+  {
+    "name": "leaning-tower-of-pisa",
+    "kind": "pisa",
+    "source": "leaning-tower-of-pisa/pisa.glb",
+    "sha256": "098a89609e972488f97d4bd3b96c1dbb2a4f5e29cac992df22d386f0897f5a0f",
+    "license": "existing landmark SOURCES.md",
+    "output": "leaning-tower-of-pisa.lms",
+    "output_sha256": "d3007b8fdad3903349ef92be82cf8e088ac18be16e600c8f15da8969baf8fb34",
+    "levels": [
+      [
+        34632,
+        21136
+      ],
+      [
+        22948,
+        15432
+      ],
+      [
+        22212,
+        13960
+      ]
+    ]
+  },
+  {
+    "name": "london-eye",
+    "kind": "london-eye",
+    "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-108/7fc09e8da98d4f77a92dcb9f1aba0628.glb?download=true",
+    "sha256": "472b2e3158d3480e4df8f77daf994b8632cf700bbf588d2bed3b9d2edaffa308",
+    "license": "existing landmark SOURCES.md",
+    "output": "london-eye.lms",
+    "output_sha256": "32a621681a48bde01e6a0652eb1cb73cbcf4e48be30fd9ba9069366a6d244363",
+    "levels": [
+      [
+        221828,
+        81903
+      ],
+      [
+        23814,
+        34723
+      ],
+      [
+        19623,
+        29107
+      ]
+    ]
+  },
+  {
+    "name": "louvre-pyramid",
+    "kind": "louvre-pyramid",
+    "source": "louvre-pyramid/louvre.glb",
+    "sha256": "d8a508faa72b5cfe4fc1d1baf58cc138d70a6d0280b9ddce5b256a14bccf2f9d",
+    "license": "existing landmark SOURCES.md",
+    "output": "louvre-pyramid.lms",
+    "output_sha256": "281a3d09e42fa26112981afeb71de8e966bcb88c4130b7820b247b5c9ead3554",
+    "levels": [
+      [
+        2920,
+        1458
+      ],
+      [
+        2920,
+        1458
+      ],
+      [
+        2920,
+        1458
+      ]
+    ]
+  },
+  {
+    "name": "marina-bay-sands",
+    "kind": "marina-bay-sands",
+    "source": "marina-bay-sands/mbs.glb",
+    "sha256": "48dad2134abc06842419fb401a554b8f99bbf69cc6c5824ae6bf767bd16b2631",
+    "license": "existing landmark SOURCES.md",
+    "output": "marina-bay-sands.lms",
+    "output_sha256": "65085001c5ac1fb9fd9b4457b5974fc1c1e981caea2eb448a500356cf8077996",
+    "levels": [
+      [
+        16696,
+        9264
+      ],
+      [
+        2533,
+        3302
+      ],
+      [
+        1119,
+        1078
+      ]
+    ]
+  },
+  {
+    "name": "merdeka-118",
+    "kind": "merdeka-118",
+    "source": "merdeka-118/merdeka118.glb",
+    "sha256": "6e4875502a8b8a330a19b2c9c12ca72aa2742c2d44ee5212541edffe27238b44",
+    "license": "existing landmark SOURCES.md",
+    "output": "merdeka-118.lms",
+    "output_sha256": "aa51bf9990ffd1a6b4463ea051cc04fe2f7ec158edd2c54671d03ae810099ad8",
+    "levels": [
+      [
+        2692,
+        1132
+      ],
+      [
+        1437,
+        768
+      ],
+      [
+        1270,
+        671
+      ]
+    ]
+  },
+  {
+    "name": "moscow-kremlin",
+    "kind": "kremlin",
+    "source": "kremlin/kremlin.glb",
+    "sha256": "e8ec7cf269015e5800422b7b546bca7a5f457d5a0d47fadd2c0331ce5cfb7d54",
+    "license": "existing landmark SOURCES.md",
+    "output": "moscow-kremlin.lms",
+    "output_sha256": "dfe3cfd99dd4b055572e85844217931eed73b30862fdb01e3278f631778a168e",
+    "levels": [
+      [
+        202374,
+        108472
+      ],
+      [
+        34607,
+        39920
+      ],
+      [
+        27418,
+        14924
+      ]
+    ]
+  },
+  {
+    "name": "notre-dame",
+    "kind": "notre-dame",
+    "source": "notre-dame/notredame.glb",
+    "sha256": "cf0bb568f9b7d5d8a693437f6c5dae6779262211c67212fbf16d900ad2c4c7d3",
+    "license": "existing landmark SOURCES.md",
+    "output": "notre-dame.lms",
+    "output_sha256": "77ea6994e1b2f538aaaa9686eb60a650204afea53cd6a26120ef0411d0e4b662",
+    "levels": [
+      [
+        49776,
+        27304
+      ],
+      [
+        45755,
+        25565
+      ],
+      [
+        45743,
+        25541
+      ]
+    ]
+  },
+  {
+    "name": "nyhavn",
+    "kind": "nyhavn",
+    "source": "nyhavn/nyhavn.glb",
+    "sha256": "a9afda13826d3141ed366de8d77b87e46b6946987fc3d9251fa018aa6aed62b4",
+    "license": "existing landmark SOURCES.md",
+    "output": "nyhavn.lms",
+    "output_sha256": "79d194e6f5a4d2c3e592b01cafa7510f15b404a1b7d5bf19d51d2eb16bd9f731",
+    "levels": [
+      [
+        54102,
+        27440
+      ],
+      [
+        53534,
+        27168
+      ],
+      [
+        53526,
+        27152
+      ]
+    ]
+  },
+  {
+    "name": "one-world-trade-center",
+    "kind": "one-world-trade-center",
+    "source": "one-world-trade-center/onewtc.glb",
+    "sha256": "076cd76076b9af53e41aac68ec2533b9f6d56abb52d44ca0b142cc743ed7e641",
+    "license": "existing landmark SOURCES.md",
+    "output": "one-world-trade-center.lms",
+    "output_sha256": "119ad13610f40259082ed109496bd4164a4b6e7c1a7e9328f2577a83e9b5feb8",
+    "levels": [
+      [
+        3008,
+        1968
+      ],
+      [
+        1420,
+        1136
+      ],
+      [
+        1306,
+        908
+      ]
+    ]
+  },
+  {
+    "name": "palace-of-westminster",
+    "kind": "parliament",
+    "source": "palace-of-westminster/westminster.glb",
+    "sha256": "b10386090c56b33936c9a050226b23d107205485ad7fa467566e2f9d84aaadd7",
+    "license": "existing landmark SOURCES.md",
+    "output": "palace-of-westminster.lms",
+    "output_sha256": "adc958e2bf95664aae62985b3b50074af414942d67e80a96f310f993f1e715eb",
+    "levels": [
+      [
+        26026,
+        13700
+      ],
+      [
+        4942,
+        4930
+      ],
+      [
+        2239,
+        2412
+      ]
+    ]
+  },
+  {
+    "name": "parthenon",
+    "kind": "parthenon",
+    "source": "parthenon/parthenon.glb",
+    "sha256": "831c883113daf058ee803686b957b757223c19a367ca9179ade060515b03f856",
+    "license": "existing landmark SOURCES.md",
+    "output": "parthenon.lms",
+    "output_sha256": "c8cd0488873a0910f3b2d89088890d37536705914caa5628d66466e0d6bd62a2",
+    "levels": [
+      [
+        77428,
+        41960
+      ],
+      [
+        25372,
+        23224
+      ],
+      [
+        25372,
+        23224
+      ]
+    ]
+  },
+  {
+    "name": "petronas-towers",
+    "kind": "petronas-towers",
+    "source": "petronas-towers/petronas.glb",
+    "sha256": "02e61f339ac1b86d20cb37870a0cd22267c54e4547f566d572d9a3999b8de55b",
+    "license": "existing landmark SOURCES.md",
+    "output": "petronas-towers.lms",
+    "output_sha256": "8cb7924f0c3155cf4caeb724a0d765d80c50c4f2e44ad03735fd557534eb54db",
+    "levels": [
+      [
+        320408,
+        202220
+      ],
+      [
+        47260,
+        76148
+      ],
+      [
+        36810,
+        30924
+      ]
+    ]
+  },
+  {
+    "name": "singapore-merlion",
+    "source_archive": "merlion.vxl",
+    "source_archive_sha256": "291ed2c3916ff7660063146129c5917fb2dc2ffb16d816506af0f1e7d7d27bb0",
+    "method": "offline exact exposed-boundary bake with coplanar same-material merging",
+    "license": "unchanged existing landmark SOURCES.md; no replacement source imported",
+    "original_status": "recorded original unavailable; archived shipped geometry preserved",
+    "output": "singapore-merlion.lms",
+    "output_sha256": "580e58ff76e0b10b102028ead41ba7cfbb3ef8124c1fdeb40b3f02b5f871d51a",
+    "levels": [
+      [
+        4009,
+        2206
+      ],
+      [
+        869,
+        476
+      ],
+      [
+        201,
+        108
+      ]
+    ]
+  },
+  {
+    "name": "space-needle",
+    "kind": "space-needle",
+    "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-122/a0cbf7ba6d6342f4983b86ea20144ace.glb?download=true",
+    "sha256": "abcec4c09ccb843beda7db9e32321d9c0b07a533cefaf1dac3736c58e9d7775a",
+    "license": "existing landmark SOURCES.md",
+    "output": "space-needle.lms",
+    "output_sha256": "590b022af387e31168d9c43a4dd001c902ea5e7b03569abf1242b241a6afe9bd",
+    "levels": [
+      [
+        43130,
+        46383
+      ],
+      [
+        8764,
+        16231
+      ],
+      [
+        2701,
+        4877
+      ]
+    ]
+  },
+  {
+    "name": "st-basils-cathedral",
+    "kind": "st-basils",
+    "source": "st-basils-cathedral/stbasils.glb",
+    "sha256": "6ca9923f70bd26489b05922eeeeb4045dba0c892e5f1658a4076f0ad2b6fe3c2",
+    "license": "existing landmark SOURCES.md",
+    "output": "st-basils-cathedral.lms",
+    "output_sha256": "b213f67157ba8fe59a6e653bb3236206575c99f298c48820b0d8cf7500c7dbda",
+    "levels": [
+      [
+        110260,
+        63732
+      ],
+      [
+        17021,
+        22439
+      ],
+      [
+        9725,
+        7190
+      ]
+    ]
+  },
+  {
+    "name": "statue-of-liberty",
+    "kind": "liberty",
+    "url": "https://raw.githubusercontent.com/leihui6/BENBV/d361fd6e9c87f74ab61736dab7126d7a2929286a/public_dataset/Stanford3D/statue_of_liberty.obj",
+    "sha256": "3400d17a830acb971617c6b15f3bdbb492dd33ad1af5b91b790cdc4cc936a606",
+    "license": "existing landmark SOURCES.md",
+    "output": "statue-of-liberty.lms",
+    "output_sha256": "b11fabcd3bd52340f13f77df86a397d5c4abdc32d2db8a947c76cb57d1391f0d",
+    "levels": [
+      [
+        1141,
+        1905
+      ],
+      [
+        388,
+        666
+      ],
+      [
+        120,
+        190
+      ]
+    ]
+  },
+  {
+    "name": "steinway-tower",
+    "kind": "steinway-tower",
+    "source": "steinway-tower/steinway.glb",
+    "sha256": "578f0fd8cd73b47f2aeebacbd78961ce80243fc5e7990d103fafcef20978075b",
+    "license": "existing landmark SOURCES.md",
+    "output": "steinway-tower.lms",
+    "output_sha256": "2e3bb417f6ec14cc30f215474bbb29397991694719810abae82305de8d545a38",
+    "levels": [
+      [
+        5526,
+        2800
+      ],
+      [
+        5394,
+        2736
+      ],
+      [
+        5394,
+        2736
+      ]
+    ]
+  },
+  {
+    "name": "sydney-harbour-bridge",
+    "kind": "harbour",
+    "source": "analytic registry bridge curves",
+    "license": "project license",
+    "output": "sydney-harbour-bridge.lms",
+    "output_sha256": "5fe8b09fff5903494b214330b9669a6db345f3ddb887d88497f59cd96cead14d",
+    "levels": [
+      [
+        11940,
+        21176
+      ],
+      [
+        11200,
+        19696
+      ],
+      [
+        10915,
+        19126
+      ]
+    ]
+  },
+  {
+    "name": "sydney-opera-house",
+    "kind": "opera",
+    "source": "sydney-opera-house/sydney_opera_house.glb",
+    "sha256": "b1c31271f0d1b91c5044f0ff3fc7cc3703ba295a3481c2177bdb99a223b0f534",
+    "license": "existing landmark SOURCES.md",
+    "output": "sydney-opera-house.lms",
+    "output_sha256": "8353e95c47155eb54097f79e487a5cbc4527210cea64267e04a3666f7eab44b0",
+    "levels": [
+      [
+        240071,
+        449406
+      ],
+      [
+        84522,
+        165002
+      ],
+      [
+        33947,
+        61886
+      ]
+    ]
+  },
+  {
+    "name": "taipei-101",
+    "kind": "taipei-101",
+    "source": "taipei-101/taipei101.glb",
+    "sha256": "570a9570c5a96db1a196130ecd5b0de0f14e2039c2965dee0df5b1ad885fa8cc",
+    "license": "existing landmark SOURCES.md",
+    "output": "taipei-101.lms",
+    "output_sha256": "57cddf79336563a8eb8c9be05e8002ade27ff5f696f74e2fedea85df6ae5f7c4",
+    "levels": [
+      [
+        7152,
+        4380
+      ],
+      [
+        2963,
+        2530
+      ],
+      [
+        2898,
+        2400
+      ]
+    ]
+  },
+  {
+    "name": "the-gherkin",
+    "kind": "the-gherkin",
+    "source": "the-gherkin/gherkin.glb",
+    "sha256": "b70a27422b18c20ebcc13a9a8bb95c966f6dd7bd733ad2b2f1c5c27867b4cce3",
+    "license": "existing landmark SOURCES.md",
+    "output": "the-gherkin.lms",
+    "output_sha256": "8f01fc82f74fbedc40bf83b7dc9d2d87a55974d9a66e80e4ced9e3620afaa8f7",
+    "levels": [
+      [
+        107928,
+        54000
+      ],
+      [
+        10576,
+        18824
+      ],
+      [
+        3398,
+        5435
+      ]
+    ]
+  },
+  {
+    "name": "the-shard",
+    "kind": "the-shard",
+    "source": "the-shard/shard.glb",
+    "sha256": "7e1497d09b5a2f1390b433c501a72c0c7ca6d9d4c033fea8cf39de6a766b22c9",
+    "license": "existing landmark SOURCES.md",
+    "output": "the-shard.lms",
+    "output_sha256": "76e340ec9bcbf2bbba8c157f47d8c6012c446d7a414ac86d9963c48534653b37",
+    "levels": [
+      [
+        2496,
+        1332
+      ],
+      [
+        2496,
+        1332
+      ],
+      [
+        2496,
+        1332
+      ]
+    ]
+  },
+  {
+    "name": "tokyo-tower",
+    "kind": "tokyo-tower",
+    "source": "tokyo-tower/tokyotower.glb",
+    "sha256": "58c66172ada205080dac1b2a64933ea758fe5f83e1c0af8b9bcfd2c9a2a7e0dd",
+    "license": "existing landmark SOURCES.md",
+    "output": "tokyo-tower.lms",
+    "output_sha256": "eb47c6be28992d6159c6f99ec5259d46b7cd541453509958146cd8958ecdeebb",
+    "levels": [
+      [
+        14530,
+        7428
+      ],
+      [
+        2598,
+        3668
+      ],
+      [
+        2594,
+        3660
+      ]
+    ]
+  },
+  {
+    "name": "tower-bridge",
+    "kind": "tower-bridge-authored",
+    "source": "tower-bridge/towerbridge.glb",
+    "sha256": "6181112dbefb8e1e256e2d415b572b3936b44e0c949e5f80874f6790ede1cbf9",
+    "license": "existing landmark SOURCES.md",
+    "output": "tower-bridge.lms",
+    "output_sha256": "f7f1added8957d4a1694cd40fba61352d08d3100cc3c9282ebd7a79286206a42",
+    "levels": [
+      [
+        47352,
+        25244
+      ],
+      [
+        47352,
+        25244
+      ],
+      [
+        47352,
+        25244
+      ]
+    ]
+  },
+  {
+    "name": "washington-monument",
+    "kind": "washington",
+    "source": "surveyed dimensions in converter",
+    "license": "project license",
+    "output": "washington-monument.lms",
+    "output_sha256": "1420895f8e79f120abdbb5389770cfef6841de010f1656fe9c515a2a04e04619",
+    "levels": [
+      [
+        37,
+        30
+      ],
+      [
+        37,
+        30
+      ],
+      [
+        37,
+        30
+      ]
+    ]
+  },
+  {
+    "name": "white-house",
+    "kind": "white-house",
+    "source": "white-house/whitehouse.glb",
+    "sha256": "45b8c06d6755a53f96881ae901b4197639ee7bd3a42b738857df2539419c4522",
+    "license": "existing landmark SOURCES.md",
+    "output": "white-house.lms",
+    "output_sha256": "aa7c645e9393cd65982df66583ff88f6f4985dcbe524318794ddadf617d9262c",
+    "levels": [
+      [
+        46404,
+        25416
+      ],
+      [
+        21978,
+        15458
+      ],
+      [
+        21132,
+        14044
+      ]
+    ]
+  }
+]

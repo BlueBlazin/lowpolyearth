@@ -1,0 +1,89 @@
+{
+  "name": "pont-du-gard",
+  "city": "Near Nimes",
+  "lat": 43.947251,
+  "lon": 4.535305,
+  "heading": 42,
+  "base": 17.64553642,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -135,
+      -4
+    ],
+    [
+      135,
+      7
+    ]
+  ],
+  "road_exclusion_polygons": [
+    [
+      [
+        -77,
+        2.8
+      ],
+      [
+        77,
+        2.8
+      ],
+      [
+        77,
+        7.0
+      ],
+      [
+        -77,
+        7.0
+      ]
+    ]
+  ],
+  "activation_pad": 1,
+  "references": [
+    "https://pontdugard.fr/en/discover/monument",
+    "https://pontdugard.fr/sites/default/files/2023-06/PlanGestionUNESCO.pdf"
+  ],
+  "description": "A complete bounded Roman bridge-aqueduct with six lower arches, eleven middle arches and a surviving small-arch gallery, in warm limestone.",
+  "source_audit": {
+    "river_ground_m": 17.64553642,
+    "placement": "Production aqueduct footprint principal axis bearing 132 degrees; its center is 10m west and 14m south of the initial river sample. Valleyside terrain remains unchanged."
+  },
+  "capture": {
+    "distance": 330,
+    "azimuth": 222,
+    "elevation": 20,
+    "target_height": 22,
+    "time_utc": "2026-03-20T14:00:00Z"
+  },
+  "bbox_min": [
+    -132.1,
+    -8.2,
+    -4.3
+  ],
+  "bbox_max": [
+    132.1,
+    49.5,
+    7.5
+  ],
+  "levels": [
+    {
+      "vertices": 28063,
+      "triangles": 15720
+    },
+    {
+      "vertices": 19978,
+      "triangles": 11232
+    },
+    {
+      "vertices": 10153,
+      "triangles": 5888
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "7214b03caee3b753474edc3c61cc5debb7b2c5f59b6ccf1a96825efe5e901850"
+}

@@ -1,0 +1,713 @@
+{
+  "name": "guangzhou-international-finance-center",
+  "city": "Guangzhou",
+  "lat": 23.120249826232953,
+  "lon": 113.31785648340487,
+  "heading": 0,
+  "base": 3.7,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "source_exclusion_polygons": [
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        -32.64105224609375,
+        8.503144979476929
+      ],
+      [
+        -26.6065673828125,
+        -1.3714354038238525
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        -26.6065673828125,
+        -1.3714354038238525
+      ],
+      [
+        -10.14886474609375,
+        -20.02343726158142
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        -10.14886474609375,
+        -20.02343726158142
+      ],
+      [
+        9.0517578125,
+        -32.64098143577576
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        9.0517578125,
+        -32.64098143577576
+      ],
+      [
+        16.183380126953125,
+        -29.34944713115692
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        16.183380126953125,
+        -29.34944713115692
+      ],
+      [
+        29.898101806640625,
+        1.920093297958374
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        29.898101806640625,
+        1.920093297958374
+      ],
+      [
+        32.64105224609375,
+        16.731958150863647
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        32.64105224609375,
+        16.731958150863647
+      ],
+      [
+        30.99530029296875,
+        29.34945845603943
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        30.99530029296875,
+        29.34945845603943
+      ],
+      [
+        23.863616943359375,
+        32.64098143577576
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        23.863616943359375,
+        32.64098143577576
+      ],
+      [
+        15.086212158203125,
+        30.995221853256226
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        15.086212158203125,
+        30.995221853256226
+      ],
+      [
+        -1.4776282731894648,
+        24.412179708480835
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        -1.4776282731894648,
+        24.412179708480835
+      ],
+      [
+        -1.9200439453125,
+        24.412179708480835
+      ]
+    ],
+    [
+      [
+        -1.9200439453125,
+        24.412179708480835
+      ],
+      [
+        -27.7037353515625,
+        13.98901915550232
+      ],
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ]
+    ]
+  ],
+  "road_exclusion_polygons": [
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        -32.64105224609375,
+        8.503144979476929
+      ],
+      [
+        -26.6065673828125,
+        -1.3714354038238525
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        -26.6065673828125,
+        -1.3714354038238525
+      ],
+      [
+        -10.14886474609375,
+        -20.02343726158142
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        -10.14886474609375,
+        -20.02343726158142
+      ],
+      [
+        9.0517578125,
+        -32.64098143577576
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        9.0517578125,
+        -32.64098143577576
+      ],
+      [
+        16.183380126953125,
+        -29.34944713115692
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        16.183380126953125,
+        -29.34944713115692
+      ],
+      [
+        29.898101806640625,
+        1.920093297958374
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        29.898101806640625,
+        1.920093297958374
+      ],
+      [
+        32.64105224609375,
+        16.731958150863647
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        32.64105224609375,
+        16.731958150863647
+      ],
+      [
+        30.99530029296875,
+        29.34945845603943
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        30.99530029296875,
+        29.34945845603943
+      ],
+      [
+        23.863616943359375,
+        32.64098143577576
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        23.863616943359375,
+        32.64098143577576
+      ],
+      [
+        15.086212158203125,
+        30.995221853256226
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        15.086212158203125,
+        30.995221853256226
+      ],
+      [
+        -1.4776282731894648,
+        24.412179708480835
+      ]
+    ],
+    [
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ],
+      [
+        -1.4776282731894648,
+        24.412179708480835
+      ],
+      [
+        -1.9200439453125,
+        24.412179708480835
+      ]
+    ],
+    [
+      [
+        -1.9200439453125,
+        24.412179708480835
+      ],
+      [
+        -27.7037353515625,
+        13.98901915550232
+      ],
+      [
+        -32.09246826171875,
+        11.246083974838257
+      ]
+    ]
+  ],
+  "max_source_building_span_m": 260,
+  "terrain_flatten": [],
+  "terrain_grades": [
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          -32.64105224609375,
+          8.503144979476929
+        ],
+        [
+          -26.6065673828125,
+          -1.3714354038238525
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          -26.6065673828125,
+          -1.3714354038238525
+        ],
+        [
+          -10.14886474609375,
+          -20.02343726158142
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          -10.14886474609375,
+          -20.02343726158142
+        ],
+        [
+          9.0517578125,
+          -32.64098143577576
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          9.0517578125,
+          -32.64098143577576
+        ],
+        [
+          16.183380126953125,
+          -29.34944713115692
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          16.183380126953125,
+          -29.34944713115692
+        ],
+        [
+          29.898101806640625,
+          1.920093297958374
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          29.898101806640625,
+          1.920093297958374
+        ],
+        [
+          32.64105224609375,
+          16.731958150863647
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          32.64105224609375,
+          16.731958150863647
+        ],
+        [
+          30.99530029296875,
+          29.34945845603943
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          30.99530029296875,
+          29.34945845603943
+        ],
+        [
+          23.863616943359375,
+          32.64098143577576
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          23.863616943359375,
+          32.64098143577576
+        ],
+        [
+          15.086212158203125,
+          30.995221853256226
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          15.086212158203125,
+          30.995221853256226
+        ],
+        [
+          -1.4776282731894648,
+          24.412179708480835
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ],
+        [
+          -1.4776282731894648,
+          24.412179708480835
+        ],
+        [
+          -1.9200439453125,
+          24.412179708480835
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -1.9200439453125,
+          24.412179708480835
+        ],
+        [
+          -27.7037353515625,
+          13.98901915550232
+        ],
+        [
+          -32.09246826171875,
+          11.246083974838257
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.08
+      ],
+      "feather_m": 7.5
+    }
+  ],
+  "description": "Rounded triangular tube, slightly widening lower body, tapering hotel crown, and externally expressed structural diagrid.",
+  "attribution": "Original Low Poly Earth geometry; mapped placement and source rings \u00a9 OpenStreetMap contributors (ODbL), via Protomaps.",
+  "references": [
+    "https://wilkinsoneyre.com/projects/guangzhou-international-finance-center",
+    "https://www.skyscrapercenter.com/building/guangzhou-international-finance-center/60"
+  ],
+  "audit": {
+    "architectural_height_m": 438.6,
+    "tip_height_m": 438.6,
+    "published_controls": "WilkinsonEyre describes triangular plan, diagrid,103storeys and rounded440m height;CTBUH438.6m used for model.",
+    "estimates": "12 structural perimeter nodes,30m diamond heights and taper controls are estimated from the published exterior. Adjoining large retail complex remains native and is not replaced by an invented podium.",
+    "ground_datum_m": 3.7,
+    "ground_method": "Fixed entrance level estimated from retained non-bridge mapped street controls and footprint samples. Street samples are not independent survey benchmarks; DSM roof/tunnel contamination is explicitly excluded. In-engine approach review remains required.",
+    "foundation_bottom_m": -3.95,
+    "terrain_ownership": "Grades are confined to modeled ground footprints with7.5m transition;fixed architecture datum is independent of those grades. Below-ground foundation depth includes0.6m burial beneath the lowest retained perimeter sample.",
+    "placement_file": "tools/skyscraper_catalog/references/east_asia/guangzhou-international-finance-center-placement.json",
+    "engine_review": "Pending actual engine overview and low-angle entrance/support inspection.",
+    "contact_capture": {
+      "target_xz": [
+        27,
+        0
+      ],
+      "target_height": 1.7,
+      "distance": 105,
+      "azimuth": 90,
+      "elevation": 7
+    }
+  },
+  "capture": {
+    "distance": 899.13,
+    "azimuth": 225,
+    "elevation": 22,
+    "target_height": 210.528
+  },
+  "night_eligible": true,
+  "bbox_min": [
+    -40.14105224609375,
+    -4.2,
+    -40.14098143577576
+  ],
+  "bbox_max": [
+    40.14105224609375,
+    439.2,
+    40.14098143577576
+  ],
+  "levels": [
+    {
+      "vertices": 84422,
+      "triangles": 32540
+    },
+    {
+      "vertices": 20252,
+      "triangles": 8732
+    },
+    {
+      "vertices": 10898,
+      "triangles": 4220
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/skyscraper_catalog/east_asia.py",
+  "dependencies": {
+    "crates/vearth-gen/src/building_surface.rs": "d4c5ca0b699c5cda62866b62ee1d26f17ce4b03f913c85e7045d7aadfe609bfb",
+    "crates/vearth-gen/src/highrise.rs": "476ec0574809c680b62cb60691a48a7e07f0b785b90568f14c4745f7562f2eb7",
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_skyscraper_catalog.py": "b7cae016f2d115ecccc277dff44f8490423b4a05f79c41a70d8a552dc58f7fb2",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/skyscraper_catalog/appearance.py": "ed485b103e0e6e9da95b4abf7faefc4b9f0f6c5741359458fc25c4616d6262e0",
+    "tools/skyscraper_catalog/east_asia.py": "df4cab8260da3c7dc0bd6135686467c2e2463e98d860a0b35eb2859d62800e02",
+    "tools/skyscraper_catalog/east_asia_geometry.py": "4ae3955b47e40c3441f800f089437f83fb4ad895f6e348faf67c4aa353df2fb0",
+    "tools/skyscraper_catalog/geometry.py": "36ff1db56d17b9a5cea29ec0588398bf2a8492dad7ee906531ba983006f3dcbd",
+    "tools/skyscraper_catalog/inventory.py": "c2baa65db2fec4ad9daf239556addbad9ff866472c6bf025b5553e2fd3a9a645",
+    "tools/skyscraper_catalog/references/east_asia/85-sky-tower-placement.json": "bbd34da8056c3d0818c71549a2409332c73227bec236b57b3a6489882c93a403",
+    "tools/skyscraper_catalog/references/east_asia/architecture.json": "ce12041c416ebfbf40e6c68abe5bd1880c87df62f009c77e5587c2ce475b8ba7",
+    "tools/skyscraper_catalog/references/east_asia/bank-of-china-tower-placement.json": "1ef3049ed707edfc4d52f7aa03c3dd47ce86f11fe51387c1bf4bb139805c4b19",
+    "tools/skyscraper_catalog/references/east_asia/cctv-headquarters-placement.json": "4d2682452d1d9f97ff1fde5b5eb8f6ed362a7c450bea7f883f0675e10388b682",
+    "tools/skyscraper_catalog/references/east_asia/citic-tower-placement.json": "37718447952f3ce8b9b2ca932847569c3491be24d68ade6061b0697d79896999",
+    "tools/skyscraper_catalog/references/east_asia/guangzhou-ctf-finance-centre-placement.json": "bddbaa31685ea7880ad2366c22a9103d4872f6f07957097588ff2c041a6c02ea",
+    "tools/skyscraper_catalog/references/east_asia/guangzhou-international-finance-center-placement.json": "76f0cc6e5636257deba6e471b2ae4617c70aefd5f3494b2a3049e8eb47ee7778",
+    "tools/skyscraper_catalog/references/east_asia/hsbc-main-building-placement.json": "7b94897802a42d153f297d627ebd477da38e59f5dbcc91f4043302612f604433",
+    "tools/skyscraper_catalog/references/east_asia/international-commerce-centre-placement.json": "e81b0a0538bf5cd58ab3e00cc12e8dd4d3f3489242f88efb74c899ce0ee6efcd",
+    "tools/skyscraper_catalog/references/east_asia/jin-mao-tower-placement.json": "e910f95937059326dd4f4e90d096acefd1d181f6ee13fbd9a238958f6e18bffa",
+    "tools/skyscraper_catalog/references/east_asia/lotte-world-tower-placement.json": "363f9a3a02a540f4ba30af9b0852b0189e1d696f0dfa6735d17aa97fb1958409",
+    "tools/skyscraper_catalog/references/east_asia/ping-an-finance-centre-placement.json": "8d40516101a84488c34b140ca499a454f2686298ba3591c0249895a381c51069",
+    "tools/skyscraper_catalog/references/east_asia/shanghai-tower-placement.json": "f30e19d1120240ae0e25af6ae530f3d343fd34723673fe113d0c228054a20142",
+    "tools/skyscraper_catalog/references/east_asia/shanghai-world-financial-center-placement.json": "c922abd865a6e5fada5b2f2ea80d048aed41eb6336a6b30f54ff898311c57ae5",
+    "tools/skyscraper_catalog/references/east_asia/two-international-finance-centre-placement.json": "c88ccb70ca6b02aae66518c0cb372e77dd7f218f28d94a46ec3f99de37fc3eb1"
+  },
+  "output_sha256": "62e6add2f865ab549762ab3b68458210c669c76ff42de7c2d77b7ecd57021cc3"
+}

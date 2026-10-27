@@ -1,0 +1,64 @@
+{
+  "name": "fremont-canopy",
+  "city": "Las Vegas",
+  "lat": 36.17070453,
+  "lon": -115.14406563,
+  "heading": 117.90565,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "activation_pad": 0.0,
+  "suppress_roads": false,
+  "suppress_trees": false,
+  "description": "A long vaulted luminous canopy, steel arches and warm street-side marquee edges.",
+  "references": [
+    "https://fremontstreetexperience.com/the-canopy/",
+    "https://fremontstreetexperience.com/countdown-under-the-canopy/",
+    "https://www.openstreetmap.org/way/1428180251"
+  ],
+  "capture": {
+    "distance": 260,
+    "azimuth": 297.9,
+    "elevation": 2
+  },
+  "suppress_bbox": [
+    [
+      -18.0,
+      -211.0
+    ],
+    [
+      18.0,
+      211.0
+    ]
+  ],
+  "bbox_min": [
+    -18.7,
+    -0.2,
+    -210.7
+  ],
+  "bbox_max": [
+    18.7,
+    28.2,
+    210.7
+  ],
+  "levels": [
+    {
+      "vertices": 48688,
+      "triangles": 25064
+    },
+    {
+      "vertices": 25780,
+      "triangles": 14416
+    },
+    {
+      "vertices": 12248,
+      "triangles": 7728
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/iconic.py",
+  "source_sha256": "9f9a7aa3aafc7ae2fa741fbb6d982ba895884ee600e32b439bbfc8157e855b68",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "4d658e577d1d488524e0282b0d9816251514a48ba1ed1704b0e72215f776e2e1"
+}

@@ -1,0 +1,105 @@
+[package]
+name = "vearth-app"
+version.workspace = true
+edition.workspace = true
+license-file.workspace = true
+publish.workspace = true
+rust-version.workspace = true
+default-run = "vearth-app"
+
+[features]
+default = ["async-providers"]
+async-providers = ["vearth-data/async-http", "dep:tokio"]
+
+[dependencies]
+vearth-core = { workspace = true }
+vearth-data = { workspace = true }
+vearth-gen = { workspace = true }
+vearth-platform = { workspace = true, features = ["rt"] }
+glam = { workspace = true }
+bytemuck = { workspace = true }
+log = { workspace = true }
+hw-skymodel = "0.1.1"
+serde_json = "1.0.151"
+serde = { version = "1.0.228", features = ["derive"] }
+png = "0.18.1"
+lyon_tessellation = "1.0"
+flate2 = { version = "1.1.9", default-features = false, features = ["zlib-rs"] }
+lru = "0.18.1"
+# Inspect real cmap coverage; the pinned egui has_glyphs can reject a whole face
+# when that same face also supplies its replacement glyph.
+skrifa = "0.42.1"
+# Civil-time rules matching the bundled 2026c geographic timezone atlas. The
+# database is embedded on every platform so screenshots and replay dates do
+# not depend on the host OS's tzdata revision.
+jiff = { version = "0.2.35", features = ["tzdb-bundle-always"] }
+# Pin the complete egui family to one revision whose renderer tracks wgpu 30.
+egui = { git = "https://github.com/emilk/egui.git", rev = "e6eb00a31c7089d4458c55fcbe5f1253311a7176", default-features = false, features = ["default_fonts"] }
+egui-wgpu = { git = "https://github.com/emilk/egui.git", rev = "e6eb00a31c7089d4458c55fcbe5f1253311a7176", default-features = false }
+
+[target.'cfg(not(target_arch = "wasm32"))'.dependencies]
+# Native graphics: retain every desktop backend and WGSL support while
+# excluding wgpu's browser WebGPU/WebGL defaults.
+wgpu = { version = "30.0.0", default-features = false, features = [
+    "std",
+    "parking_lot",
+    "dx12",
+    "metal",
+    "gles",
+    "vulkan",
+    "wgsl",
+] }
+winit = "0.30.13"
+egui-wgpu = { git = "https://github.com/emilk/egui.git", rev = "e6eb00a31c7089d4458c55fcbe5f1253311a7176", default-features = false, features = ["macos-window-resize-jitter-fix"] }
+egui-winit = { git = "https://github.com/emilk/egui.git", rev = "e6eb00a31c7089d4458c55fcbe5f1253311a7176", default-features = false, features = ["clipboard", "links"] }
+pollster = "1.0.1"
+env_logger = { version = "0.11.11", default-features = false, features = ["humantime"] }
+# Bundle the codec on every platform; cache frames do not depend on a host
+# library, dictionary, training data, or compression worker threads.
+zstd = { version = "0.14.0", default-features = false, features = ["vendored"] }
+tokio = { version = "1.53.1", default-features = false, features = [
+    "rt-multi-thread",
+    "sync",
+    "time",
+], optional = true }
+
+# The browser build runs in Web Workers and renders through WebGPU; input and
+# page services arrive from the main thread (see crates/vearth-web).
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+wgpu = { version = "30.0.0", default-features = false, features = ["std", "webgpu", "wgsl"] }
+jiff = { version = "0.2.35", features = ["tzdb-bundle-always", "js"] }
+tokio = { version = "1.53.1", default-features = false, features = ["sync"], optional = true }
+wasm-bindgen = "0.2.129"
+wasm-bindgen-futures = "0.4.79"
+js-sys = "0.3.106"
+web-sys = { version = "0.3.106", features = [
+    "DedicatedWorkerGlobalScope",
+    "OffscreenCanvas",
+    "StorageManager",
+    "WorkerGlobalScope",
+    "WorkerNavigator",
+] }
+
+[target.'cfg(target_os = "macos")'.dependencies]
+# System menu bar integration. Keep this macOS-only so Linux builds do not
+# acquire muda's GTK toolchain just to compile the shared viewer.
+muda = { version = "0.19.3", default-features = false }
+# Native activity management and app-container directory resolution.
+objc2 = "0.5.2"
+objc2-foundation = { version = "0.2.2", features = ["NSArray", "NSObject", "NSString", "NSPathUtilities", "NSProcessInfo"] }
+# macOS ships SQLite as a stable system library. Linking it avoids invoking
+# xcrun/cc merely to compile a second copy of the SQLite amalgamation.
+rusqlite = "0.40.1"
+
+[target.'cfg(not(any(target_os = "macos", target_arch = "wasm32")))'.dependencies]
+# Other native targets cannot be assumed to have a compatible SQLite
+# development library installed.
+rusqlite = { version = "0.40.1", features = ["bundled"] }
+
+[dev-dependencies]
+# Reproduce existing gzip cache records for compatibility tests.
+miniz_oxide = "0.9.1"
+crc32fast = "1.5.0"
+# wgpu already brings naga transitively; naming it here lets tests parse and
+# semantically validate WGSL on machines without an exposed graphics adapter.
+naga = { version = "30.0.0", features = ["wgsl-in"] }

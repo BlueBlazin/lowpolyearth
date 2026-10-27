@@ -1,0 +1,20 @@
+{
+  "source_url": "https://www.openstreetmap.org/node/5483793236",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "source_timestamp": "2025-09-02T02:33:58Z",
+  "source_version": "7",
+  "coordinates_lat_lon": [
+    [
+      33.615009,
+      130.4223162
+    ]
+  ],
+  "tags": {
+    "ceremonial_gate": "torii",
+    "man_made": "ceremonial_gate",
+    "name": "\u516b\u5e61\u5bae",
+    "note": "\u9ce5\u5c45",
+    "religion": "shinto"
+  },
+  "note": "Coordinates and orientation only; architectural dimensions and materials use cited architectural sources, which override inconsistent OSM tags."
+}

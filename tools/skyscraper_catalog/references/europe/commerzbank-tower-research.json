@@ -1,0 +1,91 @@
+{
+  "name": "commerzbank-tower",
+  "sources": [
+    {
+      "url": "https://www.arup.com/projects/commerzbank-tower/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.commerzbank.de/konzern/newsroom/pressemitteilungen/buerogebaeude.html",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.permasteelisagroup.com/historic-project/commerzbank-tower/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://dev.fosterandpartners.com/projects/commerzbank-headquarters",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Owner259m, facade contractor300m tip; source plans give rounded garden levels, which remain estimates. Source solid envelope is omitted to preserve real sky-garden voids.",
+  "authored_form": "Triangular three-core tower with nine deep winter gardens, stepped crown and separate antenna.",
+  "dimensions_m": {
+    "architectural_height": 259,
+    "tip_height": 300,
+    "mapped_parts": [
+      {
+        "seed": "16882681455557192654",
+        "bounds_xz": [
+          [
+            -29.90702,
+            -21.81603
+          ],
+          [
+            30.34228,
+            33.84252
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      50.11117705545332,
+      8.674361485031879
+    ],
+    "heading_deg": 0,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "11cc529286adb03b92baa82b600596400262add9285fbb50c1efb1a4c77c22e9"
+  },
+  "ground": {
+    "datum_m": 114.8,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "cad74e7bce3006237ba1b463631b83a36a6e027f9f459ee59aca84a74aede8c5",
+    "quantiles_m": {
+      "toe": [
+        115.05363464355469,
+        115.69250297546387,
+        115.81396102905273,
+        116.06333351135254,
+        116.19294738769531
+      ],
+      "near": [
+        114.4490966796875,
+        115.2203140258789,
+        115.56111907958984,
+        115.74442672729492,
+        115.91197204589844
+      ],
+      "street": [
+        113.44911193847656,
+        114.45640182495117,
+        115.0867919921875,
+        115.35799407958984,
+        115.48381042480469
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14",
+  "component_union": "Active source parts unioned by height interval before facade emission; courtyard/garden holes preserved by constrained triangulation. Full parent259m prism deliberately omitted."
+}

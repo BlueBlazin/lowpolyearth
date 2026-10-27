@@ -1,0 +1,53 @@
+{
+  "name": "dubai-frame",
+  "city": "Dubai",
+  "lat": 25.23545595,
+  "lon": 55.300367325,
+  "heading": 21.51,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "activation_pad": 0.0,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "description": "A monumental open gold frame with circular facade tracery and a sky bridge.",
+  "references": [
+    "https://www.visitdubai.com/en/places-to-visit/dubai-frame",
+    "https://www.openstreetmap.org/way/386649647"
+  ],
+  "capture": {
+    "distance": 360,
+    "azimuth": 220,
+    "elevation": 25
+  },
+  "bbox_min": [
+    -51.7,
+    -0.2,
+    -13.7
+  ],
+  "bbox_max": [
+    51.7,
+    150.2,
+    13.7
+  ],
+  "levels": [
+    {
+      "vertices": 99152,
+      "triangles": 57216
+    },
+    {
+      "vertices": 53632,
+      "triangles": 32064
+    },
+    {
+      "vertices": 40512,
+      "triangles": 24192
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/iconic.py",
+  "source_sha256": "9f9a7aa3aafc7ae2fa741fbb6d982ba895884ee600e32b439bbfc8157e855b68",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "2ab25670a8c28e792426d1054916af019fc6edb40dc8687fce62e909cc75db4e"
+}

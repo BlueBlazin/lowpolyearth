@@ -1,0 +1,23 @@
+{
+  "name": "flatiron-building",
+  "kind": "flatiron-building",
+  "source": "flatiron-building/flatiron.glb",
+  "sha256": "59b7fa15c34a14fb708a874ca10d936e67b63efb584bbe79321a58fec67a80ad",
+  "license": "existing landmark SOURCES.md",
+  "output": "flatiron-building.lms",
+  "output_sha256": "276ce3d7f4752c12281b24d5777aeca7a1ea0f16ffd7d338e59a6a4c690eff73",
+  "levels": [
+    [
+      29422,
+      16392
+    ],
+    [
+      27156,
+      15388
+    ],
+    [
+      27127,
+      15316
+    ]
+  ]
+}

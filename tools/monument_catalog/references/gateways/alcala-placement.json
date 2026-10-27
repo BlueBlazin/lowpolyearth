@@ -1,0 +1,442 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "way",
+      "id": 174805987,
+      "timestamp": "2025-10-10T17:07:17Z",
+      "version": 22,
+      "nodes": [
+        1854661936,
+        3298389415,
+        3298389411,
+        3298389388,
+        3298389377,
+        3298389359,
+        2954563377,
+        1900998786,
+        3298389339,
+        3298389338,
+        3298389333,
+        3298389322,
+        1900998775,
+        3298389308,
+        3298389304,
+        1900998777,
+        3298389296,
+        3298389284,
+        3298389279,
+        3298389273,
+        1854661915,
+        3298389263,
+        1854661931,
+        3298389272,
+        3298389276,
+        3298389282,
+        3298389289,
+        3298389299,
+        2954563354,
+        2954563355,
+        3298389318,
+        3298389319,
+        3298389327,
+        3298389336,
+        3298389350,
+        3298389349,
+        3298408195,
+        2954563384,
+        2954563383,
+        3298389364,
+        3298389380,
+        3298389394,
+        3298389416,
+        3298389422,
+        1854661938,
+        1854661936
+      ],
+      "tags": {
+        "addr:city": "Madrid",
+        "addr:postcode": "28001",
+        "addr:street": "Plaza de la Independencia",
+        "building": "triumphal_arch",
+        "height": "21.946",
+        "historic": "yes",
+        "name": "Puerta de Alcalá",
+        "name:en": "Puerta de Alcala",
+        "name:es": "Puerta de Alcalá",
+        "name:ko": "푸에르타 데 알칼라(마드리드 개선문)",
+        "nohousenumber": "yes",
+        "source:name": "common knowledge",
+        "tourism": "attraction",
+        "wheelchair": "limited",
+        "wikidata": "Q1140634",
+        "wikimedia_commons": "Category:Puerta de Alcalá, Madrid",
+        "wikipedia": "es:Puerta de Alcalá"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1854661915,
+      "lat": 40.4197954,
+      "lon": -3.6887216,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 6
+    },
+    {
+      "type": "node",
+      "id": 1854661931,
+      "lat": 40.4197999,
+      "lon": -3.6886505,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 6
+    },
+    {
+      "type": "node",
+      "id": 1854661936,
+      "lat": 40.4201736,
+      "lon": -3.6887996,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 6
+    },
+    {
+      "type": "node",
+      "id": 1854661938,
+      "lat": 40.4201822,
+      "lon": -3.6887358,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 6
+    },
+    {
+      "type": "node",
+      "id": 1900998775,
+      "lat": 40.41993,
+      "lon": -3.6887884,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 6
+    },
+    {
+      "type": "node",
+      "id": 1900998777,
+      "lat": 40.4199208,
+      "lon": -3.6887497,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 5
+    },
+    {
+      "type": "node",
+      "id": 1900998786,
+      "lat": 40.4200322,
+      "lon": -3.6888022,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 6
+    },
+    {
+      "type": "node",
+      "id": 2954563354,
+      "lat": 40.4199325,
+      "lon": -3.6886682,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 2954563355,
+      "lat": 40.419935,
+      "lon": -3.6886484,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 2954563377,
+      "lat": 40.4200351,
+      "lon": -3.688777,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 2954563383,
+      "lat": 40.4200475,
+      "lon": -3.688696,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 2954563384,
+      "lat": 40.4200497,
+      "lon": -3.6886776,
+      "timestamp": "2015-01-19T12:46:30Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 3298389263,
+      "lat": 40.4197913,
+      "lon": -3.6887133,
+      "timestamp": "2015-01-19T12:46:22Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389272,
+      "lat": 40.4198073,
+      "lon": -3.6886407,
+      "timestamp": "2015-01-19T12:46:22Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389273,
+      "lat": 40.4198077,
+      "lon": -3.6887248,
+      "timestamp": "2015-01-19T12:46:22Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389276,
+      "lat": 40.4198181,
+      "lon": -3.6886426,
+      "timestamp": "2015-01-19T12:46:23Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389279,
+      "lat": 40.4198373,
+      "lon": -3.6887313,
+      "timestamp": "2015-01-19T12:46:23Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389282,
+      "lat": 40.4198478,
+      "lon": -3.6886491,
+      "timestamp": "2015-01-19T12:46:23Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389284,
+      "lat": 40.419857,
+      "lon": -3.6887357,
+      "timestamp": "2015-01-19T12:46:23Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389289,
+      "lat": 40.419867,
+      "lon": -3.6886535,
+      "timestamp": "2015-01-19T12:46:23Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389296,
+      "lat": 40.4199019,
+      "lon": -3.6887454,
+      "timestamp": "2015-01-19T12:46:23Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389299,
+      "lat": 40.4199119,
+      "lon": -3.6886639,
+      "timestamp": "2015-01-19T12:46:23Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389304,
+      "lat": 40.4199176,
+      "lon": -3.6887756,
+      "timestamp": "2015-01-19T12:46:23Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389308,
+      "lat": 40.4199313,
+      "lon": -3.6887786,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389318,
+      "lat": 40.4199474,
+      "lon": -3.688651,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389319,
+      "lat": 40.4199482,
+      "lon": -3.6886447,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389322,
+      "lat": 40.4199521,
+      "lon": -3.6887932,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389327,
+      "lat": 40.4199698,
+      "lon": -3.6886494,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389333,
+      "lat": 40.4199972,
+      "lon": -3.6888029,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389336,
+      "lat": 40.4200151,
+      "lon": -3.6886592,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389338,
+      "lat": 40.4200211,
+      "lon": -3.6888081,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389339,
+      "lat": 40.4200221,
+      "lon": -3.6888,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389349,
+      "lat": 40.4200379,
+      "lon": -3.6886754,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389350,
+      "lat": 40.4200393,
+      "lon": -3.6886645,
+      "timestamp": "2015-01-19T13:11:19Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 3298389359,
+      "lat": 40.4200584,
+      "lon": -3.6887825,
+      "timestamp": "2015-01-19T12:46:24Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389364,
+      "lat": 40.4200687,
+      "lon": -3.6887003,
+      "timestamp": "2015-01-19T12:46:24Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389377,
+      "lat": 40.4201031,
+      "lon": -3.6887925,
+      "timestamp": "2015-01-19T12:46:25Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389380,
+      "lat": 40.4201136,
+      "lon": -3.68871,
+      "timestamp": "2015-01-19T12:46:25Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389388,
+      "lat": 40.4201247,
+      "lon": -3.688797,
+      "timestamp": "2015-01-19T12:46:25Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389394,
+      "lat": 40.4201344,
+      "lon": -3.6887147,
+      "timestamp": "2015-01-19T12:46:25Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389411,
+      "lat": 40.4201544,
+      "lon": -3.6888031,
+      "timestamp": "2015-01-19T12:46:25Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389415,
+      "lat": 40.4201628,
+      "lon": -3.6888055,
+      "timestamp": "2015-01-19T12:46:25Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389416,
+      "lat": 40.4201642,
+      "lon": -3.6887208,
+      "timestamp": "2015-01-19T12:46:25Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298389422,
+      "lat": 40.420177,
+      "lon": -3.6887236,
+      "timestamp": "2015-01-19T12:46:26Z",
+      "version": 1
+    },
+    {
+      "type": "node",
+      "id": 3298408195,
+      "lat": 40.4200429,
+      "lon": -3.6886764,
+      "timestamp": "2015-01-19T13:11:18Z",
+      "version": 1
+    }
+  ]
+}

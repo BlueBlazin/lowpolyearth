@@ -1,0 +1,153 @@
+{
+  "name": "registan",
+  "city": "Samarkand",
+  "lat": 39.65475,
+  "lon": 66.9757,
+  "heading": 348.5,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://uzbekistan.travel/en/o/registan/",
+    "https://whc.unesco.org/en/list/603"
+  ],
+  "description": "Three facing tiled madrasas with recessed pointed iwans, two-story courtyard galleries, banded minarets and turquoise domes.",
+  "capture": {
+    "distance": 310,
+    "azimuth": 174,
+    "elevation": 30,
+    "target_height": 17,
+    "time_utc": "2026-03-20T10:00:00Z"
+  },
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        -7.0,
+        42.0
+      ],
+      "half_extent": [
+        106.5,
+        86.0
+      ],
+      "feather_m": 3.0,
+      "sample_clearance_m": 36.0,
+      "fixed_base_geo": null
+    }
+  ],
+  "audit": {
+    "source_anchor_latlon": [
+      39.65475,
+      66.9757
+    ],
+    "source_offset_east_north_m": [
+      0,
+      0
+    ],
+    "ground_center_m": 720.9641723632812,
+    "grid_min_m": 712.2172241210938,
+    "grid_max_m": 725.0906982421875,
+    "perimeter_m": [
+      718.4688720703125,
+      716.4002075195312,
+      724.4366455078125,
+      720.9097900390625,
+      716.6775512695312,
+      715.3189086914062,
+      712.9865112304688,
+      715.7576293945312
+    ],
+    "perimeter_median_m": 716.5388793945312,
+    "source_file": "output/city-catalog-expansion/heritage/registan-source.json",
+    "suppression_note": "East feather edge102.5m stops before mappedChorsu market103.07m; long westschool depth82m andeastschool64m follow source footprints. Reference samples clear Chorsu dome extent133.34m.",
+    "perimeter_samples": [
+      {
+        "x": -152.5,
+        "z": -83.0,
+        "lat": 39.653743611025185,
+        "lon": 66.97415155772052,
+        "ground_m": 718.4688720703125
+      },
+      {
+        "x": -7.0,
+        "z": -83.0,
+        "lat": 39.654004878750975,
+        "lon": 66.97581288509231,
+        "ground_m": 716.4002075195312
+      },
+      {
+        "x": 138.5,
+        "z": -83.0,
+        "lat": 39.65426614647677,
+        "lon": 66.97747421246409,
+        "ground_m": 724.4366455078125
+      },
+      {
+        "x": 138.5,
+        "z": 42.0,
+        "lat": 39.655369386940194,
+        "lon": 66.97718383370646,
+        "ground_m": 720.9097900390625
+      },
+      {
+        "x": 138.5,
+        "z": 167.0,
+        "lat": 39.656472627403616,
+        "lon": 66.97689345494882,
+        "ground_m": 716.6775512695312
+      },
+      {
+        "x": -7.0,
+        "z": 167.0,
+        "lat": 39.656211359677826,
+        "lon": 66.97523212757704,
+        "ground_m": 715.3189086914062
+      },
+      {
+        "x": -152.5,
+        "z": 167.0,
+        "lat": 39.65595009195203,
+        "lon": 66.97357080020525,
+        "ground_m": 712.9865112304688
+      },
+      {
+        "x": -152.5,
+        "z": 42.0,
+        "lat": 39.65484685148861,
+        "lon": 66.97386117896288,
+        "ground_m": 715.7576293945312
+      }
+    ]
+  },
+  "bbox_min": [
+    -116.5,
+    -0.9,
+    -47.0
+  ],
+  "bbox_max": [
+    104.2,
+    34.5,
+    131.0
+  ],
+  "levels": [
+    {
+      "vertices": 82334,
+      "triangles": 43425
+    },
+    {
+      "vertices": 30208,
+      "triangles": 16817
+    },
+    {
+      "vertices": 16243,
+      "triangles": 9495
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_heritage.py",
+  "source_sha256": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "f82543cb008652d6e2cf7907a8c8b3271006a898bace06023d2cf439fdd10b18"
+}

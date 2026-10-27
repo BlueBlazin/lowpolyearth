@@ -1,0 +1,101 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "way",
+      "id": 23913953,
+      "timestamp": "2025-11-19T17:41:21Z",
+      "version": 43,
+      "nodes": [
+        259198565,
+        259198567,
+        364168844,
+        259198568,
+        259198566,
+        364168845,
+        259198565
+      ],
+      "tags": {
+        "building": "triumphal_arch",
+        "height": "15.4",
+        "historic": "monument",
+        "historic:civilization": "ancient_roman",
+        "historic:period": "roman",
+        "name": "Arco di Tito",
+        "name:ar": "قوس طيطوس",
+        "name:cs": "Titův oblouk",
+        "name:de": "Titusbogen",
+        "name:el": "Αψίδα του Τίτου",
+        "name:en": "Arch of Titus",
+        "name:es": "Arco de Tito",
+        "name:fr": "Arc de Titus",
+        "name:he": "שער טיטוס",
+        "name:it": "Arco di Tito",
+        "name:ja": "ティトの凱旋門",
+        "name:pt": "Arco de Tito",
+        "name:ru": "Триумфальная арка Тита",
+        "name:sv": "Titusbågen",
+        "name:uk": "Арка Тіта",
+        "name:zh": "提图斯凯旋门",
+        "start_date": "~82",
+        "tourism": "attraction",
+        "wheelchair": "yes",
+        "wikidata": "Q723887",
+        "wikimedia_commons": "Category:Arch of Titus (Rome)",
+        "wikipedia": "en:Arch of Titus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 259198565,
+      "lat": 41.8906242,
+      "lon": 12.4885135,
+      "timestamp": "2021-11-03T18:18:51Z",
+      "version": 8
+    },
+    {
+      "type": "node",
+      "id": 259198566,
+      "lat": 41.8907433,
+      "lon": 12.4885797,
+      "timestamp": "2021-11-03T18:18:51Z",
+      "version": 8
+    },
+    {
+      "type": "node",
+      "id": 259198567,
+      "lat": 41.8906011,
+      "lon": 12.4885887,
+      "timestamp": "2021-11-03T18:18:51Z",
+      "version": 8
+    },
+    {
+      "type": "node",
+      "id": 259198568,
+      "lat": 41.8907202,
+      "lon": 12.4886549,
+      "timestamp": "2021-11-03T18:18:51Z",
+      "version": 8
+    },
+    {
+      "type": "node",
+      "id": 364168844,
+      "lat": 41.8906612,
+      "lon": 12.4886221,
+      "timestamp": "2021-11-03T18:18:51Z",
+      "version": 7
+    },
+    {
+      "type": "node",
+      "id": 364168845,
+      "lat": 41.8906833,
+      "lon": 12.4885464,
+      "timestamp": "2021-11-03T18:18:51Z",
+      "version": 7
+    }
+  ]
+}

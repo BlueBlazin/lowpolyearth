@@ -1,0 +1,23 @@
+{
+  "name": "giza-necropolis",
+  "kind": "giza",
+  "url": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-066/b30a5047bd1e4b28a10e438df2bc1428.glb?download=true",
+  "sha256": "7ba058be251b6c3e24c476e1386fd4defb21b626c4093e981a38723dd4e73c1e",
+  "license": "existing landmark SOURCES.md",
+  "output": "giza-necropolis.lms",
+  "output_sha256": "b7fce597709168bcd2c30a4a2b77545da8aee67e86837203b4ce0c06b55f6a39",
+  "levels": [
+    [
+      225793,
+      273620
+    ],
+    [
+      76059,
+      95758
+    ],
+    [
+      27773,
+      27883
+    ]
+  ]
+}

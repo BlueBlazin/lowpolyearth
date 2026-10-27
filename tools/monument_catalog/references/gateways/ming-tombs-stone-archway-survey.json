@@ -1,0 +1,16 @@
+{
+  "name": "ming-tombs-stone-archway",
+  "references": [
+    "https://english.visitbeijing.com.cn/article/4KOdhGlm48J",
+    "https://english.visitbeijing.com.cn/article/47OLcYDde76",
+    "https://www.openstreetmap.org/way/677547734"
+  ],
+  "retrieved_utc": "2026-09-15",
+  "dimensions_and_limits": "Official width 28.86 m and height 14 m. Roof, animal, relief and support dimensions are estimated within that envelope.",
+  "orientation": "Center and 18.6-degree clockwise heading measured from the mapped stone paifang footprint, not the distant Ming Tombs visitor-center pin.",
+  "placement_evidence": "tools/monument_catalog/references/gateways/ming-placement.json",
+  "appearance": "Five open bays and six white-marble pillars, eleven stone rooflets, relief crossbeams and twelve lion-like pedestal sculptures.",
+  "authorship": "Original procedural geometry; ornaments are schematic sculptural interpretations. Reference photographs and plans are not distributed or used as textures.",
+  "grounding": "The connected gateway stays rigid above surveyed unmodified terrain. Separate masonry footings extend downward to local support elevations. No slab spans the passage and no terrain flattening, cutting or grading is applied.",
+  "materials": "Surface classes use existing physical stone, limestone, marble, timber, plaster, tile and metal materials with authored per-part colors. Relief silhouettes, molding shadows and coursing are geometry, not painted opaque doorway panels."
+}

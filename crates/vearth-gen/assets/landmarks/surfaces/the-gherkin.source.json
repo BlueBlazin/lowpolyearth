@@ -1,0 +1,23 @@
+{
+  "name": "the-gherkin",
+  "kind": "the-gherkin",
+  "source": "the-gherkin/gherkin.glb",
+  "sha256": "b70a27422b18c20ebcc13a9a8bb95c966f6dd7bd733ad2b2f1c5c27867b4cce3",
+  "license": "existing landmark SOURCES.md",
+  "output": "the-gherkin.lms",
+  "output_sha256": "8f01fc82f74fbedc40bf83b7dc9d2d87a55974d9a66e80e4ced9e3620afaa8f7",
+  "levels": [
+    [
+      107928,
+      54000
+    ],
+    [
+      10576,
+      18824
+    ],
+    [
+      3398,
+      5435
+    ]
+  ]
+}

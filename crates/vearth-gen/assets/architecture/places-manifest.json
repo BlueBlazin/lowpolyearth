@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "catalog_sha256": "355fa885ae238bfa28b3fb09c39984624ebdb12db7664bb982727092bbccced7",
+  "generated_rust_sha256": "176f72016911c02b81fd57a0acbd88e5d4489425d0031de42b629c0a988c2fd6",
+  "geonames_sha256": "ad26b5cca5f9fcede3843ba34f35996da7fd76f2c1ca1ec3dbc76aff9849cb6d",
+  "place_count": 313,
+  "country_territory_count": 105,
+  "style_count": 202,
+  "wikidata_entity_count": 148
+}

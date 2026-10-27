@@ -1,0 +1,10 @@
+# Shared WebAssembly memory needs a cross-origin isolated page.
+/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+  Cross-Origin-Resource-Policy: same-origin
+
+# Asset URLs carry their content hash as the `v` query; the manifest that
+# lists those hashes lives outside this prefix and is revalidated.
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

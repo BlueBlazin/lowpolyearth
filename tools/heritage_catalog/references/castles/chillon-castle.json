@@ -1,0 +1,278 @@
+{
+  "name": "chillon-castle",
+  "reference_urls": [
+    "https://www.chillon.ch/en/castle/",
+    "https://www.chillon.ch/le-nouvel-escalier-du-donjon/",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=6.9258542512419075,46.41302088268357,6.929245748758093,46.41535911731643"
+  ],
+  "documented_evidence": "Chillon Foundation explicitly gives an approximately100x50m oval rocky island, three main courtyards, a square central keep, north defensive facade and south/lakeside residential facade with Gothic windows.",
+  "modeling_qualifications": "Keep roof25m and range heights are approximate; island scale uses official dimensions and production footprint. Heading346deg follows north/south island axis. Source lake surface is371m; castle anchor372m. Mesh adds no lake plane. Source bridge alignment needs final world review. Ownership includes all22 separately mapped castle ranges, towers and gates on the island; the central keep way alone is not the entire castle multipolygon. Mainland visitor buildings remain native.",
+  "metric_targets": {
+    "island_length_m": 100,
+    "island_width_m": 50,
+    "keep_roof_approx_height_m": 25
+  },
+  "placement": {
+    "lat": 46.41419,
+    "lon": 6.927523911557568,
+    "heading_deg": 346,
+    "base": 372,
+    "source_file": "tools/heritage_catalog/references/castles/chillon-source.json",
+    "source_offset_east_north_m": [
+      -2,
+      0
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/chillon-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/chillon-terrain.json",
+    "production_ground_at_anchor_m": 371.8554992675781
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "Final actual-engine capture reviewed on9a4cdd0214ef38fe6cd7daa0d78ed55d03ae26f7a8a14185e5d0c3be7eaf15b5. Complete mapped ownership removes duplicate source ranges, while mainland buildings and lake remain; no obvious source overlap or buried/flooded base.",
+  "plan_measurements": [
+    {
+      "osm_way": 134933836,
+      "center_and_rectangle_xz_m": [
+        7.029526528036373,
+        4.459354793148477,
+        16.07017666914254,
+        10.479975428683943,
+        -7.585100708082293
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987352931,
+      "center_and_rectangle_xz_m": [
+        26.111821766268193,
+        1.4047850974279001,
+        8.417422527116006,
+        8.482152912010527,
+        -90.45392320959378
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987352932,
+      "center_and_rectangle_xz_m": [
+        21.58222210349142,
+        29.28230596452159,
+        8.06677462213812,
+        7.635271126421841,
+        -103.73539106751387
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987352933,
+      "center_and_rectangle_xz_m": [
+        24.062302686833142,
+        -26.14718444889168,
+        8.666654303599165,
+        7.848665765080469,
+        -74.11032980975732
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987354384,
+      "center_and_rectangle_xz_m": [
+        21.52657514500852,
+        -32.810585755157426,
+        4.409687970820613,
+        5.801778304789895,
+        12.414632239787759
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987354386,
+      "center_and_rectangle_xz_m": [
+        16.29120270877291,
+        -40.171704503730936,
+        11.366449313659917,
+        12.83041361251993,
+        99.47371316059392
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987357289,
+      "center_and_rectangle_xz_m": [
+        -6.213034116504838,
+        -41.064991704153385,
+        10.985183093887088,
+        35.685038478412416,
+        -59.65897839389939
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987357290,
+      "center_and_rectangle_xz_m": [
+        3.657736355406435,
+        -45.3366240602926,
+        10.09800420875333,
+        7.88007524605932,
+        -145.76869556776452
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987357291,
+      "center_and_rectangle_xz_m": [
+        -4.969243506485066,
+        -38.29989344200171,
+        10.004688396229923,
+        12.44674361793935,
+        125.38563326109977
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987357292,
+      "center_and_rectangle_xz_m": [
+        -7.977355019038388,
+        -30.52167178188777,
+        16.977003732147175,
+        9.09447720532836,
+        149.1963572211911
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987360351,
+      "center_and_rectangle_xz_m": [
+        6.228293683936908,
+        -53.5178327008356,
+        2.7987281619278015,
+        2.7895757910037773,
+        -153.9386905429552
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987361889,
+      "center_and_rectangle_xz_m": [
+        -14.48773140386162,
+        -16.506819322505077,
+        28.326379462253257,
+        14.063007103596279,
+        83.77659886632874
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987361890,
+      "center_and_rectangle_xz_m": [
+        -16.378635458224693,
+        1.9421449602838998,
+        14.067877309672559,
+        9.137372268069061,
+        175.28428014905217
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987379767,
+      "center_and_rectangle_xz_m": [
+        -12.023879163061316,
+        21.510175182985183,
+        37.719430789700176,
+        15.019309147751136,
+        -67.46224073329593
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987379768,
+      "center_and_rectangle_xz_m": [
+        -2.8041309198173963,
+        43.902029397385576,
+        18.1661825490111,
+        12.240045572134363,
+        -31.087966839039286
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987379769,
+      "center_and_rectangle_xz_m": [
+        2.226819158706128,
+        36.25963547101607,
+        15.556219726432824,
+        11.74456714881379,
+        -9.329529812516565
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987379770,
+      "center_and_rectangle_xz_m": [
+        7.877114512910072,
+        51.112115441995456,
+        10.373646000758946,
+        8.308669352858956,
+        -117.13641359821763
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987379771,
+      "center_and_rectangle_xz_m": [
+        12.572206059497454,
+        43.18892797386588,
+        3.1597196078133223,
+        12.210936661782263,
+        166.31577952171554
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987379772,
+      "center_and_rectangle_xz_m": [
+        12.197717415448656,
+        31.837783786639854,
+        9.66566042863245,
+        9.382787874053248,
+        76.23631210826198
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987379773,
+      "center_and_rectangle_xz_m": [
+        8.137523025823604,
+        -15.118706673218337,
+        23.448142880544324,
+        28.61261066008838,
+        -7.645244330751261
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987379776,
+      "center_and_rectangle_xz_m": [
+        19.10015127034149,
+        2.7913035274321523,
+        51.004594811012964,
+        5.8503911740385774,
+        -92.79121404160524
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    },
+    {
+      "osm_way": 987379777,
+      "center_and_rectangle_xz_m": [
+        13.242217924374009,
+        14.880458729012553,
+        23.795668481906553,
+        3.6093700538003155,
+        -103.34695496003232
+      ],
+      "qualification": "Mapped component rectangle; castle is composed of22 distinct ranges, towers and gates."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed. Weathered masonry119 supplies worn coursing and relief on the exposed castle walls.",
+  "terrain_cuts": [],
+  "source_exclusion_piece_count": 129
+}

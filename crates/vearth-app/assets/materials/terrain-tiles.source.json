@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "asset": "terrain-tiles.rgba8",
+  "layers": {
+    "sand": 2,
+    "grass": 3,
+    "rock": 4,
+    "snow": 5
+  },
+  "dimensions": [
+    128,
+    128
+  ],
+  "bytes": 262144,
+  "encoding": "linear R=0.5+zero-mean tone; GB=0.5+central dH/dUV/4; A=perceptual roughness",
+  "mips": "base only; atlas::build retains production box filtering for all eight levels",
+  "bake": "python3 tools/bake-terrain-materials.py",
+  "sources": {
+    "tools/bake-terrain-materials.py": "b0d3fb9cd2e40b4f23ef0bd3584a4f03f8cb1b6e2ac3f0cbae45c41469229335",
+    "crates/vearth-app/assets/materials/terrain-art.json": "84a50b0242843c849a7bfa9afd801b7afac52d10fc78be2911d186090df35467",
+    "crates/vearth-app/assets/materials/stone-tone.png": "776e240ad6de862f7f7b56050f2ec212916034fd01fea43a062f7740977f9a46",
+    "crates/vearth-app/assets/materials/stone-tone.source.json": "fb25550a2cc1597ec73206aa2b7e945544553ef4bd82ba90d438105806198ecd"
+  },
+  "sha256": "0a55c56c1003a5d2ab2df1bde98bf02bcd579e74be9fed47a8f270f5ecf9a767",
+  "provenance": "Deterministic illustrative art, not measured material data. Rock tone retains stone-tone.png; hand-traced joints guide independent metric relief. Original PNG and attribution retained."
+}

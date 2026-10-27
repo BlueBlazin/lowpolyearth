@@ -1,0 +1,22 @@
+{
+  "name": "luxor-obelisk",
+  "sources": [
+    "https://beauxartsparis.fr/sites/default/files/inline-files/Cahier-des-charges-appel-projet-Obelisque2.pdf",
+    "https://www.paris.fr/pages/parhistoire-repond-a-vos-questions-sur-le-patrimoine-et-l-histoire-de-paris-3568"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "obelisk_without_pedestal_height_m": 23,
+    "historic_pedestal_including_foundation_m": 9
+  },
+  "geometry_notes": "The obelisk is23m including its golden summit. Pink Aswan granite tapers above a Breton granite pedestal modeled8.4m above the current pavement; the city history gives9m for the complete pedestal. Repeated carved-sign shadows represent the three vertical hieroglyph columns per face, with no claim to transcribe the inscriptions. Gilt pyramidion contrasts with the rose-brown granite and grey-pink pedestal.",
+  "placement_notes": "Monument coordinate approximately48.86563,2.32124. Heading32 degrees aligns pedestal approximately to Place de la Concorde. The existing pedestal provides the support geometry; surrounding roads and ground remain unchanged.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/luxor-obelisk.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "One connected column and its footing",
+    "roads_suppressed": false
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

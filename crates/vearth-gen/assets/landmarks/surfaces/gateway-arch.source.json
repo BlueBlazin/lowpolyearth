@@ -1,0 +1,22 @@
+{
+  "name": "gateway-arch",
+  "kind": "gateway",
+  "source": "analytic registry catenary",
+  "license": "project license",
+  "output": "gateway-arch.lms",
+  "output_sha256": "5076b93b2fd0c2b5dc994bb31a7015b93cb1196f3ea0dc528fc4ec2bb402fc30",
+  "levels": [
+    [
+      1612,
+      3212
+    ],
+    [
+      610,
+      1208
+    ],
+    [
+      226,
+      440
+    ]
+  ]
+}

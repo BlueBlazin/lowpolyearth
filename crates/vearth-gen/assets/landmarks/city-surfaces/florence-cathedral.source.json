@@ -1,0 +1,213 @@
+{
+  "name": "florence-cathedral",
+  "city": "Florence",
+  "lat": 43.7731189006,
+  "lon": 11.2569506071,
+  "heading": 91.36,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://duomo.firenze.it/en/discover/cathedral",
+    "https://duomo.firenze.it/en/40/dome",
+    "https://duomo.firenze.it/en/discover/giottos-bell-tower"
+  ],
+  "description": "A polychrome marble basilica, three radial tribunes, eight terracotta dome sails and lantern, ornate west front and independent Giotto campanile.",
+  "capture": {
+    "distance": 310,
+    "azimuth": 242,
+    "elevation": 28,
+    "target_height": 43,
+    "time_utc": "2026-03-20T14:00:00Z"
+  },
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0.0,
+        0.0
+      ],
+      "half_extent": [
+        48.0,
+        48.0
+      ],
+      "feather_m": 2.0,
+      "sample_clearance_m": 0.0,
+      "fixed_base_geo": 67.7647
+    },
+    {
+      "center_xz": [
+        0.0,
+        -65.0
+      ],
+      "half_extent": [
+        22.0,
+        43.0
+      ],
+      "feather_m": 2.0,
+      "sample_clearance_m": 0.0,
+      "fixed_base_geo": 67.7647
+    },
+    {
+      "center_xz": [
+        27.7,
+        -100.8
+      ],
+      "half_extent": [
+        7.2,
+        7.4
+      ],
+      "feather_m": 2.0,
+      "sample_clearance_m": 0.0,
+      "fixed_base_geo": 67.7647
+    }
+  ],
+  "audit": {
+    "source_anchor_latlon": [
+      43.7731,
+      11.25685
+    ],
+    "source_offset_east_north_m": [
+      8.1,
+      2.1
+    ],
+    "ground_center_m": 74.45357513427734,
+    "grid_min_m": 60.285221099853516,
+    "grid_max_m": 74.58064270019531,
+    "perimeter_m": [
+      62.53937911987305,
+      60.98955154418945,
+      63.67778778076172,
+      69.82095336914062,
+      69.22723388671875,
+      69.88423919677734,
+      64.03123474121094,
+      62.30561828613281
+    ],
+    "perimeter_median_m": 63.85451126098633,
+    "source_file": "output/city-catalog-expansion/heritage/florence-cathedral-source.json",
+    "fixed_grade_note": "Connected cathedral requires one datum across three narrow pads; eleven measured piazza points outside every sourcebuildingpolygon yield median67.7647m, versus74.45m at the dome. Ordinary enclosing rectangle would suppress adjacent blocks.",
+    "clean_piazza_samples": [
+      {
+        "x": -53,
+        "z": 0,
+        "lat": 43.77359578038534,
+        "lon": 11.256966231202181,
+        "ground_m": 66.41595458984375,
+        "source_building_seeds": []
+      },
+      {
+        "x": 53,
+        "z": 0,
+        "lat": 43.77264202081465,
+        "lon": 11.25693498299782,
+        "ground_m": 69.82858276367188,
+        "source_building_seeds": []
+      },
+      {
+        "x": -28,
+        "z": -70,
+        "lat": 43.77338579011104,
+        "lon": 11.256089661996779,
+        "ground_m": 63.63046646118164,
+        "source_building_seeds": []
+      },
+      {
+        "x": 28,
+        "z": -70,
+        "lat": 43.772881917130306,
+        "lon": 11.256073153511455,
+        "ground_m": 70.18944549560547,
+        "source_building_seeds": []
+      },
+      {
+        "x": -26,
+        "z": -106,
+        "lat": 43.773375484772366,
+        "lon": 11.255642055601562,
+        "ground_m": 60.96056365966797,
+        "source_building_seeds": []
+      },
+      {
+        "x": 0,
+        "z": -119,
+        "lat": 43.77314432073515,
+        "lon": 11.255472968211999,
+        "ground_m": 61.93027114868164,
+        "source_building_seeds": []
+      },
+      {
+        "x": 0,
+        "z": 55,
+        "lat": 43.77310715179804,
+        "lon": 11.257633549443195,
+        "ground_m": 68.65576171875,
+        "source_building_seeds": []
+      },
+      {
+        "x": -30,
+        "z": 42,
+        "lat": 43.77337986074156,
+        "lon": 11.257480970538953,
+        "ground_m": 68.12024688720703,
+        "source_building_seeds": []
+      },
+      {
+        "x": 30,
+        "z": 42,
+        "lat": 43.77283999683362,
+        "lon": 11.257463282876108,
+        "ground_m": 67.76469421386719,
+        "source_building_seeds": []
+      },
+      {
+        "x": -27,
+        "z": -36,
+        "lat": 43.77336952948349,
+        "lon": 11.256511549741827,
+        "ground_m": 66.91290283203125,
+        "source_building_seeds": []
+      },
+      {
+        "x": 27,
+        "z": -42,
+        "lat": 43.772884933653835,
+        "lon": 11.25642112804419,
+        "ground_m": 74.18716430664062,
+        "source_building_seeds": []
+      }
+    ],
+    "suppression_note": "Crossing/tribunes, narrow nave, and independent campanile patches preserve neighboring blocks and Baptistery."
+  },
+  "bbox_min": [
+    -50.0,
+    -0.2,
+    -110.9
+  ],
+  "bbox_max": [
+    50.0,
+    114.7,
+    50.0
+  ],
+  "levels": [
+    {
+      "vertices": 72453,
+      "triangles": 36735
+    },
+    {
+      "vertices": 51805,
+      "triangles": 26439
+    },
+    {
+      "vertices": 29381,
+      "triangles": 15275
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_heritage.py",
+  "source_sha256": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "fa9aac5ec7a6767ba0e0bd173a876be9f43603c781c856fcf4d5f1563e3a34bc"
+}

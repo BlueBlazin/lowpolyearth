@@ -1,0 +1,8 @@
+# Bollenstreek/Schiphol field-boundary stress: oblique low flight over roads,
+# drainage, and adjacent cultivated polygons.
+frame,lat_deg,lon_deg,alt_m,heading_deg,pitch_deg
+0,52.2950,4.7200,1800,62,55
+120,52.2980,4.7300,950,62,58
+300,52.3020,4.7410,500,62,61
+480,52.3060,4.7520,350,62,63
+600,52.3090,4.7610,350,62,63

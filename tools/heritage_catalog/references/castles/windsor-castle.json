@@ -1,0 +1,264 @@
+{
+  "name": "windsor-castle",
+  "reference_urls": [
+    "https://www.rct.uk/visit/windsor-castle",
+    "https://www.rct.uk/visit/windsor-castle/highlights/castle-precincts",
+    "https://www.royal.uk/sites/default/files/media/sovereign_grant_annual_report_2016-17.pdf",
+    "https://www.rct.uk/visit/windsor-castle/the-fire-at-windsor-castle",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-0.6087424449449337,51.481202036962095,-0.6000775550550663,51.4865979630379"
+  ],
+  "documented_evidence": "RCT identifies Upper, Middle and Lower Wards, Round Tower, State Apartments and St George Chapel. Mapped chapel rectangle is72.4\u00d738.7m including transepts, center(-160.4,-48.6)m in the local8-degree frame; its long axis has local heading69.1deg. Named Horseshoe Cloister geometry defines its bent open ranges. Royal Household2016\u201317 report documents lead roof renewal in the Upper Ward; RCT restoration account confirms St George\u2019s Hall roof reconstruction.",
+  "modeling_qualifications": "Production anchor62.7m includes the motte. Upper Ward terrain sample52.4m establishes model base; the9m motte reaches61.4m, while Lower Ward offset\u22128.7m gives43.7m near the chapel. These are production terrain controls, not an independent geodetic survey. Roof/tower heights and bay counts are architectural estimates. Source perimeter grades follow surveyed terrain and ownership follows individual mapped buildings/walls. Upper Ward roof fields are separately pitched behind parapets, with gray lead88 and hall slate86. Chimney placement, roof slopes and different tall hall/three-level residential bay rhythms are scaled architectural estimates; these are not a roof survey.",
+  "metric_targets": {
+    "round_tower_diameter_m": 32.4,
+    "upper_ward_approx_m": [
+      157,
+      143
+    ]
+  },
+  "placement": {
+    "lat": 51.4839,
+    "lon": -0.60441,
+    "heading_deg": 8,
+    "base": 52.4,
+    "source_file": "tools/heritage_catalog/references/castles/windsor-source.json",
+    "source_offset_east_north_m": [
+      0,
+      0
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/windsor-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/windsor-terrain.json",
+    "production_ground_at_anchor_m": 62.697174072265625
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 92729166,
+      "name": "Round Tower",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          1.227,
+          3.578
+        ],
+        "size_m": [
+          29.733,
+          28.561
+        ],
+        "heading_deg": -21.754
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131174658,
+      "name": "Horseshoe Cloister",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -223.506,
+          -79.499
+        ],
+        "size_m": [
+          67.703,
+          40.178
+        ],
+        "heading_deg": -151.189
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131174659,
+      "name": "Gatehouse",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -156.944,
+          -125.713
+        ],
+        "size_m": [
+          27.663,
+          16.005
+        ],
+        "heading_deg": 156.519
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131174662,
+      "name": "Military Knights Residences",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -126.553,
+          -103.106
+        ],
+        "size_m": [
+          49.861,
+          11.278
+        ],
+        "heading_deg": 141.675
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131174663,
+      "name": "Guard Room",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -204.137,
+          -119.179
+        ],
+        "size_m": [
+          41.113,
+          8.654
+        ],
+        "heading_deg": 43.113
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131174665,
+      "name": "Chapter Archives and Library",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -233.131,
+          -48.538
+        ],
+        "size_m": [
+          25.133,
+          9.742
+        ],
+        "heading_deg": 43.822
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131174667,
+      "name": "Salisbury Tower",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -187.312,
+          -138.453
+        ],
+        "size_m": [
+          13.274,
+          11.077
+        ],
+        "heading_deg": 116.396
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131175692,
+      "name": "Henry III Tower",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -64.24,
+          -48.665
+        ],
+        "size_m": [
+          16.975,
+          13.376
+        ],
+        "heading_deg": 109.906
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131179513,
+      "name": "State Apartments",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          105.003,
+          14.752
+        ],
+        "size_m": [
+          153.405,
+          139.073
+        ],
+        "heading_deg": -1.883
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131188501,
+      "name": "Magazine Tower",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -46.16,
+          46.412
+        ],
+        "size_m": [
+          7.596,
+          8.866
+        ],
+        "heading_deg": -117.493
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131188506,
+      "name": "Winchester Tower",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -92.879,
+          31.121
+        ],
+        "size_m": [
+          12.435,
+          14.251
+        ],
+        "heading_deg": 73.361
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131189024,
+      "name": "Albert Memorial Chapel",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -110.875,
+          -29.217
+        ],
+        "size_m": [
+          13.424,
+          26.916
+        ],
+        "heading_deg": -111.922
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 131228046,
+      "name": "Curfew Tower",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -257.229,
+          -62.803
+        ],
+        "size_m": [
+          15.797,
+          15.532
+        ],
+        "heading_deg": 91.322
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 1162821758,
+      "name": "Saint George's Chapel",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -160.371,
+          -48.557
+        ],
+        "size_m": [
+          72.407,
+          38.665
+        ],
+        "heading_deg": -20.907
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed.",
+  "terrain_cuts": [],
+  "source_exclusion_piece_count": 836
+}

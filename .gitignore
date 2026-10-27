@@ -1,0 +1,47 @@
+# Rust build output
+/target/
+**/*.rs.bk
+__pycache__/
+
+# Generated assets and local caches
+/cache/
+/captures/
+/output/
+/crates/vearth-data/assets/place-search-v1.bin
+/web/pkg/
+/site/capture/frames/
+/site/capture/photos/
+
+# Test, coverage, and profiling output
+/.playwright-cli/
+/playwright-report/
+/test-results/
+/coverage/
+*.profraw
+*.profdata
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local tool state
+/.claude/
+**/.wrangler/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.provisionprofile
+*.provisioningprofile
+*.mobileprovision
+*.p12
+
+# Editor and operating-system metadata
+.DS_Store
+Thumbs.db
+/.idea/
+/.vscode/

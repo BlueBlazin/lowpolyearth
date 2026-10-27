@@ -1,0 +1,29 @@
+{
+  "format": "VSM1",
+  "version": 1,
+  "dataset": "GHS-SMOD R2023A V2-0, epoch 2020",
+  "source_url": "https://jeodpp.jrc.ec.europa.eu/ftp/jrc-opendata/GHSL/GHS_SMOD_GLOBE_R2023A/GHS_SMOD_E2020_GLOBE_R2023A_54009_1000/V2-0/GHS_SMOD_E2020_GLOBE_R2023A_54009_1000_V2_0.zip",
+  "source_filename": "GHS_SMOD_E2020_GLOBE_R2023A_54009_1000_V2_0.tif",
+  "source_sha256": "1e2d7d7a6994b0458fc5d6ff985fb872f27841162b1808a3d52e32ae1a4953a0",
+  "source_crs": "ESRI:54009",
+  "width": 36082,
+  "height": 18000,
+  "pixel_size_m": 1000,
+  "epoch": 2020,
+  "category_pixel_counts": {
+    "-200": 138295524,
+    "10": 365190496,
+    "11": 135907204,
+    "12": 6166097,
+    "13": 767150,
+    "21": 2047041,
+    "22": 175791,
+    "23": 304998,
+    "30": 621699
+  },
+  "run_count": 10878000,
+  "output_bytes": 43584068,
+  "output_sha256": "c1a0829bcc916f41307346537befa1b2cfab5d7df9fc359a5c1464d9ebe63e4a",
+  "adaptation": "Lossless row-run encoding; no resampling or category changes.",
+  "license": "CC BY 4.0"
+}

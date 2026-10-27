@@ -1,0 +1,56 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Bordeaux — historic Chartrons domestic stock",
+    "interpretation": "Authored historic residential district outline connecting verified street vertices; not an administrative or legal conservation boundary.",
+    "attribution": "Data © OpenStreetMap contributors, ODbL 1.0; physical-character sources are listed in the accompanying recipe.",
+    "approximate_area_km2": 0.492
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          -0.5707943,
+          44.8485419
+        ],
+        [
+          -0.5700508,
+          44.8501796
+        ],
+        [
+          -0.5657864,
+          44.8543841
+        ],
+        [
+          -0.5637746,
+          44.8556794
+        ],
+        [
+          -0.5687464,
+          44.8599051
+        ],
+        [
+          -0.5717966,
+          44.8550217
+        ],
+        [
+          -0.5735895,
+          44.8521364
+        ],
+        [
+          -0.5756657,
+          44.848824
+        ],
+        [
+          -0.575548,
+          44.8487894
+        ],
+        [
+          -0.5707943,
+          44.8485419
+        ]
+      ]
+    ]
+  }
+}

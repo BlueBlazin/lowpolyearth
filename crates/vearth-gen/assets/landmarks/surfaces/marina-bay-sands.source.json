@@ -1,0 +1,23 @@
+{
+  "name": "marina-bay-sands",
+  "kind": "marina-bay-sands",
+  "source": "marina-bay-sands/mbs.glb",
+  "sha256": "48dad2134abc06842419fb401a554b8f99bbf69cc6c5824ae6bf767bd16b2631",
+  "license": "existing landmark SOURCES.md",
+  "output": "marina-bay-sands.lms",
+  "output_sha256": "65085001c5ac1fb9fd9b4457b5974fc1c1e981caea2eb448a500356cf8077996",
+  "levels": [
+    [
+      16696,
+      9264
+    ],
+    [
+      2533,
+      3302
+    ],
+    [
+      1119,
+      1078
+    ]
+  ]
+}

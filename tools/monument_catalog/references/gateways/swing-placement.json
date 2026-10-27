@@ -1,0 +1,203 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "way",
+      "id": 178353988,
+      "timestamp": "2025-01-23T14:55:50Z",
+      "version": 13,
+      "nodes": [
+        11102390812,
+        11102390813,
+        11102390814,
+        11102390815,
+        11102390816,
+        11102390817,
+        1887121807,
+        1887121803,
+        1887121800,
+        1887121799,
+        11102390807,
+        11102390808,
+        11102390809,
+        11102390810,
+        11102390811,
+        1887121801,
+        1887121805,
+        1887121808,
+        1887121809,
+        11102390812
+      ],
+      "tags": {
+        "alt_name:en": "Sao Ching Sa",
+        "historic": "memorial",
+        "name": "เสาชิงช้า",
+        "name:en": "Giant Swing",
+        "name:es": "Columpio Gigante",
+        "name:ko": "사오칭차",
+        "name:ru": "Гигантские качели",
+        "name:th": "เสาชิงช้า",
+        "name:tr": "Dev Salıncak",
+        "tourism": "attraction",
+        "wikidata": "Q1279344",
+        "wikipedia": "en:Giant Swing"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1887121799,
+      "lat": 13.7517907,
+      "lon": 100.5013233,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 1887121800,
+      "lat": 13.7518068,
+      "lon": 100.5013268,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 1887121801,
+      "lat": 13.7517793,
+      "lon": 100.5012399,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 1887121803,
+      "lat": 13.751823,
+      "lon": 100.5013245,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 1887121805,
+      "lat": 13.7517922,
+      "lon": 100.5012325,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 1887121807,
+      "lat": 13.7518375,
+      "lon": 100.5013165,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 1887121808,
+      "lat": 13.7518067,
+      "lon": 100.5012296,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 1887121809,
+      "lat": 13.7518214,
+      "lon": 100.5012314,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 11102390807,
+      "lat": 13.7517768,
+      "lon": 100.5013144,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390808,
+      "lat": 13.7517667,
+      "lon": 100.5013011,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390809,
+      "lat": 13.7517616,
+      "lon": 100.501285,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390810,
+      "lat": 13.7517622,
+      "lon": 100.5012681,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390811,
+      "lat": 13.7517683,
+      "lon": 100.5012524,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390812,
+      "lat": 13.7518348,
+      "lon": 100.5012379,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390813,
+      "lat": 13.7518456,
+      "lon": 100.5012482,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390814,
+      "lat": 13.7518528,
+      "lon": 100.5012615,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390815,
+      "lat": 13.7518556,
+      "lon": 100.5012765,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390816,
+      "lat": 13.7518538,
+      "lon": 100.5012916,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    },
+    {
+      "type": "node",
+      "id": 11102390817,
+      "lat": 13.7518476,
+      "lon": 100.5013054,
+      "timestamp": "2025-11-26T14:00:37Z",
+      "version": 2
+    }
+  ]
+}

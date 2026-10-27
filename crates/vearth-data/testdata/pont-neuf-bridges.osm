@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" copyright="OpenStreetMap and contributors" attribution="https://www.openstreetmap.org/copyright" license="https://opendatacommons.org/licenses/odbl/1-0/">
+  <node id="403534532" lat="48.8568568" lon="2.3410920" />
+  <node id="676758885" lat="48.8572207" lon="2.3412519" />
+  <node id="676788774" lat="48.8561225" lon="2.3407024" />
+  <node id="676788775" lat="48.8561824" lon="2.3407222" />
+  <node id="676788836" lat="48.8563661" lon="2.3403149" />
+  <node id="676788837" lat="48.8563589" lon="2.3403769" />
+  <node id="676788838" lat="48.8562381" lon="2.3407639">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788839" lat="48.8563704" lon="2.3405034">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788840" lat="48.8563631" lon="2.3404762" />
+  <node id="676788841" lat="48.8563582" lon="2.3404343" />
+  <node id="676788843" lat="48.8563891" lon="2.3404961" />
+  <node id="676788844" lat="48.8564034" lon="2.3405036" />
+  <node id="676788845" lat="48.8564119" lon="2.3405170" />
+  <node id="676788846" lat="48.8564157" lon="2.3405344" />
+  <node id="676788847" lat="48.8564142" lon="2.3405519">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788848" lat="48.8565409" lon="2.3406237" />
+  <node id="676788849" lat="48.8565295" lon="2.3406221" />
+  <node id="676788850" lat="48.8565118" lon="2.3406332">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788851" lat="48.8567018" lon="2.3407564" />
+  <node id="676788852" lat="48.8566837" lon="2.3407548" />
+  <node id="676788854" lat="48.8565506" lon="2.3406288" />
+  <node id="676788855" lat="48.8565573" lon="2.3406432" />
+  <node id="676788856" lat="48.8565616" lon="2.3406589" />
+  <node id="676788857" lat="48.8565607" lon="2.3406775">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788858" lat="48.8566676" lon="2.3407678">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788859" lat="48.8567121" lon="2.3407705" />
+  <node id="676788860" lat="48.8562372" lon="2.3407749" />
+  <node id="676788861" lat="48.8562398" lon="2.3407965" />
+  <node id="676788862" lat="48.8562798" lon="2.3408226" />
+  <node id="676788864" lat="48.8562500" lon="2.3408144" />
+  <node id="676788865" lat="48.8562643" lon="2.3408234" />
+  <node id="676788866" lat="48.8562928" lon="2.3408103">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788867" lat="48.8565367" lon="2.3410540" />
+  <node id="676788868" lat="48.8565306" lon="2.3410387" />
+  <node id="676788869" lat="48.8565281" lon="2.3410250" />
+  <node id="676788870" lat="48.8564058" lon="2.3409434" />
+  <node id="676788871" lat="48.8563915" lon="2.3409345" />
+  <node id="676788872" lat="48.8563813" lon="2.3409165" />
+  <node id="676788873" lat="48.8563787" lon="2.3408949" />
+  <node id="676788874" lat="48.8564343" lon="2.3409303">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788875" lat="48.8564213" lon="2.3409427" />
+  <node id="676788876" lat="48.8563796" lon="2.3408840">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788877" lat="48.8565287" lon="2.3410133">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788878" lat="48.8566676" lon="2.3411272">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788879" lat="48.8565787" lon="2.3410517">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788880" lat="48.8565657" lon="2.3410641" />
+  <node id="676788881" lat="48.8565502" lon="2.3410648" />
+  <node id="676788882" lat="48.8568643" lon="2.3409312" />
+  <node id="676788883" lat="48.8568561" lon="2.3409049" />
+  <node id="676788884" lat="48.8568499" lon="2.3408852" />
+  <node id="676788885" lat="48.8568370" lon="2.3408724" />
+  <node id="676788887" lat="48.8568190" lon="2.3408716" />
+  <node id="676788888" lat="48.8568070" lon="2.3408844">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788889" lat="48.8567166" lon="2.3408085">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788890" lat="48.8567172" lon="2.3407875" />
+  <node id="676788891" lat="48.8567139" lon="2.3413115" />
+  <node id="676788892" lat="48.8567098" lon="2.3411788">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788893" lat="48.8566812" lon="2.3411760" />
+  <node id="676788894" lat="48.8566957" lon="2.3411827" />
+  <node id="676788896" lat="48.8566712" lon="2.3411640" />
+  <node id="676788897" lat="48.8566677" lon="2.3411447" />
+  <node id="676788900" lat="48.8567218" lon="2.3412511" />
+  <node id="676788901" lat="48.8567199" lon="2.3412058" />
+  <node id="676788917" lat="48.8569270" lon="2.3409849" />
+  <node id="676788918" lat="48.8568984" lon="2.3409614" />
+  <node id="676788929" lat="48.8573018" lon="2.3413211" />
+  <node id="676788930" lat="48.8572051" lon="2.3414203" />
+  <node id="676788932" lat="48.8573350" lon="2.3413462">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788933" lat="48.8573451" lon="2.3413351" />
+  <node id="676788934" lat="48.8573586" lon="2.3413307" />
+  <node id="676788935" lat="48.8573727" lon="2.3413358" />
+  <node id="676788936" lat="48.8573841" lon="2.3413531" />
+  <node id="676788937" lat="48.8573892" lon="2.3413691" />
+  <node id="676788939" lat="48.8573886" lon="2.3413904">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788940" lat="48.8571689" lon="2.3417383" />
+  <node id="676788945" lat="48.8573223" lon="2.3416920">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788946" lat="48.8573146" lon="2.3417003" />
+  <node id="676788947" lat="48.8573050" lon="2.3417060" />
+  <node id="676788948" lat="48.8572928" lon="2.3417044" />
+  <node id="676788949" lat="48.8572778" lon="2.3416934" />
+  <node id="676788950" lat="48.8572698" lon="2.3416764" />
+  <node id="676788951" lat="48.8572675" lon="2.3416625">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788952" lat="48.8575025" lon="2.3414841">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788953" lat="48.8575576" lon="2.3415278">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788954" lat="48.8575409" lon="2.3414728" />
+  <node id="676788955" lat="48.8575248" lon="2.3414680" />
+  <node id="676788956" lat="48.8575111" lon="2.3414733" />
+  <node id="676788957" lat="48.8575529" lon="2.3414896" />
+  <node id="676788958" lat="48.8575575" lon="2.3415037" />
+  <node id="676788959" lat="48.8574350" lon="2.3417906" />
+  <node id="676788960" lat="48.8574361" lon="2.3417804">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788961" lat="48.8574906" lon="2.3418255">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788962" lat="48.8574781" lon="2.3418361" />
+  <node id="676788963" lat="48.8574640" lon="2.3418406" />
+  <node id="676788964" lat="48.8574518" lon="2.3418339" />
+  <node id="676788965" lat="48.8574430" lon="2.3418223" />
+  <node id="676788966" lat="48.8574367" lon="2.3418063" />
+  <node id="676788968" lat="48.8576795" lon="2.3416269">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788969" lat="48.8576883" lon="2.3416168" />
+  <node id="676788970" lat="48.8576983" lon="2.3416123" />
+  <node id="676788971" lat="48.8577146" lon="2.3416161" />
+  <node id="676788972" lat="48.8577286" lon="2.3416326" />
+  <node id="676788973" lat="48.8577342" lon="2.3416528" />
+  <node id="676788974" lat="48.8577340" lon="2.3416715">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788975" lat="48.8578675" lon="2.3417797">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788976" lat="48.8578750" lon="2.3417706" />
+  <node id="676788977" lat="48.8578869" lon="2.3417637" />
+  <node id="676788978" lat="48.8579031" lon="2.3417673" />
+  <node id="676788979" lat="48.8579161" lon="2.3417811" />
+  <node id="676788980" lat="48.8576650" lon="2.3419675">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788981" lat="48.8576563" lon="2.3419772" />
+  <node id="676788982" lat="48.8576414" lon="2.3419815" />
+  <node id="676788983" lat="48.8576283" lon="2.3419761" />
+  <node id="676788984" lat="48.8576183" lon="2.3419653" />
+  <node id="676788985" lat="48.8576122" lon="2.3419488" />
+  <node id="676788986" lat="48.8576091" lon="2.3419308" />
+  <node id="676788987" lat="48.8576098" lon="2.3419209">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788988" lat="48.8578554" lon="2.3421250">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788989" lat="48.8578485" lon="2.3421345" />
+  <node id="676788990" lat="48.8578388" lon="2.3421385" />
+  <node id="676788991" lat="48.8578314" lon="2.3421403" />
+  <node id="676788992" lat="48.8578220" lon="2.3421384" />
+  <node id="676788993" lat="48.8578133" lon="2.3421308" />
+  <node id="676788994" lat="48.8578048" lon="2.3421180" />
+  <node id="676788995" lat="48.8578014" lon="2.3421043" />
+  <node id="676788996" lat="48.8578006" lon="2.3420911" />
+  <node id="676788997" lat="48.8578004" lon="2.3420799">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676788998" lat="48.8579229" lon="2.3418023" />
+  <node id="676788999" lat="48.8579223" lon="2.3418240">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676789000" lat="48.8580453" lon="2.3419262">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676789001" lat="48.8580576" lon="2.3419153" />
+  <node id="676789002" lat="48.8580690" lon="2.3419098" />
+  <node id="676789003" lat="48.8580851" lon="2.3419140" />
+  <node id="676789004" lat="48.8580979" lon="2.3419327" />
+  <node id="676789005" lat="48.8581033" lon="2.3419512" />
+  <node id="676789006" lat="48.8581020" lon="2.3419732">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676789007" lat="48.8582325" lon="2.3420784">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676789008" lat="48.8582413" lon="2.3420684" />
+  <node id="676789009" lat="48.8582534" lon="2.3420650" />
+  <node id="676789010" lat="48.8580356" lon="2.3422704">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676789011" lat="48.8580256" lon="2.3422823" />
+  <node id="676789012" lat="48.8580132" lon="2.3422886" />
+  <node id="676789013" lat="48.8580029" lon="2.3422846" />
+  <node id="676789014" lat="48.8579955" lon="2.3422804" />
+  <node id="676789015" lat="48.8579871" lon="2.3422702" />
+  <node id="676789016" lat="48.8579816" lon="2.3422537" />
+  <node id="676789017" lat="48.8579796" lon="2.3422368" />
+  <node id="676789018" lat="48.8579797" lon="2.3422252">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676789019" lat="48.8582112" lon="2.3424142">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676789020" lat="48.8582033" lon="2.3424225" />
+  <node id="676789021" lat="48.8581934" lon="2.3424290" />
+  <node id="676789022" lat="48.8581819" lon="2.3424273" />
+  <node id="676789023" lat="48.8581719" lon="2.3424228" />
+  <node id="676789024" lat="48.8581634" lon="2.3424130" />
+  <node id="676789025" lat="48.8581595" lon="2.3423986" />
+  <node id="676789026" lat="48.8581573" lon="2.3423819" />
+  <node id="676789027" lat="48.8581557" lon="2.3423684">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="676789028" lat="48.8582668" lon="2.3420668" />
+  <node id="676789029" lat="48.8582805" lon="2.3420814" />
+  <node id="676789030" lat="48.8582874" lon="2.3421008" />
+  <node id="676789031" lat="48.8582886" lon="2.3421238">
+    <tag k="historic" v="memorial" />
+    <tag k="material" v="marble" />
+    <tag k="memorial" v="plaque" />
+  </node>
+  <node id="676789033" lat="48.8584404" lon="2.3421278" />
+  <node id="676789034" lat="48.8583475" lon="2.3421671" />
+  <node id="676789036" lat="48.8583167" lon="2.3426309" />
+  <node id="676789037" lat="48.8582670" lon="2.3424601" />
+  <node id="677017619" lat="48.8582988" lon="2.3423145">
+    <tag k="highway" v="traffic_signals" />
+    <tag k="source" v="Bing" />
+    <tag k="traffic_signals:direction" v="backward" />
+  </node>
+  <node id="678833511" lat="48.8583786" lon="2.3423794" />
+  <node id="919598167" lat="48.8562229" lon="2.3405456">
+    <tag k="highway" v="traffic_signals" />
+    <tag k="traffic_signals" v="signal" />
+    <tag k="traffic_signals:direction" v="forward" />
+  </node>
+  <node id="2635391589" lat="48.8561753" lon="2.3407198" />
+  <node id="2635391591" lat="48.8563594" lon="2.3404525" />
+  <node id="2734089715" lat="48.8567498" lon="2.3410051" />
+  <node id="2734089737" lat="48.8573177" lon="2.3415203">
+    <tag k="button_operated" v="no" />
+    <tag k="crossing" v="uncontrolled" />
+    <tag k="crossing:island" v="no" />
+    <tag k="crossing:markings" v="zebra" />
+    <tag k="highway" v="crossing" />
+    <tag k="tactile_paving" v="no" />
+    <tag k="traffic_signals:sound" v="no" />
+  </node>
+  <node id="2734089741" lat="48.8583329" lon="2.3423422">
+    <tag k="button_operated" v="no" />
+    <tag k="crossing" v="traffic_signals" />
+    <tag k="crossing:island" v="no" />
+    <tag k="crossing:markings" v="zebra" />
+    <tag k="highway" v="crossing" />
+    <tag k="source" v="Bing" />
+    <tag k="tactile_paving" v="yes" />
+    <tag k="traffic_signals:vibration" v="yes" />
+  </node>
+  <node id="4530200554" lat="48.8564696" lon="2.3405981">
+    <tag k="seamark:notice:category" v="no_entry" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="prohibition" />
+    <tag k="seamark:notice:impact" v="upstream" />
+    <tag k="seamark:notice:orientation" v="120" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4530200555" lat="48.8567637" lon="2.3408485">
+    <tag k="seamark:notice:category" v="no_entry" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="prohibition" />
+    <tag k="seamark:notice:impact" v="upstream" />
+    <tag k="seamark:notice:orientation" v="120" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796475" lat="48.8581672" lon="2.3420258">
+    <tag k="seamark:notice:category" v="no_entry" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="prohibition" />
+    <tag k="seamark:notice:impact" v="upstream" />
+    <tag k="seamark:notice:orientation" v="120" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796476" lat="48.8579807" lon="2.3418740">
+    <tag k="seamark:notice:category" v="no_entry" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="prohibition" />
+    <tag k="seamark:notice:impact" v="upstream" />
+    <tag k="seamark:notice:orientation" v="120" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796477" lat="48.8578003" lon="2.3417266">
+    <tag k="seamark:notice:category" v="channel_two_way" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="recommendation" />
+    <tag k="seamark:notice:impact" v="upstream" />
+    <tag k="seamark:notice:orientation" v="120" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796478" lat="48.8576189" lon="2.3415777">
+    <tag k="seamark:notice:category" v="channel_one_way" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="recommendation" />
+    <tag k="seamark:notice:impact" v="upstream" />
+    <tag k="seamark:notice:orientation" v="120" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796479" lat="48.8574436" lon="2.3414370">
+    <tag k="seamark:notice:category" v="no_entry" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="prohibition" />
+    <tag k="seamark:notice:impact" v="upstream" />
+    <tag k="seamark:notice:orientation" v="120" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796480" lat="48.8580945" lon="2.3423160">
+    <tag k="seamark:notice:category" v="no_entry" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="prohibition" />
+    <tag k="seamark:notice:impact" v="downstream" />
+    <tag k="seamark:notice:orientation" v="300" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796481" lat="48.8579125" lon="2.3421680">
+    <tag k="seamark:notice:category" v="channel_one_way" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="recommendation" />
+    <tag k="seamark:notice:impact" v="downstream" />
+    <tag k="seamark:notice:orientation" v="300" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796482" lat="48.8577334" lon="2.3420231">
+    <tag k="seamark:notice:category" v="channel_two_way" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="recommendation" />
+    <tag k="seamark:notice:impact" v="downstream" />
+    <tag k="seamark:notice:orientation" v="300" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796483" lat="48.8575493" lon="2.3418725">
+    <tag k="seamark:notice:category" v="no_entry" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="prohibition" />
+    <tag k="seamark:notice:impact" v="downstream" />
+    <tag k="seamark:notice:orientation" v="300" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="4531796484" lat="48.8573752" lon="2.3417313">
+    <tag k="seamark:notice:category" v="no_entry" />
+    <tag k="seamark:notice:distance_down" v="0" />
+    <tag k="seamark:notice:distance_end" v="0" />
+    <tag k="seamark:notice:distance_start" v="0" />
+    <tag k="seamark:notice:distance_up" v="0" />
+    <tag k="seamark:notice:function" v="prohibition" />
+    <tag k="seamark:notice:impact" v="downstream" />
+    <tag k="seamark:notice:orientation" v="300" />
+    <tag k="seamark:notice:system" v="cevni" />
+    <tag k="seamark:type" v="notice" />
+  </node>
+  <node id="5158494031" lat="48.8563622" lon="2.3404692">
+    <tag k="board_type" v="history" />
+    <tag k="historic" v="memorial" />
+    <tag k="information" v="board" />
+    <tag k="inscription" v="ICI René REVEL GARDIEN de la PAIX du 15ème arrt. CHEVALIER de la LEGION d'HONNEUR a été tué par les ALLEMANDS le 19 août 1944" />
+    <tag k="memorial" v="plaque" />
+  </node>
+  <node id="5374911024" lat="48.8577624" lon="2.3418785" />
+  <node id="6263794046" lat="48.8563399" lon="2.3406679" />
+  <node id="6291704556" lat="48.8562476" lon="2.3405778">
+    <tag k="cycleway" v="asl" />
+    <tag k="direction" v="forward" />
+  </node>
+  <node id="6400526957" lat="48.8568064" lon="2.3411698" />
+  <node id="6403520814" lat="48.8571955" lon="2.3415173" />
+  <node id="9701911582" lat="48.8584286" lon="2.3421751" />
+  <node id="9701911583" lat="48.8584326" lon="2.3421930" />
+  <node id="9712613515" lat="48.8584026" lon="2.3422816" />
+  <node id="10820427949" lat="48.8583833" lon="2.3421519" />
+  <node id="10820427964" lat="48.8572861" lon="2.3417017" />
+  <node id="10820427965" lat="48.8568559" lon="2.3409248">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="10820427966" lat="48.8565215" lon="2.3406253" />
+  <node id="11054817254" lat="48.8567727" lon="2.3410816" />
+  <node id="11054817256" lat="48.8567393" lon="2.3409965">
+    <tag k="button_operated" v="no" />
+    <tag k="crossing" v="uncontrolled" />
+    <tag k="crossing:island" v="no" />
+    <tag k="crossing:markings" v="zebra" />
+    <tag k="crossing:signals" v="no" />
+    <tag k="highway" v="crossing" />
+    <tag k="tactile_paving" v="yes" />
+    <tag k="traffic_signals:sound" v="no" />
+  </node>
+  <node id="11054817432" lat="48.8563609" lon="2.3403467" />
+  <node id="11066533447" lat="48.8583500" lon="2.3424957" />
+  <node id="11086016986" lat="48.8583327" lon="2.3425660" />
+  <node id="11257373669" lat="48.8582885" lon="2.3421222">
+    <tag k="highway" v="street_lamp" />
+    <tag k="lamp_mount" v="straight_mast" />
+  </node>
+  <node id="11992434830" lat="48.8584103" lon="2.3422492" />
+  <way id="20326518">
+    <nd ref="2734089715" />
+    <nd ref="11054817256" />
+    <nd ref="6263794046" />
+    <nd ref="6291704556" />
+    <nd ref="919598167" />
+    <tag k="alt_name:ru" v="Новый Мост" />
+    <tag k="bridge" v="yes" />
+    <tag k="busway:left" v="opposite_lane" />
+    <tag k="cycleway:left" v="lane" />
+    <tag k="cycleway:left:lane" v="exclusive" />
+    <tag k="cycleway:left:oneway" v="-1" />
+    <tag k="cycleway:right" v="lane" />
+    <tag k="cycleway:right:lane" v="exclusive" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="2" />
+    <tag k="lanes:backward" v="1" />
+    <tag k="lanes:forward" v="1" />
+    <tag k="layer" v="1" />
+    <tag k="lit" v="yes" />
+    <tag k="maxspeed" v="30" />
+    <tag k="maxweightrating:signed" v="no" />
+    <tag k="maxweight:signed" v="no" />
+    <tag k="name" v="Pont Neuf" />
+    <tag k="name:de" v="Neue Brücke" />
+    <tag k="name:es" v="Puente Nuevo" />
+    <tag k="name:pt" v="Ponte Nova" />
+    <tag k="name:ru" v="Новый мост" />
+    <tag k="name:zh" v="新桥" />
+    <tag k="note" v="maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)" />
+    <tag k="oneway" v="yes" />
+    <tag k="oneway:bicycle" v="no" />
+    <tag k="oneway:psv" v="no" />
+    <tag k="parking:both" v="no" />
+    <tag k="psv:lanes:backward" v="designated" />
+    <tag k="sett:pattern" v="arc" />
+    <tag k="sidewalk" v="separate" />
+    <tag k="sidewalk:both:surface" v="paving_stones" />
+    <tag k="smoothness" v="intermediate" />
+    <tag k="surface" v="sett" />
+    <tag k="zone:maxspeed" v="FR:30" />
+  </way>
+  <way id="53574149">
+    <nd ref="676788870" />
+    <nd ref="676788871" />
+    <nd ref="676788872" />
+    <nd ref="676788873" />
+    <nd ref="676788876" />
+    <nd ref="676788866" />
+    <nd ref="676788862" />
+    <nd ref="676788865" />
+    <nd ref="676788864" />
+    <nd ref="676788861" />
+    <nd ref="676788860" />
+    <nd ref="676788838" />
+    <nd ref="676788775" />
+    <nd ref="2635391589" />
+    <nd ref="676788774" />
+    <nd ref="919598167" />
+    <nd ref="676788836" />
+    <nd ref="11054817432" />
+    <nd ref="676788837" />
+    <nd ref="676788841" />
+    <nd ref="2635391591" />
+    <nd ref="5158494031" />
+    <nd ref="676788840" />
+    <nd ref="676788839" />
+    <nd ref="676788843" />
+    <nd ref="676788844" />
+    <nd ref="676788845" />
+    <nd ref="676788846" />
+    <nd ref="676788847" />
+    <nd ref="4530200554" />
+    <nd ref="676788850" />
+    <nd ref="10820427966" />
+    <nd ref="676788849" />
+    <nd ref="676788848" />
+    <nd ref="676788854" />
+    <nd ref="676788855" />
+    <nd ref="676788856" />
+    <nd ref="676788857" />
+    <nd ref="676788858" />
+    <nd ref="676788852" />
+    <nd ref="676788851" />
+    <nd ref="676788859" />
+    <nd ref="676788890" />
+    <nd ref="676788889" />
+    <nd ref="4530200555" />
+    <nd ref="676788888" />
+    <nd ref="676788887" />
+    <nd ref="676788885" />
+    <nd ref="676788884" />
+    <nd ref="676788883" />
+    <nd ref="10820427965" />
+    <nd ref="676788882" />
+    <nd ref="676788918" />
+    <nd ref="676788917" />
+    <nd ref="403534532" />
+    <nd ref="6400526957" />
+    <nd ref="676788891" />
+    <nd ref="676788900" />
+    <nd ref="676788901" />
+    <nd ref="676788892" />
+    <nd ref="676788894" />
+    <nd ref="676788893" />
+    <nd ref="676788896" />
+    <nd ref="676788897" />
+    <nd ref="676788878" />
+    <nd ref="676788879" />
+    <nd ref="676788880" />
+    <nd ref="676788881" />
+    <nd ref="676788867" />
+    <nd ref="676788868" />
+    <nd ref="676788869" />
+    <nd ref="676788877" />
+    <nd ref="676788874" />
+    <nd ref="676788875" />
+    <nd ref="676788870" />
+    <tag k="architect" v="Baptiste &amp; Jacques II Androuet du Cerceau, F. des Isles,G. Marchand, T. Métezeau" />
+    <tag k="bridge:structure" v="arch" />
+    <tag k="image" v="https://photos.app.goo.gl/23THLwVBi6F7e8PR6" />
+    <tag k="layer" v="1" />
+    <tag k="man_made" v="bridge" />
+    <tag k="name" v="Pont Neuf" />
+    <tag k="name:es" v="Puente Nuevo" />
+    <tag k="name:pt" v="Ponte Nova" />
+    <tag k="name:ru" v="Новый мост" />
+    <tag k="name:zh" v="新桥" />
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010" />
+    <tag k="tourism" v="attraction" />
+    <tag k="wheelchair" v="yes" />
+    <tag k="wikidata" v="Q335277" />
+    <tag k="wikipedia" v="fr:Pont Neuf" />
+  </way>
+  <way id="53574163">
+    <nd ref="678833511" />
+    <nd ref="2734089741" />
+    <nd ref="677017619" />
+    <nd ref="5374911024" />
+    <tag k="alt_name:ru" v="Новый Мост" />
+    <tag k="bridge" v="yes" />
+    <tag k="cycleway:both" v="lane" />
+    <tag k="cycleway:both:lane" v="exclusive" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="2" />
+    <tag k="layer" v="1" />
+    <tag k="lit" v="yes" />
+    <tag k="maxspeed" v="30" />
+    <tag k="maxweightrating:signed" v="no" />
+    <tag k="maxweight:signed" v="no" />
+    <tag k="name" v="Pont Neuf" />
+    <tag k="name:de" v="Neue Brücke" />
+    <tag k="name:es" v="Puente Nuevo" />
+    <tag k="name:pt" v="Ponte Nova" />
+    <tag k="name:ru" v="Новый мост" />
+    <tag k="name:zh" v="新桥" />
+    <tag k="note" v="maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)" />
+    <tag k="parking:both" v="no" />
+    <tag k="sett:pattern" v="arc" />
+    <tag k="sidewalk:both" v="separate" />
+    <tag k="sidewalk:both:surface" v="paving_stones" />
+    <tag k="smoothness" v="good" />
+    <tag k="surface" v="sett" />
+    <tag k="zone:maxspeed" v="FR:30" />
+  </way>
+  <way id="53574164">
+    <nd ref="676788940" />
+    <nd ref="6403520814" />
+    <nd ref="676788930" />
+    <nd ref="676758885" />
+    <nd ref="676788929" />
+    <nd ref="676788932" />
+    <nd ref="676788933" />
+    <nd ref="676788934" />
+    <nd ref="676788935" />
+    <nd ref="676788936" />
+    <nd ref="676788937" />
+    <nd ref="676788939" />
+    <nd ref="4531796479" />
+    <nd ref="676788952" />
+    <nd ref="676788956" />
+    <nd ref="676788955" />
+    <nd ref="676788954" />
+    <nd ref="676788957" />
+    <nd ref="676788958" />
+    <nd ref="676788953" />
+    <nd ref="4531796478" />
+    <nd ref="676788968" />
+    <nd ref="676788969" />
+    <nd ref="676788970" />
+    <nd ref="676788971" />
+    <nd ref="676788972" />
+    <nd ref="676788973" />
+    <nd ref="676788974" />
+    <nd ref="4531796477" />
+    <nd ref="676788975" />
+    <nd ref="676788976" />
+    <nd ref="676788977" />
+    <nd ref="676788978" />
+    <nd ref="676788979" />
+    <nd ref="676788998" />
+    <nd ref="676788999" />
+    <nd ref="4531796476" />
+    <nd ref="676789000" />
+    <nd ref="676789001" />
+    <nd ref="676789002" />
+    <nd ref="676789003" />
+    <nd ref="676789004" />
+    <nd ref="676789005" />
+    <nd ref="676789006" />
+    <nd ref="4531796475" />
+    <nd ref="676789007" />
+    <nd ref="676789008" />
+    <nd ref="676789009" />
+    <nd ref="676789028" />
+    <nd ref="676789029" />
+    <nd ref="676789030" />
+    <nd ref="11257373669" />
+    <nd ref="676789031" />
+    <nd ref="676789034" />
+    <nd ref="10820427949" />
+    <nd ref="676789033" />
+    <nd ref="9701911582" />
+    <nd ref="9701911583" />
+    <nd ref="11992434830" />
+    <nd ref="9712613515" />
+    <nd ref="678833511" />
+    <nd ref="11066533447" />
+    <nd ref="11086016986" />
+    <nd ref="676789036" />
+    <nd ref="676789037" />
+    <nd ref="676789019" />
+    <nd ref="676789020" />
+    <nd ref="676789021" />
+    <nd ref="676789022" />
+    <nd ref="676789023" />
+    <nd ref="676789024" />
+    <nd ref="676789025" />
+    <nd ref="676789026" />
+    <nd ref="676789027" />
+    <nd ref="4531796480" />
+    <nd ref="676789010" />
+    <nd ref="676789011" />
+    <nd ref="676789012" />
+    <nd ref="676789013" />
+    <nd ref="676789014" />
+    <nd ref="676789015" />
+    <nd ref="676789016" />
+    <nd ref="676789017" />
+    <nd ref="676789018" />
+    <nd ref="4531796481" />
+    <nd ref="676788988" />
+    <nd ref="676788989" />
+    <nd ref="676788990" />
+    <nd ref="676788991" />
+    <nd ref="676788992" />
+    <nd ref="676788993" />
+    <nd ref="676788994" />
+    <nd ref="676788995" />
+    <nd ref="676788996" />
+    <nd ref="676788997" />
+    <nd ref="4531796482" />
+    <nd ref="676788980" />
+    <nd ref="676788981" />
+    <nd ref="676788982" />
+    <nd ref="676788983" />
+    <nd ref="676788984" />
+    <nd ref="676788985" />
+    <nd ref="676788986" />
+    <nd ref="676788987" />
+    <nd ref="4531796483" />
+    <nd ref="676788961" />
+    <nd ref="676788962" />
+    <nd ref="676788963" />
+    <nd ref="676788964" />
+    <nd ref="676788965" />
+    <nd ref="676788966" />
+    <nd ref="676788959" />
+    <nd ref="676788960" />
+    <nd ref="4531796484" />
+    <nd ref="676788945" />
+    <nd ref="676788946" />
+    <nd ref="676788947" />
+    <nd ref="676788948" />
+    <nd ref="10820427964" />
+    <nd ref="676788949" />
+    <nd ref="676788950" />
+    <nd ref="676788951" />
+    <nd ref="676788940" />
+    <tag k="alt_name:ru" v="Новый Мост" />
+    <tag k="bridge:structure" v="arch" />
+    <tag k="layer" v="1" />
+    <tag k="man_made" v="bridge" />
+    <tag k="name" v="Pont Neuf" />
+    <tag k="name:de" v="Neue Brücke" />
+    <tag k="name:es" v="Puente Nuevo" />
+    <tag k="name:ko" v="퐁네프의 다리" />
+    <tag k="name:pt" v="Ponte Nova" />
+    <tag k="name:ru" v="Новый мост" />
+    <tag k="name:zh" v="新桥" />
+    <tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010" />
+    <tag k="tourism" v="attraction" />
+    <tag k="wheelchair" v="no" />
+    <tag k="wikidata" v="Q335277" />
+    <tag k="wikipedia" v="fr:Pont Neuf" />
+  </way>
+  <way id="557297166">
+    <nd ref="5374911024" />
+    <nd ref="2734089737" />
+    <tag k="alt_name:ru" v="Новый Мост" />
+    <tag k="bridge" v="yes" />
+    <tag k="cycleway:both" v="lane" />
+    <tag k="cycleway:both:lane" v="exclusive" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="2" />
+    <tag k="layer" v="1" />
+    <tag k="lit" v="yes" />
+    <tag k="maxspeed" v="30" />
+    <tag k="maxweightrating:signed" v="no" />
+    <tag k="maxweight:signed" v="no" />
+    <tag k="name" v="Pont Neuf" />
+    <tag k="name:de" v="Neue Brücke" />
+    <tag k="name:es" v="Puente Nuevo" />
+    <tag k="name:pt" v="Ponte Nova" />
+    <tag k="name:ru" v="Новый мост" />
+    <tag k="name:zh" v="新桥" />
+    <tag k="note" v="maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)" />
+    <tag k="parking:both" v="no" />
+    <tag k="sett:pattern" v="arc" />
+    <tag k="sidewalk:both" v="separate" />
+    <tag k="sidewalk:both:surface" v="paving_stones" />
+    <tag k="smoothness" v="intermediate" />
+    <tag k="surface" v="sett" />
+    <tag k="zone:maxspeed" v="FR:30" />
+  </way>
+  <way id="683347674">
+    <nd ref="2734089737" />
+    <nd ref="676788930" />
+    <tag k="alt_name:ru" v="Новый Мост" />
+    <tag k="bridge" v="yes" />
+    <tag k="cycleway:left" v="no" />
+    <tag k="cycleway:right" v="lane" />
+    <tag k="cycleway:right:lane" v="exclusive" />
+    <tag k="dual_carriageway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="1" />
+    <tag k="layer" v="1" />
+    <tag k="lit" v="yes" />
+    <tag k="maxspeed" v="30" />
+    <tag k="maxweightrating:signed" v="no" />
+    <tag k="maxweight:signed" v="no" />
+    <tag k="name" v="Pont Neuf" />
+    <tag k="name:de" v="Neue Brücke" />
+    <tag k="name:es" v="Puente Nuevo" />
+    <tag k="name:pt" v="Ponte Nova" />
+    <tag k="name:ru" v="Новый мост" />
+    <tag k="name:zh" v="新桥" />
+    <tag k="note" v="maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)" />
+    <tag k="oneway" v="yes" />
+    <tag k="sett:pattern" v="arc" />
+    <tag k="sidewalk" v="separate" />
+    <tag k="smoothness" v="intermediate" />
+    <tag k="surface" v="sett" />
+    <tag k="zone:maxspeed" v="FR:30" />
+  </way>
+  <way id="683347675">
+    <nd ref="2734089715" />
+    <nd ref="11054817254" />
+    <nd ref="6400526957" />
+    <tag k="alt_name:ru" v="Новый Мост" />
+    <tag k="bridge" v="yes" />
+    <tag k="cycleway:left" v="no" />
+    <tag k="cycleway:right" v="lane" />
+    <tag k="cycleway:right:lane" v="exclusive" />
+    <tag k="dual_carriageway" v="yes" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="layer" v="1" />
+    <tag k="lit" v="yes" />
+    <tag k="maxspeed" v="30" />
+    <tag k="maxweightrating:signed" v="no" />
+    <tag k="maxweight:signed" v="no" />
+    <tag k="name" v="Pont Neuf" />
+    <tag k="name:de" v="Neue Brücke" />
+    <tag k="name:es" v="Puente Nuevo" />
+    <tag k="name:pt" v="Ponte Nova" />
+    <tag k="name:ru" v="Новый мост" />
+    <tag k="name:zh" v="新桥" />
+    <tag k="note" v="maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)" />
+    <tag k="oneway" v="yes" />
+    <tag k="sidewalk" v="separate" />
+    <tag k="smoothness" v="intermediate" />
+    <tag k="surface" v="sett" />
+    <tag k="wikidata" v="Q335277" />
+    <tag k="wikipedia" v="fr:Pont Neuf" />
+    <tag k="zone:maxspeed" v="FR:30" />
+  </way>
+  <way id="683347676">
+    <nd ref="403534532" />
+    <nd ref="2734089715" />
+    <tag k="alt_name:ru" v="Новый Мост" />
+    <tag k="bridge" v="yes" />
+    <tag k="cycleway:left" v="no" />
+    <tag k="cycleway:right" v="lane" />
+    <tag k="cycleway:right:lane" v="exclusive" />
+    <tag k="dual_carriageway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="2" />
+    <tag k="layer" v="1" />
+    <tag k="lit" v="yes" />
+    <tag k="maxspeed" v="30" />
+    <tag k="maxweightrating:signed" v="no" />
+    <tag k="maxweight:signed" v="no" />
+    <tag k="name" v="Pont Neuf" />
+    <tag k="name:de" v="Neue Brücke" />
+    <tag k="name:es" v="Puente Nuevo" />
+    <tag k="name:pt" v="Ponte Nova" />
+    <tag k="name:ru" v="Новый мост" />
+    <tag k="name:zh" v="新桥" />
+    <tag k="note" v="maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)" />
+    <tag k="oneway" v="yes" />
+    <tag k="sett:pattern" v="arc" />
+    <tag k="sidewalk" v="separate" />
+    <tag k="smoothness" v="intermediate" />
+    <tag k="surface" v="sett" />
+    <tag k="wikidata" v="Q335277" />
+    <tag k="wikipedia" v="fr:Pont Neuf" />
+    <tag k="zone:maxspeed" v="FR:30" />
+  </way>
+  <way id="683651856">
+    <nd ref="6403520814" />
+    <nd ref="2734089737" />
+    <tag k="bridge" v="yes" />
+    <tag k="cycleway:left" v="no" />
+    <tag k="cycleway:right" v="lane" />
+    <tag k="cycleway:right:lane" v="exclusive" />
+    <tag k="dual_carriageway" v="yes" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="1" />
+    <tag k="layer" v="1" />
+    <tag k="lit" v="yes" />
+    <tag k="maxspeed" v="30" />
+    <tag k="maxweightrating:signed" v="no" />
+    <tag k="maxweight:signed" v="no" />
+    <tag k="name" v="Pont Neuf" />
+    <tag k="note" v="maxweight=* déprécié, utilisez maxweightrating=* à la place (https://forum.openstreetmap.fr/t/proposition-d-edition-automatisee-migration-de-maxweight-en-maxweightrating-pour-la-france/35439/71)" />
+    <tag k="oneway" v="yes" />
+    <tag k="sidewalk:left" v="yes" />
+    <tag k="sidewalk:left:surface" v="asphalt" />
+    <tag k="sidewalk:right" v="separate" />
+    <tag k="sidewalk:right:surface" v="paving_stones" />
+    <tag k="smoothness" v="intermediate" />
+    <tag k="surface" v="sett" />
+    <tag k="wikidata" v="Q3390686" />
+    <tag k="zone:maxspeed" v="FR:30" />
+  </way>
+</osm>

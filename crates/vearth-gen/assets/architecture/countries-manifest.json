@@ -1,0 +1,26 @@
+{
+  "schema_version": 3,
+  "country_territory_count": 253,
+  "admin_record_count": 4589,
+  "reviewed_subdivision_count": 410,
+  "evidence_url_count": 546,
+  "atlas_sha256": "9881d8f2097f937f0946232efef3d6d12b49702bb7f3ee24f952a8a21e006b06",
+  "generator_sha256": "1df931561cc1e264aa45e164286f810eeb4b575bb7816fd26c026635c0bc87f2",
+  "inputs": {
+    "crates/vearth-gen/assets/architecture/countries/asia-africa.json": "2174869c150494fd45769c59a3ca8182fdcd6200c5e9b7c7e153719e5af94bb6",
+    "crates/vearth-gen/assets/architecture/countries/europe-americas.json": "33136a0014d98ddd01e7fdc19dbadd49909989b036b0454f3b75f712b97f7651",
+    "crates/vearth-gen/assets/architecture/countries/oceania-polar.json": "55d0a974ffa9c6694ed80c318020772c187299d618332d0d9060c1f28279fc83"
+  },
+  "generated_rust_sha256": "09b4da9ab1a3184c700fc6f64a7256f5a69f649e60e6b052edd8dd61ff5bc72d",
+  "style_keys_source_sha256": "5f49cf6ebf5cee6c10cadbaaefe1614309b68e8f269d29713543e5bedee8ed35",
+  "place_finishes_sha256": "654392a5de9febb510b0b2d2b0162923c6fe0e57ae90d61352c894e7a879f2a8",
+  "place_identities_sha256": "355fa885ae238bfa28b3fb09c39984624ebdb12db7664bb982727092bbccced7",
+  "reviewed_place_recipes": 81,
+  "compiled_archetypes": 2234,
+  "review_status_counts": {
+    "pending": 111,
+    "stock-reviewed": 23,
+    "visually-reviewed": 119
+  },
+  "interpretation": "Variable-length relative weights. Per-country weight_basis distinguishes observed stock, visual interpretation, and unresolved review; compiling data is not visual acceptance."
+}

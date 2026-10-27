@@ -1,0 +1,23 @@
+{
+  "name": "golden-temple",
+  "kind": "golden-temple",
+  "source": "golden-temple/goldentemple.glb",
+  "sha256": "2a41d447ffe1a664f96a96f3cfb8a10ccb4dfbf867b1fe98a1afd47a35ec8e7c",
+  "license": "existing landmark SOURCES.md",
+  "output": "golden-temple.lms",
+  "output_sha256": "86191c8467793632bff053738287f633f82ab591193ae8e81794d05b7ea567b8",
+  "levels": [
+    [
+      51422,
+      28612
+    ],
+    [
+      13707,
+      13320
+    ],
+    [
+      12324,
+      10522
+    ]
+  ]
+}

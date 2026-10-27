@@ -1,0 +1,50 @@
+{
+  "dataset": "20260907-terrain-ff72be71951c0f92-bridges-b1c01b2e5d670c2a-regional-landcover-selective-v1-water-polygons-typed-v1-watercourses-rivers-canals-v1-bridge-roads-adaptive-v1-surface-pack-v2-monthly-regional-opt-in-v1-m09",
+  "ground_m": 55.87632751464844,
+  "ground_samples": [
+    {
+      "east_m": -83.959,
+      "ground_m": 58.997135162353516,
+      "lat": 50.94156382591973,
+      "lon": 6.957086463140391,
+      "north_m": 31.798
+    },
+    {
+      "east_m": -82.388,
+      "ground_m": 59.304813385009766,
+      "lat": 50.941024666279134,
+      "lon": 6.95710882829005,
+      "north_m": -28.182
+    },
+    {
+      "east_m": -6.326,
+      "ground_m": 56.627357482910156,
+      "lat": 50.94169899949073,
+      "lon": 6.958190995806466,
+      "north_m": 46.835
+    },
+    {
+      "east_m": -4.074,
+      "ground_m": 57.89089584350586,
+      "lat": 50.940926215689174,
+      "lon": 6.958223037463446,
+      "north_m": -39.135
+    },
+    {
+      "east_m": 58.778,
+      "ground_m": 54.04685974121094,
+      "lat": 50.94132766119836,
+      "lon": 6.959117266890362,
+      "north_m": 5.525
+    },
+    {
+      "east_m": -84.173,
+      "ground_m": 59.09211730957031,
+      "lat": 50.941294012247425,
+      "lon": 6.957083425360601,
+      "north_m": 1.782
+    }
+  ],
+  "lat": 50.941278,
+  "lon": 6.958281
+}

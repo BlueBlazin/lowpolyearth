@@ -1,0 +1,85 @@
+# Low Poly Earth notable-place registry. Project-authored metadata.
+# MIT License; see the repository LICENSE.
+# Columns (tab-separated):
+# display_name | aliases (pipe-separated) | latitude | longitude | country |
+# admin region | ranking boost | fly-to altitude metres | LANDMARKS source slug
+#
+# Leave coordinates empty when source_landmark is set: vearth-prep resolves
+# them from vearth_gen::landmarks::LANDMARKS so anchors are never duplicated.
+Taj Mahal	Taj			India	Uttar Pradesh	180	1200	taj-mahal
+Sydney Opera House	Opera House			Australia	New South Wales	170	900	sydney-opera-house
+Farm Tomita	Tomita Farm|Furano Lavender Farm	43.4187	142.4255	Japan	Hokkaido	150	700
+Machu Picchu	Lost City of the Incas	-13.1631	-72.5450	Peru	Cusco	140	1800
+Stonehenge		51.1789	-1.8262	United Kingdom	England	130	700
+Mount Rushmore	Rushmore	43.8791	-103.4591	United States	South Dakota	130	1100
+Petra	Rose City	30.3285	35.4444	Jordan	Ma'an	140	1700
+Acropolis of Athens	Athenian Acropolis	37.9715	23.7257	Greece	Attica	135	1100
+Forbidden City	Palace Museum	39.9163	116.3972	China	Beijing	145	1500
+Great Wall at Badaling	Badaling Great Wall	40.3544	116.0060	China	Beijing	140	2200
+Rano Raraku	Easter Island Moai|Moai Quarry	-27.1258	-109.2868	Chile	Valparaiso	125	1400
+Chichen Itza	Chichén Itzá	20.6843	-88.5678	Mexico	Yucatan	135	1300
+Borobudur	Borobudur Temple	-7.6079	110.2038	Indonesia	Central Java	135	1200
+Mont Saint-Michel	Mont St Michel	48.6361	-1.5115	France	Normandy	135	1200
+Palace of Versailles	Versailles Palace	48.8049	2.1204	France	Île-de-France	135	1500
+Neuschwanstein Castle	Neuschwanstein	47.5576	10.7498	Germany	Bavaria	130	1100
+Alhambra	Alhambra Palace	37.1761	-3.5881	Spain	Andalusia	135	1300
+Hagia Sophia	Aya Sofya	41.0086	28.9802	Türkiye	Istanbul	140	900
+Blue Mosque	Sultan Ahmed Mosque	41.0054	28.9768	Türkiye	Istanbul	125	900
+Uluru	Ayers Rock	-25.3444	131.0369	Australia	Northern Territory	145	2500
+Twelve Apostles	12 Apostles	-38.6653	143.1044	Australia	Victoria	120	1800
+Bondi Beach	Bondi	-33.8915	151.2767	Australia	New South Wales	115	1200
+Niagara Falls	Niagara	43.0828	-79.0742	Canada / United States	Ontario / New York	145	2200
+Victoria Falls	Mosi-oa-Tunya	-17.9243	25.8572	Zambia / Zimbabwe	Southern Africa	140	2400
+Iguazu Falls	Iguaçu Falls|Iguassu Falls	-25.6953	-54.4367	Argentina / Brazil	Misiones / Paraná	140	2800
+Grand Canyon	Grand Canyon National Park	36.1069	-112.1129	United States	Arizona	145	12000
+Old Faithful	Old Faithful Geyser	44.4605	-110.8281	United States	Wyoming	120	900
+Half Dome	Yosemite Half Dome	37.7459	-119.5332	United States	California	125	4500
+Mount Everest	Everest|Sagarmatha	27.9881	86.9250	Nepal / China	Himalayas	160	12000
+Mount Fuji	Fuji-san|Fujisan	35.3606	138.7274	Japan	Shizuoka / Yamanashi	150	9000
+Matterhorn		45.9763	7.6586	Switzerland / Italy	Alps	135	6500
+Table Mountain		-33.9628	18.4098	South Africa	Western Cape	135	4800
+Serengeti National Park	Serengeti	-2.3333	34.8333	Tanzania	Mara / Arusha	125	12000
+Galápagos Islands	Galapagos	-0.9538	-90.9656	Ecuador	Galápagos	130	12000
+Salar de Uyuni	Uyuni Salt Flat	-20.1338	-67.4891	Bolivia	Potosí	130	12000
+Pamukkale	Cotton Castle	37.9137	29.1187	Türkiye	Denizli	120	1200
+Göreme	Goreme|Cappadocia	38.6431	34.8289	Türkiye	Nevşehir	125	1800
+Dead Sea		31.5590	35.4732	Jordan / Israel / Palestine	Levant	130	12000
+Wadi Rum	Valley of the Moon	29.5764	35.4213	Jordan	Aqaba	125	5000
+Lake Louise		51.4254	-116.1773	Canada	Alberta	125	2400
+Moraine Lake		51.3217	-116.1860	Canada	Alberta	120	2400
+Milford Sound	Piopiotahi	-44.6414	167.8974	New Zealand	Southland	130	5000
+Hobbiton Movie Set	Hobbiton	-37.8721	175.6830	New Zealand	Waikato	120	900
+Fushimi Inari Taisha	Fushimi Inari	34.9671	135.7727	Japan	Kyoto	130	800
+Kiyomizu-dera	Kiyomizu Temple	34.9949	135.7850	Japan	Kyoto	120	800
+Meiji Shrine	Meiji Jingu	35.6764	139.6993	Japan	Tokyo	120	900
+Itsukushima Shrine	Miyajima Shrine	34.2959	132.3199	Japan	Hiroshima	125	800
+Arashiyama Bamboo Grove	Bamboo Forest	35.0170	135.6713	Japan	Kyoto	125	700
+Gardens by the Bay	Supertree Grove	1.2816	103.8636	Singapore	Singapore	130	900
+Temple of Heaven	Tiantan	39.8822	116.4066	China	Beijing	125	1100
+Potala Palace		29.6578	91.1172	China	Tibet	135	1500
+Bagan	Bagan Archaeological Zone	21.1717	94.8585	Myanmar	Mandalay	135	3500
+Shwedagon Pagoda	Shwedagon	16.7983	96.1496	Myanmar	Yangon	125	900
+Wat Arun	Temple of Dawn	13.7437	100.4889	Thailand	Bangkok	120	700
+Grand Palace Bangkok	Bangkok Grand Palace	13.7500	100.4913	Thailand	Bangkok	130	900
+Teotihuacan	Teotihuacán	19.6925	-98.8438	Mexico	State of Mexico	135	2200
+Tikal	Tikal National Park	17.2220	-89.6237	Guatemala	Petén	130	2600
+Nazca Lines	Nasca Lines	-14.7390	-75.1300	Peru	Ica	130	12000
+Torres del Paine	Torres del Paine National Park	-51.0000	-73.0000	Chile	Magallanes	125	12000
+Perito Moreno Glacier		-50.4967	-73.1377	Argentina	Santa Cruz	125	6000
+Sugarloaf Mountain	Pão de Açúcar|Pao de Acucar	-22.9492	-43.1545	Brazil	Rio de Janeiro	130	2200
+Copacabana Beach	Copacabana	-22.9711	-43.1822	Brazil	Rio de Janeiro	120	1800
+Golden Pavilion	Kinkaku-ji|Kinkakuji	35.0394	135.7292	Japan	Kyoto	125	700
+Gyeongbokgung Palace	Gyeongbok Palace	37.5796	126.9770	South Korea	Seoul	125	1000
+Ha Long Bay	Halong Bay	20.9101	107.1839	Vietnam	Quảng Ninh	135	12000
+Komodo National Park	Komodo Island	-8.5500	119.4500	Indonesia	East Nusa Tenggara	120	12000
+Chocolate Hills		9.8297	124.1397	Philippines	Bohol	115	3500
+Marina Beach Chennai	Marina Beach	13.0500	80.2824	India	Tamil Nadu	110	1800
+Gateway of India		18.9219	72.8347	India	Maharashtra	120	800
+Lotus Temple	Baháʼí House of Worship	28.5535	77.2588	India	Delhi	120	800
+Mehrangarh Fort	Mehrangarh	26.2983	73.0185	India	Rajasthan	115	1000
+Sheikh Zayed Grand Mosque	Grand Mosque Abu Dhabi	24.4128	54.4749	United Arab Emirates	Abu Dhabi	130	1000
+Lalibela	Rock-Hewn Churches of Lalibela	12.0317	39.0476	Ethiopia	Amhara	125	1400
+Karnak Temple	Karnak	25.7188	32.6573	Egypt	Luxor	125	1500
+Abu Simbel	Abu Simbel Temples	22.3372	31.6258	Egypt	Aswan	130	1400
+Chefchaouen	Blue City	35.1688	-5.2636	Morocco	Tanger-Tétouan-Al Hoceïma	115	1200
+Sossusvlei		-24.7275	15.3426	Namibia	Hardap	120	6000

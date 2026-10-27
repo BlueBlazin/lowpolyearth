@@ -1,0 +1,53 @@
+{
+  "name": "atomium",
+  "city": "Brussels",
+  "lat": 50.89494,
+  "lon": 4.34155,
+  "heading": 15,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "activation_pad": 0.0,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "description": "Nine steel spheres joined by twenty tubes in a body-centered cubic lattice.",
+  "references": [
+    "https://www.brussels.be/atomium",
+    "https://atomium.be/the_atomium_in_figures"
+  ],
+  "capture": {
+    "distance": 235,
+    "azimuth": 155,
+    "elevation": 25
+  },
+  "bbox_min": [
+    -43.7,
+    -0.5,
+    -49.0
+  ],
+  "bbox_max": [
+    43.7,
+    102.2,
+    49.0
+  ],
+  "levels": [
+    {
+      "vertices": 46598,
+      "triangles": 24240
+    },
+    {
+      "vertices": 24879,
+      "triangles": 13682
+    },
+    {
+      "vertices": 14609,
+      "triangles": 8164
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/iconic.py",
+  "source_sha256": "9f9a7aa3aafc7ae2fa741fbb6d982ba895884ee600e32b439bbfc8157e855b68",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "1a857f495f3d14fff63535ec9648fa5015b3dfdd41401e0ecadebe6808b04b5f"
+}

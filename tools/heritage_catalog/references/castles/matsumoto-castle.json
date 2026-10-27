@@ -1,0 +1,80 @@
+{
+  "name": "matsumoto-castle",
+  "reference_urls": [
+    "https://www.matsumoto-castle.jp/img/info/pamphlet2018_en.pdf",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=137.96738049243987,36.23748088268357,137.97027950756012,36.23981911731643"
+  ],
+  "documented_evidence": "Official municipal pamphlet explicitly labels Tenshu29.4m, InuiKotenshu16.8m, WatariYagura12m, TatsumiTsukeYagura14.7m and TsukimiYagura11.1m. It identifies black walls, five apparent exterior stories but six interior floors, northwest small keep and southeast/ moonviewing extensions.",
+  "modeling_qualifications": "Lower-only plaza cuts remove a spatially blurred DSM keep mound extending beyond the footprint. Osaka surveyed honmaru31.2\u201331.5m contrasts with production50\u201356m near the keep and39.8m65m west; Matsumoto surrounding ground590.5m contrasts with598\u2013599m mound. Mapped retaining walls bound the core plaza; feathering transitions outside it and lower moat terrain is retained. Stone batter and architecture are unchanged. Terrain-cut polygons do not expand building/tree suppression; the surrounding park buildings remain native.",
+  "metric_targets": {
+    "tenshu_height_m": 29.4,
+    "inui_kotenshu_height_m": 16.8,
+    "watari_yagura_height_m": 12,
+    "tatsumi_tsuke_yagura_height_m": 14.7,
+    "tsukimi_yagura_height_m": 11.1
+  },
+  "placement": {
+    "lat": 36.23861402715949,
+    "lon": 137.96886345017447,
+    "heading_deg": 0,
+    "base": 590.5,
+    "source_file": "tools/heritage_catalog/references/castles/matsumoto-source.json",
+    "source_offset_east_north_m": [
+      3,
+      -4
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/matsumoto-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/matsumoto-terrain.json",
+    "production_ground_at_anchor_m": 598.351806640625
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 300077872,
+      "name": "\u677e\u672c\u57ce",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          6.461,
+          4.98
+        ],
+        "size_m": [
+          36.256,
+          30.887
+        ],
+        "heading_deg": -89.437
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed.",
+  "terrain_cuts": [
+    {
+      "polygon_xz": [
+        [
+          -30,
+          -25
+        ],
+        [
+          29,
+          -25
+        ],
+        [
+          30,
+          30
+        ],
+        [
+          -30,
+          35
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.05
+      ],
+      "feather_m": 15
+    }
+  ],
+  "source_exclusion_piece_count": 12
+}

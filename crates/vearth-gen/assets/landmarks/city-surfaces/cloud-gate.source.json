@@ -1,0 +1,83 @@
+{
+  "name": "cloud-gate",
+  "city": "Chicago",
+  "lat": 41.88268615,
+  "lon": -87.62334065,
+  "heading": 86.05,
+  "base": 178.87258911,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -12,
+      -8
+    ],
+    [
+      12,
+      8
+    ]
+  ],
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0,
+        0
+      ],
+      "half_extent": [
+        12,
+        8
+      ],
+      "feather_m": 1,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 178.87258911
+    }
+  ],
+  "references": [
+    "https://www.choosechicago.com/articles/tours-and-attractions/the-bean-chicago/",
+    "https://www.openstreetmap.org/way/137060274"
+  ],
+  "description": "A continuous silver bean with a walk-under central arch on a small stone pad; 20.1m long, 12.8m wide and 10.06m high.",
+  "source_audit": {
+    "perimeter_median_m": 178.87258911,
+    "placement": "Mapped long axis bearing 356 degrees; four corner source elevations define the local corrected pad."
+  },
+  "capture": {
+    "distance": 44,
+    "azimuth": 115,
+    "elevation": 13,
+    "target_height": 4.3,
+    "time_utc": "2026-03-20T16:00:00Z"
+  },
+  "bbox_min": [
+    -13.0,
+    -4.2,
+    -9.0
+  ],
+  "bbox_max": [
+    13.0,
+    10.3,
+    9.0
+  ],
+  "levels": [
+    {
+      "vertices": 41496,
+      "triangles": 13836
+    },
+    {
+      "vertices": 18456,
+      "triangles": 6156
+    },
+    {
+      "vertices": 7704,
+      "triangles": 2572
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "c26d09065eb66da75697bf4c8f1644c7134b718aa3897bba9f042f0c2d512c2b"
+}

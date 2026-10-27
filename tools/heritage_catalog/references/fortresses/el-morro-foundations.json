@@ -1,0 +1,16 @@
+{
+  "references": [
+    "https://home.nps.gov/saju/learn/historyculture/el-morro.htm",
+    "https://npgallery.nps.gov/GetAsset/d0cc83fe-bfac-44d3-8e35-9b4f5ca8dd98/",
+    "https://home.nps.gov/saju/faqs.htm"
+  ],
+  "published_controls": "Six principal levels, lower16ft and upper140ft above sea, corner garitas and connecting ramps. Existing architectural terrace elevations and plan controls retained.",
+  "geometry": "El Morro-only scarp lower rings and parapets share miter vertices; scarp heads join the outer parapet face. The old independently displaced edges left opencornerwedge seams. Toe tessellation is2m and identical across all LODs. Sloped ramps have continuous retaining sides and endpoint closures. Garitas attach to the nearest matching-level salient corner instead of isolated approximate points.",
+  "ground_file": "el-morro-footing-ground.json",
+  "ground_sha256": "8af3cd0af7aa9ab8de0a3240f7601bd0738c22d6266c99807bb00202852d0aa8",
+  "exact_query_points": 918,
+  "datum_m": 27.342613220214844,
+  "embedding_m": 0.5,
+  "coastal_toes": "The production elevation floor returns1m at seaward toe points. Their structural skin continues to\u22120.5mMSL to intersect both oceanlevel0m and the carved shallow waterbed; no upper architecture is lowered.",
+  "limitations": "Published principal heights and mapped promontory constrain the model; exact buried depths,2.8m batter offset,2m parapet width, small turret corner projection and individual masonry are architectural interpretations. Native road grading/render grid may differ from raw point surveys, so final low-angle engine contact is required."
+}

@@ -1,0 +1,90 @@
+{
+  "source": "https://www.openstreetmap.org/api/0.6/map.json",
+  "retrieved_utc": "2026-09-15",
+  "attribution": "© OpenStreetMap contributors, ODbL 1.0",
+  "license_url": "https://www.openstreetmap.org/copyright",
+  "notes": "Selected original geographic features and support nodes. Heights are not used as architectural authority. Source geometry is approximate mapped evidence, not a survey.",
+  "elements": [
+    {
+      "type": "way",
+      "id": 41566774,
+      "timestamp": "2026-08-05T06:58:37Z",
+      "version": 19,
+      "nodes": [
+        509912012,
+        509912013,
+        509912015,
+        509912017,
+        5560894476,
+        509912012
+      ],
+      "tags": {
+        "addr:city": "Canthabūlī",
+        "addr:province": "VT",
+        "alt_name:fr": "Anousavali;Ânousâvalî;Anousavary",
+        "alt_name:lo": "ອານຸສາວະລີ",
+        "alt_name:th": "อานุสาวะลี",
+        "building": "yes",
+        "DNAME": "Patouxai",
+        "height": "174 m",
+        "historic": "monument",
+        "layer": "1",
+        "name": "ປະຕູໄຊ",
+        "name:en": "Patuxai",
+        "name:fr": "Patuxai",
+        "name:ko": "팟뚜싸이",
+        "name:lo": "ປະຕູໄຊ",
+        "name:lo-Latn": "Patuxai",
+        "name:th": "ประตูชัย",
+        "name:zh": "凯旋门",
+        "tourism": "attraction",
+        "wikidata": "Q1442518",
+        "wikipedia": "en:Patuxai"
+      }
+    },
+    {
+      "type": "node",
+      "id": 509912012,
+      "lat": 17.9707863,
+      "lon": 102.6186189,
+      "timestamp": "2015-10-09T14:09:35Z",
+      "version": 3
+    },
+    {
+      "type": "node",
+      "id": 509912013,
+      "lat": 17.970639,
+      "lon": 102.6187749,
+      "timestamp": "2015-10-09T14:09:35Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 509912015,
+      "lat": 17.970481,
+      "lon": 102.6186099,
+      "timestamp": "2015-10-09T14:09:35Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 509912017,
+      "lat": 17.9706283,
+      "lon": 102.6184539,
+      "timestamp": "2015-10-09T14:09:35Z",
+      "version": 4
+    },
+    {
+      "type": "node",
+      "id": 5560894476,
+      "lat": 17.9707021,
+      "lon": 102.6185309,
+      "timestamp": "2026-08-05T06:58:37Z",
+      "version": 4,
+      "tags": {
+        "amenity": "ticket_validator",
+        "shop": "ticket"
+      }
+    }
+  ]
+}

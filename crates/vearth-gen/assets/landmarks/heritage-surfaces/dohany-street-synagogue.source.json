@@ -1,0 +1,488 @@
+{
+  "name": "dohany-street-synagogue",
+  "city": "Budapest",
+  "lat": 47.49581013602856,
+  "lon": 19.060516915490105,
+  "heading": 37.033361938222676,
+  "base": 114.3,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "source_exclusion_polygons": [
+    [
+      [
+        -11.748067546890862,
+        -2.280371412352084
+      ],
+      [
+        -7.437733125968036,
+        -2.2800753906664046
+      ],
+      [
+        -7.4380284322639065,
+        -1.3335976217887107
+      ]
+    ],
+    [
+      [
+        -7.3060645120260554,
+        -1.3240180188180233
+      ],
+      [
+        -0.1464926071338251,
+        -1.3281520905795638
+      ],
+      [
+        7.221512061607263,
+        -1.3259537212721146
+      ]
+    ],
+    [
+      [
+        7.355348156645452,
+        -1.3343232624202088
+      ],
+      [
+        7.355348101084801,
+        -2.157541188994651
+      ],
+      [
+        11.825477692354985,
+        -2.160167608873671
+      ]
+    ],
+    [
+      [
+        11.906342096946219,
+        -2.235664573329343
+      ],
+      [
+        11.876410706375855,
+        -10.600188063277223
+      ],
+      [
+        18.926302065010006,
+        -7.915572314816359
+      ]
+    ],
+    [
+      [
+        11.938504447503883,
+        -2.147254994669656
+      ],
+      [
+        18.95846441556767,
+        -7.827162736156672
+      ],
+      [
+        18.24455611679325,
+        6.904908511340766
+      ]
+    ],
+    [
+      [
+        7.410049584364029,
+        -1.2883865259423843
+      ],
+      [
+        11.88017912007356,
+        -2.1142308723958467
+      ],
+      [
+        18.18623078936293,
+        6.937932633614576
+      ]
+    ],
+    [
+      [
+        -7.2139620456618925,
+        -1.282248894306021
+      ],
+      [
+        7.313614527971426,
+        -1.2841845967601124
+      ],
+      [
+        18.089795732970327,
+        6.942134562796848
+      ]
+    ],
+    [
+      [
+        -11.619623574950069,
+        -2.233818817296345
+      ],
+      [
+        -7.309584460323112,
+        -1.2870450267329718
+      ],
+      [
+        17.994173318309105,
+        6.937338430369897
+      ]
+    ],
+    [
+      [
+        -11.523837229911,
+        -2.1915686505866416
+      ],
+      [
+        18.089959663348175,
+        6.9795885970796006
+      ],
+      [
+        11.656111857412354,
+        7.078487981788323
+      ]
+    ],
+    [
+      [
+        -11.55630094076141,
+        -2.1751095053852323
+      ],
+      [
+        11.623648146561944,
+        7.094947126989732
+      ],
+      [
+        11.662144914967051,
+        10.238499346958708
+      ]
+    ],
+    [
+      [
+        11.809556560063402,
+        10.600512528384362
+      ],
+      [
+        14.689709436849725,
+        10.591966494486948
+      ],
+      [
+        14.712555143124757,
+        66.36849423082265
+      ]
+    ],
+    [
+      [
+        -11.541369492276809,
+        -1.8760661859821497
+      ],
+      [
+        11.677076363451652,
+        10.53754266636179
+      ],
+      [
+        14.580074946513006,
+        66.30552436880008
+      ]
+    ],
+    [
+      [
+        14.463026503193072,
+        66.91228404561092
+      ],
+      [
+        -11.577875784949178,
+        66.92646017899514
+      ],
+      [
+        -11.579057564542888,
+        62.480191986739385
+      ]
+    ],
+    [
+      [
+        14.463016003598948,
+        66.84980349773025
+      ],
+      [
+        -11.579068064137012,
+        62.41771143885872
+      ],
+      [
+        -11.579954704585518,
+        54.5553116986232
+      ]
+    ],
+    [
+      [
+        14.462906034425599,
+        66.58924380461625
+      ],
+      [
+        -11.580064673758867,
+        54.294752005509196
+      ],
+      [
+        -11.600841960460395,
+        10.826892202286011
+      ]
+    ],
+    [
+      [
+        -11.658936748174396,
+        -1.8760376067937838
+      ],
+      [
+        14.46250769061542,
+        66.30555294798845
+      ],
+      [
+        -11.601240304270574,
+        10.543201345658218
+      ]
+    ],
+    [
+      [
+        -11.805920076457456,
+        -2.1590970963904206
+      ],
+      [
+        -11.748223632553634,
+        10.260141856061582
+      ],
+      [
+        -14.640191309430236,
+        10.259774007854329
+      ]
+    ],
+    [
+      [
+        -11.848401379441702,
+        -2.1591106090047374
+      ],
+      [
+        -14.682672612414482,
+        10.259760495240013
+      ],
+      [
+        -20.15952162343466,
+        10.257466358426862
+      ]
+    ],
+    [
+      [
+        -11.874418433007117,
+        -2.2225470761322805
+      ],
+      [
+        -20.185538677000075,
+        10.19402989129932
+      ],
+      [
+        -19.834049218366545,
+        -2.3006599960134637
+      ]
+    ],
+    [
+      [
+        -11.87163966253581,
+        -2.3193481645578444
+      ],
+      [
+        -19.831270447895236,
+        -2.3974610844390276
+      ],
+      [
+        -19.635342123680974,
+        -8.972585616962347
+      ]
+    ],
+    [
+      [
+        -11.870489171586243,
+        -2.3592928200043617
+      ],
+      [
+        -19.63419163273141,
+        -9.012530272408865
+      ],
+      [
+        -19.603473239881247,
+        -10.306502862849433
+      ]
+    ],
+    [
+      [
+        -19.564098070231545,
+        -10.312663366550522
+      ],
+      [
+        -11.837908042090898,
+        -10.232310005224754
+      ],
+      [
+        -11.831114001936543,
+        -2.365453323705452
+      ]
+    ]
+  ],
+  "activation_bounds_xz": [
+    [
+      -20.185538677000075,
+      -10.600188063277223
+    ],
+    [
+      18.95846441556767,
+      66.92646017899514
+    ]
+  ],
+  "terrain_flatten": [],
+  "description": "Striped yellow and red Moorish synagogue, twin 43.6 m onion-domed clock towers, rose tracery, shallow metal nave roof and oblique entrance wings.",
+  "dimensions": {
+    "published_temple_body_m": [
+      53.1,
+      26.5
+    ],
+    "published_tower_height_m": 43.6,
+    "published_clock_diameter_m": 1.34,
+    "published_nave_internal_height_m": 26,
+    "source_rear_rectangle_length_m": 56.5
+  },
+  "references": [
+    "https://dohany-zsinagoga.hu/?page_id=789",
+    "https://cdn.culture.hu/uploads/documents/8/8a/8ac/8ac27401f6b50bbd45aa3330860c4782e1e38e5.pdf",
+    "https://hegedus.bzsh.hu/web/index.php/dr-schner-alfred-irasai/904-koenyv-a-dohany-utcai-zsinagoga.html",
+    "https://hrcak.srce.hr/file/70144",
+    "https://synagogues-360.anumuseum.org.il/gallery/dohany-street-synagogue/"
+  ],
+  "audit": {
+    "source_file": "tools/heritage_catalog/references/sacred_dohany/survey.json",
+    "source_anchor_latlon": [
+      47.495935,
+      19.060545
+    ],
+    "source_offset_east_north_m": [
+      -2.109935007103651,
+      -13.884249304293174
+    ],
+    "tower_local_centers_xz_m": [
+      [
+        -9.602009914950953,
+        -0.08218949478851705
+      ],
+      [
+        9.602009914950951,
+        0.08218949478851846
+      ]
+    ],
+    "tower_osm_ways": [
+      223530622,
+      223530621
+    ],
+    "source_height_rejected_m": 5.91,
+    "ground_center_m": 114.33936309814453,
+    "dimension_qualification": "Published53.1m body length is used; mapped rear rectangle56.5m differs6.4%. Separate foyer/entrance wings make the full complex longer. Secondary elevations and ornamental subdivisions follow museum photographs."
+  },
+  "capture": {
+    "distance": 145,
+    "azimuth": 215,
+    "elevation": 24,
+    "target_height": 20,
+    "time_utc": "2026-03-20T14:00:00Z"
+  },
+  "bbox_min": [
+    -21.4,
+    -0.7,
+    -11.6
+  ],
+  "bbox_max": [
+    19.7,
+    43.8,
+    66.92646017899514
+  ],
+  "levels": [
+    {
+      "vertices": 100153,
+      "triangles": 52253
+    },
+    {
+      "vertices": 91570,
+      "triangles": 47161
+    },
+    {
+      "vertices": 71442,
+      "triangles": 35907
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/heritage_catalog/sacred.py",
+  "dependencies": {
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/heritage_catalog/references/sacred/milan-piazza-ground.json": "6877df2fa751af9536814ae30c33c477bdfd6c1073a23a8a24895766ccf9c152",
+    "tools/heritage_catalog/references/sacred/milan-source.json": "44a8c535b637b233aa19f1c0575e529aecc736ab6ea26f1e4b6ebd0423fc25a7",
+    "tools/heritage_catalog/references/sacred/st-pauls-source.json": "6c45edae4c9995a8fb7fa6a87e4d378f507027ca7d2af6e0ff922e2b0fd4421c",
+    "tools/heritage_catalog/references/sacred_dohany/evidence.json": "c585572c9f97a274a51228c1aa22ccb63261fef10c7743b40a70f09883af287d",
+    "tools/heritage_catalog/references/sacred_dohany/map.osm.xml.gz": "0ef2e1ab778c7b21f0c4ce35fd214512812839a25159110d3d3d874a3190f72b",
+    "tools/heritage_catalog/references/sacred_dohany/mesh-validation.json": "2b454499fbadcc2f10d277e28f9974451462a2911ea15df18f547adbe3e48424",
+    "tools/heritage_catalog/references/sacred_dohany/plan.json": "736ba4b013e2176f863cad283a4890c9272bdf8ccc7f491c5249329f725acc71",
+    "tools/heritage_catalog/references/sacred_dohany/survey.json": "5594a6502b609447a6af13201afb9da9bdd2a80c234c7feffd682ac7fe58baa4",
+    "tools/heritage_catalog/references/sacred_dohany/validate_models.py": "5a83c564de15aab11dd8478b1d7b59e7f5e39e9d48ddb8a8cbef1d2bf622e180",
+    "tools/heritage_catalog/references/sacred_gothic/cologne-cathedral-ground-points.json": "094e9aaa5a28af40444d3c2b005d003f05a85b3e966e5fb59df547ea202f4c4e",
+    "tools/heritage_catalog/references/sacred_gothic/cologne-cathedral-ground.json": "9a66ce48f755484202aca94bd448fc6a3f35900c969fa5be7f946489aed70b6d",
+    "tools/heritage_catalog/references/sacred_gothic/cologne-cathedral-survey.json": "84c8ac150466a463d6a88fe55af505099b449a1469a847ab9f2f03c1456d4e7c",
+    "tools/heritage_catalog/references/sacred_gothic/cologne-foundation.json": "5d6b6c6ad914869e5c09c04fa1b6ef85faad7b650ab331138a2ee501c30edb7e",
+    "tools/heritage_catalog/references/sacred_gothic/evidence.json": "56dd12e162cf64483a72b6886033932ca6434977615c23a3b17f612c5edc7c30",
+    "tools/heritage_catalog/references/sacred_gothic/foundation-controls.json": "cfddee6f6c41e772f0942929011bfcbc02d13dde7c48d0e4a3b2c08ac4fd018e",
+    "tools/heritage_catalog/references/sacred_gothic/las-bank-ground.json": "38fc85561515c2712ca844b4d90486ad28d9f388bcf30569791c794f175b6486",
+    "tools/heritage_catalog/references/sacred_gothic/las-lajas-cliff-ground.json": "2d4ed58dbd6e20e1f0661673a2519bc3cb797a9cb09dd545f45f809fdf2b1851",
+    "tools/heritage_catalog/references/sacred_gothic/las-lajas-footbridge.json": "3d5b428a30b29e40d2c9c13c2480b35663b587326346a2448e84db7783b7bf01",
+    "tools/heritage_catalog/references/sacred_gothic/las-lajas-sanctuary-ground-points.json": "8f8c76c0cae6b861603e48e83a4e8b4f156f7f0be2f12b14c9e46d3db38ae742",
+    "tools/heritage_catalog/references/sacred_gothic/las-lajas-sanctuary-ground.json": "540f7bef9ed5e95f9f5f8901fe73712d7167f25940b79110f58143e93fd10f22",
+    "tools/heritage_catalog/references/sacred_gothic/las-lajas-sanctuary-survey.json": "1db7982b74f31b903b11152b681ba013dc4351940ca68762a12a09ce4660cb1a",
+    "tools/heritage_catalog/references/sacred_gothic/las-lajas-water.json": "791ebb62614627ce9fa800845a2d51e5b63d0cffad985b7402f3ea1c7cb513af",
+    "tools/heritage_catalog/references/sacred_gothic/mont-passage-rock-ground.json": "c14915c6f751919ee139c64e1740785d175825836ea081d9ce6e6fe435b38beb",
+    "tools/heritage_catalog/references/sacred_gothic/mont-saint-michel-abbey-ground-points.json": "270a5f5111f2cd3bc4cc7633229713ce01463ddde49e419e671f88bb0fbd000a",
+    "tools/heritage_catalog/references/sacred_gothic/mont-saint-michel-abbey-ground.json": "5a18a490b8a2332b3ec2c8917f5d6c26e82a208bc44371fe18cc1f04f2a7550b",
+    "tools/heritage_catalog/references/sacred_gothic/mont-saint-michel-abbey-survey.json": "a49ecb4e8ea9a95e3cd253c0f0e9c5d4824409bf4219743797682a9a61515711",
+    "tools/heritage_catalog/references/sacred_mosques/blue-mosque-plan.png": "a50a85e6e05497b1bf1cff79edf5310bca193e3f881b1edd628a6c653649df6f",
+    "tools/heritage_catalog/references/sacred_mosques/blue-mosque-survey.json": "91c34017511f834a572fe2be2206603afc7effe803fe4896f181d6281aa80727",
+    "tools/heritage_catalog/references/sacred_mosques/great-mosque-of-djenne-plan.png": "4c7303d4a559fd3c213ca49b3eee5de5175eceb89738f11d221de0bc60b43cfa",
+    "tools/heritage_catalog/references/sacred_mosques/great-mosque-of-djenne-survey.json": "e89a4455fb934015fda1aff0dba14343adad0d55d4debe0bcdd5e9c840fa0122",
+    "tools/heritage_catalog/references/sacred_mosques/hagia-sophia-plan.png": "a954f8adc1c02fddc328a7cdc0413fb09a6f66338199ae56c6e5de600b7aa125",
+    "tools/heritage_catalog/references/sacred_mosques/hagia-sophia-survey.json": "4c5db46176810acbc23b85623039858f179a4f5d4b064d99bf8132c979b243fb",
+    "tools/heritage_catalog/references/sacred_mosques/hassan-ii-mosque-plan.png": "c9766dffedcb0a5611e3ff187169127b2df82b09d696e3f3d4ebadf5e553d2de",
+    "tools/heritage_catalog/references/sacred_mosques/hassan-ii-mosque-survey.json": "c5e1ec4e68c06aa072362e320ab4c10186887691139d8adad54b63e26ef5e7a3",
+    "tools/heritage_catalog/references/sacred_mosques/hassan-setting-ground.json": "cf01ed598ac4ae7b018aa103ec468d88944b4684f85b47cf5b0b383b595fe120",
+    "tools/heritage_catalog/references/sacred_mosques/mesh-validation.json": "83a07509f3618726eb977b24a63f09f3052fe8b25f47049e2543136c97b953df",
+    "tools/heritage_catalog/references/sacred_mosques/mosque-floor-calibrations.json": "93704d0b48e39dda076870c371587d4ebf5ba26df182d041353596b2016643fd",
+    "tools/heritage_catalog/references/sacred_mosques/qaboos-approach-osm.xml.gz": "c4407862755af908250e5d665d9e80c85fe0ef456b988f8752f9faac22a97b47",
+    "tools/heritage_catalog/references/sacred_mosques/research.json": "5743d770fac206d69753e9e582c5dd1e7f9ff62fbdde7c26e113ef3f40b317a5",
+    "tools/heritage_catalog/references/sacred_mosques/setting-ground-calibrations.json": "80bc4f4c2515529ffa98d06a38a598cfa32c9a0dc18e660d3f189721e38bd539",
+    "tools/heritage_catalog/references/sacred_mosques/shah-mosque-plan.png": "d8c1291be26f7ab48cf0588b010695447e7868f5c281971a2a490402c5cada33",
+    "tools/heritage_catalog/references/sacred_mosques/shah-mosque-survey.json": "c2121d7ea0ad8965a04e3aa086061aa3501b259e4bc5cb1f4937f2d946700a24",
+    "tools/heritage_catalog/references/sacred_mosques/shah-qaboos-setting-ground.json": "6e5cba49dd6f30d144841ca93ea2040758fac75a2783885137b3b51f04215c96",
+    "tools/heritage_catalog/references/sacred_mosques/sheikh-zayed-grand-mosque-plan.png": "68cb6b086f4bde4cebb5aba9d7e9f74dc0d32635adbd010e1b9c4e4459645494",
+    "tools/heritage_catalog/references/sacred_mosques/sheikh-zayed-grand-mosque-survey.json": "2a7e6e00ed3e7cb891a29facfde814c7d898dd8efae6992c2917e14d5e2908ce",
+    "tools/heritage_catalog/references/sacred_mosques/sultan-qaboos-grand-mosque-plan.png": "daa626ebe7f6c69a3fa7f4563d4a66e83cd8794bef9ae12cd99bb92f4e1b131b",
+    "tools/heritage_catalog/references/sacred_mosques/sultan-qaboos-grand-mosque-survey.json": "93fb6875d530d4090131c6d0aa76c3330c993eaa13a880b32cdcfec29aa5e8c5",
+    "tools/heritage_catalog/references/sacred_mosques/validate_meshes.py": "e0fc2a9597a273f6006efd68d303cff803562068f086747e526464b9802fa919",
+    "tools/heritage_catalog/references/sacred_mosques/zayed-approach-toes.json": "a9cf9d119013dfe7780524de917c42856584cfd55a85d99f2a39e50ad6e79ea7",
+    "tools/heritage_catalog/references/sacred_mosques/zayed-lateral-setting-ground.json": "7cfde9f7c77159723b07d2f08521d36a4a0c3a94d66e1114c3c4852b2b052536",
+    "tools/heritage_catalog/references/sacred_mosques/zayed-outer-approach-plan.json": "3da4ae31b63cd4553c6aaf2054ac6379112d11f7b910ef0f16f37ea962355c5c",
+    "tools/heritage_catalog/references/sacred_mosques/zayed-perimeter-ground.json": "fe09b82e9eb782eb486bdc1aab016f66755928924a61014802fec973354f3016",
+    "tools/heritage_catalog/references/sacred_mosques/zayed-perimeter-plan.json": "86cf23123a36bddac18ccf46ea5a2ff39b15fca6303c52a8605ae7d11105dc36",
+    "tools/heritage_catalog/references/sacred_mosques/zayed-platform-ground.json": "9e97ebe5e05825d224ce8e4479d225a9ed415980a4021a8a49d7272280535825",
+    "tools/heritage_catalog/references/sacred_mosques/zayed-platform-plan.json": "6e0a3a74716cef5a668fecfce3dad60974983e75272951401fa70d4e5b0ce391",
+    "tools/heritage_catalog/references/sacred_vatican/measured-plan.png": "d4bfe975c254f073f94e700c1442e7b7a9a061f3407b44a63a4e30a623bbc5df",
+    "tools/heritage_catalog/references/sacred_vatican/mesh-validation.json": "e0ae20bb50bf48041714a1d48c05194e7440fc5930addd5396bafba97b8f0de2",
+    "tools/heritage_catalog/references/sacred_vatican/plaza-ground.json": "2a8f8ea67e531cb1b53f67964e198b421fdf9dc6d9cd675e1e0843e0193f254d",
+    "tools/heritage_catalog/references/sacred_vatican/research.json": "3887a724370a42d9aa011eb133d8f6e8b29881f9e59f2128ee860744f64219e6",
+    "tools/heritage_catalog/references/sacred_vatican/st-peters-basilica-survey.json": "c43a1569f0dc526a9d5a1def47bb979defb1b2872fcdce3024b95c269633a482",
+    "tools/heritage_catalog/references/sacred_vatican/validate_meshes.py": "e7da341dede2536012886b74050580afbbfae2cdba6fa2247998936b515986c9",
+    "tools/heritage_catalog/sacred.py": "03460e0e16ac8b000a8803560d957f2012c60514ce6c65d718ecfe394c601b03",
+    "tools/heritage_catalog/sacred_dohany.py": "fc03acbed75d1a4ca69f73cc64e5cf1a48f636bdceb8416693f8f5d98bc374ed",
+    "tools/heritage_catalog/sacred_gothic.py": "c101960584360069aafca5b86e29c5dcc535ba9f593712af38dba591438f39bd",
+    "tools/heritage_catalog/sacred_milan.py": "8cd274cc7b138ecd182fa2df058fb8e8652fcdaf92a0f465442695d46f337cf0",
+    "tools/heritage_catalog/sacred_mosques.py": "bf0bb57c133e10f24cd234880012efd96a7e674e8f2f31144ea9e9bb1154f871",
+    "tools/heritage_catalog/sacred_vatican.py": "f753cc2f1b09417f5683aa5229532d8ad9c9fd9e021475eb728ec4f28b0aeac4"
+  },
+  "output_sha256": "1486561a51c164704857b2904bf4d978a9d9bfd716f6a93632848e079a6bd9bd"
+}

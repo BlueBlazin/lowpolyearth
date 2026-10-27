@@ -1,0 +1,19 @@
+{
+  "name": "capitaspring",
+  "city": "Singapore",
+  "architectural_height_m": 280,
+  "references": [
+    "https://big.dk/projects/capitaspring-4630",
+    "https://www.capitaland.com/en/about-capitaland/newsroom/news-releases/international/2022/feb/CapitaSpring-biophilic-skyscraper-completion.html",
+    "https://www.capitaland.com/content/dam/capitaland-newsroom/International/2022/february/capitaspring-marks-completion/CapitaSpring_Design_Fact_Sheet.pdf"
+  ],
+  "primary_evidence": "CapitaLand confirms280m/51storeys, a35m Green Oasis at100m above ground on levels17\u201320, and an upper sky garden. BIG describes continuous pinstripe fins opening at public landscaped spaces.",
+  "estimates": "The production280m five-sided body footprint excludes the long northern covered-walkway extension in the newer OSM parent way. Garden decks100/111/122/134m and curved fins interpret the verified35m interval; individual plant placements are illustrative. Datum18.1m is an uncertain west approach estimate in a severely contaminated urban DSM and requires engine contact review.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 182.0,
+    "target_height": 8
+  }
+}

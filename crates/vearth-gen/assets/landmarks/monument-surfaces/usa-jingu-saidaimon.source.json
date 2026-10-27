@@ -1,0 +1,143 @@
+{
+  "name": "usa-jingu-saidaimon",
+  "city": "Usa",
+  "lat": 33.5234031,
+  "lon": 131.3765314,
+  "heading": 112.4,
+  "base": 40.415283203125,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://oita-digitalzukan.jp/cultural_property/%E8%A5%BF%E5%A4%A7%E9%96%80/",
+    "https://sitereports.nabunken.go.jp/files/attach/45/45875/122119_4_%E5%8F%B2%E8%B7%A1%E5%AE%87%E4%BD%90%E7%A5%9E%E5%AE%AE%E5%A2%83%E5%86%85%E5%A4%A9%E7%84%B6%E8%A8%98%E5%BF%B5%E7%89%A9%E5%AE%87%E4%BD%90%E7%A5%9E%E5%AE%AE%E7%A4%BE%E5%8F%A2%E4%BF%9D%E5%AD%98%E6%B4%BB%E7%94%A8%E8%A8%88%E7%94%BB.pdf"
+  ],
+  "attribution": "Original geometry authored for Low Poly Earth. Placement: \u00a9 OpenStreetMap contributors (ODbL 1.0).",
+  "description": "Prefectural record identifies four-legged gate. Conservation report identifies gabled roof, front/rear karahafu and flanking wickets, cypress bark covering.12x9.1x5.8m model including eaves is estimated; mapped footprint anchors center and112.4deg long axis. Vermilion timber, pale cusped bargeboards and brown bark roof retain distinct surfaces.",
+  "source_exclusion_polygons": [
+    [
+      [
+        -6.0,
+        -2.9
+      ],
+      [
+        6.0,
+        -2.9
+      ],
+      [
+        6.0,
+        2.9
+      ],
+      [
+        -6.0,
+        2.9
+      ]
+    ]
+  ],
+  "max_source_building_span_m": 22.657881630902743,
+  "passage_probe": {
+    "x": 0,
+    "y": 1.7289700250431537,
+    "z_range": [
+      -3.9,
+      3.9
+    ]
+  },
+  "audit": {
+    "reference_file": "tools/monument_catalog/references/japanese/usa-jingu-saidaimon.md",
+    "placement_file": "tools/monument_catalog/references/japanese/usa-placement.json",
+    "architectural_dimensions_m": [
+      12,
+      9.1,
+      5.8
+    ],
+    "grounding_note": "Natural terrain is unchanged. The builder selects one surveyed fixed datum from raw ground at the structural supports, keeps the connected upper gate rigid, and extends only buried footing toes to 0.5m below the measured local terrain. Approach roads remain enabled.",
+    "ground_samples_file": "tools/monument_catalog/references/ground/usa-jingu-saidaimon.json"
+  },
+  "capture": {
+    "distance": 24.0,
+    "azimuth": 190,
+    "elevation": 18,
+    "target_height": 4.095,
+    "time_utc": "2026-03-20T03:00:00Z"
+  },
+  "suppress_bbox": [
+    [
+      -6.0,
+      -2.9
+    ],
+    [
+      6.0,
+      2.9
+    ]
+  ],
+  "grounding": {
+    "component_shifts_m": [
+      0.22897002504315367
+    ],
+    "toe_burial_m": 0.5,
+    "terrain_modified": false
+  },
+  "bbox_min": [
+    -6.2,
+    -1.7,
+    -3.2
+  ],
+  "bbox_max": [
+    6.2,
+    9.6,
+    3.2
+  ],
+  "levels": [
+    {
+      "vertices": 4122,
+      "triangles": 2074
+    },
+    {
+      "vertices": 2952,
+      "triangles": 1482
+    },
+    {
+      "vertices": 1692,
+      "triangles": 834
+    }
+  ],
+  "geometry": "original metric interpretation of cited references; estimates identified in source notes",
+  "license": "repository LICENSE; no reference images or external meshes embedded",
+  "source": "tools/monument_catalog/japanese.py",
+  "dependencies": {
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_monument_catalog.py": "8c3e844ba10841572579fc3bd0be735c5486fcea0f1177d063466031a0686019",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/monument_catalog/grounding.py": "5631cb33fb7bf9ce32700497121f17e203d362d5e8e41b4d303a2d68e476c5ea",
+    "tools/monument_catalog/inventory.py": "ff39fac5843a5f13780da35b9658ce41d2b0fe79ce70354d2517fb6ecef8d127",
+    "tools/monument_catalog/japanese.py": "5b057a2ed1322a3a9759b00d7b0c7efbef6c3151bf98aa02c31445b041be1f2d",
+    "tools/monument_catalog/references/ground/usa-jingu-saidaimon.json": "c7ace488fb29467dd8fc37c7ec438a9bb0d04e8d223d2ded8796e821955802e7",
+    "tools/monument_catalog/references/japanese/hakozaki-first-torii.md": "949a0139115a25280a56c7d2884c812b5d7b515e9646a2fc8153de317a72bb40",
+    "tools/monument_catalog/references/japanese/hakozaki-placement.json": "c5ee8119e80b9fcce0572301f2c44945f56ade04f5bdb073d56c863cd35b671c",
+    "tools/monument_catalog/references/japanese/heian-jingu-great-torii.md": "348f1aceab374d5e1cf19b6afa5438d10f9869165e7f250a5d6f87aa9b141c06",
+    "tools/monument_catalog/references/japanese/heian-placement.json": "287f5d33bd0d294eed8643119914d6ea8eabf5d2e9f9690fc5bd0999d280a050",
+    "tools/monument_catalog/references/japanese/kirishima-jingu-great-torii.md": "c7c6630516a5ea12099fd305405bd6416bcfb17cde03dc2b0e9617d4bcd03040",
+    "tools/monument_catalog/references/japanese/kirishima-placement.json": "c0e08c9ac8d3fdce64914cf91304dbee39f4ec72f787282617465848bc9a31b8",
+    "tools/monument_catalog/references/japanese/meiji-jingu-second-torii.md": "49bd3dd845a1d273267cd75f3fa434c43df718b5574991704f0829b5fe735a20",
+    "tools/monument_catalog/references/japanese/meiji-placement.json": "290e8d6994b83b9dfe4e61a3a6fd5eba63dfb637b7f5da5456f89fd812d82896",
+    "tools/monument_catalog/references/japanese/mitsumine-mitsutorii.md": "f21e5a7647d0c3561266f65aba3d42e8e087cd0e2fee8e922ac98a64e87c52c9",
+    "tools/monument_catalog/references/japanese/mitsumine-placement.json": "a2976351caff18d61b52cdbbc150646d69d6a6865f1005c1965dc43068076f2a",
+    "tools/monument_catalog/references/japanese/nezu-jinja-romon.md": "5ec60818f2cfe11af033efb7677c36627d1adc6d3a130d9f5708292a464c0e4f",
+    "tools/monument_catalog/references/japanese/nezu-placement.json": "3cce8f4785f6ac4e99c6600467cd419480c1aed8f85e4c645e2a7d742fc63db5",
+    "tools/monument_catalog/references/japanese/oyunohara-great-torii.md": "e19d39a55c8df25d4c21755f5303ba9e00a13fe6a73de840bfb00c4d7e32e62e",
+    "tools/monument_catalog/references/japanese/oyunohara-placement.json": "5a42f2f99f5500956b2d6122c05fb0747d7555daa118ceece4f35022f52b15cb",
+    "tools/monument_catalog/references/japanese/takeo-onsen-romon.md": "7cab2dae44e0f95f163fa59da6925b2b75255774cbd2bc9df709f0d2a39f8aab",
+    "tools/monument_catalog/references/japanese/takeo-placement.json": "3f462a1211f89419977e554d2c66d93aa4a25568a3f44f4e303a3be47bebd09a",
+    "tools/monument_catalog/references/japanese/usa-jingu-saidaimon.md": "4a21b6000bd33f15a056f73ae679a6c7402b470a71b6e56de416deb1d59b7e23",
+    "tools/monument_catalog/references/japanese/usa-placement.json": "cedcb65d9e2540d3fded898ddf636cd5fddd5eaa18c4b700ba4a7d6339bf86eb",
+    "tools/monument_catalog/references/japanese/yutoku-inari-romon.md": "772288095e41d99d10dc85198ff4302386309eb0bdeb45fab64f1e58a5edac55",
+    "tools/monument_catalog/references/japanese/yutoku-placement.json": "bd9dc50adf6571e9d8ac90f3452ec15f4079310aa127aa46357fe244c5886143",
+    "tools/survey_monument_ground.py": "43d30e8d5e35c96d0d6e67d8846d0cf69755080de6a3df6d6ca35f387faeb743"
+  },
+  "output_sha256": "eb9a8780fe65c2012e9ecceb1a36ef69d7d905db0ce3b99270ce2e1d01687b16"
+}

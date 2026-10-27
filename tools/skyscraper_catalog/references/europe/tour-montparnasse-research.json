@@ -1,0 +1,82 @@
+{
+  "name": "tour-montparnasse",
+  "sources": [
+    {
+      "url": "https://www.tourmontparnasse56.com/fr/la-tour-montparnasse-en-chiffres/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.paris.fr/pages/la-tour-montparnasse-fete-ses-50-ans-24034",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Owner 210m and 59 floors; current dark facade retained. Observatory closed 31 March 2026 for renovation; no future proposed facade modeled. Roof plant and secondary bands are photograph-based estimates.",
+  "authored_form": "Measured curved rectangular dark aluminum tower with 59 floor bands, observation terrace and roof plant.",
+  "dimensions_m": {
+    "architectural_height": 210,
+    "tip_height": 210,
+    "mapped_parts": [
+      {
+        "seed": "7375294308246268182",
+        "bounds_xz": [
+          [
+            -30.82489,
+            -19.61362
+          ],
+          [
+            30.88035,
+            19.49723
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      48.842112888667515,
+      2.321978412150847
+    ],
+    "heading_deg": -50.58735594929121,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "0a278e284a1f746ea9edd64b9ac63996c3d60a5e3ba5bf077c12c17e9b2f99f4"
+  },
+  "ground": {
+    "datum_m": 55.3,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "ebe2d1b01bf2ae4cdbcd0ebc9bec28cc5148aaa10419e2574226eda9415a2e55",
+    "quantiles_m": {
+      "toe": [
+        54.90922927856445,
+        56.43017864227295,
+        58.298770904541016,
+        60.31053352355957,
+        61.158843994140625
+      ],
+      "near": [
+        54.25217056274414,
+        55.784321784973145,
+        58.44025230407715,
+        60.84829139709473,
+        61.89143753051758
+      ],
+      "street": [
+        53.13292694091797,
+        55.3255729675293,
+        58.98225021362305,
+        61.10884094238281,
+        62.88808822631836
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

@@ -1,0 +1,51 @@
+{
+  "name": "emirates-towers",
+  "source_ground_sha256": "b16bc631d210dd6c1303610d3afe42bdbd4caf28068b491bafac2cbc489b4be5",
+  "office_seed": "11874907196484683909",
+  "office_datum_m": 17.1,
+  "hotel_datum_m": 11.6,
+  "office_offset_m": 5.5,
+  "office_approach_ring_xz": [
+    [
+      0.26623,
+      -47.20533
+    ],
+    [
+      -32.92608,
+      9.59747
+    ],
+    [
+      -40.82493,
+      23.42036
+    ],
+    [
+      40.68207,
+      23.82788
+    ]
+  ],
+  "feather_m": 10,
+  "office_sample_quantiles_m": {
+    "toe": [
+      17.074111938476562,
+      18.5366268157959,
+      20.98906707763672,
+      24.185787200927734,
+      25.66644859313965
+    ],
+    "near": [
+      16.08895492553711,
+      17.52310085296631,
+      20.17089080810547,
+      22.222816467285156,
+      23.930927276611328
+    ],
+    "street": [
+      15.098373413085938,
+      17.10273838043213,
+      18.424440383911133,
+      20.474329948425293,
+      21.752012252807617
+    ]
+  },
+  "method": "Separate office controls from hotel130m west. Office street lower quartile17.10m defines approximate local grade;5.5m local offset preserves354.6m architecture above its own base. Convex office perimeter expanded8m with10m lower-only feather blends contaminated immediate approach, without expanding source ownership. Native Boulevard remains retained. Not a surveyed absolute building datum."
+}

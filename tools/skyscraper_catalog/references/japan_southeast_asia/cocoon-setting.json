@@ -1,0 +1,252 @@
+{
+  "name": "mode-gakuen-cocoon-tower",
+  "grade_polygon_xz": [
+    [
+      -61,
+      -63
+    ],
+    [
+      48,
+      -55
+    ],
+    [
+      44,
+      70
+    ],
+    [
+      -43,
+      72
+    ]
+  ],
+  "plane_relative_to_floor": [
+    0,
+    0,
+    -0.1
+  ],
+  "feather_m": 18,
+  "evidence": "The north street engine view shows a roof-contaminated mound and a serrated approach edge at the tower frontage; the camera eye at model(4,55) samples63.326m while the unchanged fixed tower floor is38.3m from the clean west approach. Gallery-dori along z44..52 and the west/south road junctions delimit the bounded correction. The plane restores the estimated38.2m public approach; it does not change the204m tower or absolute floor datum. This is a visually and map-supported terrain repair, not a geodetic ground survey.",
+  "scope": "Immediate tower block and adjoining street widths, preserving the separate eastern hall and distant road grades. The elevated north pedestrian deck remains native at its mapped layer/height; lowering ground beneath does not author a replacement bridge.",
+  "attribution": "\u00a9 OpenStreetMap contributors (ODbL1.0). Complete relevant road ways retained; source ground and raw response hashes remain in the site reference.",
+  "ways": [
+    {
+      "id": "45763025",
+      "tags": {
+        "highway": "secondary",
+        "lanes": "3",
+        "maxspeed": "50",
+        "name": "\u4e2d\u592e\u901a\u308a",
+        "name:en": "Chuo-dori Avenue",
+        "name:es": "Avenida Chuo-dori",
+        "name:ja": "\u4e2d\u592e\u901a\u308a",
+        "name:ko": "\uc8fc\uc624\ub3c4\ub9ac",
+        "oneway": "yes",
+        "ref": "\u526f4",
+        "surface": "paved"
+      },
+      "polyline_xz": [
+        [
+          103.14061120776717,
+          -41.700472000074456
+        ],
+        [
+          89.95872032822302,
+          -42.56876799993876
+        ],
+        [
+          35.54047533779878,
+          -46.175535999375086
+        ],
+        [
+          -17.51256696359324,
+          -49.68211600001354
+        ],
+        [
+          -23.5791299120153,
+          -50.082867999950906
+        ],
+        [
+          -53.27002815943864,
+          -53.11077199974136
+        ]
+      ]
+    },
+    {
+      "id": "144776663",
+      "tags": {
+        "highway": "unclassified",
+        "name": "\u30ae\u30e3\u30e9\u30ea\u30fc\u901a\u308a",
+        "name:en": "Gallery-dori Street",
+        "oneway": "yes",
+        "source": "survey, bing",
+        "surface": "paved"
+      },
+      "polyline_xz": [
+        [
+          -28.786790505134153,
+          52.97718800055321
+        ],
+        [
+          -20.179684800905186,
+          45.117996000463165
+        ],
+        [
+          -17.684347434653883,
+          43.88234400026079
+        ],
+        [
+          103.88197955587897,
+          52.04209999990837
+        ],
+        [
+          111.83812768596809,
+          56.56169200052034
+        ]
+      ]
+    },
+    {
+      "id": "251311713",
+      "tags": {
+        "highway": "secondary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "\u4e2d\u592e\u901a\u308a",
+        "name:en": "Chuo-dori Avenue",
+        "name:es": "Calle Chuo",
+        "name:ja": "\u4e2d\u592e\u901a\u308a",
+        "name:ko": "\uc8fc\uc624\ub3c4\ub9ac",
+        "oneway": "yes",
+        "ref": "\u526f4",
+        "surface": "asphalt"
+      },
+      "polyline_xz": [
+        [
+          -52.953590447967166,
+          -37.93785599960785
+        ],
+        [
+          -24.59173058204298,
+          -35.410892000134595
+        ],
+        [
+          63.215213322050026,
+          -28.83187999997631
+        ],
+        [
+          79.1727149666446,
+          -27.640755999503313
+        ],
+        [
+          88.78338026401798,
+          -26.917175999748224
+        ],
+        [
+          96.91130886516773,
+          -26.39397199996182
+        ],
+        [
+          102.4534893235246,
+          -26.037747999753833
+        ],
+        [
+          111.50360782073007,
+          -25.737183999405318
+        ]
+      ]
+    },
+    {
+      "id": "261815522",
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "\u6771\u4eac\u90fd\u9053\u65b0\u5bbf\u526f\u90fd\u5fc3\u516b\u53f7\u7dda",
+        "ref": "\u526f8",
+        "source": "survey, bing",
+        "surface": "paved"
+      },
+      "polyline_xz": [
+        [
+          -28.786790505134153,
+          52.97718800055321
+        ],
+        [
+          -33.34349352411315,
+          37.6484240001804
+        ]
+      ]
+    },
+    {
+      "id": "670818657",
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1"
+      },
+      "polyline_xz": [
+        [
+          90.16666510938637,
+          74.31723199998657
+        ],
+        [
+          91.11597823866154,
+          62.205616000033785
+        ],
+        [
+          88.78338026401798,
+          62.14995600017431
+        ],
+        [
+          89.06365366538674,
+          58.74356399991569
+        ],
+        [
+          54.246464519363606,
+          57.218480000285865
+        ],
+        [
+          11.436962935718284,
+          54.37982000033401
+        ],
+        [
+          8.326832302860204,
+          55.67113200039586
+        ]
+      ]
+    },
+    {
+      "id": "886645247",
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "\u6771\u4eac\u90fd\u9053\u65b0\u5bbf\u526f\u90fd\u5fc3\u516b\u53f7\u7dda",
+        "ref": "\u526f8",
+        "source": "survey, bing",
+        "surface": "paved"
+      },
+      "polyline_xz": [
+        [
+          -35.73033796262596,
+          29.31055600003333
+        ],
+        [
+          -44.952236933461705,
+          -2.9054519999414197
+        ],
+        [
+          -47.73688877796504,
+          -15.428951999961669
+        ],
+        [
+          -50.069486752608604,
+          -25.937559999374002
+        ],
+        [
+          -52.953590447967166,
+          -37.93785599960785
+        ]
+      ]
+    }
+  ]
+}

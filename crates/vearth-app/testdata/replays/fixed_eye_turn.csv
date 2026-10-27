@@ -1,0 +1,7 @@
+# Wanted set must remain identical: only heading/pitch change.
+frame,lat_deg,lon_deg,alt_m,heading_deg,pitch_deg
+0,40.7580,-73.9855,750,0,35
+120,40.7580,-73.9855,750,90,50
+240,40.7580,-73.9855,750,180,35
+360,40.7580,-73.9855,750,270,50
+480,40.7580,-73.9855,750,360,35

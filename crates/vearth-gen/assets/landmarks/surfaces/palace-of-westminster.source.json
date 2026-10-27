@@ -1,0 +1,23 @@
+{
+  "name": "palace-of-westminster",
+  "kind": "parliament",
+  "source": "palace-of-westminster/westminster.glb",
+  "sha256": "b10386090c56b33936c9a050226b23d107205485ad7fa467566e2f9d84aaadd7",
+  "license": "existing landmark SOURCES.md",
+  "output": "palace-of-westminster.lms",
+  "output_sha256": "adc958e2bf95664aae62985b3b50074af414942d67e80a96f310f993f1e715eb",
+  "levels": [
+    [
+      26026,
+      13700
+    ],
+    [
+      4942,
+      4930
+    ],
+    [
+      2239,
+      2412
+    ]
+  ]
+}

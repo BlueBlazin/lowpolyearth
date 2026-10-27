@@ -1,0 +1,84 @@
+{
+  "name": "tower-of-the-sun",
+  "city": "Suita, Osaka",
+  "lat": 34.8095167,
+  "lon": 135.5324005,
+  "heading": 180,
+  "base": 39.56106758,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -31,
+      -11
+    ],
+    [
+      31,
+      11
+    ]
+  ],
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0,
+        0
+      ],
+      "half_extent": [
+        11,
+        11
+      ],
+      "feather_m": 4,
+      "sample_clearance_m": 0,
+      "fixed_base_geo": 39.56106758
+    }
+  ],
+  "references": [
+    "https://taiyounotou-expo70.jp/en/about/",
+    "https://www.openstreetmap.org/way/1368703227"
+  ],
+  "description": "A 70m ivory sculptural trunk with upswept arms, a radially plated gold mask with folded nose, recessed eye instruments and forked crown, a sculpted lower face, a black rear sun and curved red markings.",
+  "source_audit": {
+    "center_ground_m": 39.01441956,
+    "perimeter_median_m": 39.56106758,
+    "placement": "Mapped sculpture center; the corrected trunk footprint removes local DEM variation while retaining the park slope outside it."
+  },
+  "capture": {
+    "distance": 161,
+    "azimuth": 190,
+    "elevation": 16,
+    "target_height": 32,
+    "time_utc": "2026-03-20T05:00:00Z"
+  },
+  "bbox_min": [
+    -28.2,
+    -2.2,
+    -15.0
+  ],
+  "bbox_max": [
+    28.2,
+    70.2,
+    15.0
+  ],
+  "levels": [
+    {
+      "vertices": 66398,
+      "triangles": 34760
+    },
+    {
+      "vertices": 36605,
+      "triangles": 18104
+    },
+    {
+      "vertices": 20429,
+      "triangles": 9432
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "f56cb5edc0631897cbcf9457cb740de7335c3f0854f8e711eb9adf8fa47b8285"
+}

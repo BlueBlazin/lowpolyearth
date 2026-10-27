@@ -1,0 +1,71 @@
+{
+  "name": "oriente-station",
+  "city": "Lisbon",
+  "lat": 38.76782055,
+  "lon": -9.09907265,
+  "heading": 4.1,
+  "base": 16.291507720947266,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -39.0,
+      -131.0
+    ],
+    [
+      39.0,
+      131.0
+    ]
+  ],
+  "references": [
+    "https://prod.calatrava.com/projects/oriente-station-lisboa.html",
+    "https://www.ippatrimonio.pt/pt-pt/node/184",
+    "https://www.openstreetmap.org/way/759763392"
+  ],
+  "description": "Four rows of branching white steel trees carry a scalloped glass canopy above eight retained railway tracks, with paired concrete undercroft arches and lit platform edges.",
+  "source_audit": {
+    "center_ground_m": 16.291507720947266,
+    "south_rail_ground_m": 18.452516555786133,
+    "north_rail_ground_m": 21.386268615722656,
+    "dimensions": "Architect: 260m bridge structure, 78m wide, 17.07m roof grid; OSM canopy 258m by 70m, bearing 4.1deg. Platform fit assumes existing bridge clearance of 5m; source railway approaches remain in place."
+  },
+  "capture": {
+    "distance": 335.0,
+    "azimuth": 112.0,
+    "elevation": 24.0,
+    "target_height": 16.0,
+    "time_utc": "2026-03-20T17:45:00Z"
+  },
+  "bbox_min": [
+    -36.9,
+    -2.5,
+    -128.4
+  ],
+  "bbox_max": [
+    36.9,
+    25.8,
+    128.4
+  ],
+  "levels": [
+    {
+      "vertices": 313401,
+      "triangles": 124656
+    },
+    {
+      "vertices": 93889,
+      "triangles": 42916
+    },
+    {
+      "vertices": 24762,
+      "triangles": 10868
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_civic.py",
+  "source_sha256": "1ab7d29fd7be5730a4c5a9fd5e3e9d4f8c9d85de20436921a1314ffbbcc82f98",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "3a36538c41c63ce0ddb5a121c74771ed42c29033951b32fb0577c604961c458e"
+}

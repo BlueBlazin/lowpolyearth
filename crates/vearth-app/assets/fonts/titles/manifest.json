@@ -1,0 +1,261 @@
+{
+  "repository": "https://github.com/google/fonts",
+  "revision": "809e4d8b8d7e9364a914909bb777679606c178b8",
+  "files": [
+    {
+      "file": "AlfaSlabOne-Regular.ttf",
+      "source": "ofl/alfaslabone/AlfaSlabOne-Regular.ttf",
+      "sha256": "28664afa698a3393bd5a29eec750230a0645c5301d62200e5f2d3a027fb2299d"
+    },
+    {
+      "file": "ArchivoBlack-Regular.ttf",
+      "source": "ofl/archivoblack/ArchivoBlack-Regular.ttf",
+      "sha256": "dd9a89a019b4849f66ab75455fe7bdf931311042cbb0f0f97acc061539703180"
+    },
+    {
+      "file": "BebasNeue-Regular.ttf",
+      "source": "ofl/bebasneue/BebasNeue-Regular.ttf",
+      "sha256": "08e4623805102d819f58601e46e345648846075e363b2ceb23313c2d1c83ec73"
+    },
+    {
+      "file": "BlackHanSans-Regular.ttf",
+      "source": "ofl/blackhansans/BlackHanSans-Regular.ttf",
+      "sha256": "31960809284026681774a8e52dc19ebcad26cf69b0ad9d560f288296fbb52739"
+    },
+    {
+      "file": "BodoniModa-Italic[opsz,wght].ttf",
+      "source": "ofl/bodonimoda/BodoniModa-Italic[opsz,wght].ttf",
+      "sha256": "dfff1619f8f6871c6372f8855b67211f9a73b4e93d45aca868cd8f46a48622de"
+    },
+    {
+      "file": "BricolageGrotesque[opsz,wdth,wght].ttf",
+      "source": "ofl/bricolagegrotesque/BricolageGrotesque[opsz,wdth,wght].ttf",
+      "sha256": "413e7357809ddd12fd80a96a8a396de0e401638d4acd3cb3e37532f0472ac682"
+    },
+    {
+      "file": "Cinzel[wght].ttf",
+      "source": "ofl/cinzel/Cinzel[wght].ttf",
+      "sha256": "f4d83d34d1f6c741193e4acf4b3dff9531e5a67b6aa65228d00a7db72a4e0f34"
+    },
+    {
+      "file": "CormorantGaramond-Italic[wght].ttf",
+      "source": "ofl/cormorantgaramond/CormorantGaramond-Italic[wght].ttf",
+      "sha256": "0f48ea6abb2084537854f7174c470991a463b13036309e3b50a81511611c530d"
+    },
+    {
+      "file": "CormorantGaramond[wght].ttf",
+      "source": "ofl/cormorantgaramond/CormorantGaramond[wght].ttf",
+      "sha256": "b20b7d9626dd956b2c5e558692ad328b1f19e3275e2782db4fa07670d83f35e0"
+    },
+    {
+      "file": "DMSerifDisplay-Italic.ttf",
+      "source": "ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf",
+      "sha256": "df74c0ac387baeaeb0fe4f2324e1668e6a3ed8c09cd9796fe162c71753e19e45"
+    },
+    {
+      "file": "DMSerifDisplay-Regular.ttf",
+      "source": "ofl/dmserifdisplay/DMSerifDisplay-Regular.ttf",
+      "sha256": "8cc3643535edf039aa5d95440a8542735e9197e4f4b8d9303e980fefbf5ab616"
+    },
+    {
+      "file": "DellaRespira-Regular.ttf",
+      "source": "ofl/dellarespira/DellaRespira-Regular.ttf",
+      "sha256": "81518be5b7baf69db5b8e4cff1a447ac2f6bf7a6029ca4963a67e1fb1b0b9218"
+    },
+    {
+      "file": "Fraunces-Italic[SOFT,WONK,opsz,wght].ttf",
+      "source": "ofl/fraunces/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf",
+      "sha256": "b24448c43702fac4ee856781d461a0dfba8d8e594b6e8e190234b75fed2c0e01"
+    },
+    {
+      "file": "Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "source": "ofl/fraunces/Fraunces[SOFT,WONK,opsz,wght].ttf",
+      "sha256": "177ff6c0f14e5550a3c624247cd1189611d4eb65d000b14944c63d967958abbb"
+    },
+    {
+      "file": "Italiana-Regular.ttf",
+      "source": "ofl/italiana/Italiana-Regular.ttf",
+      "sha256": "0ad271d9cd42a57cd5c5fa483ae2406a8138b95acb2a43eb73a8d37b7291fee9"
+    },
+    {
+      "file": "JosefinSans[wght].ttf",
+      "source": "ofl/josefinsans/JosefinSans[wght].ttf",
+      "sha256": "9255abdb5f393bc51e101abbd07a716a977fd3e15472b1b84b260f426a342bfd"
+    },
+    {
+      "file": "NotoSansEthiopic[wdth,wght].ttf",
+      "source": "ofl/notosansethiopic/NotoSansEthiopic[wdth,wght].ttf",
+      "sha256": "0dbccc00b22d180ebd6a4bd8a733918a29e709fa6798023adc3e6cd40da65077"
+    },
+    {
+      "file": "NotoSerifTelugu[wght].ttf",
+      "source": "ofl/notoseriftelugu/NotoSerifTelugu[wght].ttf",
+      "sha256": "32210d8d514d9aad43bf927fbd47c7e3066ee6a20c0258678f2ee45915012a26"
+    },
+    {
+      "file": "NotoSerifThai[wdth,wght].ttf",
+      "source": "ofl/notoserifthai/NotoSerifThai[wdth,wght].ttf",
+      "sha256": "34a7ad11647c845303aabdde639059806c56b84719e5d2ceb28eb038711bdf53"
+    },
+    {
+      "file": "Pacifico-Regular.ttf",
+      "source": "ofl/pacifico/Pacifico-Regular.ttf",
+      "sha256": "5b6c0d5334a7bf77dea52b975c5a0c408878c0f7115ed5b6fb151f634b7bf701"
+    },
+    {
+      "file": "Righteous-Regular.ttf",
+      "source": "ofl/righteous/Righteous-Regular.ttf",
+      "sha256": "2ffb3fe5c27d7e6571210b800448c4e234e651b46c6b4426c1bb567e5341348a"
+    },
+    {
+      "file": "RozhaOne-Regular.ttf",
+      "source": "ofl/rozhaone/RozhaOne-Regular.ttf",
+      "sha256": "8491b838c31f30272aa6da67e4749afabab8297db82a055fd2d0aa689f500ee3"
+    },
+    {
+      "file": "ShipporiMincho-Regular.ttf",
+      "source": "ofl/shipporimincho/ShipporiMincho-Regular.ttf",
+      "sha256": "769b5269f0f9bc6534b352c0e6bd856a566e03ff788f107191c2d835863570b2"
+    },
+    {
+      "file": "TiroBangla-Regular.ttf",
+      "source": "ofl/tirobangla/TiroBangla-Regular.ttf",
+      "sha256": "a763523dc3f90a71962cb8d9400b8f0a86b40b2cb01676f165101a2967127ae4"
+    },
+    {
+      "file": "TiroTamil-Regular.ttf",
+      "source": "ofl/tirotamil/TiroTamil-Regular.ttf",
+      "sha256": "f4ad26a93893a45fcb44bf117940d462c5aef1887543e9b8bf150767e597a76f"
+    },
+    {
+      "file": "Unbounded[wght].ttf",
+      "source": "ofl/unbounded/Unbounded[wght].ttf",
+      "sha256": "323b511be380c8d474ef030686b71aedde501f8d9cd46da558b7c40454372c3f"
+    },
+    {
+      "file": "YatraOne-Regular.ttf",
+      "source": "ofl/yatraone/YatraOne-Regular.ttf",
+      "sha256": "c47a94a4edf30f4eae0ca1c84777f4b70bc350221b6249de6b64fefdded2d3cd"
+    },
+    {
+      "file": "alfaslabone-OFL.txt",
+      "source": "ofl/alfaslabone/OFL.txt",
+      "sha256": "e315abc82a78710c7242e2f2e6529651fd631d4d50e6ad98ea194f9b54c3d701"
+    },
+    {
+      "file": "archivoblack-OFL.txt",
+      "source": "ofl/archivoblack/OFL.txt",
+      "sha256": "3173acd82f8c6159b5b1037b539fcbd4edff68e65c2ea8b9412b5a5ca97b08ff"
+    },
+    {
+      "file": "bebasneue-OFL.txt",
+      "source": "ofl/bebasneue/OFL.txt",
+      "sha256": "72082f6cb4d04be2ecf7cc7d9e1e7d73787f0af8a5a278a47cade70c16b78341"
+    },
+    {
+      "file": "blackhansans-OFL.txt",
+      "source": "ofl/blackhansans/OFL.txt",
+      "sha256": "c324192c8b3a988bae45a9a7e4ac1258b684739003bda114e0523423440457c9"
+    },
+    {
+      "file": "bodonimoda-OFL.txt",
+      "source": "ofl/bodonimoda/OFL.txt",
+      "sha256": "931dfe2e0cd3c9443295f5c1d754b8a8403bf060df50c1d5900267ade83d0046"
+    },
+    {
+      "file": "bricolagegrotesque-OFL.txt",
+      "source": "ofl/bricolagegrotesque/OFL.txt",
+      "sha256": "4b5a7d8f37f5602621c8a8d7358a6a2e71317e6c231c661e15aef0275d3e07ba"
+    },
+    {
+      "file": "cinzel-OFL.txt",
+      "source": "ofl/cinzel/OFL.txt",
+      "sha256": "f2b3029aba64c378bf0963b62945eee15e564fe4330b934c8f2eb058282b5e83"
+    },
+    {
+      "file": "cormorantgaramond-OFL.txt",
+      "source": "ofl/cormorantgaramond/OFL.txt",
+      "sha256": "60700d351cac4650c51f3f9db318d2a420f8b45052dba2715eb5fec41f0f6956"
+    },
+    {
+      "file": "dellarespira-OFL.txt",
+      "source": "ofl/dellarespira/OFL.txt",
+      "sha256": "19e186a088a50835b38b59409a76b8df2d0252ce114a99e79e306231bbe253b7"
+    },
+    {
+      "file": "dmserifdisplay-OFL.txt",
+      "source": "ofl/dmserifdisplay/OFL.txt",
+      "sha256": "a3e5cdd67d4571dd0a24fcc968de0efde7ae97ef752daf0906e4767619dd7231"
+    },
+    {
+      "file": "fraunces-OFL.txt",
+      "source": "ofl/fraunces/OFL.txt",
+      "sha256": "bdf4c22802eaf804f998195871c6b8938aac2ac14b2d78a8bd66a6f1eced833b"
+    },
+    {
+      "file": "italiana-OFL.txt",
+      "source": "ofl/italiana/OFL.txt",
+      "sha256": "486c4d5b9baf0d0ba5546ef3c43fcfe22c062299ab6948045a43efffe4b0f74b"
+    },
+    {
+      "file": "josefinsans-OFL.txt",
+      "source": "ofl/josefinsans/OFL.txt",
+      "sha256": "aee5a4081e8a52f80428b30f178b719d115f18dad3e1fa15a986163e1078a85b"
+    },
+    {
+      "file": "notosansethiopic-OFL.txt",
+      "source": "ofl/notosansethiopic/OFL.txt",
+      "sha256": "72606b23f312cb25973958f2892d4d2c2012deabadbf0f763232624a9649fc69"
+    },
+    {
+      "file": "notoseriftelugu-OFL.txt",
+      "source": "ofl/notoseriftelugu/OFL.txt",
+      "sha256": "481c72a8f1b4f645a7e6b10326be41b2da2c15cb470ff48a07fab773eed00102"
+    },
+    {
+      "file": "notoserifthai-OFL.txt",
+      "source": "ofl/notoserifthai/OFL.txt",
+      "sha256": "2e98fd23a52d253db8612cd5942c8f2ff4111b21d2367050fdca91d8ccc374a0"
+    },
+    {
+      "file": "pacifico-OFL.txt",
+      "source": "ofl/pacifico/OFL.txt",
+      "sha256": "a47e5daeda73568969395c656823102678f2eefb0d7d7ecb47aac4cc17e42204"
+    },
+    {
+      "file": "righteous-OFL.txt",
+      "source": "ofl/righteous/OFL.txt",
+      "sha256": "1c5bc055869d5e9151ec7774082727db720ec4293c65be67f91a4bdcaeb02998"
+    },
+    {
+      "file": "rozhaone-OFL.txt",
+      "source": "ofl/rozhaone/OFL.txt",
+      "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f"
+    },
+    {
+      "file": "shipporimincho-OFL.txt",
+      "source": "ofl/shipporimincho/OFL.txt",
+      "sha256": "41fba056279be5f45ff9a99e44b7b53897b42732f5806d8e666e0ab49ac6bd38"
+    },
+    {
+      "file": "tirobangla-OFL.txt",
+      "source": "ofl/tirobangla/OFL.txt",
+      "sha256": "2ed6051706542c5d6d96480318152b17900bb6d4dbadb11d7d5d6464d8b3e0dd"
+    },
+    {
+      "file": "tirotamil-OFL.txt",
+      "source": "ofl/tirotamil/OFL.txt",
+      "sha256": "2ed6051706542c5d6d96480318152b17900bb6d4dbadb11d7d5d6464d8b3e0dd"
+    },
+    {
+      "file": "unbounded-OFL.txt",
+      "source": "ofl/unbounded/OFL.txt",
+      "sha256": "31e5d4e83955e7103c34570dd49b0570ef490800bd65b42923c0dd02445263b3"
+    },
+    {
+      "file": "yatraone-OFL.txt",
+      "source": "ofl/yatraone/OFL.txt",
+      "sha256": "71e5222c549d85a1403b6e709b4328b81d7b51ba021b8bd20df89550da80c087"
+    }
+  ]
+}

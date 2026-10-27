@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "source": {
+    "file": "conservation-areas-2025-02.csv",
+    "sha256": "2d7ef3f2a121834056b376799e2310b4b9eb3febe49b40952c4282b409be9bab",
+    "url": "https://www.westminster.gov.uk/media/document/wcc-conservation-area-dataset-feb-2025",
+    "publication_page": "https://www.westminster.gov.uk/planning-building-control-and-environmental-regulations-menu/digital-planning-data",
+    "organisation": "local-authority:WSM",
+    "geometry_field": "Geometry",
+    "crs": "EPSG:27700",
+    "crs_basis": "CSV carries British National Grid meter ordinates but no separate CRS column. EPSG27700 interpretation checked against the council conservation-area audit boundary map and the Historic England Gilbert House national grid reference TQ2889778063."
+  },
+  "license": {
+    "name": "Open Government Licence v3.0",
+    "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+    "attribution": "Westminster City Council. Contains public sector information licensed under the Open Government Licence v3.0."
+  },
+  "conversion": {
+    "target_crs": "EPSG:4326",
+    "coordinate_order": "longitude,latitude",
+    "operation": "Inverse of British National Grid + OSGB36 to WGS 84 (6), normalized longitude/latitude output",
+    "accuracy_m": 2.0,
+    "pipeline": "proj=pipeline step inv proj=tmerc lat_0=49 lon_0=-2 k=0.9996012717 x_0=400000 y_0=-100000 ellps=airy step proj=push v_3 step proj=cart ellps=airy step proj=helmert x=446.448 y=-125.157 z=542.06 rx=0.15 ry=0.247 rz=0.842 s=-20.489 convention=position_vector step inv proj=cart ellps=WGS84 step proj=pop v_3 step proj=unitconvert xy_in=rad xy_out=deg",
+    "policy": "Preserve source components, rings, vertex order and closure. No simplification, buffering or automatic datum-operation selection.",
+    "rebuild": "python3 tools/convert-westminster-architecture-boundaries.py (requires pyproj)",
+    "check": "python3 tools/convert-westminster-architecture-boundaries.py --check"
+  },
+  "boundaries": [
+    {
+      "reference": "CONARA/1530",
+      "name": "Pimlico",
+      "file": "pimlico-wgs84.geojson",
+      "sha256": "684c534b39298777f6a11efee6ff485eba3d7e9aec2a6af8d88c832afdbb390a",
+      "components": 2,
+      "rings": 2,
+      "coordinate_pairs": 197
+    }
+  ],
+  "interpretation": "Exact published conservation-area boundary gates an authored ordinary-stock recipe. Conservation status does not establish each building material or replace source use and scale eligibility."
+}

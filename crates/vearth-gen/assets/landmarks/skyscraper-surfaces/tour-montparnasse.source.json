@@ -1,0 +1,1026 @@
+{
+  "name": "tour-montparnasse",
+  "city": "Paris",
+  "lat": 48.842112888667515,
+  "lon": 2.321978412150847,
+  "heading": -50.58735594929121,
+  "base": 55.3,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "source_exclusion_polygons": [
+    [
+      [
+        22.82035,
+        -15.21579
+      ],
+      [
+        23.14017,
+        -16.22329
+      ],
+      [
+        6.25589,
+        -19.17369
+      ]
+    ],
+    [
+      [
+        -26.22287,
+        -1.91101
+      ],
+      [
+        -10.88366,
+        -19.03104
+      ],
+      [
+        -22.82354,
+        -15.63166
+      ]
+    ],
+    [
+      [
+        -10.88366,
+        -19.03104
+      ],
+      [
+        -23.0833,
+        -16.86139
+      ],
+      [
+        -22.82354,
+        -15.63166
+      ]
+    ],
+    [
+      [
+        -22.82354,
+        -15.63166
+      ],
+      [
+        -30.79797,
+        -13.03859
+      ],
+      [
+        -27.2574,
+        -2.5071
+      ]
+    ],
+    [
+      [
+        -22.88949,
+        15.05586
+      ],
+      [
+        -27.35047,
+        2.24362
+      ],
+      [
+        -30.82489,
+        12.34567
+      ]
+    ],
+    [
+      [
+        -22.88949,
+        15.05586
+      ],
+      [
+        -23.18228,
+        16.33964
+      ],
+      [
+        -13.49164,
+        18.45973
+      ]
+    ],
+    [
+      [
+        0.77394,
+        -19.61362
+      ],
+      [
+        -6.72592,
+        19.19244
+      ],
+      [
+        0.13739,
+        19.49723
+      ]
+    ],
+    [
+      [
+        22.75431,
+        15.47165
+      ],
+      [
+        11.09075,
+        18.84404
+      ],
+      [
+        23.01406,
+        16.70137
+      ]
+    ],
+    [
+      [
+        26.45697,
+        2.00028
+      ],
+      [
+        30.88035,
+        13.00317
+      ],
+      [
+        27.31282,
+        2.19547
+      ]
+    ],
+    [
+      [
+        22.82035,
+        -15.21579
+      ],
+      [
+        27.45997,
+        -2.00269
+      ],
+      [
+        30.88035,
+        -12.65727
+      ]
+    ],
+    [
+      [
+        26.53355,
+        -1.49369
+      ],
+      [
+        22.82035,
+        -15.21579
+      ],
+      [
+        6.25589,
+        -19.17369
+      ]
+    ],
+    [
+      [
+        -6.72592,
+        19.19244
+      ],
+      [
+        -26.22287,
+        -1.91101
+      ],
+      [
+        -26.29943,
+        1.58297
+      ]
+    ],
+    [
+      [
+        -22.82354,
+        -15.63166
+      ],
+      [
+        -27.2574,
+        -2.5071
+      ],
+      [
+        -26.22287,
+        -1.91101
+      ]
+    ],
+    [
+      [
+        -27.35047,
+        2.24362
+      ],
+      [
+        -22.88949,
+        15.05586
+      ],
+      [
+        -26.29943,
+        1.58297
+      ]
+    ],
+    [
+      [
+        -26.29943,
+        1.58297
+      ],
+      [
+        -13.49164,
+        18.45973
+      ],
+      [
+        -6.72592,
+        19.19244
+      ]
+    ],
+    [
+      [
+        26.45697,
+        2.00028
+      ],
+      [
+        11.09075,
+        18.84404
+      ],
+      [
+        22.75431,
+        15.47165
+      ]
+    ],
+    [
+      [
+        30.88035,
+        13.00317
+      ],
+      [
+        26.45697,
+        2.00028
+      ],
+      [
+        22.75431,
+        15.47165
+      ]
+    ],
+    [
+      [
+        27.45997,
+        -2.00269
+      ],
+      [
+        22.82035,
+        -15.21579
+      ],
+      [
+        26.53355,
+        -1.49369
+      ]
+    ],
+    [
+      [
+        -6.72592,
+        19.19244
+      ],
+      [
+        0.77394,
+        -19.61362
+      ],
+      [
+        -10.88366,
+        -19.03104
+      ]
+    ],
+    [
+      [
+        -13.49164,
+        18.45973
+      ],
+      [
+        -26.29943,
+        1.58297
+      ],
+      [
+        -22.88949,
+        15.05586
+      ]
+    ],
+    [
+      [
+        6.25589,
+        -19.17369
+      ],
+      [
+        0.13739,
+        19.49723
+      ],
+      [
+        11.09075,
+        18.84404
+      ]
+    ],
+    [
+      [
+        6.25589,
+        -19.17369
+      ],
+      [
+        26.45697,
+        2.00028
+      ],
+      [
+        26.53355,
+        -1.49369
+      ]
+    ],
+    [
+      [
+        0.13739,
+        19.49723
+      ],
+      [
+        6.25589,
+        -19.17369
+      ],
+      [
+        0.77394,
+        -19.61362
+      ]
+    ],
+    [
+      [
+        -26.22287,
+        -1.91101
+      ],
+      [
+        -6.72592,
+        19.19244
+      ],
+      [
+        -10.88366,
+        -19.03104
+      ]
+    ],
+    [
+      [
+        11.09075,
+        18.84404
+      ],
+      [
+        26.45697,
+        2.00028
+      ],
+      [
+        6.25589,
+        -19.17369
+      ]
+    ]
+  ],
+  "max_source_building_span_m": 230,
+  "terrain_flatten": [],
+  "terrain_cuts": [
+    {
+      "polygon_xz": [
+        [
+          22.82035,
+          -15.21579
+        ],
+        [
+          23.14017,
+          -16.22329
+        ],
+        [
+          6.25589,
+          -19.17369
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -26.22287,
+          -1.91101
+        ],
+        [
+          -10.88366,
+          -19.03104
+        ],
+        [
+          -22.82354,
+          -15.63166
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -10.88366,
+          -19.03104
+        ],
+        [
+          -23.0833,
+          -16.86139
+        ],
+        [
+          -22.82354,
+          -15.63166
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -22.82354,
+          -15.63166
+        ],
+        [
+          -30.79797,
+          -13.03859
+        ],
+        [
+          -27.2574,
+          -2.5071
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -22.88949,
+          15.05586
+        ],
+        [
+          -27.35047,
+          2.24362
+        ],
+        [
+          -30.82489,
+          12.34567
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -22.88949,
+          15.05586
+        ],
+        [
+          -23.18228,
+          16.33964
+        ],
+        [
+          -13.49164,
+          18.45973
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          0.77394,
+          -19.61362
+        ],
+        [
+          -6.72592,
+          19.19244
+        ],
+        [
+          0.13739,
+          19.49723
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          22.75431,
+          15.47165
+        ],
+        [
+          11.09075,
+          18.84404
+        ],
+        [
+          23.01406,
+          16.70137
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          26.45697,
+          2.00028
+        ],
+        [
+          30.88035,
+          13.00317
+        ],
+        [
+          27.31282,
+          2.19547
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          22.82035,
+          -15.21579
+        ],
+        [
+          27.45997,
+          -2.00269
+        ],
+        [
+          30.88035,
+          -12.65727
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          26.53355,
+          -1.49369
+        ],
+        [
+          22.82035,
+          -15.21579
+        ],
+        [
+          6.25589,
+          -19.17369
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -6.72592,
+          19.19244
+        ],
+        [
+          -26.22287,
+          -1.91101
+        ],
+        [
+          -26.29943,
+          1.58297
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -22.82354,
+          -15.63166
+        ],
+        [
+          -27.2574,
+          -2.5071
+        ],
+        [
+          -26.22287,
+          -1.91101
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -27.35047,
+          2.24362
+        ],
+        [
+          -22.88949,
+          15.05586
+        ],
+        [
+          -26.29943,
+          1.58297
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -26.29943,
+          1.58297
+        ],
+        [
+          -13.49164,
+          18.45973
+        ],
+        [
+          -6.72592,
+          19.19244
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          26.45697,
+          2.00028
+        ],
+        [
+          11.09075,
+          18.84404
+        ],
+        [
+          22.75431,
+          15.47165
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          30.88035,
+          13.00317
+        ],
+        [
+          26.45697,
+          2.00028
+        ],
+        [
+          22.75431,
+          15.47165
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          27.45997,
+          -2.00269
+        ],
+        [
+          22.82035,
+          -15.21579
+        ],
+        [
+          26.53355,
+          -1.49369
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -6.72592,
+          19.19244
+        ],
+        [
+          0.77394,
+          -19.61362
+        ],
+        [
+          -10.88366,
+          -19.03104
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -13.49164,
+          18.45973
+        ],
+        [
+          -26.29943,
+          1.58297
+        ],
+        [
+          -22.88949,
+          15.05586
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          6.25589,
+          -19.17369
+        ],
+        [
+          0.13739,
+          19.49723
+        ],
+        [
+          11.09075,
+          18.84404
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          6.25589,
+          -19.17369
+        ],
+        [
+          26.45697,
+          2.00028
+        ],
+        [
+          26.53355,
+          -1.49369
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          0.13739,
+          19.49723
+        ],
+        [
+          6.25589,
+          -19.17369
+        ],
+        [
+          0.77394,
+          -19.61362
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          -26.22287,
+          -1.91101
+        ],
+        [
+          -6.72592,
+          19.19244
+        ],
+        [
+          -10.88366,
+          -19.03104
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    },
+    {
+      "polygon_xz": [
+        [
+          11.09075,
+          18.84404
+        ],
+        [
+          26.45697,
+          2.00028
+        ],
+        [
+          6.25589,
+          -19.17369
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 1.2
+    }
+  ],
+  "description": "Measured curved rectangular dark aluminum tower with 59 floor bands, observation terrace and roof plant.",
+  "attribution": "Original Low Poly Earth architectural mesh. Mapped plans \u00a9 OpenStreetMap contributors, ODbL 1.0, via Protomaps; primary dimensions cited separately.",
+  "references": [
+    "https://www.tourmontparnasse56.com/fr/la-tour-montparnasse-en-chiffres/",
+    "https://www.paris.fr/pages/la-tour-montparnasse-fete-ses-50-ans-24034"
+  ],
+  "audit": {
+    "architectural_height_m": 210,
+    "tip_height_m": 210,
+    "ground_datum_m": 55.3,
+    "placement_file": "tools/skyscraper_catalog/references/europe/tour-montparnasse-placement.json",
+    "ground_file": "tools/skyscraper_catalog/references/europe/tour-montparnasse-ground.json",
+    "estimates": "Owner 210m and 59 floors; current dark facade retained. Observatory closed 31 March 2026 for renovation; no future proposed facade modeled. Roof plant and secondary bands are photograph-based estimates.",
+    "ground_method": "Selected perimeter/street elevation control, fixed metric datum; footprint-only lower cuts and buried support. Provider elevations are not a surveyed building datum. Actual-engine ground-contact acceptance is recorded separately under output/skyscrapers."
+  },
+  "capture": {
+    "distance": 441.0,
+    "azimuth": 225,
+    "elevation": 21,
+    "target_height": 100.8
+  },
+  "activation_bounds_xz": [
+    [
+      -30.82489,
+      -19.61362
+    ],
+    [
+      30.88035,
+      19.49723
+    ]
+  ],
+  "night_eligible": true,
+  "bbox_min": [
+    -32.02489,
+    -1.3,
+    -20.81362
+  ],
+  "bbox_max": [
+    32.08035,
+    210.2,
+    20.697229999999998
+  ],
+  "levels": [
+    {
+      "vertices": 2199,
+      "triangles": 1142
+    },
+    {
+      "vertices": 1943,
+      "triangles": 1022
+    },
+    {
+      "vertices": 1731,
+      "triangles": 918
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/skyscraper_catalog/europe.py",
+  "dependencies": {
+    "crates/vearth-gen/src/building_surface.rs": "d4c5ca0b699c5cda62866b62ee1d26f17ce4b03f913c85e7045d7aadfe609bfb",
+    "crates/vearth-gen/src/highrise.rs": "476ec0574809c680b62cb60691a48a7e07f0b785b90568f14c4745f7562f2eb7",
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_skyscraper_catalog.py": "b7cae016f2d115ecccc277dff44f8490423b4a05f79c41a70d8a552dc58f7fb2",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/skyscraper_catalog/appearance.py": "ed485b103e0e6e9da95b4abf7faefc4b9f0f6c5741359458fc25c4616d6262e0",
+    "tools/skyscraper_catalog/europe.py": "60218719ae3d36710752dadf04a81148955b5e523c52749834af7e41453c103d",
+    "tools/skyscraper_catalog/geometry.py": "36ff1db56d17b9a5cea29ec0588398bf2a8492dad7ee906531ba983006f3dcbd",
+    "tools/skyscraper_catalog/references/europe/20-fenchurch-street-ground.json": "ae508e0ad52d7d337621e6cf61a7127fa58d1f5db3ddb7f3d64f317e863e76c5",
+    "tools/skyscraper_catalog/references/europe/20-fenchurch-street-placement.json": "e8677bff58237903cb933e0c5820d774dae8551248271397504f3c8226cb856f",
+    "tools/skyscraper_catalog/references/europe/20-fenchurch-street-plans.json": "731311499c9fb21d5a4b59d25355ee9cc676e74be601be455e25eb5b229623fb",
+    "tools/skyscraper_catalog/references/europe/20-fenchurch-street-research.json": "23593987a76394a04913bf1bac944ab36f64d178661b8638b260bc77c7cf75d2",
+    "tools/skyscraper_catalog/references/europe/commerzbank-tower-envelope.json": "3fa88b9108a26cb8da3b173d8bbd194a4ef7dcc47f5976561313f61994a81625",
+    "tools/skyscraper_catalog/references/europe/commerzbank-tower-ground.json": "fba921dfebaf432b85f081b4bc642470888aa257a107f99110bbbb163bac2e12",
+    "tools/skyscraper_catalog/references/europe/commerzbank-tower-placement.json": "a594b9ed0fbf571631d699c1353dac72d8bd432e38cc15aabde32dafb51f7636",
+    "tools/skyscraper_catalog/references/europe/commerzbank-tower-plans.json": "a31fdb6d5655ae88da010cfbd1a73c3bfe6a0c0274d144365bb30ab402bee8d1",
+    "tools/skyscraper_catalog/references/europe/commerzbank-tower-research.json": "6b22fa338580fc6a96b1557cb4e65e42a31716fec9560cb5852ad7e5f7936cf3",
+    "tools/skyscraper_catalog/references/europe/leadenhall-building-ground.json": "1f753a74aca13d9b959430cf2162b96d866ca3a90135311a5b83254fb3aeb600",
+    "tools/skyscraper_catalog/references/europe/leadenhall-building-placement.json": "736509bd501cdc4b433a7680293c56161d79975bcbff6a8d22edef6ed6dbdaec",
+    "tools/skyscraper_catalog/references/europe/leadenhall-building-plans.json": "1002d76486f51acc2ac1b098cfdd095a148cb2e205ed3d7014d911ab03c2b021",
+    "tools/skyscraper_catalog/references/europe/leadenhall-building-research.json": "56486bc884c7fcbf8d93a584331e13e7fc12b2a79314c443a91319497e224275",
+    "tools/skyscraper_catalog/references/europe/messeturm-envelope.json": "66bb58ef7ce63b8001c5711ac1d212c04a80a610ffc0d7911aa01090cb47bfd1",
+    "tools/skyscraper_catalog/references/europe/messeturm-ground.json": "0d06925ee4d37cffa8e86bc41bb0a63ec3ca4687cf36da6f87fa0a86b2f13578",
+    "tools/skyscraper_catalog/references/europe/messeturm-placement.json": "7a785440a105b0e0a2df79e9bafe500095e68eb4c3f5f48fd6885d68fcb798bf",
+    "tools/skyscraper_catalog/references/europe/messeturm-plans.json": "4c4361fb23b6663d0293fc7d1e7852a582cc65b6dcdcf9a2678b3543a75edec7",
+    "tools/skyscraper_catalog/references/europe/messeturm-research.json": "b9ff3dce6503006c8b42b0b98e93e4c16724c82b5a287d72d80bb403b88d642b",
+    "tools/skyscraper_catalog/references/europe/palace-of-culture-and-science-ground.json": "51df27ec927d17247be95976e18970a33edd0789f2f5e7d38c19792ecd44a8c1",
+    "tools/skyscraper_catalog/references/europe/palace-of-culture-and-science-placement.json": "18dc597ea62e6226b18f11dabc604d3145edf11658a08c0a1f00b1e65e858795",
+    "tools/skyscraper_catalog/references/europe/palace-of-culture-and-science-plans.json": "c0e428808508710f99674e15f8cf7e11e61dcde8fde408d7db2a1b190851c2a1",
+    "tools/skyscraper_catalog/references/europe/palace-of-culture-and-science-research.json": "2369e5409b8354b20cfced8ab38812dedbaa10d20c53c5d7acfb498e77e0d590",
+    "tools/skyscraper_catalog/references/europe/torre-glories-ground.json": "b313962bfdf01b6b36c20d47c9f6d3a595a1dc0d668d81042c611908869d2ebf",
+    "tools/skyscraper_catalog/references/europe/torre-glories-placement.json": "e434001c10288cde3d6695b24cc1349f5785be6c82d1715c402a31a160cbe972",
+    "tools/skyscraper_catalog/references/europe/torre-glories-plans.json": "eec45fe44326aa2b62bd0b46eb52d66af4f6c02695c72af64ba6c9b922bdcd45",
+    "tools/skyscraper_catalog/references/europe/torre-glories-research.json": "7c9db8beca75406e8340272405df2318cf41e84153cc16d56db124096d8e9009",
+    "tools/skyscraper_catalog/references/europe/tour-montparnasse-ground.json": "99d6ac98d9d7bf487a7ac4e1d914f2cdf4f596c09a84a1405044e250ecb882d4",
+    "tools/skyscraper_catalog/references/europe/tour-montparnasse-placement.json": "401f3aac831bf34ed68ef402e55b64295ea77cd7a1edadf663e96029cfc4d768",
+    "tools/skyscraper_catalog/references/europe/tour-montparnasse-plans.json": "888e0e63c8f0cedba7420abcb79724d0e51e4866f4468fdec34eadb5b98b6a74",
+    "tools/skyscraper_catalog/references/europe/tour-montparnasse-research.json": "ad2bb311609385f89b7cd1a2fc894922c1655a22c2420a4e0b0598e059622670",
+    "tools/skyscraper_catalog/references/europe/unicredit-tower-ground.json": "e3208ed29081698ea50cf38284d99ec3164997be1023bb85c75bda1c07d75419",
+    "tools/skyscraper_catalog/references/europe/unicredit-tower-placement.json": "cd7917cc46e9157cb561c7fba837cc73bc3a11252b6c4316738b6cf821f21146",
+    "tools/skyscraper_catalog/references/europe/unicredit-tower-plans.json": "c8b7bdf4cb15b1294837aa1dbc92a2c9846271192501b1df4a86b718e9e07a9a",
+    "tools/skyscraper_catalog/references/europe/unicredit-tower-research.json": "6654eb0b90430d8e38586a63bca20e67b870b21bf211e97ae86cffdc7027b268",
+    "tools/skyscraper_catalog/regional.py": "25eae598b754622d93fb76d0a1f56ca3f8151a1b77deaed6c835b063e81daa25"
+  },
+  "output_sha256": "f467069afc88bf4dcf0e8c63e280cc3acf4e09309e1530ab8f6903d85b4dc04a"
+}

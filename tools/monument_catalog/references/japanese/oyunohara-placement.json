@@ -1,0 +1,29 @@
+{
+  "source_url": "https://www.openstreetmap.org/way/1127649070",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "source_timestamp": "2025-09-02T02:34:23Z",
+  "source_version": "3",
+  "coordinates_lat_lon": [
+    [
+      33.8358575,
+      135.7753339
+    ],
+    [
+      33.8358149,
+      135.7757858
+    ]
+  ],
+  "tags": {
+    "ceremonial_gate": "torii",
+    "height": "34",
+    "man_made": "ceremonial_gate",
+    "material": "concrete",
+    "name": "\u5927\u9ce5\u5c45",
+    "name:fr": "Grand torii",
+    "name:ja-Hira": "\u304a\u304a\u3068\u308a\u3044",
+    "name:ja-Latn": "\u014ctorii",
+    "religion": "shinto",
+    "tourism": "attraction"
+  },
+  "note": "Coordinates and orientation only; architectural dimensions and materials use cited architectural sources, which override inconsistent OSM tags."
+}

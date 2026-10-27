@@ -1,0 +1,23 @@
+{
+  "name": "cn-tower",
+  "kind": "cn-tower",
+  "source": "cn-tower/cntower.glb",
+  "sha256": "ad820cb8858fb0047a35dd78c93baf9ad56db798d1f165107d10eee974a74bae",
+  "license": "existing landmark SOURCES.md",
+  "output": "cn-tower.lms",
+  "output_sha256": "eb81fdd54e4b41389feebcae73593229142eb1b448e9ca26fd514f4840478ab7",
+  "levels": [
+    [
+      9228,
+      5730
+    ],
+    [
+      1353,
+      2306
+    ],
+    [
+      891,
+      1382
+    ]
+  ]
+}

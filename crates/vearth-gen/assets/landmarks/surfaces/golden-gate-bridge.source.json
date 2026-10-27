@@ -1,0 +1,23 @@
+{
+  "name": "golden-gate-bridge",
+  "kind": "golden-gate-bridge-authored",
+  "source": "golden-gate-bridge/goldengate.glb",
+  "sha256": "886200c8205f71fc2baf7528ed3c419d891f467421e196b48af229658fdd3f95",
+  "license": "existing landmark SOURCES.md",
+  "output": "golden-gate-bridge.lms",
+  "output_sha256": "8c6f75e3fed89adcede98ff9e42db088ff51ab4ade7428eabf449dc3c65f745b",
+  "levels": [
+    [
+      82832,
+      44456
+    ],
+    [
+      19928,
+      29132
+    ],
+    [
+      19027,
+      25146
+    ]
+  ]
+}

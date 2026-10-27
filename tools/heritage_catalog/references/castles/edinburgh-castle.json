@@ -1,0 +1,266 @@
+{
+  "name": "edinburgh-castle",
+  "reference_urls": [
+    "https://www.edinburghcastle.scot/media/fpanlfr2/orientation-map.pdf",
+    "https://www.edinburghcastle.scot/see-and-do/highlights/the-great-hall/",
+    "https://portal.historicenvironment.scot/apex/f?p=1505:300:::::VIEWTYPE,VIEWREF:designation,LB48220",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=-3.2032928359400885,55.94670142587347,-3.1965471640599117,55.950478574126535"
+  ],
+  "documented_evidence": "HES orientation map names the separate wards and ranges. HES architectural record LB48220 describes the Great Hall as a four-bay rectangular hall with rubble walls, worked stone surrounds, greenish slate roof and crowstepped gables. Named OSM footprint fits control the chapel, gatehouses, barracks and Crown Square ranges.",
+  "modeling_qualifications": "Mapped Great Hall roof rectangle is approximately26.3\u00d712.7m; no unsupported29m interior dimension is asserted. St Margaret chapel mapped extent is9.8\u00d75.7m. Terrace offsets, secondary roof heights and defensive wall parapet heights are approximate; the perimeter follows the retained production DEM, while Crown Square has an authored common court level. World terrain inspection remains necessary.",
+  "metric_targets": {
+    "mapped_great_hall_roof_approx_m": [
+      26.3,
+      12.7
+    ],
+    "chapel_footprint_extent_m": [
+      9.8,
+      5.7
+    ]
+  },
+  "placement": {
+    "lat": 55.94826624443545,
+    "lon": -3.199759388764758,
+    "heading_deg": 0,
+    "base": "terrain",
+    "source_file": "tools/heritage_catalog/references/castles/edinburgh-source.json",
+    "source_offset_east_north_m": [
+      10,
+      -36
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/edinburgh-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/edinburgh-terrain.json",
+    "production_ground_at_anchor_m": 92.53855895996094
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 290611982,
+      "name": "Royal Palace",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          28.389,
+          -16.814
+        ],
+        "size_m": [
+          23.878,
+          40.355
+        ],
+        "heading_deg": -3.889
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 467503845,
+      "name": "Queen Ann Building",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -18.376,
+          -19.081
+        ],
+        "size_m": [
+          38.79,
+          17.634
+        ],
+        "heading_deg": 83.495
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 511343921,
+      "name": "Scottish National War Memorial",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          1.941,
+          15.319
+        ],
+        "size_m": [
+          24.273,
+          36.455
+        ],
+        "heading_deg": 82.155
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 41294347,
+      "name": "New Barracks",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -87.809,
+          0.686
+        ],
+        "size_m": [
+          24.561,
+          64.469
+        ],
+        "heading_deg": 141.108
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 41299975,
+      "name": "National War Museum",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -118.614,
+          59.756
+        ],
+        "size_m": [
+          35.311,
+          31.512
+        ],
+        "heading_deg": -7.437
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 41299976,
+      "name": "Hospital",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -119.672,
+          78.615
+        ],
+        "size_m": [
+          30.593,
+          38.386
+        ],
+        "heading_deg": 82.534
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 41299978,
+      "name": "Cartsheds",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -82.208,
+          83.652
+        ],
+        "size_m": [
+          14.527,
+          24.897
+        ],
+        "heading_deg": 42.897
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 41299983,
+      "name": "Governor's House",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -83.252,
+          40.253
+        ],
+        "size_m": [
+          37.335,
+          11.456
+        ],
+        "heading_deg": 63.891
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 446654897,
+      "name": "The Royal Scots Regimental Museum",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -38.557,
+          -3.596
+        ],
+        "size_m": [
+          19.026,
+          21.806
+        ],
+        "heading_deg": 172.062
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 467503844,
+      "name": "Military Prison",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -50.535,
+          -17.522
+        ],
+        "size_m": [
+          17.553,
+          13.48
+        ],
+        "heading_deg": -13.653
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 467503846,
+      "name": "The Great Hall",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          4.406,
+          -30.54
+        ],
+        "size_m": [
+          26.285,
+          12.682
+        ],
+        "heading_deg": 176.492
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 41299985,
+      "name": "St Margaret's Chapel",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -20.55,
+          47.532
+        ],
+        "size_m": [
+          9.528,
+          4.968
+        ],
+        "heading_deg": -4.756
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 41299987,
+      "name": "Portcullis Gate and Argyle Tower",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          2.411,
+          65.464
+        ],
+        "size_m": [
+          15.475,
+          8.67
+        ],
+        "heading_deg": 132.224
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 41299992,
+      "name": "Gatehouse",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          68.944,
+          28.215
+        ],
+        "size_m": [
+          35.984,
+          10.097
+        ],
+        "heading_deg": 81.999
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed.",
+  "terrain_cuts": [],
+  "source_exclusion_piece_count": 344
+}

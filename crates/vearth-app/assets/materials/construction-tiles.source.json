@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "asset": "construction-tiles.rgba8",
+  "layers": {
+    "brick": 23,
+    "stone": 24,
+    "plaster": 25,
+    "timber": 26,
+    "tile": 27,
+    "slate": 28,
+    "panel": 29,
+    "metal": 30,
+    "siding": 31,
+    "shingle": 32,
+    "flat": 33,
+    "thatch": 34,
+    "namako": 35,
+    "limestone": 36,
+    "marble": 37,
+    "earthen": 38,
+    "corrugated": 45,
+    "plain-tile": 46,
+    "rubble": 47,
+    "painted-boards": 48,
+    "wood-shingle": 49,
+    "woven-panel": 50,
+    "cement-sheet": 51,
+    "turf": 52,
+    "azulejo": 53,
+    "azulejo-pattern": 54
+  },
+  "dimensions": [
+    128,
+    128
+  ],
+  "bytes": 1703936,
+  "authoring_samples_per_texel": 16,
+  "period_m": {
+    "construction": 4,
+    "marble": 8,
+    "earthen": 4
+  },
+  "encoding": "linear R=0.5+zero-mean tone; GB=0.5+central dH/dUV/4; A=perceptual roughness",
+  "channel_overrides": {
+    "azulejo-pattern": "R=linear ink coverage; source RGB is ink over sRGB(232,234,225) ceramic, not whole-fa\u00e7ade average"
+  },
+  "bake": "python3 tools/bake-construction-materials.py",
+  "sources": {
+    "tools/bake-construction-materials.py": "a777b32eb958f42859aca27b2274c0e1c1442c9d8724c475eb31456c7b4c64b1"
+  },
+  "sha256": "5b035d0959b972dde028d44581a50b7bdef486be2587a06bf6be0f24f7251196",
+  "provenance": "Original deterministic illustrative art; no third-party texture pixels. Metric height and perceptual roughness are artistic, unmeasured signals. Regional pigment remains supplied by the game.",
+  "physical_references": [
+    {
+      "url": "https://visitporto.travel/storage/01HRWD2GGEDZY75FC3ZZW3TAYR.pdf",
+      "application": "Official Porto guide page10 shows ordinary plain turquoise glazed fa\u00e7ades and blue-on-white repeated tile patterns; keep two pigment semantics distinct. Original geometric art, no source pixels."
+    },
+    {
+      "url": "https://hemerotecadigital.cm-lisboa.pt/obras/LisboaRevM/N5_6/N5_6_master/N5_6.pdf",
+      "application": "Municipal historical factory inventory records13,14 and15 cm square tiles. The143 mm repeat,2 mm understated grout and glaze roughness are illustrative approximations, not measured product replication."
+    },
+    {
+      "url": "https://media.eternit.co.uk/doc_216586_gb/original/-448648132/profile-6-choosing-and-using-guide.pdf?brand=eterniteuronit&market=gb",
+      "application": "Mineral corrugated roof sheets have wider ribs than the small-wave metal sheet. The 146.5 mm reference pitch is approximated by a periodic 143 mm pitch; relief is artistically reduced, not a measured product reproduction."
+    },
+    {
+      "url": "https://visitfaroeislands.com/en/see-do/cultural-experiences/art-and-architecture/architecture",
+      "application": "Living turf roofing is a continuous grass-covered surface, distinct from straw thatch and ceramic courses. Original neutral sod texture; color comes from the local roof recipe."
+    },
+    {
+      "url": "https://www.undp.org/pacific/blog/preserving-mangroves-angouru-community-led-effort-combat-climate-change",
+      "application": "Actual Angouru organic woven wall panels, sheet and thatch roofs. The woven pattern is original and broadly scaled, not a claim to a measured species-specific weave."
+    },
+    {
+      "url": "https://www.inbar.int/wp-content/uploads/2020/05/1489455390.pdf",
+      "application": "Crossed thin organic strips form woven panels; distinguish exposed matting from plastered bamboo substrate."
+    },
+    {
+      "url": "https://sikumbang.tapera.go.id/lokasi-perumahan/ATB0420012020T001",
+      "application": "Actual built-house record specifies coloured tile-profile metal, represented by metal variant 3 sharing the rounded tile layer."
+    },
+    {
+      "url": "https://lysaght.com/profiles/custom-orb",
+      "application": "Corrugated sheet ripple geometry, approximately 76 mm pitch and 16 mm height; standing seam remains a separate finish."
+    },
+    {
+      "url": "https://www.wienerberger.co.uk/product-range/roof/plain-tile-brown.html",
+      "application": "Plain clay tile dimensions and 100 mm exposure; distinct flat overlapping profile."
+    },
+    {
+      "url": "https://historicengland.org.uk/advice/your-home/maintain-repair/walls/",
+      "application": "Exposed rubble and ashlar are distinct finishes; hidden masonry must not replace limewash or render."
+    },
+    {
+      "url": "https://trada.co.uk/start-here/timber-cladding/",
+      "application": "Vertical timber cladding remains distinct from horizontal clapboard; painted board relief is original illustrative art."
+    },
+    {
+      "url": "https://www.cedarbureau.org/product-types/certigrade-shingles/",
+      "application": "Wood shingles have variable widths, taper and longitudinal edge grain; composition shingles remain separate."
+    }
+  ],
+  "art_references": [
+    {
+      "url": "https://www.adobe.com/products/substance3d/magazine/the-creation-of-bell-island.html",
+      "application": "Shape hierarchy, selectively placed coarse defects and restrained noise; original material generators."
+    },
+    {
+      "url": "https://help.steampowered.com/en/faqs/view/0688-7692-4D5A-1935",
+      "application": "Value restraint, quiet regions and in-game readability; original neutral tint-preserving tone maps."
+    },
+    {
+      "url": "https://www.gdcvault.com/play/1024562",
+      "application": "Nintendo visual-direction reference, not a claim to reproduce proprietary Zelda texture maps."
+    },
+    {
+      "url": "https://www.gdcvault.com/play/1025015/Visual-Adventures-on-Sea-of",
+      "application": "Rare art-direction reference for consistent stylized visual rules across materials."
+    }
+  ]
+}

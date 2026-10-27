@@ -1,0 +1,8 @@
+# Eye translation plus tilt/heading changes around the Eiffel Tower.
+frame,lat_deg,lon_deg,alt_m,heading_deg,pitch_deg
+0,48.8606,2.2945,1800,0,25
+120,48.8580,2.3010,1800,270,45
+240,48.8538,2.2945,1800,180,60
+360,48.8580,2.2880,1800,90,45
+480,48.8606,2.2945,1800,0,25
+600,48.8606,2.2945,1800,0,25

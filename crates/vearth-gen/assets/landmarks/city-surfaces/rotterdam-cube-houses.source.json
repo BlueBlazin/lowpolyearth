@@ -1,0 +1,63 @@
+{
+  "name": "rotterdam-cube-houses",
+  "city": "Rotterdam",
+  "lat": 51.92028399,
+  "lon": 4.49051507,
+  "heading": 24.0,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -59.0,
+      -46.0
+    ],
+    [
+      66.0,
+      46.0
+    ]
+  ],
+  "references": [
+    "https://kubuswoning.nl/en/",
+    "https://rotterdam.info/app/uploads/2018/09/rotterdamICONS.pdf",
+    "https://www.openstreetmap.org/node/34051054"
+  ],
+  "description": "A compact forest of yellow corner-up cube dwellings on hexagonal masonry stems, with slate roofs and white-framed oblique windows.",
+  "capture": {
+    "distance": 155.0,
+    "azimuth": 225.0,
+    "elevation": 19.0
+  },
+  "bbox_min": [
+    -44.7,
+    -0.2,
+    -37.7
+  ],
+  "bbox_max": [
+    44.7,
+    20.8,
+    40.2
+  ],
+  "levels": [
+    {
+      "vertices": 58330,
+      "triangles": 31860
+    },
+    {
+      "vertices": 38794,
+      "triangles": 20916
+    },
+    {
+      "vertices": 12578,
+      "triangles": 6324
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/sculptural.py",
+  "source_sha256": "13f8fd088aad0da760d6d7fca86c3edb853b07100e758232a1e4e5f4368aceec",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "556eb9a0e2b65dc0f74860e13b67d6176016e9f93a229593a1e0689d20d5148f"
+}

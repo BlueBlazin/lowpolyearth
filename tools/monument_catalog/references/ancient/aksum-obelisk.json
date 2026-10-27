@@ -1,0 +1,22 @@
+{
+  "name": "aksum-obelisk",
+  "sources": [
+    "https://whc.unesco.org/en/list/15",
+    "https://courier.unesco.org/fr/articles/ethiopie-trois-millenaires-de-legendes-et-dhistoire",
+    "https://en.wikipedia.org/wiki/Obelisk_of_Axum"
+  ],
+  "coordinate_method": "Published point, not GNSS survey. Heading and minor dimensions marked as estimates below.",
+  "published_dimensions": {
+    "returned_stele_height_m": 24
+  },
+  "geometry_notes": "UNESCO distinguishes the returned24m stele from adjacent Ezana stele and33m fallen great stele. This model represents only the returned monument. Pale weathered stone, false doors, paired windows, projecting beam ends and curved summit indicate its multistorey-building symbolism. Small window dimensions, tint and footing are estimates.",
+  "placement_notes": "Approximate returned-stele coordinate14.13222,38.71972. Heading12 degrees follows the approximate broad-face axis of the field. The coordinate identifies the individual stele rather than using UNESCO World Heritage property centroid.",
+  "grounding": {
+    "datum": "Surveyed anchor with rigid component offsets from raw production elevation",
+    "ground_samples_file": "tools/monument_catalog/references/ground/aksum-obelisk.json",
+    "terrain_modification": "None. Terrain shape and material remain unchanged. Only authored geometry moves and its buried supports extend to sampled ground.",
+    "components": "One connected column and its footing",
+    "roads_suppressed": false
+  },
+  "rights": "All mesh geometry and surface tinting originally authored for Low Poly Earth. No third-party mesh, texture, photograph or inscription artwork is incorporated."
+}

@@ -1,0 +1,1414 @@
+{
+  "name": "the-exchange-106",
+  "city": "Kuala Lumpur",
+  "lat": 3.1424,
+  "lon": 101.7188,
+  "heading": 0,
+  "base": 43.0,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "source_exclusion_polygons": [
+    [
+      [
+        -13.0049,
+        -27.3068
+      ],
+      [
+        -40.2928,
+        -41.0103
+      ],
+      [
+        -54.8649,
+        -48.3351
+      ]
+    ],
+    [
+      [
+        -13.0049,
+        -27.3068
+      ],
+      [
+        -54.8649,
+        -48.3351
+      ],
+      [
+        -49.3629,
+        -59.289
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -13.0049,
+        -27.3068
+      ],
+      [
+        -49.3629,
+        -59.289
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -49.3629,
+        -59.289
+      ],
+      [
+        -47.3066,
+        -63.3745
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -47.3066,
+        -63.3745
+      ],
+      [
+        -46.5952,
+        -64.7882
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -46.5952,
+        -64.7882
+      ],
+      [
+        -29.0219,
+        -100.0767
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -29.0219,
+        -100.0767
+      ],
+      [
+        -23.5644,
+        -110.6298
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -23.5644,
+        -110.6298
+      ],
+      [
+        -13.883,
+        -105.7651
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -13.883,
+        -105.7651
+      ],
+      [
+        18.0623,
+        -89.7239
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        18.0623,
+        -89.7239
+      ],
+      [
+        24.5647,
+        -86.4622
+      ]
+    ],
+    [
+      [
+        24.5647,
+        -86.4622
+      ],
+      [
+        27.488,
+        -76.3099
+      ],
+      [
+        24.5536,
+        -70.4656
+      ]
+    ],
+    [
+      [
+        24.5647,
+        -86.4622
+      ],
+      [
+        24.5536,
+        -70.4656
+      ],
+      [
+        8.5588,
+        -38.6392
+      ]
+    ],
+    [
+      [
+        24.5647,
+        -86.4622
+      ],
+      [
+        8.5588,
+        -38.6392
+      ],
+      [
+        -0.3335,
+        -20.9393
+      ]
+    ],
+    [
+      [
+        56.5878,
+        -93.9875
+      ],
+      [
+        51.9638,
+        -89.8798
+      ],
+      [
+        47.5066,
+        -92.6182
+      ]
+    ],
+    [
+      [
+        56.5878,
+        -93.9875
+      ],
+      [
+        47.5066,
+        -92.6182
+      ],
+      [
+        42.716,
+        -92.1062
+      ]
+    ],
+    [
+      [
+        49.563,
+        -80.4621
+      ],
+      [
+        52.9865,
+        -85.6051
+      ],
+      [
+        60.8672,
+        -81.8313
+      ]
+    ],
+    [
+      [
+        49.563,
+        -80.4621
+      ],
+      [
+        60.8672,
+        -81.8313
+      ],
+      [
+        52.8197,
+        -71.7346
+      ]
+    ],
+    [
+      [
+        42.2046,
+        -80.9742
+      ],
+      [
+        49.563,
+        -80.4621
+      ],
+      [
+        52.8197,
+        -71.7346
+      ]
+    ],
+    [
+      [
+        42.2046,
+        -80.9742
+      ],
+      [
+        52.8197,
+        -71.7346
+      ],
+      [
+        44.6055,
+        -70.5324
+      ]
+    ],
+    [
+      [
+        40.3151,
+        -85.0819
+      ],
+      [
+        42.2046,
+        -80.9742
+      ],
+      [
+        44.6055,
+        -70.5324
+      ]
+    ],
+    [
+      [
+        40.3151,
+        -85.0819
+      ],
+      [
+        44.6055,
+        -70.5324
+      ],
+      [
+        33.6459,
+        -76.6995
+      ]
+    ],
+    [
+      [
+        42.716,
+        -92.1062
+      ],
+      [
+        40.3151,
+        -85.0819
+      ],
+      [
+        33.6459,
+        -76.6995
+      ]
+    ],
+    [
+      [
+        42.716,
+        -92.1062
+      ],
+      [
+        33.6459,
+        -76.6995
+      ],
+      [
+        31.0783,
+        -85.427
+      ]
+    ],
+    [
+      [
+        42.716,
+        -92.1062
+      ],
+      [
+        31.0783,
+        -85.427
+      ],
+      [
+        36.3803,
+        -95.1897
+      ]
+    ],
+    [
+      [
+        56.5878,
+        -93.9875
+      ],
+      [
+        42.716,
+        -92.1062
+      ],
+      [
+        36.3803,
+        -95.1897
+      ]
+    ],
+    [
+      [
+        36.3803,
+        -95.1897
+      ],
+      [
+        48.029,
+        -97.9282
+      ],
+      [
+        56.5878,
+        -93.9875
+      ]
+    ]
+  ],
+  "road_exclusion_polygons": [
+    [
+      [
+        -13.0049,
+        -27.3068
+      ],
+      [
+        -40.2928,
+        -41.0103
+      ],
+      [
+        -54.8649,
+        -48.3351
+      ]
+    ],
+    [
+      [
+        -13.0049,
+        -27.3068
+      ],
+      [
+        -54.8649,
+        -48.3351
+      ],
+      [
+        -49.3629,
+        -59.289
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -13.0049,
+        -27.3068
+      ],
+      [
+        -49.3629,
+        -59.289
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -49.3629,
+        -59.289
+      ],
+      [
+        -47.3066,
+        -63.3745
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -47.3066,
+        -63.3745
+      ],
+      [
+        -46.5952,
+        -64.7882
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -46.5952,
+        -64.7882
+      ],
+      [
+        -29.0219,
+        -100.0767
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -29.0219,
+        -100.0767
+      ],
+      [
+        -23.5644,
+        -110.6298
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -23.5644,
+        -110.6298
+      ],
+      [
+        -13.883,
+        -105.7651
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        -13.883,
+        -105.7651
+      ],
+      [
+        18.0623,
+        -89.7239
+      ]
+    ],
+    [
+      [
+        -0.3335,
+        -20.9393
+      ],
+      [
+        18.0623,
+        -89.7239
+      ],
+      [
+        24.5647,
+        -86.4622
+      ]
+    ],
+    [
+      [
+        24.5647,
+        -86.4622
+      ],
+      [
+        27.488,
+        -76.3099
+      ],
+      [
+        24.5536,
+        -70.4656
+      ]
+    ],
+    [
+      [
+        24.5647,
+        -86.4622
+      ],
+      [
+        24.5536,
+        -70.4656
+      ],
+      [
+        8.5588,
+        -38.6392
+      ]
+    ],
+    [
+      [
+        24.5647,
+        -86.4622
+      ],
+      [
+        8.5588,
+        -38.6392
+      ],
+      [
+        -0.3335,
+        -20.9393
+      ]
+    ],
+    [
+      [
+        56.5878,
+        -93.9875
+      ],
+      [
+        51.9638,
+        -89.8798
+      ],
+      [
+        47.5066,
+        -92.6182
+      ]
+    ],
+    [
+      [
+        56.5878,
+        -93.9875
+      ],
+      [
+        47.5066,
+        -92.6182
+      ],
+      [
+        42.716,
+        -92.1062
+      ]
+    ],
+    [
+      [
+        49.563,
+        -80.4621
+      ],
+      [
+        52.9865,
+        -85.6051
+      ],
+      [
+        60.8672,
+        -81.8313
+      ]
+    ],
+    [
+      [
+        49.563,
+        -80.4621
+      ],
+      [
+        60.8672,
+        -81.8313
+      ],
+      [
+        52.8197,
+        -71.7346
+      ]
+    ],
+    [
+      [
+        42.2046,
+        -80.9742
+      ],
+      [
+        49.563,
+        -80.4621
+      ],
+      [
+        52.8197,
+        -71.7346
+      ]
+    ],
+    [
+      [
+        42.2046,
+        -80.9742
+      ],
+      [
+        52.8197,
+        -71.7346
+      ],
+      [
+        44.6055,
+        -70.5324
+      ]
+    ],
+    [
+      [
+        40.3151,
+        -85.0819
+      ],
+      [
+        42.2046,
+        -80.9742
+      ],
+      [
+        44.6055,
+        -70.5324
+      ]
+    ],
+    [
+      [
+        40.3151,
+        -85.0819
+      ],
+      [
+        44.6055,
+        -70.5324
+      ],
+      [
+        33.6459,
+        -76.6995
+      ]
+    ],
+    [
+      [
+        42.716,
+        -92.1062
+      ],
+      [
+        40.3151,
+        -85.0819
+      ],
+      [
+        33.6459,
+        -76.6995
+      ]
+    ],
+    [
+      [
+        42.716,
+        -92.1062
+      ],
+      [
+        33.6459,
+        -76.6995
+      ],
+      [
+        31.0783,
+        -85.427
+      ]
+    ],
+    [
+      [
+        42.716,
+        -92.1062
+      ],
+      [
+        31.0783,
+        -85.427
+      ],
+      [
+        36.3803,
+        -95.1897
+      ]
+    ],
+    [
+      [
+        56.5878,
+        -93.9875
+      ],
+      [
+        42.716,
+        -92.1062
+      ],
+      [
+        36.3803,
+        -95.1897
+      ]
+    ],
+    [
+      [
+        36.3803,
+        -95.1897
+      ],
+      [
+        48.029,
+        -97.9282
+      ],
+      [
+        56.5878,
+        -93.9875
+      ]
+    ]
+  ],
+  "max_source_building_span_m": 150,
+  "terrain_flatten": [],
+  "terrain_cuts": [
+    {
+      "polygon_xz": [
+        [
+          -13.0049,
+          -27.3068
+        ],
+        [
+          -40.2928,
+          -41.0103
+        ],
+        [
+          -54.8649,
+          -48.3351
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -13.0049,
+          -27.3068
+        ],
+        [
+          -54.8649,
+          -48.3351
+        ],
+        [
+          -49.3629,
+          -59.289
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -0.3335,
+          -20.9393
+        ],
+        [
+          -13.0049,
+          -27.3068
+        ],
+        [
+          -49.3629,
+          -59.289
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -0.3335,
+          -20.9393
+        ],
+        [
+          -49.3629,
+          -59.289
+        ],
+        [
+          -47.3066,
+          -63.3745
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -0.3335,
+          -20.9393
+        ],
+        [
+          -47.3066,
+          -63.3745
+        ],
+        [
+          -46.5952,
+          -64.7882
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -0.3335,
+          -20.9393
+        ],
+        [
+          -46.5952,
+          -64.7882
+        ],
+        [
+          -29.0219,
+          -100.0767
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -0.3335,
+          -20.9393
+        ],
+        [
+          -29.0219,
+          -100.0767
+        ],
+        [
+          -23.5644,
+          -110.6298
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -0.3335,
+          -20.9393
+        ],
+        [
+          -23.5644,
+          -110.6298
+        ],
+        [
+          -13.883,
+          -105.7651
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -0.3335,
+          -20.9393
+        ],
+        [
+          -13.883,
+          -105.7651
+        ],
+        [
+          18.0623,
+          -89.7239
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -0.3335,
+          -20.9393
+        ],
+        [
+          18.0623,
+          -89.7239
+        ],
+        [
+          24.5647,
+          -86.4622
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          24.5647,
+          -86.4622
+        ],
+        [
+          27.488,
+          -76.3099
+        ],
+        [
+          24.5536,
+          -70.4656
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          24.5647,
+          -86.4622
+        ],
+        [
+          24.5536,
+          -70.4656
+        ],
+        [
+          8.5588,
+          -38.6392
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          24.5647,
+          -86.4622
+        ],
+        [
+          8.5588,
+          -38.6392
+        ],
+        [
+          -0.3335,
+          -20.9393
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          56.5878,
+          -93.9875
+        ],
+        [
+          51.9638,
+          -89.8798
+        ],
+        [
+          47.5066,
+          -92.6182
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          56.5878,
+          -93.9875
+        ],
+        [
+          47.5066,
+          -92.6182
+        ],
+        [
+          42.716,
+          -92.1062
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          49.563,
+          -80.4621
+        ],
+        [
+          52.9865,
+          -85.6051
+        ],
+        [
+          60.8672,
+          -81.8313
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          49.563,
+          -80.4621
+        ],
+        [
+          60.8672,
+          -81.8313
+        ],
+        [
+          52.8197,
+          -71.7346
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          42.2046,
+          -80.9742
+        ],
+        [
+          49.563,
+          -80.4621
+        ],
+        [
+          52.8197,
+          -71.7346
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          42.2046,
+          -80.9742
+        ],
+        [
+          52.8197,
+          -71.7346
+        ],
+        [
+          44.6055,
+          -70.5324
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          40.3151,
+          -85.0819
+        ],
+        [
+          42.2046,
+          -80.9742
+        ],
+        [
+          44.6055,
+          -70.5324
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          40.3151,
+          -85.0819
+        ],
+        [
+          44.6055,
+          -70.5324
+        ],
+        [
+          33.6459,
+          -76.6995
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          42.716,
+          -92.1062
+        ],
+        [
+          40.3151,
+          -85.0819
+        ],
+        [
+          33.6459,
+          -76.6995
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          42.716,
+          -92.1062
+        ],
+        [
+          33.6459,
+          -76.6995
+        ],
+        [
+          31.0783,
+          -85.427
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          42.716,
+          -92.1062
+        ],
+        [
+          31.0783,
+          -85.427
+        ],
+        [
+          36.3803,
+          -95.1897
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          56.5878,
+          -93.9875
+        ],
+        [
+          42.716,
+          -92.1062
+        ],
+        [
+          36.3803,
+          -95.1897
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    },
+    {
+      "polygon_xz": [
+        [
+          36.3803,
+          -95.1897
+        ],
+        [
+          48.029,
+          -97.9282
+        ],
+        [
+          56.5878,
+          -93.9875
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.1
+      ],
+      "feather_m": 1.5
+    }
+  ],
+  "description": "Current CTBUH entry records453.6m architectural/tip height and405.4m highest occupied floor. The owner identifies its illuminated geometric crown.",
+  "attribution": "Original Low Poly Earth geometry; plan measurements \u00a9 OpenStreetMap contributors (ODbL), production vectors via Protomaps.",
+  "references": [
+    "https://www.skyscrapercenter.com/build/the-exchange-106/24971",
+    "https://www.exchange106.my/",
+    "https://trx.my/our-district-category/exchange-106/"
+  ],
+  "audit": {
+    "architectural_height_m": 453.6,
+    "ground_datum_m": 43.0,
+    "estimates": "The tower and detached entrance gallery plans are mapped measurements. The48.2m crown interval uses published vertical endpoints; individual facet setbacks and gallery13m height are approximations. Datum43m fits the near-flat mapped tower approach; the neighboring TRX mall is outside ownership.",
+    "survey_file": "tools/skyscraper_catalog/references/japan_southeast_asia/the-exchange-106-site.json",
+    "architecture_file": "tools/skyscraper_catalog/references/japan_southeast_asia/the-exchange-106-architecture.json",
+    "contact_camera": {
+      "azimuth": 225,
+      "elevation": 7,
+      "distance": 294.84000000000003,
+      "target_height": 8
+    },
+    "ground_method": "Fixed approach datum, bounded lower-only cuts inside authored structure, perimeter supports sampled at every authored toe and buried 0.5m. No roof-driven datum; final engine contact review required."
+  },
+  "capture": {
+    "distance": 1043.28,
+    "azimuth": 225,
+    "elevation": 23,
+    "target_height": 195.048
+  },
+  "night_eligible": true,
+  "bbox_min": [
+    -56.3649,
+    -5.0,
+    -112.1298
+  ],
+  "bbox_max": [
+    62.3672,
+    454.0,
+    -19.4393
+  ],
+  "levels": [
+    {
+      "vertices": 8268,
+      "triangles": 4952
+    },
+    {
+      "vertices": 6166,
+      "triangles": 3680
+    },
+    {
+      "vertices": 708,
+      "triangles": 442
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/skyscraper_catalog/japan_southeast_asia.py",
+  "dependencies": {
+    "crates/vearth-gen/src/building_surface.rs": "d4c5ca0b699c5cda62866b62ee1d26f17ce4b03f913c85e7045d7aadfe609bfb",
+    "crates/vearth-gen/src/highrise.rs": "476ec0574809c680b62cb60691a48a7e07f0b785b90568f14c4745f7562f2eb7",
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_skyscraper_catalog.py": "b7cae016f2d115ecccc277dff44f8490423b4a05f79c41a70d8a552dc58f7fb2",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/skyscraper_catalog/appearance.py": "ed485b103e0e6e9da95b4abf7faefc4b9f0f6c5741359458fc25c4616d6262e0",
+    "tools/skyscraper_catalog/geometry.py": "36ff1db56d17b9a5cea29ec0588398bf2a8492dad7ee906531ba983006f3dcbd",
+    "tools/skyscraper_catalog/inventory.py": "c2baa65db2fec4ad9daf239556addbad9ff866472c6bf025b5553e2fd3a9a645",
+    "tools/skyscraper_catalog/japan_southeast_asia.py": "029523de787b243c294ec578b255590ceddce28ee649cd4b7bbfdf7969564410",
+    "tools/skyscraper_catalog/pacific_geometry.py": "339ce22cbf974867dc76f606868508a82d6cdfb8879732782bb6dadf18e74188",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/abeno-harukas-architecture.json": "fa310097f3b100280544f44ad44474c9ed61a3ddd13fcec46a637f6a23f27cba",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/abeno-harukas-site.json": "d08495cba4e1e8ad4e4f95857cb5f13c19330387f30001755ddd7e79e31853d4",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/abeno-setting.json": "24c9ff90360629b58bc9556bb8ea228d86052c0a5ba25e9fdc578deb419c4ac0",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/baiyoke-setting.json": "36595eba59350f8def68d2c84cf2b3754dcb3947a622424dc2591d5b7f3ca439",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/baiyoke-tower-ii-architecture.json": "399ef99cdf24d027288dce174a49a2e65ce506dbfd6bd9c20db8dc1286acd189",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/baiyoke-tower-ii-site.json": "5d4d26c68392fae8545550ec3b4161372facf36878cf41c33d5282d5e88c8d09",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/capitaspring-architecture.json": "c88b1fc875ab02474af736a600fbc664bc3bacfdf70c4804e49f3b1ac5dbb7cd",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/capitaspring-setting.json": "58f54aa50af190675887d34f477a17692eb09e15dc672ce041f05846d9f9a42d",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/capitaspring-site.json": "a6fd09de49e2d7d97b284d407d7ae2d213a125af00f1b93ecc368c40c69a1b7e",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/capitaspring-source-replacement.json": "e51fae76c395d40a2801dd83dfd743de124febd6d73a795c28b0b8094a493873",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/cocoon-setting.json": "8c27591dec87abc34168be8488096c885d086d1e4cd594fd5842eed1b5ff1f79",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/facade-framing-materials.json": "18a754cdabb2ca2d112771d8f2cd200683b271c416ab57cd4d9e296a76555bc7",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/mahanakhon-architecture.json": "0b754f5adc9c072b280dc57d9d7e2b24c800110482d6c289c827dcca766fc7ee",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/mahanakhon-site.json": "bedd98d74356160a824ba84971f4b105f8ea41e7dcc724024ea59785da00edee",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/mode-gakuen-cocoon-tower-architecture.json": "7722e919cfc6b9367b637ee08521ea7c84f0a46a7996e8f4abf235d3e0501c83",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/mode-gakuen-cocoon-tower-site.json": "7e70e4b8a823bac07b747bbfda9ea6887959622f9791320a516b32b83001e4eb",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/the-exchange-106-architecture.json": "248c16d77d16eebf46242dd26bdee1d63276be03bf1028e221f072176d600993",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/the-exchange-106-site.json": "7492b3d674b2a3a326a10ece5a96471cfe6eac0b59a2095652a79d7e468f91d6",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/tokyo-metropolitan-government-building-architecture.json": "e26ec00438ea1bbd3a9686278a1a19e3dede73b7bb164d9178c77724e0035edf",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/tokyo-metropolitan-government-building-site.json": "c613749c22ffc4be9cc44c6c6d8ab2e2aeba4542ec850a42a26f619e4cd9d8e4",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/tokyo-setting.json": "ea32d9c1adcbeb31e54688e732735388846c768f5745daa59873fd4b10a018b7",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/umeda-sky-building-architecture.json": "46ddb25587ed179826d879e66010770f4ab37805e788fe31a10840fa8460842a",
+    "tools/skyscraper_catalog/references/japan_southeast_asia/umeda-sky-building-site.json": "c57c0710e977ebe90b8b5b851a7c2af09c02a589c34fe151118d976de0f703f9"
+  },
+  "output_sha256": "066ff124c120d57f8454a6de2d0e0c09ebc6fe9642a457fb828e167335d5bd58"
+}

@@ -1,0 +1,63 @@
+{
+  "name": "louvre-abu-dhabi",
+  "city": "Abu Dhabi",
+  "lat": 24.53377587,
+  "lon": 54.39844611,
+  "heading": 35.0,
+  "base": 4.0,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -125.0,
+      -139.0
+    ],
+    [
+      167.0,
+      146.0
+    ]
+  ],
+  "references": [
+    "https://www.louvreabudhabi.ae/en/about-us/architecture",
+    "https://dct.gov.ae/en/media.centre/news/louvre.abu.dhabi.closer.to.completion.with.two.major.milestones.aspx",
+    "https://www.openstreetmap.org/way/498046180"
+  ],
+  "description": "A 180-metre shallow silver dome with an open star lattice above a waterfront cluster of low white gallery volumes.",
+  "capture": {
+    "distance": 295.0,
+    "azimuth": 300.0,
+    "elevation": 24.0
+  },
+  "bbox_min": [
+    -90.6,
+    -6.2,
+    -91.3
+  ],
+  "bbox_max": [
+    90.6,
+    36.3,
+    90.6
+  ],
+  "levels": [
+    {
+      "vertices": 195382,
+      "triangles": 103948
+    },
+    {
+      "vertices": 89122,
+      "triangles": 45132
+    },
+    {
+      "vertices": 31233,
+      "triangles": 16068
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/sculptural.py",
+  "source_sha256": "13f8fd088aad0da760d6d7fca86c3edb853b07100e758232a1e4e5f4368aceec",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "f49f738abb2f3a330af29487230ee3c60ee4e985ad428d9efd4ee023a559879b"
+}

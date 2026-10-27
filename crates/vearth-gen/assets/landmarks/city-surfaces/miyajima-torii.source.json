@@ -1,0 +1,53 @@
+{
+  "name": "miyajima-torii",
+  "city": "Miyajima",
+  "lat": 34.2973,
+  "lon": 132.31814,
+  "heading": 133.0,
+  "base": -1.0,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": false,
+  "references": [
+    "https://www.miyajima.or.jp/sightseeing/ss_ootorii.html",
+    "https://visit-miyajima-japan.com/en/culture-and-heritage/spiritual-heritage-temples-shrines/le-torii-flottant.html",
+    "https://www.openstreetmap.org/way/555763409"
+  ],
+  "description": "The vermilion Ryobu gate: two great camphor posts, four sleeve pillars, penetrating ties, and the upswept dark cypress cap.",
+  "capture": {
+    "distance": 65.0,
+    "azimuth": 305.0,
+    "elevation": 10.0
+  },
+  "bbox_min": [
+    -12.4,
+    -0.3,
+    -6.8
+  ],
+  "bbox_max": [
+    12.4,
+    16.9,
+    6.8
+  ],
+  "levels": [
+    {
+      "vertices": 4324,
+      "triangles": 2556
+    },
+    {
+      "vertices": 3065,
+      "triangles": 1788
+    },
+    {
+      "vertices": 2348,
+      "triangles": 1308
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/sculptural.py",
+  "source_sha256": "13f8fd088aad0da760d6d7fca86c3edb853b07100e758232a1e4e5f4368aceec",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "d122a2bde53e0ca1a046820a90e62fc7fd68a81c2ca2e5d8b06ee9c9d787506c"
+}

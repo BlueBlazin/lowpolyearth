@@ -1,0 +1,86 @@
+{
+  "name": "cayan-tower",
+  "sources": [
+    {
+      "url": "https://www.som.com/projects/cayan-tower/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.cayan.net/projects/cayantower",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.cayan.net/live/wp-content/uploads/2023/10/Cayan-Corporate-Profile-Eng-2023.pdf",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Architect307m and90 degree twist; owner podium six levels. Native terrain datum\u22122.7m follows the measured perimeter upper quartile; no inferred sea-level raising. Negative provider datum is not a surveyed absolute elevation. Floor pitch is estimated; native109 supplies facade floor rhythm.",
+  "authored_form": "Ninety-degree twisting residential shaft with recessed glazing, metal sill blades and six-level podium.",
+  "dimensions_m": {
+    "architectural_height": 307,
+    "tip_height": 307,
+    "mapped_parts": [
+      {
+        "seed": "16175491394234046594",
+        "bounds_xz": [
+          [
+            -19.89392,
+            -18.54067
+          ],
+          [
+            20.01706,
+            18.50045
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      25.08684623574448,
+      55.1451703942061
+    ],
+    "heading_deg": -50.62246481973489,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "0543d33732ad5642947f2b1881f4413b1f8c4e07fb3aff473c687cc595f7fc4d"
+  },
+  "ground": {
+    "datum_m": -2.7,
+    "datum_quality": "Approximate native terrain datum from perimeter upper quartile\u22122.659m; negative provider values are retained consistently with surrounding mapped dry land, not interpreted as a surveyed elevation.",
+    "source_sha256": "7409d9098424f39dc53867e2a338fdb51df67b9fd1b70034316f05d80c39d26d",
+    "quantiles_m": {
+      "toe": [
+        -5.116292476654053,
+        -4.001095473766327,
+        -3.144559144973755,
+        -2.659366488456726,
+        -2.0
+      ],
+      "near": [
+        -6.779702186584473,
+        -4.5312501192092896,
+        -3.1119006872177124,
+        -2.8294901847839355,
+        -2.0
+      ],
+      "street": [
+        -7.914234161376953,
+        -4.990299344062805,
+        -3.5872772932052612,
+        -2.953554689884186,
+        -2.1574649810791016
+      ]
+    },
+    "correction": "No terrain raising. Lower-only mapped footprint cut to\u22122.85m,1.2m feather, buried foundation toes; native water and adjoining land retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "district": "bordeaux-chartrons",
+    "coordinate": [
+      -0.5707943,
+      44.8485419
+    ],
+    "node_id": 266601400,
+    "way_id": 683887234,
+    "name": "Quai des Chartrons"
+  },
+  {
+    "district": "bordeaux-chartrons",
+    "coordinate": [
+      -0.5700508,
+      44.8501796
+    ],
+    "node_id": 2038203909,
+    "way_id": 683887234,
+    "name": "Quai des Chartrons"
+  },
+  {
+    "district": "bordeaux-chartrons",
+    "coordinate": [
+      -0.5657864,
+      44.8543841
+    ],
+    "node_id": 2063191239,
+    "way_id": 1443526985,
+    "name": "Quai des Chartrons"
+  },
+  {
+    "district": "bordeaux-chartrons",
+    "coordinate": [
+      -0.5637746,
+      44.8556794
+    ],
+    "node_id": 2062956913,
+    "way_id": 1454206088,
+    "name": "Cours du Médoc"
+  },
+  {
+    "district": "bordeaux-chartrons",
+    "coordinate": [
+      -0.5687464,
+      44.8599051
+    ],
+    "node_id": 348241511,
+    "way_id": 1354437830,
+    "name": "Cours Saint-Louis"
+  },
+  {
+    "district": "bordeaux-chartrons",
+    "coordinate": [
+      -0.5717966,
+      44.8550217
+    ],
+    "node_id": 250224775,
+    "way_id": 185627024,
+    "name": "Cours Saint-Louis"
+  },
+  {
+    "district": "bordeaux-chartrons",
+    "coordinate": [
+      -0.5735895,
+      44.8521364
+    ],
+    "node_id": 226336462,
+    "way_id": 30686695,
+    "name": "Cours de Verdun"
+  },
+  {
+    "district": "bordeaux-chartrons",
+    "coordinate": [
+      -0.5756657,
+      44.848824
+    ],
+    "node_id": 226354062,
+    "way_id": 1391864437,
+    "name": "Cours de Verdun"
+  },
+  {
+    "district": "bordeaux-chartrons",
+    "coordinate": [
+      -0.575548,
+      44.8487894
+    ],
+    "node_id": 1827697563,
+    "way_id": 42323430,
+    "name": "Cours Xavier Arnozan"
+  },
+  {
+    "district": "oslo-grunerlokka",
+    "coordinate": [
+      10.7548056,
+      59.9282489
+    ],
+    "node_id": 29581170
+  },
+  {
+    "district": "oslo-grunerlokka",
+    "coordinate": [
+      10.7639039,
+      59.9286515
+    ],
+    "node_id": 660503
+  },
+  {
+    "district": "oslo-grunerlokka",
+    "coordinate": [
+      10.7629022,
+      59.9241042
+    ],
+    "node_id": 106173,
+    "way_id": 1305134424,
+    "name": "Helgesens gate"
+  },
+  {
+    "district": "oslo-grunerlokka",
+    "coordinate": [
+      10.7647455,
+      59.9213135
+    ],
+    "node_id": 12631037
+  },
+  {
+    "district": "oslo-grunerlokka",
+    "coordinate": [
+      10.761166,
+      59.9203712
+    ],
+    "node_id": 1387801966
+  },
+  {
+    "district": "oslo-grunerlokka",
+    "coordinate": [
+      10.7573647,
+      59.9201162
+    ],
+    "node_id": 106151
+  },
+  {
+    "district": "oslo-grunerlokka",
+    "coordinate": [
+      10.7556417,
+      59.9211014
+    ],
+    "node_id": 9842873973
+  },
+  {
+    "district": "oslo-grunerlokka",
+    "coordinate": [
+      10.7556257,
+      59.9224238
+    ],
+    "node_id": 660485
+  },
+  {
+    "district": "oslo-grunerlokka",
+    "coordinate": [
+      10.7549165,
+      59.9255004
+    ],
+    "node_id": 12534281
+  },
+  {
+    "district": "canary-wharf-office-core",
+    "coordinate": [
+      -0.0259631,
+      51.5055924
+    ],
+    "node_id": 1350498371,
+    "way_id": 1375573692,
+    "name": "West India Avenue"
+  },
+  {
+    "district": "canary-wharf-office-core",
+    "coordinate": [
+      -0.0243623,
+      51.5063492
+    ],
+    "node_id": 27553614,
+    "way_id": 23782754,
+    "name": "North Dock"
+  },
+  {
+    "district": "canary-wharf-office-core",
+    "coordinate": [
+      -0.0153389,
+      51.5055905
+    ],
+    "node_id": 6620799278,
+    "way_id": 23782754,
+    "name": "North Dock"
+  },
+  {
+    "district": "canary-wharf-office-core",
+    "coordinate": [
+      -0.0155404,
+      51.5039496
+    ],
+    "node_id": 1936224078,
+    "way_id": 183373690,
+    "name": "Bellmouth Passage"
+  },
+  {
+    "district": "canary-wharf-office-core",
+    "coordinate": [
+      -0.016162,
+      51.50195
+    ],
+    "node_id": 1536507460,
+    "way_id": 183373686,
+    "name": "South Dock"
+  },
+  {
+    "district": "canary-wharf-office-core",
+    "coordinate": [
+      -0.0227919,
+      51.5026517
+    ],
+    "node_id": 8713464207,
+    "way_id": 183373686,
+    "name": "South Dock"
+  },
+  {
+    "district": "canary-wharf-office-core",
+    "coordinate": [
+      -0.0250803,
+      51.5029678
+    ],
+    "node_id": 21441794,
+    "way_id": 183373686,
+    "name": "South Dock"
+  }
+]

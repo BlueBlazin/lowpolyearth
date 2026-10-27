@@ -1,0 +1,133 @@
+{
+  "name": "neuschwanstein-castle",
+  "reference_urls": [
+    "https://www.neuschwanstein.de/englisch/palace/history.htm",
+    "https://www.neuschwanstein.de/bilder/schloss/grundriss790.png",
+    "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=10.747554536354494,47.55605115427852,10.752085463645505,47.55910884572148"
+  ],
+  "documented_evidence": "Official administration plan identifies Palas, two staircase towers, Knights House, square tower, connector, Bower, lower and upper courtyard, and gateway. Primary page confirms light limestone cladding and red brick construction. Published150m length and65m northern stair tower are secondary dimensional anchors; the plan has no scale.",
+  "modeling_qualifications": "Primary administration plan and retained named OSM ranges establish placement. North stair tower65m and overall150m are secondary published anchors; mapped square tower wall height35m is used, with taller narrow corner roofs. Local heading334deg and source offset(-29,-11)m fit the gateway and long range. Other room heights, roof dormers and opening spacing remain architectural estimates.",
+  "metric_targets": {
+    "overall_length_m": 150,
+    "north_stair_tower_height_m": 65,
+    "square_tower_wall_height_m": 35
+  },
+  "placement": {
+    "lat": 47.55748107468861,
+    "lon": 10.74943353855459,
+    "heading_deg": 334,
+    "base": "terrain",
+    "source_file": "tools/heritage_catalog/references/castles/neuschwanstein-source.json",
+    "source_offset_east_north_m": [
+      -29,
+      -11
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/neuschwanstein-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/neuschwanstein-terrain.json",
+    "production_ground_at_anchor_m": 949.5624389648438
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 221599087,
+      "name": "Kemenate",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          6.574,
+          -14.392
+        ],
+        "size_m": [
+          13.504,
+          23.785
+        ],
+        "heading_deg": 92.549
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 221599090,
+      "name": "Palas",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -34.995,
+          6.174
+        ],
+        "size_m": [
+          28.802,
+          58.74
+        ],
+        "heading_deg": 85.812
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 221599096,
+      "name": "Torbau",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          68.519,
+          -3.671
+        ],
+        "size_m": [
+          9.814,
+          40.194
+        ],
+        "heading_deg": 2.365
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 221599097,
+      "name": "Treppenturm",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -44.035,
+          16.1
+        ],
+        "size_m": [
+          7.682,
+          7.647
+        ],
+        "heading_deg": 113.164
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 221599098,
+      "name": "Viereckturm",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          42.985,
+          11.828
+        ],
+        "size_m": [
+          8.988,
+          9.309
+        ],
+        "heading_deg": -177.419
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 223311650,
+      "name": "Ritterhaus",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          10.52,
+          16.318
+        ],
+        "size_m": [
+          13.018,
+          26.367
+        ],
+        "heading_deg": 92.274
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed.",
+  "terrain_cuts": [],
+  "source_exclusion_piece_count": 133
+}

@@ -1,0 +1,159 @@
+{
+  "retrieved": "2026-09-13",
+  "authorship": "Original metric interpretation; no downloaded mesh or image texture. Reference dimensions below distinguish published dimensions from authored visual estimates. Footprint and DEM surveys are recorded separately.",
+  "sites": {
+    "derawar-fort": {
+      "references": [
+        "https://whc.unesco.org/en/tentativelists/6108/"
+      ],
+      "published": {
+        "bastions": 40,
+        "bastions_per_side": 10,
+        "height_m": 30,
+        "reported_wall_length_m": 1500
+      },
+      "layout": "Square brick enclosure completely faced by circular bastions; cut-brick geometric panels, ruined inner structures and separate mosque outside the fort.",
+      "uncertainty": "The 200 m mapped square contradicts treating UNESCO\u2019s 1500 m reported total wall length as four 375 m sides; geometry uses the OSM scalloped wall footprint with the published 30 m wall height.",
+      "measured": {
+        "mapped_footprint_east_west_m": 207,
+        "mapped_footprint_north_south_m": 204
+      }
+    },
+    "qaitbay-citadel": {
+      "references": [
+        "https://egymonuments.gov.eg/en/monuments/qaitbay-fort",
+        "https://publication-cpas-egypt.com/wp-content/uploads/2023/11/ALAM-Al-BENAA-1984-0048.pdf",
+        "https://islamicart.museumwnf.org/database_item.php?id=monuments%3BISL%3Beg%3BMon01%3B10%3Ben"
+      ],
+      "published": {
+        "site_area_m2": 17550,
+        "keep_storeys": 3,
+        "corner_towers": 4,
+        "keep_height_m": 17,
+        "keep_core_side_m": 30,
+        "outer_wall_height_m": 8,
+        "outer_wall_width_m": 2
+      },
+      "layout": "Limestone outer defensive wall, inner barracks around courtyard, square keep in northwest part of courtyard, semicircular corner towers and projecting defence balconies."
+    },
+    "krak-des-chevaliers": {
+      "references": [
+        "https://archeologie.culture.gouv.fr/crac-chevaliers/en/about-castle",
+        "https://whc.unesco.org/document/168916"
+      ],
+      "published": {
+        "maximum_length_m": 300,
+        "maximum_width_m": 140
+      },
+      "layout": "Two irregular concentric enclosures, polygonal upper ward with towers; rounded and horseshoe towers emerge from sloping talus on south and west, chapel against northeast bedrock, lower outer enceinte and southern moat and triangular barbican."
+    },
+    "hwaseong-fortress": {
+      "references": [
+        "https://whc.unesco.org/en/list/817/",
+        "https://www.suwon.go.kr/webcontent/ckeditor/2019/1/28/aba5520b-3547-4c04-9aab-62fcc32bf69a.pdf"
+      ],
+      "published": {
+        "wall_length_m": 5740,
+        "enclosed_area_ha": 130,
+        "original_elements": 48,
+        "hwahongmun_open_water_arches": 7
+      },
+      "layout": "Wall follows both hill and flat ground. Two-storey Janganmun north and Paldalmun south gates; single-storey Hwaseomun west and Changnyongmun east; fired-brick half-moon ravelins, Hwahongmun floodgate over Suwoncheon; modern road openings remain open."
+    },
+    "amber-fort": {
+      "references": [
+        "https://www.tourism.rajasthan.gov.in/amber-palace.html",
+        "https://whc.unesco.org/document/116681"
+      ],
+      "published": {
+        "principal_courtyards": 4
+      },
+      "layout": "Four rising court sections; Jaleb Chowk reached by Suraj Pol and Chand Pol, Diwan-e-Aam, Ganesh Pol, garden between Sheesh Mahal and Sukh Niwas, Man Singh palace/zenana. Pale yellow/pink sandstone and white marble; lake remains outside replacement."
+    },
+    "gwalior-fort": {
+      "references": [
+        "https://gwalior.nic.in/en/tourist-place/the-fort/",
+        "https://www.nma.gov.in/showfile.php?lang=1&level=2&lid=1858&ls_id=1524&nma_type=0",
+        "https://www.incredibleindia.gov.in/en/madhya-pradesh/gwalior/gwalior-travel-guide"
+      ],
+      "published": {
+        "reported_wall_length_m": 3218.688,
+        "reported_wall_height_m": 10.668,
+        "man_mandir_decorated_facade_m": 91.5,
+        "man_mandir_facade_towers": 6,
+        "man_mandir_courtyards": 2,
+        "man_mandir_storeys_above_ground": 2
+      },
+      "layout": "Sandstone defenses follow long irregular plateau; dominant Man Mandir palace on east cliff has turquoise and yellow tile bands and cylindrical chhatri towers; Gujari Mahal is down at the northeast foot, not at summit datum."
+    },
+    "kumbhalgarh-fort": {
+      "references": [
+        "https://www.tourism.rajasthan.gov.in/kumbhalgarh-fort.html",
+        "https://whc.unesco.org/en/list/247/",
+        "https://whc.unesco.org/uploads/nominations/247rev.pdf"
+      ],
+      "published": {
+        "reported_full_wall_length_m": 36000
+      },
+      "layout": "Ridgeline defenses and massive rounded bastions, rising zigzag gateways to summit Badal Mahal, lower temples and settlements. No full-site flattening.",
+      "measured_scope": "The archived OSM surviving wall alignment spans 1.7 by 2.45 km; the complete mapped circuit is modeled. The published 36 km claim is not used to invent unmapped wall alignments."
+    },
+    "red-fort": {
+      "references": [
+        "https://whc.unesco.org/en/list/231/"
+      ],
+      "layout": "Irregular octagonal red sandstone enceinte; Lahori west gate and Chatta Chowk approach lead east to Naubat Khana and Diwan-e-Aam, white marble royal pavilions lie along east riverfront joined by Nahr-i-Behisht, northern garden and later barracks remain distinct."
+    },
+    "fasil-ghebbi": {
+      "references": [
+        "https://whc.unesco.org/en/list/19/"
+      ],
+      "published": {
+        "enclosure_wall_m": 900,
+        "entrances": 12,
+        "main_building_complexes": 6
+      },
+      "layout": "Fasilidas castle with domed corner towers, ruined Iyasu castle, Yohannes library and chancellery, Dawit hall, Mentewab palace and long Bekaffa banqueting hall. Fasilidas bath is a separate site outside this mesh."
+    },
+    "castillo-san-felipe-del-morro": {
+      "references": [
+        "https://home.nps.gov/saju/learn/historyculture/el-morro.htm",
+        "https://npgallery.nps.gov/GetAsset/d0cc83fe-bfac-44d3-8e35-9b4f5ca8dd98/",
+        "https://home.nps.gov/saju/faqs.htm"
+      ],
+      "published": {
+        "main_levels": 6,
+        "site_area_acres_approx": 7,
+        "lowest_level_above_sea_m": 4.8768,
+        "highest_level_above_sea_m": 42.672,
+        "wall_thickness_m_range": [
+          5.4864,
+          7.62
+        ]
+      },
+      "layout": "Triangular sea-facing lower batteries, higher hornwork on landward east, dry moat, sloping ramp and lower court, garitas at salient corners, lighthouse on upper terreplein. Eight tiers in historic nomination count two outlying works; six refers to main fort."
+    },
+    "castillo-san-felipe-de-barajas": {
+      "references": [
+        "https://fortificacionescartagena.com.co/en/destination/areas-of-the-castle/",
+        "https://fortificacionescartagena.com.co/es/destination/san-felipe-despues-de-vernon-1741-1769/"
+      ],
+      "published": {
+        "hill_high_point_m": 40,
+        "total_cannons_historic": 63
+      },
+      "layout": "Summit castillejo and layered angular batteries: San L\u00e1zaro south, Santa B\u00e1rbara northeast, Redenci\u00f3n between Cruz and Santa B\u00e1rbara, Hornabeque north, San Carlos/Ap\u00f3stoles lower north, La Cruz northwest. Sloping masonry scarps, broad terraces, ramps and tunnel mouths."
+    },
+    "citadelle-laferriere": {
+      "references": [
+        "https://whc.unesco.org/document/141054",
+        "https://whc.unesco.org/en/list/180/"
+      ],
+      "published": {
+        "summit_altitude_m_approx": 910,
+        "complex_area_m2_over": 10000
+      },
+      "layout": "Mountain-top fortress, pointed projecting battery and tall casemated masonry perimeter; central open court, pitched tile-roof galleries, roofless cistern/court spaces, rows of cannon apertures and cannonball stacks."
+    }
+  }
+}

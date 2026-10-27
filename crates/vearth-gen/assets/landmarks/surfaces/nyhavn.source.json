@@ -1,0 +1,23 @@
+{
+  "name": "nyhavn",
+  "kind": "nyhavn",
+  "source": "nyhavn/nyhavn.glb",
+  "sha256": "a9afda13826d3141ed366de8d77b87e46b6946987fc3d9251fa018aa6aed62b4",
+  "license": "existing landmark SOURCES.md",
+  "output": "nyhavn.lms",
+  "output_sha256": "79d194e6f5a4d2c3e592b01cafa7510f15b404a1b7d5bf19d51d2eb16bd9f731",
+  "levels": [
+    [
+      54102,
+      27440
+    ],
+    [
+      53534,
+      27168
+    ],
+    [
+      53526,
+      27152
+    ]
+  ]
+}

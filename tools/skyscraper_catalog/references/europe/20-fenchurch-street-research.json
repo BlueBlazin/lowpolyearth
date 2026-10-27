@@ -1,0 +1,78 @@
+{
+  "name": "20-fenchurch-street",
+  "sources": [
+    {
+      "url": "https://vinoly.com/works/20-fenchurch-street/",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Architect160m,32 office levels and3 Sky Garden levels. Roof envelope mapped; curvature, fin pitch and intermediate levels estimated. Southern annex and neighboring pocket park retained as native sources.",
+  "authored_form": "Outward-growing curved glass tower with white fins, double-height lobby and three-level arched Sky Garden.",
+  "dimensions_m": {
+    "architectural_height": 160,
+    "tip_height": 160,
+    "mapped_parts": [
+      {
+        "seed": "15568772278289554679",
+        "bounds_xz": [
+          [
+            -34.32364,
+            -29.29796
+          ],
+          [
+            34.26254,
+            29.26146
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      51.51125271228298,
+      -0.08354442943039347
+    ],
+    "heading_deg": -80.25413819788393,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "46dba76336941bf70b0407a8fb4ddacfe966a2b08f8c390355f43958cf51a687"
+  },
+  "ground": {
+    "datum_m": 14.9,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "10cab873f12fc96d5ff17167ff8ec1967df3a90f40d651740a4aacc37f038444",
+    "quantiles_m": {
+      "toe": [
+        11.793930053710938,
+        15.193521976470947,
+        16.242355346679688,
+        16.607279300689697,
+        16.741031646728516
+      ],
+      "near": [
+        10.832480430603027,
+        15.035346031188965,
+        16.117712020874023,
+        16.667125701904297,
+        16.810001373291016
+      ],
+      "street": [
+        12.047548294067383,
+        14.910725593566895,
+        15.962911605834961,
+        16.637035369873047,
+        16.990055084228516
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained. Tower support follows narrower actual lobby footprint, not the larger upper roof outline used for source ownership."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14"
+}

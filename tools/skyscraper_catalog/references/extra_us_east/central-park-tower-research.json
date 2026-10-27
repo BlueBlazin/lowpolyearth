@@ -1,0 +1,11 @@
+{
+  "urls": [
+    "https://www.smithgill.com/work/central_park_tower/",
+    "https://centralparktower.com/tower"
+  ],
+  "facts": "Architect1550ft=472.44m, completed2021, seven-story Nordstrom department-store podium. Mapped component heights define setbacks23/44/89/127/163/237/332/342/433/466/471m; last cap reconciled to472.44m. Source min-height89m identifies east cantilever; intermediate heights remain mapped estimates.",
+  "name": "central-park-tower",
+  "materials": "Existing native office104/106 facade systems with matte87 piers; no dense per-window overlays. Real gold crown uses95.",
+  "licenses": "Original geometry; plans \u00a9 OpenStreetMap contributors, ODbL1.0 via Protomaps. Only primary source URLs/paraphrased facts retained; no redistributed photography or third-party3D assets.",
+  "references_checked_utc_date": "2026-09-14"
+}

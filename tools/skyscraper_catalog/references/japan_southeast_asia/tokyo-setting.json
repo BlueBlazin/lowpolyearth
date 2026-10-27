@@ -1,0 +1,102 @@
+{
+  "name": "tokyo-metropolitan-government-building",
+  "plaza_polygon_xz": [
+    [
+      12,
+      -62
+    ],
+    [
+      84,
+      -53
+    ],
+    [
+      103,
+      -45
+    ],
+    [
+      119,
+      -28
+    ],
+    [
+      126,
+      -8
+    ],
+    [
+      126,
+      0
+    ],
+    [
+      120,
+      29
+    ],
+    [
+      107,
+      49
+    ],
+    [
+      89,
+      59
+    ],
+    [
+      65,
+      60
+    ],
+    [
+      1,
+      47
+    ]
+  ],
+  "street_polygon_xz": [
+    [
+      -42,
+      -135
+    ],
+    [
+      65,
+      -112
+    ],
+    [
+      56,
+      -72
+    ],
+    [
+      -51,
+      -92
+    ]
+  ],
+  "plane_relative_to_floor": [
+    0,
+    0,
+    -0.1
+  ],
+  "plaza_feather_m": 3,
+  "street_feather_m": 16,
+  "evidence": "The official metropolitan visitor plan identifies an open civic court and the streets separating the two office buildings. Retained OSMway89878322 supplies the curved court boundary; the mapped office datum is39m, consistent with38\u201341m adjacent west samples. The engine contact shows a sharp false terrain hump in the inter-building roadway, while the court grid contains roof-contaminated readings up to81m. Both bounded grades retain the39m model datum and elevated connecting bridges.",
+  "datum_limit": "39m is a calibrated map/approach estimate, not a new height survey. The grade modifies the mapped open court and short inter-block approach only.",
+  "references": [
+    "https://www.yokoso.metro.tokyo.lg.jp/en/kengaku/pdf/300228_totyoukengakuannai_English.pdf"
+  ],
+  "attribution": "Plan boundary \u00a9 OpenStreetMap contributors, ODbL1.0.",
+  "forecourt_polygon_xz": [
+    [
+      -48,
+      -109
+    ],
+    [
+      68,
+      -88
+    ],
+    [
+      60,
+      -48
+    ],
+    [
+      -53,
+      -72
+    ]
+  ],
+  "forecourt_feather_m": 12,
+  "forecourt_evidence": "The V2 southwest contact still shows a localized raised forecourt at the No1 south frontage. Mapped No1 footprint reaches z\u221266.7475, while the existing street-grade northern boundary lies about10\u201320m south of that frontage. This short convex apron overlaps the existing inter-block street grade and extends across only the immediate No1 frontage to the authored building. It retains the same38.9m approach plane and39m floor. No2 and the wider west park remain outside this additional full-weight correction.",
+  "max_source_building_span_m": 195,
+  "source_replacement_evidence": "Verified same-site Assembly parent OSM89878322 / production seed9206078377894893820 spans188.22m and carries a generic41m source envelope. The clipped ground-owned wing produced a180.54m guard, incorrectly retaining the whole parent before precise intersection.195m admits this verified same-site parent while retaining exact ground ownership and neighboring source footprints. The authored Assembly ring/bridges replace its architecture; no broad suppression polygon is introduced."
+}

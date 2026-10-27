@@ -1,0 +1,23 @@
+{
+  "name": "statue-of-liberty",
+  "kind": "liberty",
+  "url": "https://raw.githubusercontent.com/leihui6/BENBV/d361fd6e9c87f74ab61736dab7126d7a2929286a/public_dataset/Stanford3D/statue_of_liberty.obj",
+  "sha256": "3400d17a830acb971617c6b15f3bdbb492dd33ad1af5b91b790cdc4cc936a606",
+  "license": "existing landmark SOURCES.md",
+  "output": "statue-of-liberty.lms",
+  "output_sha256": "b11fabcd3bd52340f13f77df86a397d5c4abdc32d2db8a947c76cb57d1391f0d",
+  "levels": [
+    [
+      1141,
+      1905
+    ],
+    [
+      388,
+      666
+    ],
+    [
+      120,
+      190
+    ]
+  ]
+}

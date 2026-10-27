@@ -1,0 +1,87 @@
+{
+  "name": "dom-luis-i-bridge",
+  "city": "Porto",
+  "lat": 41.1398745,
+  "lon": -8.6094167,
+  "heading": 346.7,
+  "base": 0,
+  "suppress_buildings": false,
+  "suppress_roads": true,
+  "suppress_trees": false,
+  "activation_pad": 2,
+  "road_exclusion_polygons": [
+    [
+      [
+        -5.6,
+        -175
+      ],
+      [
+        5.6,
+        -175
+      ],
+      [
+        5.6,
+        237
+      ],
+      [
+        -5.6,
+        237
+      ]
+    ]
+  ],
+  "references": [
+    "https://www.infraestruturasdeportugal.pt/pt-pt/reabertura-do-tabuleiro-inferior-da-ponte-luiz-i",
+    "https://www.openstreetmap.org/way/165660759",
+    "https://www.openstreetmap.org/way/31572985"
+  ],
+  "description": "Two iron decks above the Douro, supported by a 172.5m open lattice arch with 49m rise, suspended lower-deck rods and braced approach piers.",
+  "source_audit": {
+    "upper_end_ground_m": [
+      46.438747,
+      65.568466
+    ],
+    "lower_end_ground_m": [
+      2.280597,
+      0.626709
+    ],
+    "placement": "Mapped bridge axis; authored deck endpoints use source ground plus the existing five-metre bridge clearance. Bounded corridor removes duplicate source decks."
+  },
+  "capture": {
+    "distance": 404,
+    "azimuth": 255,
+    "elevation": 17,
+    "target_height": 32,
+    "time_utc": "2026-03-20T15:30:00Z"
+  },
+  "bbox_min": [
+    -7.7,
+    -4.2,
+    -176.3
+  ],
+  "bbox_max": [
+    7.7,
+    72.1,
+    238.3
+  ],
+  "levels": [
+    {
+      "vertices": 51836,
+      "triangles": 28272
+    },
+    {
+      "vertices": 24820,
+      "triangles": 14432
+    },
+    {
+      "vertices": 11862,
+      "triangles": 6800
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/outdoors.py",
+  "source_sha256": "a0f000078f193150e25bd137e45c958a4ea7f2e04b546ebfd71742be1f050010",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "06071f0a74f2075149c6b5137eb334e8210377951f32d369d0cd2c87d58aae65"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "petronas-towers",
+  "kind": "petronas-towers",
+  "source": "petronas-towers/petronas.glb",
+  "sha256": "02e61f339ac1b86d20cb37870a0cd22267c54e4547f566d572d9a3999b8de55b",
+  "license": "existing landmark SOURCES.md",
+  "output": "petronas-towers.lms",
+  "output_sha256": "8cb7924f0c3155cf4caeb724a0d765d80c50c4f2e44ad03735fd557534eb54db",
+  "levels": [
+    [
+      320408,
+      202220
+    ],
+    [
+      47260,
+      76148
+    ],
+    [
+      36810,
+      30924
+    ]
+  ]
+}

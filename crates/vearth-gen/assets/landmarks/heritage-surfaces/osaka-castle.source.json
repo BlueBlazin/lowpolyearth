@@ -1,0 +1,310 @@
+{
+  "name": "osaka-castle",
+  "city": "Osaka",
+  "lat": 34.68738496605063,
+  "lon": 135.52586,
+  "heading": 6,
+  "base": 31.3,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "description": "Present keep with massive concave stone batter, five green roof tiers, white walls, black and gold top frieze and gilded shachi.",
+  "dimensions": {
+    "honmaru_ground_geo_m": [
+      31.2,
+      31.5
+    ],
+    "summit_geo_m": 85.9,
+    "authored_height_m": 54.6
+  },
+  "references": [
+    "https://www.osakacastle.net/toyotomi_stone_wall/column/2401.html",
+    "https://www.osakacastle.net/90/history/",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=135.52493035032407,34.68657557713926,135.52678964967592,34.68810442286074",
+    "https://www.osakacastle.net/pdf/access/bf_map_eng_a4.pdf"
+  ],
+  "terrain_flatten": [],
+  "audit": {
+    "source_file": "tools/heritage_catalog/references/castles/osaka-source.json",
+    "source_anchor_latlon": [
+      34.68734,
+      135.52586
+    ],
+    "source_offset_east_north_m": [
+      0,
+      5
+    ],
+    "ground_center_m": 52.56831741333008,
+    "grid_min_m": 26.7936954498291,
+    "grid_max_m": 56.48638916015625,
+    "placement_note": "Source footprints are EN metric rings. Bearing and center are fitted to named ranges, with measurement qualifications in the site reference.",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/osaka-terrain.json",
+    "calibrated_anchor_ground_m": 50.75571823120117,
+    "plan_file": "tools/heritage_catalog/references/castles/osaka-plan.json",
+    "source_ownership": "Convex mapped building pieces and narrow mapped wall strips; activation bounds include their exact extent.",
+    "terrain_cut_evidence": "Lower-only plaza cuts remove a spatially blurred DSM keep mound extending beyond the footprint. Osaka surveyed honmaru31.2\u201331.5m contrasts with production50\u201356m near the keep and39.8m65m west; Matsumoto surrounding ground590.5m contrasts with598\u2013599m mound. Mapped retaining walls bound the core plaza; feathering transitions outside it and lower moat terrain is retained."
+  },
+  "capture": {
+    "distance": 240,
+    "azimuth": 220,
+    "elevation": 28,
+    "target_height": 14,
+    "time_utc": "2026-03-20T11:00:00Z"
+  },
+  "source_exclusion_polygons": [
+    [
+      [
+        -19.132725341991264,
+        19.247525580913642
+      ],
+      [
+        -18.61087014840903,
+        -22.36789934971672
+      ],
+      [
+        -14.310453232443106,
+        -22.251747083814756
+      ]
+    ],
+    [
+      [
+        -19.132725341991264,
+        19.247525580913642
+      ],
+      [
+        -14.310453232443106,
+        -22.251747083814756
+      ],
+      [
+        -4.782611744668576,
+        -22.200535914697152
+      ]
+    ],
+    [
+      [
+        -19.132725341991264,
+        19.247525580913642
+      ],
+      [
+        -4.782611744668576,
+        -22.200535914697152
+      ],
+      [
+        0.5037076848592523,
+        -22.20398395712386
+      ]
+    ],
+    [
+      [
+        -19.132725341991264,
+        19.247525580913642
+      ],
+      [
+        0.5037076848592523,
+        -22.20398395712386
+      ],
+      [
+        17.109199580691804,
+        -22.04637400363278
+      ]
+    ],
+    [
+      [
+        -19.132725341991264,
+        19.247525580913642
+      ],
+      [
+        17.109199580691804,
+        -22.04637400363278
+      ],
+      [
+        18.763638873833678,
+        -22.040405309620727
+      ]
+    ],
+    [
+      [
+        18.763638873833678,
+        -22.040405309620727
+      ],
+      [
+        17.912731491234318,
+        19.730475907158
+      ],
+      [
+        -19.132725341991264,
+        19.247525580913642
+      ]
+    ]
+  ],
+  "activation_bounds_xz": [
+    [
+      -19.132725341991264,
+      -22.36789934971672
+    ],
+    [
+      18.763638873833678,
+      19.730475907158
+    ]
+  ],
+  "terrain_cuts": [
+    {
+      "polygon_xz": [
+        [
+          -58,
+          -85
+        ],
+        [
+          68,
+          -85
+        ],
+        [
+          75,
+          38
+        ],
+        [
+          10,
+          53
+        ],
+        [
+          -30,
+          43
+        ],
+        [
+          -58,
+          12
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.05
+      ],
+      "feather_m": 25
+    }
+  ],
+  "bbox_min": [
+    -83.0,
+    -0.7,
+    -110.0
+  ],
+  "bbox_max": [
+    100.0,
+    54.9,
+    78.0
+  ],
+  "levels": [
+    {
+      "vertices": 26011,
+      "triangles": 13814
+    },
+    {
+      "vertices": 16045,
+      "triangles": 7930
+    },
+    {
+      "vertices": 10440,
+      "triangles": 5062
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/heritage_catalog/castles.py",
+  "dependencies": {
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/castles.py": "f4ad9cfbe0b93b0b0ad2d7b82a49c006c822ae90e80d36629dc7ba70f3a08314",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/heritage_catalog/references/castles/acquire_plans.py": "14dd81b2ff5c3b5d01227860656bf58e32ba17e9249c06d58ee1c4d91289f2b3",
+    "tools/heritage_catalog/references/castles/acquire_terrain.py": "f3801ccc10f91db8cdcc66da1bb05e48493be7fa05252506fc986875680805b3",
+    "tools/heritage_catalog/references/castles/alcazar-of-segovia-ground-supports.json": "a145e957df8c4a802ff7a779aac7578c6a41f5eba19587d8cb10522a0f5e1ba9",
+    "tools/heritage_catalog/references/castles/alcazar-of-segovia.json": "058e01a8f7a6a627e384fcec868c08f33f5e6abd1b2d8bebcb70db74dba5509b",
+    "tools/heritage_catalog/references/castles/alhambra-ground-supports.json": "21218c2bf12b197b27fa1afa0a3706459cdc6f5ce27854c0c65c818e7381ff4f",
+    "tools/heritage_catalog/references/castles/alhambra-osm.xml.gz": "7504a1751d348ba09d5cac04fe64eef20df2ca5f00158b1a9752239403887cc3",
+    "tools/heritage_catalog/references/castles/alhambra-plan.json": "4ed1e4768a2d4bbd05066be3103da59533e31e422f13f42e2382b8844a8d8f55",
+    "tools/heritage_catalog/references/castles/alhambra-source.json": "a477cb99d43c31befa626f10175cc73095068e97e34a759c19209c514cde0085",
+    "tools/heritage_catalog/references/castles/alhambra-terrain.json": "adf383104b84b07ae5ac30ab18e36b56ca9c843fe2bb873e43c278f8dd195132",
+    "tools/heritage_catalog/references/castles/alhambra.json": "4732877b1ff7fbe198f0f2afd7a18a225af50ea7e61041476945b6e663834d11",
+    "tools/heritage_catalog/references/castles/bran-castle.json": "f5e3edb1dc43cdfce701e7725d2fbff6030e7b9a2b7b70214286fe665a5d145d",
+    "tools/heritage_catalog/references/castles/bran-osm.xml.gz": "e0cf360eba6caba0db189cbbb54a18b6802407c990d342cd2710afdbd5a03322",
+    "tools/heritage_catalog/references/castles/bran-plan.json": "1feefcca15852b766d8e47e6f8337560256f81d6c9ec0b555bf8bdab4408ac05",
+    "tools/heritage_catalog/references/castles/bran-source.json": "9dc2ed49e44f673d144b45bb942b2c5d1cf67c5c1ca4db86f8a168942f527d01",
+    "tools/heritage_catalog/references/castles/bran-terrain.json": "cb8ebd2405f1ca8e39da8b56f18ee875679e89141b693d48ddc47f3a17688850",
+    "tools/heritage_catalog/references/castles/chillon-castle.json": "6d3d54c87a5df91790ee7703895d41ec5535700ec3e24455e37e4b3bf9986119",
+    "tools/heritage_catalog/references/castles/chillon-osm.xml.gz": "3b646d5c38c20a793e20931680bcf3da4ec6263c5dee0291b91e883a2b602d52",
+    "tools/heritage_catalog/references/castles/chillon-plan.json": "15aa92a8c1e7b8c47688006cec31852532292018f867cbe6de4efd39aaf799d1",
+    "tools/heritage_catalog/references/castles/chillon-source.json": "6afd708c17c53d142354fb2ee0b79737bc7d1630245a08bde29347903e240edf",
+    "tools/heritage_catalog/references/castles/chillon-terrain.json": "4475b6f9851f54360156e9b8142490c8bec5fda14a75761672db7dc619ab0291",
+    "tools/heritage_catalog/references/castles/conwy-castle.json": "636f1a37703657b33a98941df5f0b25302407b1dc84c2125807b097bbd4f01b5",
+    "tools/heritage_catalog/references/castles/conwy-osm.xml.gz": "188b1835bde1aec2f5b81d9d3cfc0346b5d6391f29d216a52e4a9a1c431e5efb",
+    "tools/heritage_catalog/references/castles/conwy-plan.json": "6fbcc975d9b0fc96f7d98f82346885576dc763d28a49e26ce1a65c681cc108f1",
+    "tools/heritage_catalog/references/castles/conwy-source.json": "930a02cadc5bbf9518f170d5d5e714695127bb893af40de96c3074a3ce5941c4",
+    "tools/heritage_catalog/references/castles/conwy-terrain.json": "da75ac696cf5e55220d756322ec1c2e8911179c7b3639b61bd5f8d3990b5cbfc",
+    "tools/heritage_catalog/references/castles/edinburgh-castle-ground-supports.json": "c7335b5c7dd256f344cd9a3bd387e539896099d49ec180aded462b68b75cd075",
+    "tools/heritage_catalog/references/castles/edinburgh-castle.json": "4269f9eeb484d7129810f00918e59b9812d99912df9298c73aeef36bfd4b11a2",
+    "tools/heritage_catalog/references/castles/edinburgh-osm.xml.gz": "b764e7c29eda29434aa212f9e4710511a785fee69b8ae5da5097923cff81feac",
+    "tools/heritage_catalog/references/castles/edinburgh-plan.json": "889c9cf9d78033a04e00385169d7b18621565a175f9d756b2cdac91d7e86e70e",
+    "tools/heritage_catalog/references/castles/edinburgh-source.json": "596df0f51b603fd82f3451f5b05d2d271bee65c06242a4040a32a50cac34816b",
+    "tools/heritage_catalog/references/castles/edinburgh-terrain.json": "cef1625cf751fed78f579806fb4f2001e089646e56eb02c175dfe53bd94bd86d",
+    "tools/heritage_catalog/references/castles/eltz-castle.json": "ffb29548573d2628152326aa507b591eb618770b65bdd9f0bf4aef929cd96fcb",
+    "tools/heritage_catalog/references/castles/eltz-dgm1.tif": "e9111d67c64f404d10e79465803e2bca6a6ade576a96c82d99017dd5bc6470f6",
+    "tools/heritage_catalog/references/castles/eltz-house-footing.json": "7c10739b408069869ffa64ad2f47220cc75f079c3e8affeb285c0d4571341374",
+    "tools/heritage_catalog/references/castles/eltz-osm.xml.gz": "26c2dc66660c9e7b6c0e25b0a0d94ae78dd62af11c34a028d5a3b6338fe6f77a",
+    "tools/heritage_catalog/references/castles/eltz-plan.json": "dab7abaa43c4709f9c19d55f37da7f97488af6c40a11b0e7821612960c5ca9fe",
+    "tools/heritage_catalog/references/castles/eltz-relief.json": "a5199fabcbcfc4bebaf8ba013bb5ce865f05bf656e04afd624acc3552739bd7b",
+    "tools/heritage_catalog/references/castles/eltz-source.json": "148d7910ee83da10f5d75a32d46f436596c220dd22a03642831841c4386c9c3c",
+    "tools/heritage_catalog/references/castles/eltz-terrain.json": "d19e212cf56748cff0b93933a8c4b8ad012f2e3d0e3566ac0e5cd3e47196536d",
+    "tools/heritage_catalog/references/castles/eltz-water-cuts.json": "c431803101e3900cdf123775ccca0c6337fe138d2e237bc8549e1f04754c6f5c",
+    "tools/heritage_catalog/references/castles/eltz-water-terrain.json": "550486eb6daede884ad3f8bfb2595e5973d3217900d9327fd20720c48484b1fc",
+    "tools/heritage_catalog/references/castles/extract_eltz_relief.py": "a3e6d1feb847450ae56aa21f47a1695e25fb7e99784091d435ae3ab5d442944d",
+    "tools/heritage_catalog/references/castles/japanese-batter-contact.json": "570e34e413bcbac0d748694f74323f530f3979668d7a56d2dec7bdd0da2bc844",
+    "tools/heritage_catalog/references/castles/malbork-castle-ground-supports.json": "f2c3e66134d3999e8c0e8f85d45541e0e8a3131753505cb9b865a34816851e20",
+    "tools/heritage_catalog/references/castles/malbork-castle.json": "38953a4e583c584857922a640c565efaf465ff97f286463d438ac19386c78915",
+    "tools/heritage_catalog/references/castles/malbork-osm.xml.gz": "8cfc777a3566b47a0de081d40f83643d9eabed8d5c1dba5b0f3599b16f058a49",
+    "tools/heritage_catalog/references/castles/malbork-plan.json": "294a68c92331e6fce4dc1c8e562a04d8c97655eabd966a52013a076ff1739aa4",
+    "tools/heritage_catalog/references/castles/malbork-source.json": "22497d173127840aa1e9bf0f1f67805983dca3899e6aaf9230238c06859702fa",
+    "tools/heritage_catalog/references/castles/malbork-terrain.json": "7785b8411c02d87d026f72cba73230b1fd164fbedb18dd133f7cc13aa0b46ede",
+    "tools/heritage_catalog/references/castles/matsumoto-castle.json": "e4b2efc18a520696d4fd48bfbcf8d59540d9797ec0fb801fa20453703aa1750e",
+    "tools/heritage_catalog/references/castles/matsumoto-osm.xml.gz": "e3dbea459200903996a3fd14864c12c7b67fd3c7c380c98d4b4c2347655d74fe",
+    "tools/heritage_catalog/references/castles/matsumoto-plan.json": "8fbc49d1a83fbd74fd9c855d73372b04d9244668c0ad8dec0f5204d579f79f32",
+    "tools/heritage_catalog/references/castles/matsumoto-source.json": "72d246b0fbacf0812d6a92340f7392c351ddbe1d220b1a5a26e655578b2f59c1",
+    "tools/heritage_catalog/references/castles/matsumoto-terrain.json": "535a1ce0eaba0cf8f426e761666475a47a59de45bf3a8c78b8a1d74058b7c4a7",
+    "tools/heritage_catalog/references/castles/mesh-validation.json": "91bccbeafaa9c5d8defb56683984a47d3a62115848b882acf1340fc87d6dc5b9",
+    "tools/heritage_catalog/references/castles/neuschwanstein-castle-ground-supports.json": "4de1205c00a5eeb36b2007c34ea0571d6cac90df7c181dec7ae5cabea0dcb580",
+    "tools/heritage_catalog/references/castles/neuschwanstein-castle.json": "6985fd92d79246a33eb44f0248914d6757c957649151bc2a46fa6cc0715b80e8",
+    "tools/heritage_catalog/references/castles/neuschwanstein-osm.xml.gz": "58825047cbc9258fef1c2b839b73983e60271014490fb7f6314be182de9e92be",
+    "tools/heritage_catalog/references/castles/neuschwanstein-plan.json": "54ef38a48d34d0d39a92a53620768ad19034d230b4b185d1bc4c964fff5f047c",
+    "tools/heritage_catalog/references/castles/neuschwanstein-source.json": "675158b02cd0bb172e0578749dbc470c2adca68b60a17cccd75af1a7681012f3",
+    "tools/heritage_catalog/references/castles/neuschwanstein-terrain.json": "132aa3662c0badfff7ed0b7b6cd573722a34d9646736e829a25800d79070b8ec",
+    "tools/heritage_catalog/references/castles/osaka-castle.json": "eb6bf0014c80af0aa8898a2873becb30c94385995cc26c8f7a7b4c321f0c7d99",
+    "tools/heritage_catalog/references/castles/osaka-entrance-grounding.json": "d103c09fa6f515eccef24c467cd046340778389a5e725e92b195cc36a04f0395",
+    "tools/heritage_catalog/references/castles/osaka-osm.xml.gz": "b0d607346e9d182ff0d8285e3f0d0b3bc932d83bce56aa5592e5237348055f99",
+    "tools/heritage_catalog/references/castles/osaka-plan.json": "33cfdb2b49359b82e5af5964c18d67401947c790425bea0c408ea1378cc95b21",
+    "tools/heritage_catalog/references/castles/osaka-source.json": "a340e2a9cc381c4f7fa919c2cc0359f56eb26923f512c25a349aa79dfd5c2a15",
+    "tools/heritage_catalog/references/castles/osaka-terrain.json": "b0eef616039c0f0cc2a0b19ee6e1d84f5127a1b8555a61e327041c4994f70cc7",
+    "tools/heritage_catalog/references/castles/predjama-arso-dmr.tif": "08c0b0eab796928153c4902e6d51aec897513dc753c5de527036b3477a85b17c",
+    "tools/heritage_catalog/references/castles/predjama-castle.json": "bb688368e616fd7b68a406750524ef3e4def175cefac95bbd0e36ddc9f4cd2a4",
+    "tools/heritage_catalog/references/castles/predjama-osm.xml.gz": "9c90662ef9e665634143464bc3dba5a682848482d76ecdd2ea504c40d67194b3",
+    "tools/heritage_catalog/references/castles/predjama-plan.json": "581e97bacb89fe3746ad7170616f00dbffd80ad3dc9395c3405dae50e3e2de86",
+    "tools/heritage_catalog/references/castles/predjama-relief.json": "ea309e3b1d3ce9f983d56a3b59c47d6e53750899dd3e5811e46a0f744efc8306",
+    "tools/heritage_catalog/references/castles/predjama-source.json": "643d167599a94de2d776ed067266215f6c140953c5f65971f0583585c835f0ba",
+    "tools/heritage_catalog/references/castles/predjama-terrain.json": "81e00c30a8fd0f86fb5efd6898d2deadf2c5f78cde6fa01a21d164291dd63a4e",
+    "tools/heritage_catalog/references/castles/predjama-transition-terrain.json": "8315f36303272891bdd067661635f0f85fd378b857b27262d72db67ec51d1441",
+    "tools/heritage_catalog/references/castles/segovia-osm.xml.gz": "e230419624c8f456f8b2f1d6f81fdfacda4a71cd564ed762c54bf742e380a8aa",
+    "tools/heritage_catalog/references/castles/segovia-plan.json": "defb0ac56ccfd58a8ddd5ea5433eed512ed14fce5b2b26b72c326d8830ce51cf",
+    "tools/heritage_catalog/references/castles/segovia-source.json": "fa88ed2c5283bf084725e43e3ed4672266f125fa810838c27286a5360fefb63a",
+    "tools/heritage_catalog/references/castles/segovia-terrain.json": "f4a4a3ebd94f68f5d0c83ec3d5fcf036f925a36a08a280af82a3a21a75ce7611",
+    "tools/heritage_catalog/references/castles/validate_models.py": "7f47d3e1f61f3934387ba4f7e98d29b7dd222e8cb362e07c2ec5f5c56afc0177",
+    "tools/heritage_catalog/references/castles/windsor-castle-ground-supports.json": "df1248868e2238775946b36b3476253ab3813f7b34ea13bc9b67d3997140dae3",
+    "tools/heritage_catalog/references/castles/windsor-castle.json": "c0257751a2743e16ae543705058cfd36449eb14b1c243184a9224e0703b94be9",
+    "tools/heritage_catalog/references/castles/windsor-osm.xml.gz": "9d539203fb68da83f775bbabb4483df9692354510f84bb418f8e3edda24d89c7",
+    "tools/heritage_catalog/references/castles/windsor-plan.json": "1b074c7fa4d39d080623af3573e4a9cb6705cf1d0fe294665c5bb461b37c63ca",
+    "tools/heritage_catalog/references/castles/windsor-source.json": "b2d1aaa9c1861dd93f312aa354a3923461977872dc0c0154d5f8f0f286102545",
+    "tools/heritage_catalog/references/castles/windsor-terrain.json": "eb74eade1d7b3e61bed9330894308e8a0fce97a76de73f00f7daf26675601c7e",
+    "tools/heritage_catalog/references/castles/world-review.json": "9b50a9542dbc38cfaed7903056275555e9f8e6c453bf342c9b01307b029e9214"
+  },
+  "output_sha256": "f3fe03b60d9194141fd027d311e3d7169c5b06614b99ba958dd5400c342da1fd"
+}

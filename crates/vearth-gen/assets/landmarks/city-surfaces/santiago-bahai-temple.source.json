@@ -1,0 +1,686 @@
+{
+  "name": "santiago-bahai-temple",
+  "city": "Santiago",
+  "lat": -33.47637685,
+  "lon": -70.51172385,
+  "heading": 0.0,
+  "base": 983.1224060058594,
+  "suppress_buildings": true,
+  "suppress_roads": true,
+  "suppress_trees": true,
+  "suppress_bbox": [
+    [
+      -24.0,
+      -24.0
+    ],
+    [
+      24.0,
+      24.0
+    ]
+  ],
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0.0,
+        -22.0
+      ],
+      "half_extent": [
+        4.032941558352145,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -21.0
+      ],
+      "half_extent": [
+        7.7630288942579515,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -20.0
+      ],
+      "half_extent": [
+        10.112596976696135,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -19.0
+      ],
+      "half_extent": [
+        11.927473228353264,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -18.0
+      ],
+      "half_extent": [
+        13.426265959420133,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -17.0
+      ],
+      "half_extent": [
+        14.70593817520949,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -16.0
+      ],
+      "half_extent": [
+        15.819754031371152,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -15.0
+      ],
+      "half_extent": [
+        16.80073265108054,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -14.0
+      ],
+      "half_extent": [
+        17.671010656243855,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -13.0
+      ],
+      "half_extent": [
+        18.44626297148243,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -12.0
+      ],
+      "half_extent": [
+        19.13804111222159,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -11.0
+      ],
+      "half_extent": [
+        19.75511623891603,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -10.0
+      ],
+      "half_extent": [
+        20.30430047091216,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -9.0
+      ],
+      "half_extent": [
+        20.790974426733438,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -8.0
+      ],
+      "half_extent": [
+        21.21943961590607,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -7.0
+      ],
+      "half_extent": [
+        21.593161362178623,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -6.0
+      ],
+      "half_extent": [
+        21.914940511283252,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -5.0
+      ],
+      "half_extent": [
+        22.18703715265028,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -4.0
+      ],
+      "half_extent": [
+        22.411260955445677,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -3.0
+      ],
+      "half_extent": [
+        22.589037553934958,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -2.0
+      ],
+      "half_extent": [
+        22.721457207078156,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -1.0
+      ],
+      "half_extent": [
+        22.809309889014262,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        0.0
+      ],
+      "half_extent": [
+        22.853109583010443,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        1.0
+      ],
+      "half_extent": [
+        22.809309889014262,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        2.0
+      ],
+      "half_extent": [
+        22.721457207078156,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        3.0
+      ],
+      "half_extent": [
+        22.589037553934958,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        4.0
+      ],
+      "half_extent": [
+        22.411260955445677,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        5.0
+      ],
+      "half_extent": [
+        22.18703715265028,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        6.0
+      ],
+      "half_extent": [
+        21.914940511283252,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        7.0
+      ],
+      "half_extent": [
+        21.593161362178623,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        8.0
+      ],
+      "half_extent": [
+        21.21943961590607,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        9.0
+      ],
+      "half_extent": [
+        20.790974426733438,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        10.0
+      ],
+      "half_extent": [
+        20.30430047091216,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        11.0
+      ],
+      "half_extent": [
+        19.75511623891603,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        12.0
+      ],
+      "half_extent": [
+        19.13804111222159,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        13.0
+      ],
+      "half_extent": [
+        18.44626297148243,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        14.0
+      ],
+      "half_extent": [
+        17.671010656243855,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        15.0
+      ],
+      "half_extent": [
+        16.80073265108054,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        16.0
+      ],
+      "half_extent": [
+        15.819754031371152,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        17.0
+      ],
+      "half_extent": [
+        14.70593817520949,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        18.0
+      ],
+      "half_extent": [
+        13.426265959420133,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        19.0
+      ],
+      "half_extent": [
+        11.927473228353264,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        20.0
+      ],
+      "half_extent": [
+        10.112596976696135,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        21.0
+      ],
+      "half_extent": [
+        7.7630288942579515,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        22.0
+      ],
+      "half_extent": [
+        4.032941558352145,
+        0.5
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        -22.65
+      ],
+      "half_extent": [
+        1.6354258201104415,
+        0.15
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    },
+    {
+      "center_xz": [
+        0.0,
+        22.65
+      ],
+      "half_extent": [
+        1.6354258201104415,
+        0.15
+      ],
+      "feather_m": 0.1,
+      "sample_clearance_m": 15.0,
+      "fixed_base_geo": 983.1224060058594
+    }
+  ],
+  "references": [
+    "https://hp-arch.com/projects/bahai-temple-of-south-america/",
+    "https://www.hariripontarini.com/news/hariri-pontarini-architects-conceives-bahai-temple-of-south-america",
+    "https://www.openstreetmap.org/way/268450155"
+  ],
+  "description": "Nine torqued translucent-looking shell wings gather around an oculus, with bronze entry recesses, visible panel seams, and a small hillside terrace.",
+  "source_audit": {
+    "center_ground_m": 980.9346923828125,
+    "perimeter_median_m": 983.1224060058594,
+    "podium_perimeter_min_m": 973.9169921875,
+    "pond_boundary_min_radius_m": 24.134,
+    "terrace_fit": "Inscribed 1m strips and 0.1m feather remain within radius 23m, clear of the mapped pond. The radius 21.5m terrace is flat; the outer structural shoulder meets the natural uphill slope. Existing 10m foundation reaches the surveyed downhill minimum. Source pond datum outside the podium remains unchanged.",
+    "dimensions": "30m high nine-wing structure; 33m OSM roof footprint. The small terrace cuts the natural east-uphill grade locally."
+  },
+  "capture": {
+    "distance": 96.0,
+    "azimuth": 260.0,
+    "elevation": 19.0,
+    "target_height": 12.0,
+    "time_utc": "2026-03-20T22:30:00Z"
+  },
+  "bbox_min": [
+    -23.2,
+    -10.2,
+    -23.2
+  ],
+  "bbox_max": [
+    23.2,
+    30.4,
+    23.2
+  ],
+  "levels": [
+    {
+      "vertices": 105198,
+      "triangles": 37306
+    },
+    {
+      "vertices": 43112,
+      "triangles": 15850
+    },
+    {
+      "vertices": 20550,
+      "triangles": 7876
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_civic.py",
+  "source_sha256": "1ab7d29fd7be5730a4c5a9fd5e3e9d4f8c9d85de20436921a1314ffbbcc82f98",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "d0fa65b919c54c365f376543edd9635145845ad42534c2a186b5738becdeca11"
+}

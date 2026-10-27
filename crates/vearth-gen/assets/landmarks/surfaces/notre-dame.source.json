@@ -1,0 +1,23 @@
+{
+  "name": "notre-dame",
+  "kind": "notre-dame",
+  "source": "notre-dame/notredame.glb",
+  "sha256": "cf0bb568f9b7d5d8a693437f6c5dae6779262211c67212fbf16d900ad2c4c7d3",
+  "license": "existing landmark SOURCES.md",
+  "output": "notre-dame.lms",
+  "output_sha256": "77ea6994e1b2f538aaaa9686eb60a650204afea53cd6a26120ef0411d0e4b662",
+  "levels": [
+    [
+      49776,
+      27304
+    ],
+    [
+      45755,
+      25565
+    ],
+    [
+      45743,
+      25541
+    ]
+  ]
+}

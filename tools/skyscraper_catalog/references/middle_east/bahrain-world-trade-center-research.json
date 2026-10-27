@@ -1,0 +1,96 @@
+{
+  "name": "bahrain-world-trade-center",
+  "sources": [
+    {
+      "url": "https://www.otis.com/en/au/our-company/global-projects/project-showcase/bahrain-world-trade-center",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    },
+    {
+      "url": "https://www.skyscrapercenter.com/building/bahrain-world-trade-center-1/998",
+      "role": "Primary architect/owner/contractor or CTBUH architectural reference; paraphrased facts below, no media embedded."
+    }
+  ],
+  "verified_reference_facts_and_uncertainty": "Primary240m tower/29m rotor diameter. Mapped twin-axis determines turbine orientation;70/100/130m bridge levels are source estimates. Sail taper and blade chord estimated.",
+  "authored_form": "Two asymmetric sail towers on mapped plans with three29m wind turbines carried on connecting bridges.",
+  "dimensions_m": {
+    "architectural_height": 240,
+    "tip_height": 240,
+    "mapped_parts": [
+      {
+        "seed": "6497898120019295564",
+        "bounds_xz": [
+          [
+            -31.09432,
+            -19.90073
+          ],
+          [
+            30.70186,
+            23.97174
+          ]
+        ]
+      },
+      {
+        "seed": "13543927369001470678",
+        "bounds_xz": [
+          [
+            31.50441,
+            7.1183
+          ],
+          [
+            85.00759,
+            65.97147
+          ]
+        ]
+      }
+    ]
+  },
+  "placement": {
+    "anchor": [
+      26.239485220228044,
+      50.58111432247638
+    ],
+    "heading_deg": 0,
+    "method": "Polygon union joins repeated source-tile fragments; minimum rectangle sets long-axis heading except documented north-aligned complex plans. Final ground datum is selected separately from measured perimeter samples.",
+    "source_sha256": "4e6b7f855a1086c961b2c264b91d6a431a8b2b3404762b43cefbc4a219a08f1a"
+  },
+  "ground": {
+    "datum_m": 3.6,
+    "datum_quality": "Approximate clean lower street/perimeter control selected from provider samples, not a building survey",
+    "source_sha256": "927e40965afcbf3b827a69b9bc4a69ab82cf1b4d54adea641006c5867aa19fa8",
+    "quantiles_m": {
+      "toe": [
+        3.000000238418579,
+        4.235479116439819,
+        5.660301446914673,
+        6.432982325553894,
+        8.97642993927002
+      ],
+      "near": [
+        3.0,
+        4.423061490058899,
+        4.88515043258667,
+        6.24133038520813,
+        9.34925651550293
+      ],
+      "street": [
+        2.457348585128784,
+        3.615997791290283,
+        4.1307525634765625,
+        7.053701400756836,
+        10.299975395202637
+      ]
+    },
+    "correction": "Mapped footprint only,1.2m feather. Lower-only cut to datum\u2212.15m. Foundation cap below minimum perimeter by.65m. Streets, water, courtyards and unrelated source buildings retained."
+  },
+  "materials": {
+    "authority": "crates/vearth-gen/src/highrise.rs and building_surface.rs",
+    "method": "Explicit native highrise system per building; profile glass62% +wall38% tint, nonoverlapping broad facade strips at least4m and at most12 per edge. Muted PANEL_WALL87 piers; native shader supplies fine floor/window/sunshade rhythm. Structural braces, crown silhouettes and spires retain appropriate distinct materials. No sparse metallic proxy facade rings."
+  },
+  "licenses": {
+    "mesh": "Original repository-owned architectural reconstruction; no downloaded3D models or photo textures.",
+    "source_plans": "\u00a9 OpenStreetMap contributors, ODbL1.0; via Protomaps. Relevant full rings retained in placement/plans records.",
+    "primary_media": "Only URLs and paraphrased quantitative facts retained; referenced photos/plans are not redistributed."
+  },
+  "references_checked_utc_date": "2026-09-14",
+  "bridge_contact": "Bridge axes and rotor centers use the three complete mapped bridge rings; each end intersects the authored sail section at its measured approximate elevation and embeds0.6m. Only those exact native bridge source rings additionally excluded."
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Low Poly Earth</title>
+<meta name="theme-color" content="#0b0e10">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<style>
+:root { color-scheme: dark; }
+html, body { margin: 0; height: 100%; overflow: hidden; background: #0b0e10; }
+canvas { display: block; width: 100vw; height: 100vh; outline: none; touch-action: none; }
+#status {
+    position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+    font: 15px/1.5 system-ui, sans-serif; color: #c9d1d4; text-align: center; padding: 24px;
+    pointer-events: none; transition: opacity 0.4s;
+}
+#status.error { pointer-events: auto; }
+#status.error a { color: #c6e85d; }
+#status strong { display: block; font-size: 20px; font-weight: 600; color: #eef3f4; margin-bottom: 8px; }
+#status.error { flex-direction: column; }
+#status button {
+    margin-top: 18px; padding: 8px 18px; border: 1px solid #6b7a7f; border-radius: 6px;
+    background: transparent; color: #eef3f4; font: inherit; cursor: pointer;
+}
+#status button:hover { border-color: #c6e85d; color: #c6e85d; }
+#status.hidden { opacity: 0; }
+#status.busy { flex-direction: column; transition: none; }
+#status .spinner {
+    width: 28px; height: 28px; margin-bottom: 18px; border-radius: 50%;
+    border: 2px solid #3a4549; border-top-color: #c6e85d; animation: spin 0.9s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+#collage {
+    position: fixed; inset: 0; overflow: hidden; pointer-events: none; transition: opacity 1.2s;
+}
+#collage.done { opacity: 0; }
+#collage::before {
+    content: ""; position: absolute; inset: 0;
+    background: url("loading-collage.webp?v=__BUILD__") center / cover no-repeat;
+    animation: drift 30s ease-in-out infinite alternate;
+}
+/* Keeps the loading message readable over the bright captures. */
+#collage::after {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(ellipse at center, rgb(11 14 16 / 0.7), rgb(11 14 16 / 0.35) 70%);
+}
+@keyframes drift { from { transform: scale(1); } to { transform: scale(1.06); } }
+@media (prefers-reduced-motion: reduce) {
+    #collage::before { animation: none; }
+}
+#status { text-shadow: 0 1px 3px rgb(0 0 0 / 0.6); }
+#text-agent {
+    position: fixed; left: 0; top: 0; width: 1px; height: 1px; padding: 0; border: 0;
+    opacity: 0; background: transparent; color: transparent; caret-color: transparent;
+    font-size: 16px; outline: none; pointer-events: none;
+}
+</style>
+</head>
+<body>
+<canvas id="app" tabindex="-1"></canvas>
+<input id="text-agent" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Low Poly Earth keyboard input">
+<div id="collage" aria-hidden="true"></div>
+<div id="status">Loading Low Poly Earth…</div>
+<script type="module" src="./main.js?v=__BUILD__"></script>
+</body>
+</html>

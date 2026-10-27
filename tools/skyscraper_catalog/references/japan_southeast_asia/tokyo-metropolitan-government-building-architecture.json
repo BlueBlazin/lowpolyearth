@@ -1,0 +1,19 @@
+{
+  "name": "tokyo-metropolitan-government-building",
+  "city": "Tokyo",
+  "architectural_height_m": 243.4,
+  "references": [
+    "https://www.english.metro.tokyo.lg.jp/w/000-101-000543",
+    "https://www.yokoso.metro.tokyo.lg.jp/en/kengaku/pdf/300228_totyoukengakuannai_English.pdf",
+    "https://www.skyscrapercenter.com/complex/850"
+  ],
+  "primary_evidence": "Tokyo Metropolitan Government confirms No1 has48storeys, No2 is163m/34storeys and Assembly41m/7storeys. CTBUH gives No1 architectural height243.4m. The official plan documents the open civic court.",
+  "estimates": "All component plans and intermediate133/176/207m steps are OSM measurements. 39m floor datum uses mapped ele=39 and adjacent west terrain; elevated15\u201325m connectors preserve the road beneath. Stone ribs are a reduced exterior interpretation.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 158.21,
+    "target_height": 8
+  }
+}

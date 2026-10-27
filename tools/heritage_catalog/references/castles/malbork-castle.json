@@ -1,0 +1,343 @@
+{
+  "name": "malbork-castle",
+  "reference_urls": [
+    "https://zamek.malbork.pl/en/map/",
+    "https://zamek.malbork.pl/en/home/visit/history-of-the-castle/",
+    "https://api.openstreetmap.org/api/0.6/map?bbox=19.0222340646189,54.036282715949454,19.0344859353811,54.04347728405054"
+  ],
+  "documented_evidence": "Museum map/history distinguish High, Middle and Lower Castles. Retained OSM plan resolves High Castle core51\u00d761m and its26\u00d732m court, the diagonal southwest dansker bridge, Middle Castle U-plan, Grand Master Palace and eastern Karwan armoury.",
+  "modeling_qualifications": "Mapped named range positions replace approximate repeated wards. The lower service ranges and separate rampart ways follow retained source traces and production grades. Bell tower64m, secondary building elevations, roof pitches and window/bay counts remain proportional estimates pending measured elevation drawings. The large open lower ward retains unmodeled source features.",
+  "metric_targets": {
+    "high_castle_outer_approx_m": [
+      51,
+      61
+    ],
+    "bell_tower_approx_height_m": 64,
+    "authored_axis_length_m": 529
+  },
+  "placement": {
+    "lat": 54.03953825801519,
+    "lon": 19.027793350977248,
+    "heading_deg": 35,
+    "base": "terrain",
+    "source_file": "tools/heritage_catalog/references/castles/malbork-source.json",
+    "source_offset_east_north_m": [
+      -37,
+      -38
+    ],
+    "plan_file": "tools/heritage_catalog/references/castles/malbork-plan.json",
+    "terrain_survey_file": "tools/heritage_catalog/references/castles/malbork-terrain.json",
+    "production_ground_at_anchor_m": 20.23284339904785
+  },
+  "attribution": "Original procedural metric mesh; no downloaded mesh or photo textures. Map ring evidence: \u00a9 OpenStreetMap contributors (ODbL), via Protomaps. Operator texts/images are referenced, not redistributed.",
+  "review_status": "All3LODs validated and actual-engine capture visually reviewed on frozen app ca938100f84a3acc203e177603e20398a5d4e760e7c7ef4ff915a5de59a0673c. No obvious buried base or source-building interpenetration in reviewed view. Finer architectural dimensions remain estimates where qualified above.",
+  "plan_measurements": [
+    {
+      "osm_way": 62144153,
+      "name": "Zamek Wysoki",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -8.346,
+          -9.035
+        ],
+        "size_m": [
+          78.964,
+          150.333
+        ],
+        "heading_deg": -156.31
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 122122611,
+      "name": "Zamek \u015aredni",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          3.972,
+          107.736
+        ],
+        "size_m": [
+          102.609,
+          88.507
+        ],
+        "heading_deg": -173.216
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 261512837,
+      "name": "Pa\u0142ac Wielkiego Mistrza",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -51.691,
+          70.173
+        ],
+        "size_m": [
+          25.3,
+          53.092
+        ],
+        "heading_deg": 96.663
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 62144160,
+      "name": "Karwan",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          97.839,
+          250.499
+        ],
+        "size_m": [
+          45.285,
+          20.339
+        ],
+        "heading_deg": -88.942
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 62144157,
+      "name": "Brama G\u0142\u00f3wna (Snycerska)",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          104.739,
+          182.04
+        ],
+        "size_m": [
+          11.5,
+          22.319
+        ],
+        "heading_deg": -178.685
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 261513898,
+      "name": "Ko\u015bci\u00f3\u0142 \u015bw. Wawrzy\u0144ca",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -27.588,
+          218.165
+        ],
+        "size_m": [
+          22.683,
+          15.294
+        ],
+        "heading_deg": -84.226
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 101914542,
+      "name": "",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -23.635,
+          255.934
+        ],
+        "size_m": [
+          53.384,
+          15.31
+        ],
+        "heading_deg": -83.923
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 261513528,
+      "name": "",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -17.054,
+          317.179
+        ],
+        "size_m": [
+          69.892,
+          15.31
+        ],
+        "heading_deg": 96.176
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 101915237,
+      "name": "Ludwisarnia",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          60.417,
+          365.615
+        ],
+        "size_m": [
+          35.297,
+          12.564
+        ],
+        "heading_deg": 91.104
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 101915918,
+      "name": "Dom Podstaro\u015bciego",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          99.483,
+          109.818
+        ],
+        "size_m": [
+          25.083,
+          12.84
+        ],
+        "heading_deg": -89.401
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 62682251,
+      "name": "",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          54.201,
+          251.46
+        ],
+        "size_m": [
+          19.188,
+          17.143
+        ],
+        "heading_deg": -87.348
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 122122605,
+      "name": "",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          82.886,
+          224.983
+        ],
+        "size_m": [
+          9.572,
+          7.231
+        ],
+        "heading_deg": 4.252
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 261513127,
+      "name": "",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -55.701,
+          366.369
+        ],
+        "size_m": [
+          34.664,
+          7.277
+        ],
+        "heading_deg": 6.057
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 261512960,
+      "name": "",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          -35.085,
+          405.837
+        ],
+        "size_m": [
+          32.078,
+          16.477
+        ],
+        "heading_deg": 12.175
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 985854910,
+      "name": "",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          61.409,
+          415.311
+        ],
+        "size_m": [
+          34.584,
+          12.763
+        ],
+        "heading_deg": -89.131
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 122122609,
+      "name": "Baszta Prochowa",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          108.66,
+          297.979
+        ],
+        "size_m": [
+          7.552,
+          7.035
+        ],
+        "heading_deg": -178.471
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 122123493,
+      "name": "Baszta Tr\u00f3j\u015bcienna",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          110.751,
+          374.926
+        ],
+        "size_m": [
+          7.437,
+          6.996
+        ],
+        "heading_deg": -89.033
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 122122626,
+      "name": "Baszta nad piekarni\u0105",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          106.176,
+          93.72
+        ],
+        "size_m": [
+          8.513,
+          7.166
+        ],
+        "heading_deg": 92.622
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    },
+    {
+      "osm_way": 432786364,
+      "name": "Baszta Nowa",
+      "enclosing_rectangle": {
+        "center_local_xz_m": [
+          144.651,
+          93.332
+        ],
+        "size_m": [
+          8.394,
+          8.362
+        ],
+        "heading_deg": 93.073
+      },
+      "qualification": "Mapped plan, not a measured elevation; enclosing rectangle may include bays or an open court."
+    }
+  ],
+  "materials": "Explicit component assignment to production construction atlas: stone82, brick81, plaster83, timber84, tile85, slate86, copper/metal88, marble17 and gold95 where present. Near masonry units and roof panel tint variation retain subdued detail when atlas mips average; no photo textures are redistributed.",
+  "terrain_cuts": [],
+  "source_exclusion_piece_count": 401
+}

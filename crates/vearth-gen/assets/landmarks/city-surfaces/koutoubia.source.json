@@ -1,0 +1,152 @@
+{
+  "name": "koutoubia",
+  "city": "Marrakech",
+  "lat": 31.6240866561,
+  "lon": -7.9932806311,
+  "heading": 338.45,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://visitmarrakech.com/en/listing/koutoubia-mosque/",
+    "https://publ.icomos.org/publicomos/jlbSai?base=technica&file=1183.pdf&html=Bur&path=marrakech_guide.pdf"
+  ],
+  "description": "The restrained sandstone minaret with carved blind arches, green tile registers and graduated brass finials beside a roof-aisled courtyard mosque.",
+  "capture": {
+    "distance": 225,
+    "azimuth": 100,
+    "elevation": 25,
+    "target_height": 28,
+    "time_utc": "2026-03-20T15:00:00Z"
+  },
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        -40,
+        -31
+      ],
+      "half_extent": [
+        50,
+        37
+      ],
+      "feather_m": 4,
+      "sample_clearance_m": 18,
+      "fixed_base_geo": null
+    }
+  ],
+  "audit": {
+    "source_anchor_latlon": [
+      31.62418,
+      -7.9932
+    ],
+    "source_offset_east_north_m": [
+      -7.65,
+      -10.35
+    ],
+    "ground_center_m": 465.4794616699219,
+    "grid_min_m": 464.8203125,
+    "grid_max_m": 469.0,
+    "perimeter_m": [
+      468.0,
+      467.0274963378906,
+      468.4463806152344,
+      468.8146667480469,
+      464.99993896484375,
+      465.7996826171875,
+      464.8203125,
+      467.31072998046875
+    ],
+    "perimeter_median_m": 467.1691131591797,
+    "source_file": "output/city-catalog-expansion/heritage/koutoubia-source.json",
+    "perimeter_samples": [
+      {
+        "x": -112,
+        "z": -90,
+        "lat": 31.622960686229163,
+        "lon": -7.994030159550762,
+        "ground_m": 468.0
+      },
+      {
+        "x": -40,
+        "z": -90,
+        "lat": 31.62319920064023,
+        "lon": -7.993324327029673,
+        "ground_m": 467.0274963378906
+      },
+      {
+        "x": 32,
+        "z": -90,
+        "lat": 31.623437715051296,
+        "lon": -7.992618494508584,
+        "ground_m": 468.4463806152344
+      },
+      {
+        "x": 32,
+        "z": -31,
+        "lat": 31.62393262504867,
+        "lon": -7.992846911860516,
+        "ground_m": 468.8146667480469
+      },
+      {
+        "x": 32,
+        "z": 28,
+        "lat": 31.624427535046046,
+        "lon": -7.993075329212449,
+        "ground_m": 464.99993896484375
+      },
+      {
+        "x": -40,
+        "z": 28,
+        "lat": 31.624189020634983,
+        "lon": -7.993781161733538,
+        "ground_m": 465.7996826171875
+      },
+      {
+        "x": -112,
+        "z": 28,
+        "lat": 31.623950506223917,
+        "lon": -7.994486994254627,
+        "ground_m": 464.8203125
+      },
+      {
+        "x": -112,
+        "z": -31,
+        "lat": 31.623455596226542,
+        "lon": -7.994258576902695,
+        "ground_m": 467.31072998046875
+      }
+    ]
+  },
+  "bbox_min": [
+    -94.0,
+    -0.7,
+    -72.0
+  ],
+  "bbox_max": [
+    14.0,
+    77.2,
+    10.0
+  ],
+  "levels": [
+    {
+      "vertices": 28996,
+      "triangles": 14656
+    },
+    {
+      "vertices": 16470,
+      "triangles": 8556
+    },
+    {
+      "vertices": 7449,
+      "triangles": 3796
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_heritage.py",
+  "source_sha256": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "fc447383d036d8431530b0e4c51940e9fa516dff652810b04895a456d1ce105a"
+}

@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "properties": {
+    "name": "Stare Miasto",
+    "osm_relation": 11191573,
+    "osm_version": 4,
+    "source_url": "https://www.openstreetmap.org/relation/11191573",
+    "source_snapshot_sha256": "615741fe52ca4c8505786b6be8dd0c01add68a21e29178ff885a2d6aa44c1c5c",
+    "license": "ODbL-1.0; © OpenStreetMap contributors",
+    "scope": "Mapped City Information System Old Town area; not asserted to be an exact UNESCO property boundary.",
+    "conversion": "Closed member ways joined by exact shared node identities; no resampling, simplification or coordinate snapping."
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          21.0200369,
+          52.2497666
+        ],
+        [
+          21.0210206,
+          52.2488811
+        ],
+        [
+          21.0166045,
+          52.2469974
+        ],
+        [
+          21.0157132,
+          52.2468228
+        ],
+        [
+          21.014501,
+          52.2467573
+        ],
+        [
+          21.0115921,
+          52.2465261
+        ],
+        [
+          21.0098069,
+          52.2471938
+        ],
+        [
+          21.0080718,
+          52.2478923
+        ],
+        [
+          21.0070735,
+          52.2482998
+        ],
+        [
+          21.0061817,
+          52.2486803
+        ],
+        [
+          21.0076416,
+          52.2498873
+        ],
+        [
+          21.0090914,
+          52.2508448
+        ],
+        [
+          21.0094004,
+          52.2507313
+        ],
+        [
+          21.0100992,
+          52.2511707
+        ],
+        [
+          21.0106887,
+          52.2515054
+        ],
+        [
+          21.0119959,
+          52.2519099
+        ],
+        [
+          21.013132,
+          52.2522911
+        ],
+        [
+          21.016405,
+          52.2535199
+        ],
+        [
+          21.0174795,
+          52.2523639
+        ],
+        [
+          21.0185501,
+          52.2512116
+        ],
+        [
+          21.0196762,
+          52.2500914
+        ],
+        [
+          21.0200369,
+          52.2497666
+        ]
+      ]
+    ]
+  }
+}

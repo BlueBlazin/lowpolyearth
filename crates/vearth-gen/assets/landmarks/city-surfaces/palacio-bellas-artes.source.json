@@ -1,0 +1,153 @@
+{
+  "name": "palacio-bellas-artes",
+  "city": "Mexico City",
+  "lat": 19.4352605254,
+  "lon": -99.1412995094,
+  "heading": 9.2,
+  "base": "terrain",
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "references": [
+    "https://inba.gob.mx/recinto/1/",
+    "https://palacio.inba.gob.mx/recinto/salaprincipal",
+    "https://www.dgcs.unam.mx/boletin/bdboletin/2022_107.html"
+  ],
+  "description": "A white marble cultural palace with a great amber dome, two side cupolas, monumental arched glazing and sculpted roof silhouettes.",
+  "capture": {
+    "distance": 220,
+    "azimuth": 214,
+    "elevation": 26,
+    "target_height": 22,
+    "time_utc": "2026-03-20T21:00:00Z"
+  },
+  "terrain_flatten": [
+    {
+      "center_xz": [
+        0,
+        23
+      ],
+      "half_extent": [
+        43,
+        59
+      ],
+      "feather_m": 3,
+      "sample_clearance_m": 20,
+      "fixed_base_geo": null
+    }
+  ],
+  "audit": {
+    "source_anchor_latlon": [
+      19.4352,
+      -99.1412
+    ],
+    "source_offset_east_north_m": [
+      -10.45,
+      6.7
+    ],
+    "ground_center_m": 2240.70458984375,
+    "grid_min_m": 2238.13330078125,
+    "grid_max_m": 2247.629150390625,
+    "perimeter_m": [
+      2238.288818359375,
+      2238.192626953125,
+      2241.71240234375,
+      2244.248779296875,
+      2245.138671875,
+      2238.574951171875,
+      2238.749267578125,
+      2240.152587890625
+    ],
+    "perimeter_median_m": 2239.450927734375,
+    "source_file": "output/city-catalog-expansion/heritage/palacio-bellas-artes-source.json",
+    "perimeter_samples": [
+      {
+        "x": -66,
+        "z": -59,
+        "lat": 19.434829721114205,
+        "lon": -99.1420097301354,
+        "ground_m": 2238.288818359375
+      },
+      {
+        "x": 0,
+        "z": -59,
+        "lat": 19.434734396691855,
+        "lon": -99.14138933438421,
+        "ground_m": 2238.192626953125
+      },
+      {
+        "x": 66,
+        "z": -59,
+        "lat": 19.43463907226951,
+        "lon": -99.14076893863304,
+        "ground_m": 2241.71240234375
+      },
+      {
+        "x": 66,
+        "z": 23,
+        "lat": 19.43537030199947,
+        "lon": -99.14064409712955,
+        "ground_m": 2244.248779296875
+      },
+      {
+        "x": 66,
+        "z": 105,
+        "lat": 19.43610153172943,
+        "lon": -99.14051925562606,
+        "ground_m": 2245.138671875
+      },
+      {
+        "x": 0,
+        "z": 105,
+        "lat": 19.43619685615178,
+        "lon": -99.14113965137723,
+        "ground_m": 2238.574951171875
+      },
+      {
+        "x": -66,
+        "z": 105,
+        "lat": 19.43629218057413,
+        "lon": -99.14176004712841,
+        "ground_m": 2238.749267578125
+      },
+      {
+        "x": -66,
+        "z": 23,
+        "lat": 19.435560950844167,
+        "lon": -99.1418848886319,
+        "ground_m": 2240.152587890625
+      }
+    ]
+  },
+  "bbox_min": [
+    -46.0,
+    -0.2,
+    -39.0
+  ],
+  "bbox_max": [
+    46.0,
+    50.5,
+    85.0
+  ],
+  "levels": [
+    {
+      "vertices": 46224,
+      "triangles": 23767
+    },
+    {
+      "vertices": 31438,
+      "triangles": 16147
+    },
+    {
+      "vertices": 18924,
+      "triangles": 9723
+    }
+  ],
+  "geometry": "original metric geometry authored for Vearth; visual interpretation of referenced places",
+  "license": "repository LICENSE; references are not imported mesh assets",
+  "source": "tools/city_catalog/expansion_heritage.py",
+  "source_sha256": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+  "primitives_sha256": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+  "generator_sha256": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+  "output_sha256": "34a9284fed8d10d6c9b29d87be25f1ddb66a449412520869a6b2ec1384fd5139"
+}

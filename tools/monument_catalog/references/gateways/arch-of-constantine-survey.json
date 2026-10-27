@@ -1,0 +1,16 @@
+{
+  "name": "arch-of-constantine",
+  "references": [
+    "https://colosseo.it/en/restauri/the-maintenance-of-the-arch-of-constantine/",
+    "https://en.wikipedia.org/wiki/Arch_of_Constantine",
+    "https://www.openstreetmap.org/way/23590989"
+  ],
+  "retrieved_utc": "2026-09-15",
+  "dimensions_and_limits": "Published body width 25.9 m, height 21 m and depth 7.4 m; carving and freestanding-column projections are proportional estimates.",
+  "orientation": "Mapped footprint center and approximately 13-degree clockwise heading; the nearby Colosseum center is not used as placement.",
+  "placement_evidence": "tools/monument_catalog/references/gateways/constantine-placement.json",
+  "appearance": "Three distinct vaulted apertures, yellow stone columns, pale captive statues, porphyry-framed medallions and separate reused relief registers.",
+  "authorship": "Original procedural geometry; ornaments are schematic sculptural interpretations. Reference photographs and plans are not distributed or used as textures.",
+  "grounding": "The connected gateway stays rigid above surveyed unmodified terrain. Separate masonry footings extend downward to local support elevations. No slab spans the passage and no terrain flattening, cutting or grading is applied.",
+  "materials": "Surface classes use existing physical stone, limestone, marble, timber, plaster, tile and metal materials with authored per-part colors. Relief silhouettes, molding shadows and coursing are geometry, not painted opaque doorway panels."
+}

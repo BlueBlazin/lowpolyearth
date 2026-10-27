@@ -1,0 +1,22 @@
+{
+  "source_url": "https://www.openstreetmap.org/way/124312004",
+  "attribution": "\u00a9 OpenStreetMap contributors, ODbL 1.0",
+  "coordinates_lat_lon": [
+    [
+      31.8528676,
+      130.869279
+    ],
+    [
+      31.8531704,
+      130.8695774
+    ]
+  ],
+  "derived_anchor_lat_lon": [
+    31.852984,
+    130.869394
+  ],
+  "derived_heading_deg": 40,
+  "placement_note": "Official shrine precinct map and photo put Otorii just inside Route223 entrance, southeast of rotary, between tourist office and police post. Anchor is inferred16m up mapped centerline; approximately10m position uncertainty. This gate itself was not individually mapped in source data.",
+  "architectural_photo_url": "https://kirishimajingu.or.jp/wp/wp-content/uploads/ootorii.jpg",
+  "precinct_map_url": "https://kirishimajingu.or.jp/wp/wp-content/uploads/keidaimapR7.jpg"
+}

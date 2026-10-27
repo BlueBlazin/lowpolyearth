@@ -1,0 +1,20 @@
+{
+  "name": "mahanakhon",
+  "city": "Bangkok",
+  "architectural_height_m": 314.2,
+  "references": [
+    "https://buro-os.com/projects/mahanakhon",
+    "https://www.bouyguesbatimentinternational.com/reference/mahanakhon-tower/",
+    "https://global.ctbuh.org/paper/2399"
+  ],
+  "primary_evidence": "Architect and contractor describe the314m,77storey tower and a continuous three-dimensional pixel ribbon. The contractor documents substantial unsupported slab projections.",
+  "estimates": "69 complete OSM height/min_height component plans supply the actual per-floor stepped outlines, topping at314.2m. Small railing and surface details are simplified. Datum7.2m comes from the west approach grid rather than central roof-contaminated samples; absolute altitude remains an estimate.",
+  "facade_contract": "Native highrise.rs material families103\u2013110, broad non-overlapping strips and subdued profile-derived tint; distinctive structural/landscape elements retained as original geometry.",
+  "contact_camera": {
+    "azimuth": 225,
+    "elevation": 7,
+    "distance": 204.23,
+    "target_height": 8
+  },
+  "terrace_detail": "Mapped floor roofs form terrace slabs. LOD0 handrails are emitted only on4\u201312m exposed edges, with next-storey occupancy checks at five positions and vertical posts at no more than3m spacing. Covered edges and tiny rails are omitted to avoid glass intersections and subpixel clutter. Lower LODs retain the mapped stepped slabs without fine rail geometry."
+}

@@ -1,0 +1,583 @@
+[
+  {
+    "key": "bled",
+    "label": "Bled · town below the castle",
+    "lat": 46.3672,
+    "lon": 14.104,
+    "alt": 850,
+    "heading": 15,
+    "pitch": 50,
+    "utc_hour": 10
+  },
+  {
+    "key": "kyoto",
+    "label": "Kyoto · ordinary central blocks",
+    "lat": 35.006,
+    "lon": 135.766,
+    "alt": 350,
+    "heading": 0,
+    "pitch": 55,
+    "utc_hour": 3
+  },
+  {
+    "key": "porto",
+    "label": "Porto · Ribeira and surrounding blocks",
+    "lat": 41.143,
+    "lon": -8.615,
+    "alt": 350,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 13
+  },
+  {
+    "key": "bath",
+    "label": "Bath · central stone housing",
+    "lat": 51.379,
+    "lon": -2.36,
+    "alt": 330,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 12
+  },
+  {
+    "key": "bhaktapur",
+    "label": "Bhaktapur · old town and infill",
+    "lat": 27.67,
+    "lon": 85.429,
+    "alt": 1650,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 6
+  },
+  {
+    "key": "santa-fe",
+    "label": "Santa Fe · adobe and rendered blocks",
+    "lat": 35.685,
+    "lon": -105.938,
+    "alt": 2500,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 19
+  },
+  {
+    "key": "cape-town",
+    "label": "Cape Town · Bo-Kaap and adjacent blocks",
+    "lat": -33.9235,
+    "lon": 18.4155,
+    "alt": 350,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 11
+  },
+  {
+    "key": "brisbane",
+    "label": "Brisbane · inner residential streets",
+    "lat": -27.463,
+    "lon": 153.006,
+    "alt": 350,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 2
+  },
+  {
+    "key": "keswick",
+    "label": "Keswick · slate and roughcast streets",
+    "lat": 54.598,
+    "lon": -3.137,
+    "alt": 350,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 12
+  },
+  {
+    "key": "penrith",
+    "label": "Penrith · sandstone and rendered streets",
+    "lat": 54.662,
+    "lon": -2.753,
+    "alt": 420,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 12
+  },
+  {
+    "key": "albi",
+    "label": "Albi · brick and tile townscape",
+    "lat": 43.926,
+    "lon": 2.147,
+    "alt": 470,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 12
+  },
+  {
+    "key": "visby",
+    "label": "Visby · mixed masonry and timber",
+    "lat": 57.638,
+    "lon": 18.295,
+    "alt": 320,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 11
+  },
+  {
+    "key": "okinawa",
+    "label": "Okinawa · Kitanakagusuku mixed housing",
+    "lat": 26.322,
+    "lon": 127.8,
+    "alt": 450,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 3,
+    "review_note": "Mapped building coverage is sparse at this location. A completed streaming report does not make this view sufficient to validate the housing mixture."
+  },
+  {
+    "key": "hoi-an",
+    "label": "Hoi An · old town and ordinary surroundings",
+    "lat": 15.876,
+    "lon": 108.328,
+    "alt": 330,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 5
+  },
+  {
+    "key": "luang-prabang",
+    "label": "Luang Prabang · peninsula housing",
+    "lat": 19.887,
+    "lon": 102.136,
+    "alt": 620,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 5
+  },
+  {
+    "key": "singapore",
+    "label": "Singapore · Chinatown and modern blocks",
+    "lat": 1.279,
+    "lon": 103.844,
+    "alt": 330,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 5
+  },
+  {
+    "key": "san-diego",
+    "label": "San Diego · residential roofscape",
+    "lat": 32.75,
+    "lon": -117.195,
+    "alt": 330,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 20
+  },
+  {
+    "key": "charleston",
+    "label": "Charleston · peninsula housing",
+    "lat": 32.785,
+    "lon": -79.939,
+    "alt": 310,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 17
+  },
+  {
+    "key": "quebec",
+    "label": "Quebec City · old city and infill",
+    "lat": 46.809,
+    "lon": -71.214,
+    "alt": 360,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 17
+  },
+  {
+    "key": "bermuda",
+    "label": "Bermuda · St George's housing",
+    "lat": 32.379,
+    "lon": -64.677,
+    "alt": 300,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 16
+  },
+  {
+    "key": "puebla",
+    "label": "Puebla · flat terraces and old blocks",
+    "lat": 19.041,
+    "lon": -98.198,
+    "alt": 2470,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 19
+  },
+  {
+    "key": "zanzibar",
+    "label": "Zanzibar · Stone Town and sheet roofs",
+    "lat": -6.164,
+    "lon": 39.192,
+    "alt": 310,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 9
+  },
+  {
+    "key": "djenne",
+    "label": "Djenne · earthen townscape",
+    "lat": 13.904,
+    "lon": -4.555,
+    "alt": 600,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 12
+  },
+  {
+    "key": "ait-ben-haddou",
+    "label": "Ait Ben Haddou · settlement and valley",
+    "lat": 31.0426,
+    "lon": -7.13,
+    "alt": 1430,
+    "heading": 15,
+    "pitch": 40,
+    "utc_hour": 12
+  },
+  {
+    "key": "cuenca",
+    "label": "Cuenca · ordinary central blocks",
+    "lat": -2.899,
+    "lon": -79.005,
+    "alt": 2880,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 17
+  },
+  {
+    "key": "arequipa",
+    "label": "Arequipa · stone center and contemporary stock",
+    "lat": -16.4,
+    "lon": -71.537,
+    "alt": 2660,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 17
+  },
+  {
+    "key": "paramaribo",
+    "label": "Paramaribo · timber and masonry streets",
+    "lat": 5.825,
+    "lon": -55.153,
+    "alt": 320,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 16
+  },
+  {
+    "key": "valparaiso",
+    "label": "Valparaiso · painted hillside stock",
+    "lat": -33.046,
+    "lon": -71.628,
+    "alt": 450,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 17
+  },
+  {
+    "key": "feilding",
+    "label": "Feilding · residential streets",
+    "lat": -40.227,
+    "lon": 175.566,
+    "alt": 400,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 0
+  },
+  {
+    "key": "oamaru",
+    "label": "Oamaru · masonry and timber townscape",
+    "lat": -45.102,
+    "lon": 170.97,
+    "alt": 350,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 1
+  },
+  {
+    "key": "bled-island-close",
+    "label": "Bled island · church and plaster at close range",
+    "lat": 46.36165,
+    "lon": 14.091,
+    "alt": 530,
+    "heading": 335,
+    "pitch": 73,
+    "utc_hour": 10
+  },
+  {
+    "key": "bled-houses-close",
+    "label": "Bled · town houses at low altitude",
+    "lat": 46.3679,
+    "lon": 14.104,
+    "alt": 560,
+    "heading": 10,
+    "pitch": 74,
+    "utc_hour": 10
+  },
+  {
+    "key": "kyoto-close",
+    "label": "Kyoto · roofs at neighborhood distance",
+    "lat": 35.0067,
+    "lon": 135.766,
+    "alt": 140,
+    "heading": 0,
+    "pitch": 60,
+    "utc_hour": 3
+  },
+  {
+    "key": "bermuda-close",
+    "label": "Bermuda · St George's white roofs",
+    "lat": 32.3797,
+    "lon": -64.677,
+    "alt": 110,
+    "heading": 0,
+    "pitch": 55,
+    "utc_hour": 16
+  },
+  {
+    "key": "calgary-rundle",
+    "label": "Calgary · Rundle ordinary housing",
+    "lat": 51.072,
+    "lon": -113.964,
+    "alt": 1320,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 20
+  },
+  {
+    "key": "calgary-citadel",
+    "label": "Calgary · Citadel ordinary housing",
+    "lat": 51.143,
+    "lon": -114.177,
+    "alt": 1430,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 20
+  },
+  {
+    "key": "ottawa-kirkwood",
+    "label": "Ottawa · Kirkwood masonry housing",
+    "lat": 45.374,
+    "lon": -75.737,
+    "alt": 340,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 17
+  },
+  {
+    "key": "ottawa-bridlewood",
+    "label": "Ottawa · Bridlewood clad housing",
+    "lat": 45.283,
+    "lon": -75.855,
+    "alt": 350,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 17
+  },
+  {
+    "key": "coquitlam-ranch-park",
+    "label": "Coquitlam · Ranch Park housing",
+    "lat": 49.258,
+    "lon": -122.809,
+    "alt": 370,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 20
+  },
+  {
+    "key": "coquitlam-burquitlam",
+    "label": "Coquitlam · Burquitlam housing",
+    "lat": 49.258,
+    "lon": -122.884,
+    "alt": 355,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 20
+  },
+  {
+    "key": "thumane",
+    "label": "Thumane · ordinary masonry housing",
+    "lat": 41.545,
+    "lon": 19.679,
+    "alt": 280,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 11
+  },
+  {
+    "key": "durres",
+    "label": "Durres · housing outside the old center",
+    "lat": 41.331,
+    "lon": 19.454,
+    "alt": 290,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 11
+  },
+  {
+    "key": "tyrol-oegg",
+    "label": "Kaunertal · Oegg rural construction",
+    "lat": 47.033,
+    "lon": 10.749,
+    "alt": 1800,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 11
+  },
+  {
+    "key": "tolmin",
+    "label": "Tolmin · slate and clay alternatives",
+    "lat": 46.183,
+    "lon": 13.74,
+    "alt": 450,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 11
+  },
+  {
+    "key": "bohinjska-bistrica",
+    "label": "Bohinjska Bistrica · regional roof mixture",
+    "lat": 46.272,
+    "lon": 13.955,
+    "alt": 760,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 11
+  },
+  {
+    "key": "quimper",
+    "label": "Quimper · slate and rendered housing",
+    "lat": 47.986,
+    "lon": -4.101,
+    "alt": 310,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 12
+  },
+  {
+    "key": "pavaratty",
+    "label": "Pavaratty · Kerala housing",
+    "lat": 10.5626,
+    "lon": 76.0625,
+    "alt": 260,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 7
+  },
+  {
+    "key": "aldona",
+    "label": "Aldona · Goa housing",
+    "lat": 15.58763,
+    "lon": 73.87105,
+    "alt": 270,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 7
+  },
+  {
+    "key": "kalpa",
+    "label": "Kalpa · Himachal mountain housing",
+    "lat": 31.5312,
+    "lon": 78.2498,
+    "alt": 3050,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 7
+  },
+  {
+    "key": "kalikajar",
+    "label": "Kalikajar · Central Java roofs",
+    "lat": -7.41562,
+    "lon": 109.97077,
+    "alt": 1075,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 5
+  },
+  {
+    "key": "protea-glen",
+    "label": "Protea Glen · Gauteng brick housing",
+    "lat": -26.27154,
+    "lon": 27.81464,
+    "alt": 1850,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 10
+  },
+  {
+    "key": "kericho",
+    "label": "Kericho · ordinary Kenyan housing",
+    "lat": -0.36486,
+    "lon": 35.27323,
+    "alt": 2240,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 10
+  },
+  {
+    "key": "kigamboni",
+    "label": "Kigamboni · Dar es Salaam housing",
+    "lat": -6.825,
+    "lon": 39.315,
+    "alt": 280,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 9
+  },
+  {
+    "key": "rasht",
+    "label": "Rasht · Gilan roofs and terraces",
+    "lat": 37.2678,
+    "lon": 49.5895,
+    "alt": 255,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 9
+  },
+  {
+    "key": "yazd",
+    "label": "Yazd · Fahadan and surrounding housing",
+    "lat": 31.9027,
+    "lon": 54.3732,
+    "alt": 1480,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 9
+  },
+  {
+    "key": "sapporo",
+    "label": "Sapporo · Hokkaido ordinary blocks",
+    "lat": 43.0864,
+    "lon": 141.3586,
+    "alt": 270,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 3
+  },
+  {
+    "key": "kasoa",
+    "label": "Kasoa · Ghana housing",
+    "lat": 5.53057,
+    "lon": -0.43749,
+    "alt": 325,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 12
+  },
+  {
+    "key": "yongchun",
+    "label": "Yongchun · Fujian ordinary housing",
+    "lat": 25.32,
+    "lon": 118.289,
+    "alt": 375,
+    "heading": 0,
+    "pitch": 50,
+    "utc_hour": 4
+  }
+]

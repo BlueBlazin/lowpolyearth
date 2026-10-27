@@ -1,0 +1,808 @@
+{
+  "name": "bank-of-america-plaza-atlanta",
+  "city": "Atlanta",
+  "lat": 33.77086311818315,
+  "lon": -84.38613917713565,
+  "heading": 46.21884272425572,
+  "base": 311.9,
+  "suppress_buildings": true,
+  "suppress_roads": false,
+  "suppress_trees": true,
+  "source_exclusion_polygons": [
+    [
+      [
+        11.04741,
+        18.93982
+      ],
+      [
+        -11.1782,
+        25.13016
+      ],
+      [
+        11.26371,
+        25.25697
+      ]
+    ],
+    [
+      [
+        11.04741,
+        18.93982
+      ],
+      [
+        17.88664,
+        18.90998
+      ],
+      [
+        17.83442,
+        13.12237
+      ]
+    ],
+    [
+      [
+        18.71449,
+        -11.75842
+      ],
+      [
+        24.50212,
+        12.91353
+      ],
+      [
+        24.50212,
+        -11.81064
+      ]
+    ],
+    [
+      [
+        12.01696,
+        -18.38882
+      ],
+      [
+        12.14376,
+        -24.34798
+      ],
+      [
+        -13.2815,
+        -24.36287
+      ]
+    ],
+    [
+      [
+        -13.23674,
+        -18.22472
+      ],
+      [
+        -19.1959,
+        -18.35151
+      ],
+      [
+        -18.95723,
+        -13.08597
+      ]
+    ],
+    [
+      [
+        -18.95723,
+        -13.08597
+      ],
+      [
+        -24.3943,
+        -13.02631
+      ],
+      [
+        -24.39425,
+        11.69783
+      ]
+    ],
+    [
+      [
+        -17.90557,
+        11.66054
+      ],
+      [
+        -17.87572,
+        18.49976
+      ],
+      [
+        -11.2155,
+        18.64147
+      ]
+    ],
+    [
+      [
+        -11.1782,
+        25.13016
+      ],
+      [
+        11.04741,
+        18.93982
+      ],
+      [
+        -11.2155,
+        18.64147
+      ]
+    ],
+    [
+      [
+        24.50212,
+        12.91353
+      ],
+      [
+        18.71449,
+        -11.75842
+      ],
+      [
+        17.83442,
+        13.12237
+      ]
+    ],
+    [
+      [
+        18.6772,
+        -18.24712
+      ],
+      [
+        16.57397,
+        -18.29187
+      ],
+      [
+        18.71449,
+        -11.75842
+      ]
+    ],
+    [
+      [
+        12.01696,
+        -18.38882
+      ],
+      [
+        -13.2815,
+        -24.36287
+      ],
+      [
+        -13.23674,
+        -18.22472
+      ]
+    ],
+    [
+      [
+        -17.90557,
+        11.66054
+      ],
+      [
+        -18.95723,
+        -13.08597
+      ],
+      [
+        -24.39425,
+        11.69783
+      ]
+    ],
+    [
+      [
+        -17.90557,
+        11.66054
+      ],
+      [
+        -11.2155,
+        18.64147
+      ],
+      [
+        11.04741,
+        18.93982
+      ]
+    ],
+    [
+      [
+        17.83442,
+        13.12237
+      ],
+      [
+        18.71449,
+        -11.75842
+      ],
+      [
+        11.04741,
+        18.93982
+      ]
+    ],
+    [
+      [
+        18.71449,
+        -11.75842
+      ],
+      [
+        16.57397,
+        -18.29187
+      ],
+      [
+        12.01696,
+        -18.38882
+      ]
+    ],
+    [
+      [
+        -17.90557,
+        11.66054
+      ],
+      [
+        -13.23674,
+        -18.22472
+      ],
+      [
+        -18.95723,
+        -13.08597
+      ]
+    ],
+    [
+      [
+        12.01696,
+        -18.38882
+      ],
+      [
+        11.04741,
+        18.93982
+      ],
+      [
+        18.71449,
+        -11.75842
+      ]
+    ],
+    [
+      [
+        -17.90557,
+        11.66054
+      ],
+      [
+        12.01696,
+        -18.38882
+      ],
+      [
+        -13.23674,
+        -18.22472
+      ]
+    ],
+    [
+      [
+        11.04741,
+        18.93982
+      ],
+      [
+        12.01696,
+        -18.38882
+      ],
+      [
+        -17.90557,
+        11.66054
+      ]
+    ]
+  ],
+  "max_source_building_span_m": 180,
+  "terrain_flatten": [],
+  "terrain_cuts": [
+    {
+      "polygon_xz": [
+        [
+          11.04741,
+          18.93982
+        ],
+        [
+          -11.1782,
+          25.13016
+        ],
+        [
+          11.26371,
+          25.25697
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          11.04741,
+          18.93982
+        ],
+        [
+          17.88664,
+          18.90998
+        ],
+        [
+          17.83442,
+          13.12237
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          18.71449,
+          -11.75842
+        ],
+        [
+          24.50212,
+          12.91353
+        ],
+        [
+          24.50212,
+          -11.81064
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          12.01696,
+          -18.38882
+        ],
+        [
+          12.14376,
+          -24.34798
+        ],
+        [
+          -13.2815,
+          -24.36287
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -13.23674,
+          -18.22472
+        ],
+        [
+          -19.1959,
+          -18.35151
+        ],
+        [
+          -18.95723,
+          -13.08597
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -18.95723,
+          -13.08597
+        ],
+        [
+          -24.3943,
+          -13.02631
+        ],
+        [
+          -24.39425,
+          11.69783
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -17.90557,
+          11.66054
+        ],
+        [
+          -17.87572,
+          18.49976
+        ],
+        [
+          -11.2155,
+          18.64147
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -11.1782,
+          25.13016
+        ],
+        [
+          11.04741,
+          18.93982
+        ],
+        [
+          -11.2155,
+          18.64147
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          24.50212,
+          12.91353
+        ],
+        [
+          18.71449,
+          -11.75842
+        ],
+        [
+          17.83442,
+          13.12237
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          18.6772,
+          -18.24712
+        ],
+        [
+          16.57397,
+          -18.29187
+        ],
+        [
+          18.71449,
+          -11.75842
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          12.01696,
+          -18.38882
+        ],
+        [
+          -13.2815,
+          -24.36287
+        ],
+        [
+          -13.23674,
+          -18.22472
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -17.90557,
+          11.66054
+        ],
+        [
+          -18.95723,
+          -13.08597
+        ],
+        [
+          -24.39425,
+          11.69783
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -17.90557,
+          11.66054
+        ],
+        [
+          -11.2155,
+          18.64147
+        ],
+        [
+          11.04741,
+          18.93982
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          17.83442,
+          13.12237
+        ],
+        [
+          18.71449,
+          -11.75842
+        ],
+        [
+          11.04741,
+          18.93982
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          18.71449,
+          -11.75842
+        ],
+        [
+          16.57397,
+          -18.29187
+        ],
+        [
+          12.01696,
+          -18.38882
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -17.90557,
+          11.66054
+        ],
+        [
+          -13.23674,
+          -18.22472
+        ],
+        [
+          -18.95723,
+          -13.08597
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          12.01696,
+          -18.38882
+        ],
+        [
+          11.04741,
+          18.93982
+        ],
+        [
+          18.71449,
+          -11.75842
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          -17.90557,
+          11.66054
+        ],
+        [
+          12.01696,
+          -18.38882
+        ],
+        [
+          -13.23674,
+          -18.22472
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    },
+    {
+      "polygon_xz": [
+        [
+          11.04741,
+          18.93982
+        ],
+        [
+          12.01696,
+          -18.38882
+        ],
+        [
+          -17.90557,
+          11.66054
+        ]
+      ],
+      "plane": [
+        0,
+        0,
+        -0.15
+      ],
+      "feather_m": 2.5
+    }
+  ],
+  "activation_bounds_xz": [
+    [
+      -24.3943,
+      -24.36287
+    ],
+    [
+      24.50212,
+      25.25697
+    ]
+  ],
+  "description": "Rose-granite stepped shaft with receding crown and open gold pyramidal lattice.",
+  "references": [
+    "https://www.gensler.com/projects/bank-of-america-plaza-lobby-renovations",
+    "https://www.bankofamericaplaza.com/",
+    "https://www.skyscrapercentre.com/building/bank-of-america-plaza/429"
+  ],
+  "attribution": "Original Low Poly Earth geometry; mapped plans \u00a9 OpenStreetMap contributors, ODbL1.0 via Protomaps.",
+  "audit": {
+    "architectural_height_m": 311.8,
+    "tip_height_m": 311.8,
+    "ground_datum_m": 311.9,
+    "foundation_bottom_m": -2.5670227050781023,
+    "placement_file": "tools/skyscraper_catalog/references/extra_us_east/bank-of-america-plaza-atlanta-placement.json",
+    "ground_file": "tools/skyscraper_catalog/references/extra_us_east/bank-of-america-plaza-atlanta-ground.json",
+    "estimates": "Native facade bay subdivision and secondary crown detail are modeled approximations; primary dimensions and production plan/ground controls retained in references."
+  },
+  "capture": {
+    "distance": 561.24,
+    "azimuth": 150,
+    "elevation": 24,
+    "target_height": 149.664
+  },
+  "night_eligible": true,
+  "bbox_min": [
+    -26.8943,
+    -2.8,
+    -26.86287
+  ],
+  "bbox_max": [
+    27.00212,
+    312.0,
+    27.75697
+  ],
+  "levels": [
+    {
+      "vertices": 3714,
+      "triangles": 2130
+    },
+    {
+      "vertices": 3293,
+      "triangles": 1882
+    },
+    {
+      "vertices": 2690,
+      "triangles": 1518
+    }
+  ],
+  "geometry": "original metric geometry authored for Low Poly Earth from cited architectural references",
+  "license": "repository LICENSE; reference images and plans are not embedded textures",
+  "source": "tools/skyscraper_catalog/extra.py",
+  "dependencies": {
+    "crates/vearth-gen/src/building_surface.rs": "d4c5ca0b699c5cda62866b62ee1d26f17ce4b03f913c85e7045d7aadfe609bfb",
+    "crates/vearth-gen/src/highrise.rs": "476ec0574809c680b62cb60691a48a7e07f0b785b90568f14c4745f7562f2eb7",
+    "tools/build_city_catalog.py": "51904e80df407a74b82cf24ceb38591aa22564b571508ed3950b775ef12b5519",
+    "tools/build_heritage_catalog.py": "741bf707c3e7959a413737ab60660a095824a5d07d95b00c014e255e7de88bb7",
+    "tools/build_skyscraper_catalog.py": "b7cae016f2d115ecccc277dff44f8490423b4a05f79c41a70d8a552dc58f7fb2",
+    "tools/city_catalog/common.py": "09e207f4fa581ef9e7efdbe8ce2ed4ee6ef4008b564e3d407aa8fa88441a0b46",
+    "tools/city_catalog/expansion_heritage.py": "ccef62a44ee484db276436ac9efa2732c741ba276b5ffd1670464549a3e7283e",
+    "tools/heritage_catalog/geometry.py": "468533ad77fda49382f07e44244dff8d9f7a193dc478afcb54697ea14e4ccf67",
+    "tools/heritage_catalog/materials.py": "8bf8f09803e394a9148409039afa0a1a9e70487e1ceb6c287d5d6ba6eaa99ce2",
+    "tools/skyscraper_catalog/americas_common.py": "d707099bcbcda4f92d3490338ed236ce34419347ad2012be95f1717c069a076b",
+    "tools/skyscraper_catalog/appearance.py": "ed485b103e0e6e9da95b4abf7faefc4b9f0f6c5741359458fc25c4616d6262e0",
+    "tools/skyscraper_catalog/crown_sydney.py": "f173d46fe4ca7e10fafd0f7d97f4abbc6a21dd69598afec7f7abfe16defd7045",
+    "tools/skyscraper_catalog/east_asia_geometry.py": "4ae3955b47e40c3441f800f089437f83fb4ad895f6e348faf67c4aa353df2fb0",
+    "tools/skyscraper_catalog/extra.py": "eb9dff09e6c7ee7f0dfbbf215ec3644a7b124fb7e47276830175a54f0bd45bf1",
+    "tools/skyscraper_catalog/extra_sydney_chicago.py": "5b8c797a3af0b17454178c68be9c8d20082d491b61ece917e589008e638ba39a",
+    "tools/skyscraper_catalog/extra_us_east.py": "472c76e20cdd4fba4ec78a9d951c81fecc4bf26b6d889abe41b60f4f914b21cf",
+    "tools/skyscraper_catalog/extra_us_west.py": "8174b7a016eafcfb605238fc68c7737d27b8d2a3f23ed5915b997ebb14dbf594",
+    "tools/skyscraper_catalog/geometry.py": "36ff1db56d17b9a5cea29ec0588398bf2a8492dad7ee906531ba983006f3dcbd",
+    "tools/skyscraper_catalog/pacific_geometry.py": "339ce22cbf974867dc76f606868508a82d6cdfb8879732782bb6dadf18e74188",
+    "tools/skyscraper_catalog/references/extra_sydney_chicago/architectural-evidence.json": "4ef1aaf32538e6b02fde02986f8313654ea34c89ab83b1e9af2f5f13bb0d701c",
+    "tools/skyscraper_catalog/references/extra_sydney_chicago/crown-sydney-sections.json": "d4844de0e7db3f1888439284e43e6ac0afe86f5f046df48843f2184e9fadd41a",
+    "tools/skyscraper_catalog/references/extra_sydney_chicago/crown-sydney-site.json": "04317f0aca54d468eaf6b5648afd812c549dd3df8bca938b7e250a1678575ff6",
+    "tools/skyscraper_catalog/references/extra_sydney_chicago/st-regis-chicago-site.json": "a1bf70b37f2d39e1c8e39309bc9acd03f1c641afe4cdc0892653508d33019f31",
+    "tools/skyscraper_catalog/references/extra_sydney_chicago/trump-international-hotel-tower-chicago-site.json": "ff496cff78248b84c4882e53a7d42a37a21b8b4d4444206b3837e9c9c058faee",
+    "tools/skyscraper_catalog/references/extra_us_east/200-clarendon-street-ground.json": "2d8629ec490e210ca8ffabbb7239082ef92ad4b80683fd0a9f5b47f3a7fc0f27",
+    "tools/skyscraper_catalog/references/extra_us_east/200-clarendon-street-placement.json": "cbfa4edd21ef07e482ddc4cbbd09417baf8cf96a6bb49d65c3ce5fd664fe9b47",
+    "tools/skyscraper_catalog/references/extra_us_east/200-clarendon-street-research.json": "2f9de4ced4773a1b2010d16945803d4e3556acad72f10c89f3386a9cc0391878",
+    "tools/skyscraper_catalog/references/extra_us_east/bank-of-america-plaza-atlanta-ground.json": "07fcbf294959d93fe71625015f7286e9a5c8af86ec45d1c637f30678734c6087",
+    "tools/skyscraper_catalog/references/extra_us_east/bank-of-america-plaza-atlanta-placement.json": "7983e2816654506bcaef575c8f744df06efe90dffaa845b6e284ab1fffa5d1b6",
+    "tools/skyscraper_catalog/references/extra_us_east/bank-of-america-plaza-atlanta-research.json": "873c561cfbc2b4bf6ecc00ab16ec608321a7402d6d3b5b65dddc69e0f5259d50",
+    "tools/skyscraper_catalog/references/extra_us_east/central-park-tower-ground.json": "18b68596ca1701a00ab5a784f5ca0979c0343f10f3281480d84acc279132eb4d",
+    "tools/skyscraper_catalog/references/extra_us_east/central-park-tower-placement.json": "d5c897928b174bd207dbfb61b40c0a74c1bffacc8141ba905b70a98d534a7dc2",
+    "tools/skyscraper_catalog/references/extra_us_east/central-park-tower-research.json": "4ad333416a150d8c7db4ac4eea7ca8bd3e6ab5bea9988f4c818d840ed3320826",
+    "tools/skyscraper_catalog/references/extra_us_east/central-park-tower-source-ownership.json": "3e6ba338c4305d03358c222bf4b9600f41323d92c3d0d94fec5cc547d2ceb61d",
+    "tools/skyscraper_catalog/references/extra_us_west/comcast-technology-center-architecture.json": "1bc0d82973911a89c9b5bb06ae406b53be39ead7a439566d8f840d525f9f0f80",
+    "tools/skyscraper_catalog/references/extra_us_west/comcast-technology-center-ground.json": "ea179267fbb451051693ad485925510759cedbfe66022eed5863d4580bb4bfd0",
+    "tools/skyscraper_catalog/references/extra_us_west/comcast-technology-center-placement.json": "3652714a6bde5e73be137e50857633c2a72a9a1be1fdcf2258bc503fd60648ad",
+    "tools/skyscraper_catalog/references/extra_us_west/us-bank-tower-architecture.json": "a03a07cf1726ed35449ed63cfdbd9796fd749cd98326a02343687023d5908260",
+    "tools/skyscraper_catalog/references/extra_us_west/us-bank-tower-ground.json": "aab372cb751e1305f4938110658bdefaba62afb5ea1c01c639126ba285eea9c7",
+    "tools/skyscraper_catalog/references/extra_us_west/us-bank-tower-placement.json": "0504e05adb0bd7d3eb4a5ad7642aa2510b2c5ae3d6e134758d31d0779f71dd4b",
+    "tools/skyscraper_catalog/references/extra_us_west/wilshire-grand-center-architecture.json": "f43d60f932bce8551e4fe7406099edd8ba7d5b657dc40a44bf9ec2f27f1ab498",
+    "tools/skyscraper_catalog/references/extra_us_west/wilshire-grand-center-ground.json": "3590d1255789465295dd3de3f2c9fdcf92d3014b480a8262e97c0401e658fd17",
+    "tools/skyscraper_catalog/references/extra_us_west/wilshire-grand-center-placement.json": "18dd087b975a608bcf5be6239ee9e9f76ad076f7c379749e504158041c4fe8b3",
+    "tools/skyscraper_catalog/regional.py": "25eae598b754622d93fb76d0a1f56ca3f8151a1b77deaed6c835b063e81daa25"
+  },
+  "output_sha256": "3f8f2bfcfdcad8cc1cfc584d9778a9c8eb28170b2c1576460969d292a1df9a9e"
+}

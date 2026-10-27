@@ -1,0 +1,20 @@
+{
+  "coordinates": "Metres east/up/north relative to the fixed site datum in each terrain response.",
+  "terrain_evidence": "*-footing-ground.json retains direct production8m-pitch samples at the actual outward support edges. New support edges subdivide at no more than6m. These are provider rendering ground measurements, not a conservation survey.",
+  "support_rule": "Preserve existing architectural floor/crown levels. Wall strips, mapped building plinths and ramp sides extend their toes to at least0.5m below sampled terrain. Battered-wall relief courses interpolate on the final sloping faces. Roofs, window frames and columns on fully enclosed podium volumes are not independent terrain footings.",
+  "scope": {
+    "hwaseong": "Existing sampled gate/pavilion plinths and wall supports;200 held points screen with no positivegap over1m. No geometry change.",
+    "amber": "Outer circuits, four courtyard retaining perimeters, mapped foreground ranges, freestanding tower bases, audience-hall podium and GaneshGate platform have measured toe profiles. Roof service rooms rest on the authored range roofs.",
+    "gwalior": "Cliff circuits, palace ranges and towers have sampled lower supports. The two existing internal screen/window facades have continuous masonry beneath them, owned as1.4m strips.",
+    "kumbhalgarh": "Entire measured winding circuit samples both outward wall toes; summit/courtyard floor datums stay fixed. Mapped temple bodies and entrance gates have individual foundations.",
+    "red-fort": "Fort wall/gate toes and individual palace/barrack plinths follow measured ground. Marble arcade columns stand on closed perimeter-supported floor slabs.",
+    "derawar": "All40 mapped bastion faces retain the common crown while their brick toes follow surrounding grade.",
+    "krak": "See krak-foundations.json for talus, galleries, towers and loggia support.",
+    "qaitbay": "See qaitbay-courtyard.json for clean court calibration, published17m keep and supported landward approach. Geometry retained byte-for-byte during the other fort support changes.",
+    "fasil": "Outer circuit, ruined hall walls, main keep/tower bases and individual roofed halls have sampled foundations.",
+    "el-morro": "Batteries sample the outward scarp toes; three switchback ramps have retaining sides to ground. Lighthouse and garitas are supported by the authored batteries.",
+    "barajas": "Separate battery scarps and sloping approach ramps have measured retaining toes. Summit guardhouse and garitas stand on their authored battery decks.",
+    "citadelle": "Existing main outer scarp is supplemented by supports beneath individual courtyard buildings and exterior powder-house walls."
+  },
+  "verification": "mesh-validation.json records all36 current consumer encodes; exact requested toe-coordinate coverage is checked against retained samples. Actual engine low-angle checks remain separate from source/mesh validation."
+}

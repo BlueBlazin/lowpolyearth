@@ -1,0 +1,147 @@
+{
+  "attribution": "Source plans © OpenStreetMap contributors, ODbL1.0. Retained production terrain samples use an8m provider pitch. Apron elevations and smoothing extents are inferred local terrain repairs, not certified engineering surveys.",
+  "shah-mosque": {
+    "floor_m": 1572.0,
+    "approach_m": 1571.85,
+    "references": [
+      "https://whc.unesco.org/en/list/115/",
+      "https://www.archnet.org/sites/1622?media_content_id=63198"
+    ],
+    "evidence_files": [
+      "mosque-floor-calibrations.json",
+      "shah-mosque-survey.json"
+    ],
+    "basis": "UNESCO identifies the 160m-wide public square, stone paving and mosque portal connecting directly to its south end. The nearest open approach samples at east 10..30,north 120m have median 1571.897m. The retained mosque floor 1572m remains independent. The entrance grade 1571.85m is 0.15m below that floor. Farther-square raster lows descend to 1565.84m within 40m despite the continuous paved setting; the repeated rendered ridges and trench are treated as source artefacts. The bounded 130m-wide by 95m-long apron follows the mapped frontage axis(1,0.2), centered at east 20,north 102m. Its southern 10m overlap clears under existing lower-only masonry cuts. Northern extent and 28m feather are estimated repairs within the south square, not a survey of the whole square. Other streets, the central pond and remainder of the 560m-long square retain source terrain.",
+    "controlled_samples": "All 117 retained east−10..50,north 120..160 samples lie in the full-weight apron and become 1571.85m before existing masonry cuts.",
+    "terrain_grades": [
+      {
+        "polygon_xz": [
+          [
+            -41.7766,
+            79.4466
+          ],
+          [
+            85.6989,
+            104.9417
+          ],
+          [
+            67.0679,
+            198.0969
+          ],
+          [
+            -60.4076,
+            172.6018
+          ]
+        ],
+        "plane": [
+          0,
+          0,
+          -0.15
+        ],
+        "feather_m": 28.0
+      }
+    ],
+    "test_inside_xz": [
+      20,
+      140
+    ],
+    "test_inside_corrected_m": 1571.85,
+    "outside_control_xz": [
+      20,
+      245
+    ],
+    "full_weight_sample_count": 117,
+    "full_weight_raw_range_m": [
+      1565.8424072265625,
+      1572.63330078125
+    ],
+    "maximum_sample_raise_m": 6.007592773437409,
+    "maximum_sample_lower_m": 0.783300781250091
+  },
+  "sultan-qaboos-grand-mosque": {
+    "floor_m": 9.8,
+    "approach_m": 7.95,
+    "published_platform_rise_m": 1.8,
+    "references": [
+      "https://sultanqaboosgrandmosque.com/wp-content/uploads/2013/03/englishfactsheet.pdf",
+      "https://www.openstreetmap.org/api/0.6/map?bbox=58.386,23.581,58.392,23.587"
+    ],
+    "evidence_files": [
+      "mosque-floor-calibrations.json",
+      "qaboos-approach-osm.xml.gz",
+      "sultan-qaboos-grand-mosque-survey.json"
+    ],
+    "basis": "The published outer-sahn rise 1.8m and clean eastern north-entry samples 7.9..8.0m establish the existing 8m bottom tread and 9.8m mosque floor. Both remain unchanged. A 7.95m grade leaves 0.05m clearance below the lowest tread. The broad apron covers the mapped north walkway 1448186399 and step area 1448186367, including the west mound whose source reaches 14.60m at north 70m. A second 50m-wide corridor continues along the mapped service approach 439690207 and footways 1431950823/1431950824, ending at north 178m before the approach junction around 192m. This narrow continuation and 22m feather are estimates, preserving the surrounding grounds and highway whose nearest local segment lies north 199m at east 118m. The two equal-height patches compose by greatest influence, so their shared boundary has no artificial height step. Existing tread cuts execute afterward and retain each step level.",
+    "plan_xml_sha256": "e3ea03d766947b8534402d7ca3fa55506a7cfca76a0cae8b01b3f287f2e429d2",
+    "terrain_grades": [
+      {
+        "polygon_xz": [
+          [
+            -108,
+            60
+          ],
+          [
+            116,
+            60
+          ],
+          [
+            116,
+            100
+          ],
+          [
+            -108,
+            100
+          ]
+        ],
+        "plane": [
+          0,
+          0,
+          -1.85
+        ],
+        "feather_m": 22.0
+      },
+      {
+        "polygon_xz": [
+          [
+            -5,
+            90
+          ],
+          [
+            45,
+            90
+          ],
+          [
+            45,
+            178
+          ],
+          [
+            -5,
+            178
+          ]
+        ],
+        "plane": [
+          0,
+          0,
+          -1.85
+        ],
+        "feather_m": 22.0
+      }
+    ],
+    "test_inside_xz": [
+      -40,
+      70
+    ],
+    "test_inside_corrected_m": 7.95,
+    "outside_control_xz": [
+      18,
+      225
+    ],
+    "full_weight_sample_count": 66,
+    "full_weight_raw_range_m": [
+      3.3987972736358643,
+      14.595067977905273
+    ],
+    "maximum_sample_raise_m": 4.551202726364136,
+    "maximum_sample_lower_m": 6.645067977905273
+  }
+}

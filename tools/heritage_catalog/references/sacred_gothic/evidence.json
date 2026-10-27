@@ -1,0 +1,59 @@
+{
+  "method": "Original metric geometry from published architectural dimensions, primary plan/elevation references and production vector/elevation samples. Reference drawings and photographs are inspected only; no downloaded meshes, textures or artwork are redistributed.",
+  "axes": "Local +y up; +z toward liturgical east/apse. Clockwise heading maps local coordinates to east/north. Source surveys retain their original geographic anchors; audit records model-anchor offsets.",
+  "cologne-cathedral": {
+    "references": [
+      "https://www.koelner-dom.de/erleben/der-dom-in-zahlen",
+      "https://api.koelner-dom.de/uploads/2407_KW_Cologne_Cathedral_EN_9c90f29f5c.pdf",
+      "https://www.koelner-dom.de/erleben/geschichte"
+    ],
+    "published_controls_m": {
+      "south_tower": 157.22,
+      "north_tower": 157.18,
+      "length": 144.58,
+      "transept_width": 86.25,
+      "west_front_width": 61.54,
+      "transept_front_width": 39.95,
+      "transept_gable_height": 69.95,
+      "crossing_fleche": 109.12,
+      "roof_walk": 47
+    },
+    "plan_control": "Cathedral authority PDF printed page11: five aisles, crossing, seven radial chapels and twin western towers. Production building0 and parts237/239/240/241/627 independently establish heading88.5 and crossing anchor offset[-5.2,3.85].",
+    "materials": "Weathered brown-grey stone, pale projecting mouldings, dark recessed exterior glass and lead-panel roofs. Material82 stone and88 metal roof; not universal beige or uniform limestone.",
+    "ground_control": "Western approach sample59.092m controls Domplatte; north/east samples56.627/54.047m are lower surrounding terrain. Two bounded leveling patches retain a level cathedral floor.",
+    "limitations": "Individual sculptural iconography, exact medieval tracery and repair-stone inventory are simplified; open spire panels, buttress spacing and principal massing remain explicit. Ornamental tips can project centimetres beyond published height. In-engine terrace-edge clearance remains to be checked."
+  },
+  "mont-saint-michel-abbey": {
+    "references": [
+      "https://www.abbaye-mont-saint-michel.fr/decouvrir/l-eglise-abbatiale",
+      "https://www.abbaye-mont-saint-michel.fr/decouvrir/s-orienter-dans-le-monument",
+      "https://www.abbaye-mont-saint-michel.fr/en/discover/the-cloister-between-sky-and-sea",
+      "https://www.abbaye-mont-saint-michel.fr/content/download/9877032/file/2024_ABBAYE%20MONT-SAINT-MICHEL_EN_internet.pdf?inLanguage=fre-FR&version=8",
+      "https://www.montsaintmichel.gouv.fr/le-mont-et-sa-baie/une-abbaye-millenaire",
+      "https://www.abbaye-mont-saint-michel.fr/var/cmn_inter/storage/images/_aliases/image_text_webp/9/5/9/4/120474959-1-fre-FR/a1858f189290-abb_eglise.sommet.webp.webp"
+    ],
+    "controls": "CMN lower/middle/upper plans distinguish western terrace occupying removed nave bays, Romanesque nave, Gothic choir, north Merveille and south abbot lodgings. Published church platform80m; church floor approximately80m above sea level. Model uses78.6m floor datum and78.5m floor-to-sword height, consistent with mapped tower part heights. Cloister nearest LOD137 columns.",
+    "plan_control": "Production parts48/56/58/62/63/65/139 establish heading75 and crossing offset[-16.65,-23.2]. Cloister lies north-west and refectory north-east of the church; village and wider island remain production terrain/buildings.",
+    "ground_control": "Bounded foundation samples26.877–44.640m show DEM smooths the summit. Foundations extend to24.6m at western terrace and33.6m below Merveille; no entire-island flattening. Upper floor datum is architectural rather than raw38.062m at the crossing.",
+    "materials": "Granite walls and Caen-stone details, darker Purbeck-marble cloister shafts, slate roofs, reflective gilt Michael statue. Explicit material82/86/95.",
+    "limitations": "Small roof dormers, rock contact and secondary lodging elevations are estimated from exterior/plan evidence. Michael silhouette is authored and simplified. Foundation interfaces require in-engine verification against DEM."
+  },
+  "las-lajas-sanctuary": {
+    "references": [
+      "http://www.sciresit.it/article/view/13845",
+      "http://www.sciresit.it/article/download/13845/12097",
+      "https://narino.gov.co/recorrido-virtual-templo-de-narino/",
+      "https://colombia.travel/es/encanto/descubre-el-santuario-de-las-lajas-una-maravilla-en-medio-de-la"
+    ],
+    "primary_survey": "Lembo, Leserri, Pasuy Arciniegas and Rossi2024, DOI10.2423/i22394303v14n1p187. Authors'2023 laser/photogrammetric plan(Fig9), landscape plan(Fig8), elevation(Fig10), exterior photograph(Fig2). Published PDF used for factual plan proportions only; its CC-BY-NC-ND drawings/photos are not redistributed or used as textures.",
+    "controls": "Bridge17m width is the scaling control. Survey figure ratios indicate approximately40m bridge approach,35m total exterior church length,46m central spire and25m flanking spires above entrance. Often repeated27.5m describes nave depth rather than full presbytery;100m describes canyon-to-spire composition, not church height. These scaled figures are estimates, not claimed survey-coordinate exports.",
+    "plan_control": "Production building0 main rectangle15.9×34.6m, heading40.2 toward NE altar, model anchor28m west of survey anchor. Its asymmetric NW chapel agrees with measured plan.",
+    "ground_control": "Targeted far bridge abutment2615.905m controls entrance. Bridge center2602.148m, churchfront2596.417m, apse2597.401m. Deep crypt meets shoulders. Bounded convex canyon cut lowers ground45m beneath bridge, leaving far abutment outside the cut. No global gorge or river is fabricated.",
+    "materials": "Grey volcanic masonry, pale architectural bands, separate metal roofs and recessed stained glass; materials82/88/15. Bridge arches are genuinely open barrel geometry.",
+    "limitations": "Ground model smooths narrow canyon. River alignment, cliff-to-apse contact and cut feather require in-engine review. Ornamental carvings, votive inscriptions and figure identities are approximated geometrically."
+  },
+  "ground_interface_controls": {
+    "las_lajas": "las-lajas-water.json retains native12m river centerline and explicitly estimated−49m water/−52m bed relative2615.905m deck. Four bounded convex strips feather20/22m back to unchanged DEM. las-lajas-cliff-ground.json constrains the apse-cliff outer join; near-vertical inner face follows primary2023 photo Fig2 rather than coarseDEM. The separate bridge cavity targets−45m across z−35…−15m and feathers20m, ending before the far-bank shrine. A bridge-width sloping cut rises toward−13m at z−57m, with2m feather, preserving clearance beneath the southern arch while retaining the bank. This feather is a bounded blending estimate, not a measured geological boundary. The native bank building is retained. Ex-voto wall foundations extend individually into the sampled/estimated rock front. Irregular ridge alignment, eroded ledges and grass-covered gentler upper slopes follow the primary2023 landscape photograph; individual facets remain interpreted.",
+    "mont_saint_michel": "CMN northwest photograph by Christian Gluckman controls the distinct gabled/windowed Merveille west end, projecting Romanesque passage and stepped buttresses. Terrace north openings are placed beyond the actual x=-18m wall; tapering south bays follow its polygon edge. Primary room plans constrain their organization. Individual bay sizes and support depths remain estimates."
+  }
+}
